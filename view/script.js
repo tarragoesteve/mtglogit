@@ -32,19 +32,34 @@ function initGraph(nodes, links) {
 
   const simulation = d3.forceSimulation(nodes)
 
+    // -----------------------------
+    // LINKS
+    // -----------------------------
     .force("link", d3.forceLink(links)
       .id(d => d.id)
       .distance(d => 190 + (1 - d.weight_norm) * 260)
       .strength(d => 0.5 + d.weight_norm * 0.9)
     )
 
-    .force("charge", d3.forceManyBody().strength(-350))
+    // -----------------------------
+    // 🔼 MORE SEPARATION
+    // -----------------------------
+    .force("charge", d3.forceManyBody().strength(-1450))
 
-    .force("center", d3.forceCenter(width / 2, height / 2).strength(0.9))
+    // -----------------------------
+    // CENTER STABILITY
+    // -----------------------------
+    .force("center", d3.forceCenter(width / 2, height / 2).strength(0.95))
 
-    .force("x", d3.forceX(width / 2).strength(0.04))
-    .force("y", d3.forceY(height / 2).strength(0.04))
+    // -----------------------------
+    // SOFT GRAVITY
+    // -----------------------------
+    .force("x", d3.forceX(width / 2).strength(0.07))
+    .force("y", d3.forceY(height / 2).strength(0.07))
 
+    // -----------------------------
+    // COLLISION (slightly looser)
+    // -----------------------------
     .force("collide", d3.forceCollide()
       .radius(d => 26 + Math.pow(d.self_prob_norm, 1.2) * 95)
       .strength(0.7)
