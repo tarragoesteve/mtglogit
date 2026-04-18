@@ -127,7 +127,7 @@ df_links = df_links.drop_duplicates("pair")
 # FILTER WEAK LINKS
 # -----------------------------
 
-df_links = df_links[df_links["weight"] >= 1]
+df_links = df_links[df_links["weight"] >= 1.05]
 
 # -----------------------------
 # NORMALIZATION
@@ -136,6 +136,7 @@ df_links = df_links[df_links["weight"] >= 1]
 df_nodes["prob_norm"] = df_nodes["prob"] / df_nodes["prob"].max()
 df_nodes["self_prob_norm"] = df_nodes["self_prob"] / df_nodes["self_prob"].max()
 # df_nodes["self_prob_norm"] = df_nodes["self_prob"].rank(pct=True) ** 2.5
+df_nodes["self_prob_norm"] = df_nodes["self_prob_norm"] ** 2.5
 df_links["weight_norm"] = df_links["weight"] / df_links["weight"].max()
 df_links["weight_norm"] = df_links["weight_norm"] ** 2.5
 
