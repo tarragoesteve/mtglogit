@@ -7,7 +7,7 @@
       "card_image": "https://cards.scryfall.io/normal/front/f/e/fe3a421d-07b6-4b94-b177-aec44c7fe689.jpg?1759144840",
       "image": "https://cards.scryfall.io/art_crop/front/f/e/fe3a421d-07b6-4b94-b177-aec44c7fe689.jpg?1759144840",
       "prob_norm": 1.0,
-      "self_prob_norm": 0.5349448390456039
+      "self_prob_norm": 0.9744023990157604
     },
     {
       "id": "Trystan's Command",
@@ -15,8 +15,8 @@
       "self_prob": 0.7705735505445754,
       "card_image": "https://cards.scryfall.io/normal/front/b/a/ba1d99ca-740a-481a-be89-615e40d56d06.jpg?1767952293",
       "image": "https://cards.scryfall.io/art_crop/front/b/a/ba1d99ca-740a-481a-be89-615e40d56d06.jpg?1767952293",
-      "prob_norm": 0.9899230069330781,
-      "self_prob_norm": 0.29750782004821874
+      "prob_norm": 0.9817471868916855,
+      "self_prob_norm": 0.7705735505445754
     },
     {
       "id": "Gloom Ripper",
@@ -24,8 +24,8 @@
       "self_prob": 0.8580251124954438,
       "card_image": "https://cards.scryfall.io/normal/front/e/9/e9ee5d4f-05d1-4e3a-b8d6-f22d0fddedf7.jpg?1767952022",
       "image": "https://cards.scryfall.io/art_crop/front/e/9/e9ee5d4f-05d1-4e3a-b8d6-f22d0fddedf7.jpg?1767952022",
-      "prob_norm": 0.9535497217010512,
-      "self_prob_norm": 0.38923612272301894
+      "prob_norm": 0.9158629719213558,
+      "self_prob_norm": 0.8580251124954438
     },
     {
       "id": "Sunderflock",
@@ -33,8 +33,8 @@
       "self_prob": 0.940085540747608,
       "card_image": "https://cards.scryfall.io/normal/front/e/5/e5b6221e-cb22-45e4-bb98-2b960afc614c.jpg?1767732544",
       "image": "https://cards.scryfall.io/art_crop/front/e/5/e5b6221e-cb22-45e4-bb98-2b960afc614c.jpg?1767732544",
-      "prob_norm": 0.9421265508741768,
-      "self_prob_norm": 0.48908188003820147
+      "prob_norm": 0.895171779536624,
+      "self_prob_norm": 0.940085540747608
     },
     {
       "id": "Kinbinding",
@@ -42,8 +42,8 @@
       "self_prob": 0.9012701402292592,
       "card_image": "https://cards.scryfall.io/normal/front/b/6/b6e35fd5-de7e-40a8-a23c-00d07fd1ac56.jpg?1767658490",
       "image": "https://cards.scryfall.io/art_crop/front/b/6/b6e35fd5-de7e-40a8-a23c-00d07fd1ac56.jpg?1767658490",
-      "prob_norm": 0.9282393682621696,
-      "self_prob_norm": 0.44014988994282955
+      "prob_norm": 0.8700174356629479,
+      "self_prob_norm": 0.9012701402292592
     },
     {
       "id": "Deepchannel Duelist",
@@ -51,8 +51,8 @@
       "self_prob": 0.9164508369068488,
       "card_image": "https://cards.scryfall.io/normal/front/1/b/1b742172-7118-45e7-9945-62bd77d94e85.jpg?1767957310",
       "image": "https://cards.scryfall.io/art_crop/front/1/b/1b742172-7118-45e7-9945-62bd77d94e85.jpg?1767957310",
-      "prob_norm": 0.8671782317393149,
-      "self_prob_norm": 0.45891903426192143
+      "prob_norm": 0.7594152445399374,
+      "self_prob_norm": 0.9164508369068488
     },
     {
       "id": "Figure of Fable",
@@ -60,8 +60,8 @@
       "self_prob": 0.7945833442919145,
       "card_image": "https://cards.scryfall.io/normal/front/e/0/e0ef33dd-5f6d-48fa-8ef6-a8092868d50f.jpg?1759144844",
       "image": "https://cards.scryfall.io/art_crop/front/e/0/e0ef33dd-5f6d-48fa-8ef6-a8092868d50f.jpg?1759144844",
-      "prob_norm": 0.8231625364029665,
-      "self_prob_norm": 0.3212268092813783
+      "prob_norm": 0.6796880624855899,
+      "self_prob_norm": 0.7945833442919145
     },
     {
       "id": "Rimekin Recluse",
@@ -69,8 +69,8 @@
       "self_prob": 0.9200217916395452,
       "card_image": "https://cards.scryfall.io/normal/front/b/a/ba6b5368-3262-4002-bf1e-fce62f7f7901.jpg?1767957030",
       "image": "https://cards.scryfall.io/art_crop/front/b/a/ba6b5368-3262-4002-bf1e-fce62f7f7901.jpg?1767957030",
-      "prob_norm": 0.8162581709343006,
-      "self_prob_norm": 0.4634025571969705
+      "prob_norm": 0.6671819416920033,
+      "self_prob_norm": 0.9200217916395452
     },
     {
       "id": "Morcant's Loyalist",
@@ -78,8 +78,8 @@
       "self_prob": 0.9395010938510828,
       "card_image": "https://cards.scryfall.io/normal/front/1/7/175c6b1c-8790-41a2-ae15-5031206c410f.jpg?1767952302",
       "image": "https://cards.scryfall.io/art_crop/front/1/7/175c6b1c-8790-41a2-ae15-5031206c410f.jpg?1767952302",
-      "prob_norm": 0.8082511510684868,
-      "self_prob_norm": 0.48832208449784875
+      "prob_norm": 0.6526785440817571,
+      "self_prob_norm": 0.9395010938510828
     },
     {
       "id": "Eclipsed Elf",
@@ -87,8 +87,8 @@
       "self_prob": 0.94627746776403,
       "card_image": "https://cards.scryfall.io/normal/front/9/c/9c8579f3-6125-4f22-b1c2-b7a0cfc50eed.jpg?1767952353",
       "image": "https://cards.scryfall.io/art_crop/front/9/c/9c8579f3-6125-4f22-b1c2-b7a0cfc50eed.jpg?1767952353",
-      "prob_norm": 0.8004435328468413,
-      "self_prob_norm": 0.497175121102685
+      "prob_norm": 0.6385363297054703,
+      "self_prob_norm": 0.94627746776403
     },
     {
       "id": "Maralen, Fae Ascendant",
@@ -96,8 +96,8 @@
       "self_prob": 1.0,
       "card_image": "https://cards.scryfall.io/normal/front/c/5/c50f5408-5b5c-41dc-807e-136233403a09.jpg?1767862685",
       "image": "https://cards.scryfall.io/art_crop/front/c/5/c50f5408-5b5c-41dc-807e-136233403a09.jpg?1767862685",
-      "prob_norm": 0.7914535192736705,
-      "self_prob_norm": 0.5707726315688031
+      "prob_norm": 0.6222524009082044,
+      "self_prob_norm": 1.0
     },
     {
       "id": "Sanar, Innovative First-Year",
@@ -105,8 +105,8 @@
       "self_prob": 0.8274152922963656,
       "card_image": "https://cards.scryfall.io/normal/front/1/1/11215561-bbcd-4564-a2e4-a1d77d177a1d.jpg?1767687679",
       "image": "https://cards.scryfall.io/art_crop/front/1/1/11215561-bbcd-4564-a2e4-a1d77d177a1d.jpg?1767687679",
-      "prob_norm": 0.787067842830437,
-      "self_prob_norm": 0.3554446638972962
+      "prob_norm": 0.6143084704182004,
+      "self_prob_norm": 0.8274152922963656
     },
     {
       "id": "Champions of the Shoal",
@@ -114,8 +114,8 @@
       "self_prob": 0.7977010480979996,
       "card_image": "https://cards.scryfall.io/normal/front/e/1/e1acdd9c-4a6d-4373-950c-f5539b54679f.jpg?1767951924",
       "image": "https://cards.scryfall.io/art_crop/front/e/1/e1acdd9c-4a6d-4373-950c-f5539b54679f.jpg?1767951924",
-      "prob_norm": 0.7789588603577009,
-      "self_prob_norm": 0.3243870791783022
+      "prob_norm": 0.5996203843402906,
+      "self_prob_norm": 0.7977010480979996
     },
     {
       "id": "Disruptor of Currents",
@@ -123,8 +123,8 @@
       "self_prob": 0.8997757229433817,
       "card_image": "https://cards.scryfall.io/normal/front/4/c/4c6dbbaa-6844-4d7c-abbb-472a83bb99ab.jpg?1767659142",
       "image": "https://cards.scryfall.io/art_crop/front/4/c/4c6dbbaa-6844-4d7c-abbb-472a83bb99ab.jpg?1767659142",
-      "prob_norm": 0.7729084456558569,
-      "self_prob_norm": 0.43832760102605994
+      "prob_norm": 0.5886610547022589,
+      "self_prob_norm": 0.8997757229433817
     },
     {
       "id": "End-Blaze Epiphany",
@@ -132,8 +132,8 @@
       "self_prob": 1.0196088517792332,
       "card_image": "https://cards.scryfall.io/normal/front/0/f/0f0a90ae-b3b3-4f52-8997-eac514b29e57.jpg?1767952140",
       "image": "https://cards.scryfall.io/art_crop/front/0/f/0f0a90ae-b3b3-4f52-8997-eac514b29e57.jpg?1767952140",
-      "prob_norm": 0.7700244155587935,
-      "self_prob_norm": 0.5991659619172441
+      "prob_norm": 0.5834371092245896,
+      "self_prob_norm": 1.0196088517792332
     },
     {
       "id": "Boggart Mischief",
@@ -141,8 +141,8 @@
       "self_prob": 1.044925271975545,
       "card_image": "https://cards.scryfall.io/normal/front/a/a/aaeb9c9c-0f15-49dc-ae6d-2a958680f327.jpg?1767659614",
       "image": "https://cards.scryfall.io/art_crop/front/a/a/aaeb9c9c-0f15-49dc-ae6d-2a958680f327.jpg?1767659614",
-      "prob_norm": 0.7611871365619449,
-      "self_prob_norm": 0.6370539646932216
+      "prob_norm": 0.5674298339546481,
+      "self_prob_norm": 1.044925271975545
     },
     {
       "id": "Slumbering Walker",
@@ -150,8 +150,8 @@
       "self_prob": 0.8608694255902198,
       "card_image": "https://cards.scryfall.io/normal/front/8/1/81e82915-e734-4754-829f-f5da6a7c550d.jpg?1767862426",
       "image": "https://cards.scryfall.io/art_crop/front/8/1/81e82915-e734-4754-829f-f5da6a7c550d.jpg?1767862426",
-      "prob_norm": 0.7561096558842417,
-      "self_prob_norm": 0.39246989588612463
+      "prob_norm": 0.5582328140444711,
+      "self_prob_norm": 0.8608694255902198
     },
     {
       "id": "Pyrrhic Strike",
@@ -159,8 +159,8 @@
       "self_prob": 0.8516416909888422,
       "card_image": "https://cards.scryfall.io/normal/front/c/c/cce5b16d-07fb-4e64-8ec9-b8b29ba86cff.jpg?1767732492",
       "image": "https://cards.scryfall.io/art_crop/front/c/c/cce5b16d-07fb-4e64-8ec9-b8b29ba86cff.jpg?1767732492",
-      "prob_norm": 0.7326094183392333,
-      "self_prob_norm": 0.3820369987288134
+      "prob_norm": 0.5156660045744851,
+      "self_prob_norm": 0.8516416909888422
     },
     {
       "id": "High Perfect Morcant",
@@ -168,8 +168,8 @@
       "self_prob": 1.0,
       "card_image": "https://cards.scryfall.io/normal/front/d/f/dfe7b8bf-c150-4be0-aef4-e8bb6f09787a.jpg?1765451570",
       "image": "https://cards.scryfall.io/art_crop/front/d/f/dfe7b8bf-c150-4be0-aef4-e8bb6f09787a.jpg?1765451570",
-      "prob_norm": 0.7286351807797323,
-      "self_prob_norm": 0.5707726315688031
+      "prob_norm": 0.5084673278521863,
+      "self_prob_norm": 1.0
     },
     {
       "id": "Thoughtweft Imbuer",
@@ -177,8 +177,8 @@
       "self_prob": 0.8812492727527459,
       "card_image": "https://cards.scryfall.io/normal/front/7/e/7e585a6c-2d95-450e-98cb-8794d7d8ecca.jpg?1767871768",
       "image": "https://cards.scryfall.io/art_crop/front/7/e/7e585a6c-2d95-450e-98cb-8794d7d8ecca.jpg?1767871768",
-      "prob_norm": 0.7284749458615264,
-      "self_prob_norm": 0.4161118364302134
+      "prob_norm": 0.5081770886909589,
+      "self_prob_norm": 0.8812492727527459
     },
     {
       "id": "Thoughtweft Lieutenant",
@@ -186,8 +186,8 @@
       "self_prob": 0.897513343753857,
       "card_image": "https://cards.scryfall.io/normal/front/2/c/2c54ec67-9317-455e-a045-fa4ed9cb676f.jpg?1767658549",
       "image": "https://cards.scryfall.io/art_crop/front/2/c/2c54ec67-9317-455e-a045-fa4ed9cb676f.jpg?1767658549",
-      "prob_norm": 0.722751306851763,
-      "self_prob_norm": 0.43557748803441176
+      "prob_norm": 0.497809659394257,
+      "self_prob_norm": 0.897513343753857
     },
     {
       "id": "Taster of Wares",
@@ -195,8 +195,8 @@
       "self_prob": 0.999597452515104,
       "card_image": "https://cards.scryfall.io/normal/front/b/c/bc0b64b6-8984-431c-8a2f-84402b429e2b.jpg?1767952030",
       "image": "https://cards.scryfall.io/art_crop/front/b/c/bc0b64b6-8984-431c-8a2f-84402b429e2b.jpg?1767952030",
-      "prob_norm": 0.7223222495339683,
-      "self_prob_norm": 0.5701983972587406
+      "prob_norm": 0.49703249273526917,
+      "self_prob_norm": 0.999597452515104
     },
     {
       "id": "Brigid, Clachan's Heart",
@@ -204,8 +204,8 @@
       "self_prob": 0.9037252276113416,
       "card_image": "",
       "image": "",
-      "prob_norm": 0.719574224090289,
-      "self_prob_norm": 0.4431534709402593
+      "prob_norm": 0.49205489728519186,
+      "self_prob_norm": 0.9037252276113416
     },
     {
       "id": "Eclipsed Boggart",
@@ -213,8 +213,8 @@
       "self_prob": 1.0,
       "card_image": "https://cards.scryfall.io/normal/front/0/a/0ac1d0b2-92a4-4a10-b2d1-e9bb90265cc3.jpg?1767952361",
       "image": "https://cards.scryfall.io/art_crop/front/0/a/0ac1d0b2-92a4-4a10-b2d1-e9bb90265cc3.jpg?1767952361",
-      "prob_norm": 0.719479554353621,
-      "self_prob_norm": 0.5707726315688031
+      "prob_norm": 0.491883418650748,
+      "self_prob_norm": 1.0
     },
     {
       "id": "Abigale, Eloquent First-Year",
@@ -222,8 +222,8 @@
       "self_prob": 0.966562239595868,
       "card_image": "https://cards.scryfall.io/normal/front/b/f/bf708169-a307-494b-b8d8-baae53b2e2f2.jpg?1767658678",
       "image": "https://cards.scryfall.io/art_crop/front/b/f/bf708169-a307-494b-b8d8-baae53b2e2f2.jpg?1767658678",
-      "prob_norm": 0.7173135861346791,
-      "self_prob_norm": 0.5242491105507552
+      "prob_norm": 0.48796012398969785,
+      "self_prob_norm": 0.966562239595868
     },
     {
       "id": "Eclipsed Merrow",
@@ -231,8 +231,8 @@
       "self_prob": 0.9415776974709578,
       "card_image": "https://cards.scryfall.io/normal/front/2/3/2352750d-404d-4928-9bdb-1b0db599b70f.jpg?1767952376",
       "image": "https://cards.scryfall.io/art_crop/front/2/3/2352750d-404d-4928-9bdb-1b0db599b70f.jpg?1767952376",
-      "prob_norm": 0.7164695037724991,
-      "self_prob_norm": 0.49102493676744136
+      "prob_norm": 0.486431207823677,
+      "self_prob_norm": 0.9415776974709578
     },
     {
       "id": "Eclipsed Kithkin",
@@ -240,8 +240,8 @@
       "self_prob": 1.0662120625064098,
       "card_image": "https://cards.scryfall.io/normal/front/2/9/29e1cfa4-0ad8-4228-9f7e-cbab114d1d5f.jpg?1767952368",
       "image": "https://cards.scryfall.io/art_crop/front/2/9/29e1cfa4-0ad8-4228-9f7e-cbab114d1d5f.jpg?1767952368",
-      "prob_norm": 0.7137370549540158,
-      "self_prob_norm": 0.6699958606196029
+      "prob_norm": 0.48148182686443775,
+      "self_prob_norm": 1.0662120625064098
     },
     {
       "id": "Boggart Cursecrafter",
@@ -249,8 +249,8 @@
       "self_prob": 0.9608763501165016,
       "card_image": "https://cards.scryfall.io/normal/front/b/0/b0b67eb9-0d88-4f2c-8063-e8bedfa78556.jpg?1767952311",
       "image": "https://cards.scryfall.io/art_crop/front/b/0/b0b67eb9-0d88-4f2c-8063-e8bedfa78556.jpg?1767952311",
-      "prob_norm": 0.7116228906830325,
-      "self_prob_norm": 0.5165732360278948
+      "prob_norm": 0.4776523665222246,
+      "self_prob_norm": 0.9608763501165016
     },
     {
       "id": "Assert Perfection",
@@ -258,8 +258,8 @@
       "self_prob": 0.9606925333155824,
       "card_image": "https://cards.scryfall.io/normal/front/6/9/6995b308-5582-4ca1-ab10-a536d5ca0a6d.jpg?1767732784",
       "image": "https://cards.scryfall.io/art_crop/front/6/9/6995b308-5582-4ca1-ab10-a536d5ca0a6d.jpg?1767732784",
-      "prob_norm": 0.70279112350029,
-      "self_prob_norm": 0.5163262187702142
+      "prob_norm": 0.46165507499565756,
+      "self_prob_norm": 0.9606925333155824
     },
     {
       "id": "Silvergill Mentor",
@@ -267,8 +267,8 @@
       "self_prob": 0.9298573092257804,
       "card_image": "https://cards.scryfall.io/normal/front/e/6/e6e37fe8-459c-4992-8ae9-f782cddab2fe.jpg?1768338090",
       "image": "https://cards.scryfall.io/art_crop/front/e/6/e6e37fe8-459c-4992-8ae9-f782cddab2fe.jpg?1768338090",
-      "prob_norm": 0.7023234606634141,
-      "self_prob_norm": 0.47588707947268866
+      "prob_norm": 0.46080798079776425,
+      "self_prob_norm": 0.9298573092257804
     },
     {
       "id": "Eclipsed Flamekin",
@@ -276,8 +276,8 @@
       "self_prob": 0.9842716297922468,
       "card_image": "https://cards.scryfall.io/normal/front/d/9/d907ae44-cd07-4409-946c-e97f584d9a81.jpg?1767749662",
       "image": "https://cards.scryfall.io/art_crop/front/d/9/d907ae44-cd07-4409-946c-e97f584d9a81.jpg?1767749662",
-      "prob_norm": 0.6978054605940773,
-      "self_prob_norm": 0.5485933755499537
+      "prob_norm": 0.452624367854767,
+      "self_prob_norm": 0.9842716297922468
     },
     {
       "id": "Moonglove Extractor",
@@ -285,8 +285,8 @@
       "self_prob": 1.0600177718031116,
       "card_image": "https://cards.scryfall.io/normal/front/8/3/8383e0ab-81b4-4a6b-b87b-dd9180dca1c2.jpg?1767658152",
       "image": "https://cards.scryfall.io/art_crop/front/8/3/8383e0ab-81b4-4a6b-b87b-dd9180dca1c2.jpg?1767658152",
-      "prob_norm": 0.44792109538821684,
-      "self_prob_norm": 0.660307160559402
+      "prob_norm": 0.0,
+      "self_prob_norm": 1.0600177718031116
     },
     {
       "id": "Explosive Prodigy",
@@ -294,8 +294,8 @@
       "self_prob": 0.97529854259864,
       "card_image": "https://cards.scryfall.io/normal/front/5/5/5515ea5e-ce28-4938-a31e-5e48522a5f93.jpg?1767658177",
       "image": "https://cards.scryfall.io/art_crop/front/5/5/5515ea5e-ce28-4938-a31e-5e48522a5f93.jpg?1767658177",
-      "prob_norm": 0.6939237689736066,
-      "self_prob_norm": 0.5361756398421332
+      "prob_norm": 0.44559332285731273,
+      "self_prob_norm": 0.97529854259864
     },
     {
       "id": "Pitiless Fists",
@@ -303,8 +303,8 @@
       "self_prob": 1.037013232295324,
       "card_image": "https://cards.scryfall.io/normal/front/2/9/295d828b-b2e7-41c7-afbc-5fb5f4eb242c.jpg?1767872922",
       "image": "https://cards.scryfall.io/art_crop/front/2/9/295d828b-b2e7-41c7-afbc-5fb5f4eb242c.jpg?1767872922",
-      "prob_norm": 0.6936877857025167,
-      "self_prob_norm": 0.6250631347870501
+      "prob_norm": 0.4451658780317293,
+      "self_prob_norm": 1.037013232295324
     },
     {
       "id": "Dawnhand Eulogist",
@@ -312,8 +312,8 @@
       "self_prob": 0.9585662361226138,
       "card_image": "https://cards.scryfall.io/normal/front/7/5/75a97f69-f3dc-4d33-8008-c1f1a7c15a2f.jpg?1767732686",
       "image": "https://cards.scryfall.io/art_crop/front/7/5/75a97f69-f3dc-4d33-8008-c1f1a7c15a2f.jpg?1767732686",
-      "prob_norm": 0.692880991324365,
-      "self_prob_norm": 0.5134740022648664
+      "prob_norm": 0.44370450290688374,
+      "self_prob_norm": 0.9585662361226138
     },
     {
       "id": "Trystan, Callous Cultivator",
@@ -321,8 +321,8 @@
       "self_prob": 1.0,
       "card_image": "",
       "image": "",
-      "prob_norm": 0.6905367750598381,
-      "self_prob_norm": 0.5707726315688031
+      "prob_norm": 0.4394583412713921,
+      "self_prob_norm": 1.0
     },
     {
       "id": "Prismabasher",
@@ -330,8 +330,8 @@
       "self_prob": 1.00271840079599,
       "card_image": "https://cards.scryfall.io/normal/front/6/5/65c057a7-70af-4464-bd8d-1e7e158d1ae7.jpg?1767872056",
       "image": "https://cards.scryfall.io/art_crop/front/6/5/65c057a7-70af-4464-bd8d-1e7e158d1ae7.jpg?1767872056",
-      "prob_norm": 0.6895262589448742,
-      "self_prob_norm": 0.5746595155409145
+      "prob_norm": 0.43762795777634694,
+      "self_prob_norm": 1.00271840079599
     },
     {
       "id": "Protective Response",
@@ -339,8 +339,8 @@
       "self_prob": 1.0,
       "card_image": "https://cards.scryfall.io/normal/front/1/1/113975e1-7712-4760-96ad-405f8b4e41e3.jpg?1767956959",
       "image": "https://cards.scryfall.io/art_crop/front/1/1/113975e1-7712-4760-96ad-405f8b4e41e3.jpg?1767956959",
-      "prob_norm": 0.6866737146486042,
-      "self_prob_norm": 0.5707726315688031
+      "prob_norm": 0.4324610436406296,
+      "self_prob_norm": 1.0
     },
     {
       "id": "Moon-Vigil Adherents",
@@ -348,8 +348,8 @@
       "self_prob": 1.0,
       "card_image": "https://cards.scryfall.io/normal/front/6/0/60621c37-62e1-4261-ae76-3946b4a0cfa3.jpg?1767957171",
       "image": "https://cards.scryfall.io/art_crop/front/6/0/60621c37-62e1-4261-ae76-3946b4a0cfa3.jpg?1767957171",
-      "prob_norm": 0.6730382026814491,
-      "self_prob_norm": 0.5707726315688031
+      "prob_norm": 0.4077625596861604,
+      "self_prob_norm": 1.0
     },
     {
       "id": "Reaping Willow",
@@ -357,8 +357,8 @@
       "self_prob": 0.9791566495443508,
       "card_image": "https://cards.scryfall.io/normal/front/9/7/97c33cc2-3573-410a-908b-c0392fff524b.jpg?1767952397",
       "image": "https://cards.scryfall.io/art_crop/front/9/7/97c33cc2-3573-410a-908b-c0392fff524b.jpg?1767952397",
-      "prob_norm": 0.672933730027623,
-      "self_prob_norm": 0.541493919941323
+      "prob_norm": 0.4075733246819729,
+      "self_prob_norm": 0.9791566495443508
     },
     {
       "id": "Selfless Safewright",
@@ -366,8 +366,8 @@
       "self_prob": 0.7132289259459693,
       "card_image": "https://cards.scryfall.io/normal/front/a/c/ac95b1c3-9eb2-4f80-bb32-72b36817d622.jpg?1767658386",
       "image": "https://cards.scryfall.io/art_crop/front/a/c/ac95b1c3-9eb2-4f80-bb32-72b36817d622.jpg?1767658386",
-      "prob_norm": 0.6716490657157864,
-      "self_prob_norm": 0.24520849468097708
+      "prob_norm": 0.4052463668846268,
+      "self_prob_norm": 0.7132289259459693
     },
     {
       "id": "Sygg, Wanderwine Wisdom",
@@ -375,8 +375,8 @@
       "self_prob": 1.013086599750191,
       "card_image": "",
       "image": "",
-      "prob_norm": 0.6652712002225394,
-      "self_prob_norm": 0.5896299943724356
+      "prob_norm": 0.39369391407404203,
+      "self_prob_norm": 1.013086599750191
     },
     {
       "id": "Champions of the Perfect",
@@ -384,8 +384,8 @@
       "self_prob": 1.0,
       "card_image": "https://cards.scryfall.io/normal/front/4/f/4f359211-8be5-4818-b73c-14f24b7ddb21.jpg?1767658362",
       "image": "https://cards.scryfall.io/art_crop/front/4/f/4f359211-8be5-4818-b73c-14f24b7ddb21.jpg?1767658362",
-      "prob_norm": 0.6651121930654149,
-      "self_prob_norm": 0.5707726315688031
+      "prob_norm": 0.39340589879978277,
+      "self_prob_norm": 1.0
     },
     {
       "id": "Evolving Wilds",
@@ -393,8 +393,8 @@
       "self_prob": 0.9935616251619054,
       "card_image": "https://cards.scryfall.io/normal/front/a/3/a30f5555-2fbe-4c88-9e4f-1f2e81ea6cfd.jpg?1771424582",
       "image": "https://cards.scryfall.io/art_crop/front/a/3/a30f5555-2fbe-4c88-9e4f-1f2e81ea6cfd.jpg?1771424582",
-      "prob_norm": 0.46943897126158635,
-      "self_prob_norm": 0.5616298261466542
+      "prob_norm": 0.038976087826613645,
+      "self_prob_norm": 0.9935616251619054
     },
     {
       "id": "Gathering Stone",
@@ -402,8 +402,8 @@
       "self_prob": 1.073079886444393,
       "card_image": "https://cards.scryfall.io/normal/front/8/1/81dfbfe1-143a-4637-b683-a34cfc51993d.jpg?1767732919",
       "image": "https://cards.scryfall.io/art_crop/front/8/1/81dfbfe1-143a-4637-b683-a34cfc51993d.jpg?1767732919",
-      "prob_norm": 0.6628544803677809,
-      "self_prob_norm": 0.6808372003401498
+      "prob_norm": 0.38931642412727807,
+      "self_prob_norm": 1.073079886444393
     },
     {
       "id": "Heirloom Auntie",
@@ -411,8 +411,8 @@
       "self_prob": 1.0326647188450608,
       "card_image": "https://cards.scryfall.io/normal/front/c/a/cac251b2-d2cc-45b6-9ca8-678e0eab56ea.jpg?1767732699",
       "image": "https://cards.scryfall.io/art_crop/front/c/a/cac251b2-d2cc-45b6-9ca8-678e0eab56ea.jpg?1767732699",
-      "prob_norm": 0.47420809766372884,
-      "self_prob_norm": 0.6185310265453529
+      "prob_norm": 0.04761457475720218,
+      "self_prob_norm": 1.0326647188450608
     },
     {
       "id": "Lluwen, Imperfect Naturalist",
@@ -420,8 +420,8 @@
       "self_prob": 0.7519336181939038,
       "card_image": "https://cards.scryfall.io/normal/front/1/2/127a30a6-c25a-448a-a242-dc04f273a854.jpg?1767862678",
       "image": "https://cards.scryfall.io/art_crop/front/1/2/127a30a6-c25a-448a-a242-dc04f273a854.jpg?1767862678",
-      "prob_norm": 0.6565242141968641,
-      "self_prob_norm": 0.27984135559542794
+      "prob_norm": 0.37785018964876965,
+      "self_prob_norm": 0.7519336181939038
     },
     {
       "id": "Wanderwine Farewell",
@@ -429,8 +429,8 @@
       "self_prob": 1.0,
       "card_image": "https://cards.scryfall.io/normal/front/4/7/473123a0-1366-406b-9b9e-154c0e9c224f.jpg?1767659604",
       "image": "https://cards.scryfall.io/art_crop/front/4/7/473123a0-1366-406b-9b9e-154c0e9c224f.jpg?1767659604",
-      "prob_norm": 0.6541148380291208,
-      "self_prob_norm": 0.5707726315688031
+      "prob_norm": 0.37348600158141815,
+      "self_prob_norm": 1.0
     },
     {
       "id": "Shimmerwilds Growth",
@@ -438,8 +438,8 @@
       "self_prob": 1.012139328068175,
       "card_image": "https://cards.scryfall.io/normal/front/c/1/c122719c-f0d1-4170-a0d1-d62172df1d21.jpg?1767732869",
       "image": "https://cards.scryfall.io/art_crop/front/c/1/c122719c-f0d1-4170-a0d1-d62172df1d21.jpg?1767732869",
-      "prob_norm": 0.4771317477556167,
-      "self_prob_norm": 0.5882526487266558
+      "prob_norm": 0.0529102853294866,
+      "self_prob_norm": 1.012139328068175
     },
     {
       "id": "Sourbread Auntie",
@@ -447,8 +447,8 @@
       "self_prob": 0.9831676511982284,
       "card_image": "https://cards.scryfall.io/normal/front/3/2/32fd226f-d1c6-432c-b846-9482f1944363.jpg?1767732766",
       "image": "https://cards.scryfall.io/art_crop/front/3/2/32fd226f-d1c6-432c-b846-9482f1944363.jpg?1767732766",
-      "prob_norm": 0.6538057242455833,
-      "self_prob_norm": 0.5470563862908466
+      "prob_norm": 0.3729260928782321,
+      "self_prob_norm": 0.9831676511982284
     },
     {
       "id": "Bogslither's Embrace",
@@ -456,8 +456,8 @@
       "self_prob": 0.9728366059740138,
       "card_image": "https://cards.scryfall.io/normal/front/4/b/4beca2e7-9c6d-493b-b15f-69e483a8dfff.jpg?1767957120",
       "image": "https://cards.scryfall.io/art_crop/front/4/b/4beca2e7-9c6d-493b-b15f-69e483a8dfff.jpg?1767957120",
-      "prob_norm": 0.6523520394756563,
-      "self_prob_norm": 0.5327983857651843
+      "prob_norm": 0.3702929823612687,
+      "self_prob_norm": 0.9728366059740138
     },
     {
       "id": "Chomping Changeling",
@@ -465,8 +465,8 @@
       "self_prob": 0.953819190904045,
       "card_image": "https://cards.scryfall.io/normal/front/e/1/e187dcc6-19ad-4cf6-94b4-daf07f5144e5.jpg?1767658367",
       "image": "https://cards.scryfall.io/art_crop/front/e/1/e187dcc6-19ad-4cf6-94b4-daf07f5144e5.jpg?1767658367",
-      "prob_norm": 0.4784214274069025,
-      "self_prob_norm": 0.5071404844376841
+      "prob_norm": 0.05524632758814294,
+      "self_prob_norm": 0.953819190904045
     },
     {
       "id": "Merrow Skyswimmer",
@@ -474,8 +474,8 @@
       "self_prob": 0.9531461705204856,
       "card_image": "https://cards.scryfall.io/normal/front/0/7/075b419a-fd44-4a9a-8c40-474562b7e11a.jpg?1767872219",
       "image": "https://cards.scryfall.io/art_crop/front/0/7/075b419a-fd44-4a9a-8c40-474562b7e11a.jpg?1767872219",
-      "prob_norm": 0.6503938982410691,
-      "self_prob_norm": 0.5062463546015651
+      "prob_norm": 0.3667461320501446,
+      "self_prob_norm": 0.9531461705204856
     },
     {
       "id": "Gallant Fowlknight",
@@ -483,8 +483,8 @@
       "self_prob": 0.9533149836589124,
       "card_image": "https://cards.scryfall.io/normal/front/f/b/fb6096ba-8083-4207-9a3f-c1e4ff095204.jpg?1767732475",
       "image": "https://cards.scryfall.io/art_crop/front/f/b/fb6096ba-8083-4207-9a3f-c1e4ff095204.jpg?1767732475",
-      "prob_norm": 0.6497954255038135,
-      "self_prob_norm": 0.5064705394931763
+      "prob_norm": 0.3656620972640729,
+      "self_prob_norm": 0.9533149836589124
     },
     {
       "id": "Clachan Festival",
@@ -492,8 +492,8 @@
       "self_prob": 0.9435908820806432,
       "card_image": "https://cards.scryfall.io/normal/front/3/2/324b5234-ffbf-4801-a475-8f693679ae2f.jpg?1767871685",
       "image": "https://cards.scryfall.io/art_crop/front/3/2/324b5234-ffbf-4801-a475-8f693679ae2f.jpg?1767871685",
-      "prob_norm": 0.6466427705358109,
-      "self_prob_norm": 0.4936537946489586
+      "prob_norm": 0.35995158207925604,
+      "self_prob_norm": 0.9435908820806432
     },
     {
       "id": "Boulder Dash",
@@ -501,8 +501,8 @@
       "self_prob": 0.9867276887961932,
       "card_image": "https://cards.scryfall.io/normal/front/6/5/657a2a24-22d1-4bc2-9f22-ed361ae487e3.jpg?1767952124",
       "image": "https://cards.scryfall.io/art_crop/front/6/5/657a2a24-22d1-4bc2-9f22-ed361ae487e3.jpg?1767952124",
-      "prob_norm": 0.6462653577270168,
-      "self_prob_norm": 0.552022053916969
+      "prob_norm": 0.3592679609416951,
+      "self_prob_norm": 0.9867276887961932
     },
     {
       "id": "Glamer Gifter",
@@ -510,8 +510,8 @@
       "self_prob": 0.953250987572616,
       "card_image": "https://cards.scryfall.io/normal/front/b/d/bd764dd4-2395-4138-ac29-260eac1aeaae.jpg?1767732516",
       "image": "https://cards.scryfall.io/art_crop/front/b/d/bd764dd4-2395-4138-ac29-260eac1aeaae.jpg?1767732516",
-      "prob_norm": 0.6427520322211505,
-      "self_prob_norm": 0.5063855452859763
+      "prob_norm": 0.3529041504854039,
+      "self_prob_norm": 0.953250987572616
     },
     {
       "id": "Great Forest Druid",
@@ -519,8 +519,8 @@
       "self_prob": 1.0086247785067253,
       "card_image": "https://cards.scryfall.io/normal/front/8/7/8793a19e-6743-4031-86d9-2ff55f384549.jpg?1767732797",
       "image": "https://cards.scryfall.io/art_crop/front/8/7/8793a19e-6743-4031-86d9-2ff55f384549.jpg?1767732797",
-      "prob_norm": 0.4859487902973458,
-      "self_prob_norm": 0.5831593233527862
+      "prob_norm": 0.06888090559422783,
+      "self_prob_norm": 1.0086247785067253
     },
     {
       "id": "Formidable Speaker",
@@ -528,8 +528,8 @@
       "self_prob": 0.936752205363309,
       "card_image": "https://cards.scryfall.io/normal/front/2/6/265522eb-4f6a-40e7-b374-3833fa63c80b.jpg?1765118668",
       "image": "https://cards.scryfall.io/art_crop/front/2/6/265522eb-4f6a-40e7-b374-3833fa63c80b.jpg?1765118668",
-      "prob_norm": 0.6417194004187803,
-      "self_prob_norm": 0.4847579621971589
+      "prob_norm": 0.351033708065409,
+      "self_prob_norm": 0.936752205363309
     },
     {
       "id": "Pummeler for Hire",
@@ -537,8 +537,8 @@
       "self_prob": 1.00722486936028,
       "card_image": "https://cards.scryfall.io/normal/front/4/2/42208996-7b99-474e-aba7-75190d7ee8e2.jpg?1767957240",
       "image": "https://cards.scryfall.io/art_crop/front/4/2/42208996-7b99-474e-aba7-75190d7ee8e2.jpg?1767957240",
-      "prob_norm": 0.6385542846767083,
-      "self_prob_norm": 0.5811379560390709
+      "prob_norm": 0.3453006222408424,
+      "self_prob_norm": 1.00722486936028
     },
     {
       "id": "Kithkeeper",
@@ -546,8 +546,8 @@
       "self_prob": 0.9886994597472952,
       "card_image": "https://cards.scryfall.io/normal/front/e/f/ef29eff7-72be-46e6-9275-0f0a44d29233.jpg?1767871704",
       "image": "https://cards.scryfall.io/art_crop/front/e/f/ef29eff7-72be-46e6-9275-0f0a44d29233.jpg?1767871704",
-      "prob_norm": 0.6362271112411781,
-      "self_prob_norm": 0.5547839427942903
+      "prob_norm": 0.34108533088286785,
+      "self_prob_norm": 0.9886994597472952
     },
     {
       "id": "Adept Watershaper",
@@ -555,8 +555,8 @@
       "self_prob": 0.9759805715350512,
       "card_image": "https://cards.scryfall.io/normal/front/6/e/6e53f246-8347-4632-9d5b-4aeb12f7b762.jpg?1767951683",
       "image": "https://cards.scryfall.io/art_crop/front/6/e/6e53f246-8347-4632-9d5b-4aeb12f7b762.jpg?1767951683",
-      "prob_norm": 0.6353480341894528,
-      "self_prob_norm": 0.5371135042557952
+      "prob_norm": 0.33949302760088784,
+      "self_prob_norm": 0.9759805715350512
     },
     {
       "id": "Dawnhand Dissident",
@@ -564,8 +564,8 @@
       "self_prob": 1.1515739204619058,
       "card_image": "https://cards.scryfall.io/normal/front/6/a/6ac1f765-f348-4813-88dc-26376e0f3f33.jpg?1767659632",
       "image": "https://cards.scryfall.io/art_crop/front/6/a/6ac1f765-f348-4813-88dc-26376e0f3f33.jpg?1767659632",
-      "prob_norm": 0.6348061184793573,
-      "self_prob_norm": 0.8122555600957829
+      "prob_norm": 0.33851143655372284,
+      "self_prob_norm": 1.1515739204619058
     },
     {
       "id": "Blighted Blackthorn",
@@ -573,8 +573,8 @@
       "self_prob": 1.251453576369223,
       "card_image": "https://cards.scryfall.io/normal/front/3/5/3515531a-45d6-4fe0-96a3-7ca1ce545068.jpg?1767871828",
       "image": "https://cards.scryfall.io/art_crop/front/3/5/3515531a-45d6-4fe0-96a3-7ca1ce545068.jpg?1767871828",
-      "prob_norm": 0.49208016404266824,
-      "self_prob_norm": 1.0
+      "prob_norm": 0.07998687920434795,
+      "self_prob_norm": 1.251453576369223
     },
     {
       "id": "Noggle Robber",
@@ -582,8 +582,8 @@
       "self_prob": 0.9619874164044102,
       "card_image": "https://cards.scryfall.io/normal/front/0/0/0082ca96-10f3-4823-be16-117556b2afc3.jpg?1767864446",
       "image": "https://cards.scryfall.io/art_crop/front/0/0/0082ca96-10f3-4823-be16-117556b2afc3.jpg?1767864446",
-      "prob_norm": 0.6322619344138084,
-      "self_prob_norm": 0.5180678220563971
+      "prob_norm": 0.3339030661843861,
+      "self_prob_norm": 0.9619874164044102
     },
     {
       "id": "Tanufel Rimespeaker",
@@ -591,8 +591,8 @@
       "self_prob": 1.0370958308679588,
       "card_image": "https://cards.scryfall.io/normal/front/b/3/b357022c-7cd5-4e82-a183-7144f5a84102.jpg?1767871796",
       "image": "https://cards.scryfall.io/art_crop/front/b/3/b357022c-7cd5-4e82-a183-7144f5a84102.jpg?1767871796",
-      "prob_norm": 0.49370191644567013,
-      "self_prob_norm": 0.6251876086254669
+      "prob_norm": 0.08292441655535812,
+      "self_prob_norm": 1.0370958308679588
     },
     {
       "id": "Bristlebane Battler",
@@ -600,8 +600,8 @@
       "self_prob": 0.706040845433569,
       "card_image": "https://cards.scryfall.io/normal/front/c/8/c857fa32-1b5d-4139-8809-b4d0df44b472.jpg?1767732790",
       "image": "https://cards.scryfall.io/art_crop/front/c/8/c857fa32-1b5d-4139-8809-b4d0df44b472.jpg?1767732790",
-      "prob_norm": 0.6308757549220055,
-      "self_prob_norm": 0.23907694981258773
+      "prob_norm": 0.3313922303596092,
+      "self_prob_norm": 0.706040845433569
     },
     {
       "id": "Liminal Hold",
@@ -609,8 +609,8 @@
       "self_prob": 0.9970527754947688,
       "card_image": "https://cards.scryfall.io/normal/front/a/5/a5a40c16-7a5c-4ad1-be53-6b1b1be2affe.jpg?1767732486",
       "image": "https://cards.scryfall.io/art_crop/front/a/5/a5a40c16-7a5c-4ad1-be53-6b1b1be2affe.jpg?1767732486",
-      "prob_norm": 0.6290116003050418,
-      "self_prob_norm": 0.5665764351715957
+      "prob_norm": 0.3280156213252998,
+      "self_prob_norm": 0.9970527754947688
     },
     {
       "id": "Unbury",
@@ -618,8 +618,8 @@
       "self_prob": 0.9962170131557732,
       "card_image": "https://cards.scryfall.io/normal/front/b/0/b00766db-4109-4225-a62a-fa12fd526970.jpg?1767871924",
       "image": "https://cards.scryfall.io/art_crop/front/b/0/b00766db-4109-4225-a62a-fa12fd526970.jpg?1767871924",
-      "prob_norm": 0.6265488252780661,
-      "self_prob_norm": 0.5653898741191977
+      "prob_norm": 0.3235547100200444,
+      "self_prob_norm": 0.9962170131557732
     },
     {
       "id": "Flitterwing Nuisance",
@@ -627,8 +627,8 @@
       "self_prob": 0.9596183319292262,
       "card_image": "https://cards.scryfall.io/normal/front/a/d/ad0f6536-5295-4835-8883-35d711dfe6de.jpg?1767862448",
       "image": "https://cards.scryfall.io/art_crop/front/a/d/ad0f6536-5295-4835-8883-35d711dfe6de.jpg?1767862448",
-      "prob_norm": 0.6247523792208699,
-      "self_prob_norm": 0.5148840994668659
+      "prob_norm": 0.32030074388913526,
+      "self_prob_norm": 0.9596183319292262
     },
     {
       "id": "Creakwood Safewright",
@@ -636,8 +636,8 @@
       "self_prob": 0.956431741294286,
       "card_image": "https://cards.scryfall.io/normal/front/3/b/3bcc24cf-776a-4182-bf77-a611ad90b28f.jpg?1767957099",
       "image": "https://cards.scryfall.io/art_crop/front/3/b/3bcc24cf-776a-4182-bf77-a611ad90b28f.jpg?1767957099",
-      "prob_norm": 0.6245203743540158,
-      "self_prob_norm": 0.510620318729529
+      "prob_norm": 0.31988050528752215,
+      "self_prob_norm": 0.956431741294286
     },
     {
       "id": "Feisty Spikeling",
@@ -645,8 +645,8 @@
       "self_prob": 1.0,
       "card_image": "https://cards.scryfall.io/normal/front/f/6/f69f3a27-ecda-4d27-82fe-612ed57dbb28.jpg?1767957251",
       "image": "https://cards.scryfall.io/art_crop/front/f/6/f69f3a27-ecda-4d27-82fe-612ed57dbb28.jpg?1767957251",
-      "prob_norm": 0.4996895924115414,
-      "self_prob_norm": 0.5707726315688031
+      "prob_norm": 0.09377010530718918,
+      "self_prob_norm": 1.0
     },
     {
       "id": "Stoic Grove-Guide",
@@ -654,8 +654,8 @@
       "self_prob": 1.040722288212926,
       "card_image": "https://cards.scryfall.io/normal/front/3/d/3d5a3e25-c17a-47b1-a36d-d24d50e5bab3.jpg?1767984401",
       "image": "https://cards.scryfall.io/art_crop/front/3/d/3d5a3e25-c17a-47b1-a36d-d24d50e5bab3.jpg?1767984401",
-      "prob_norm": 0.5000991215261262,
-      "self_prob_norm": 0.6306672506585382
+      "prob_norm": 0.09451189984265111,
+      "self_prob_norm": 1.040722288212926
     },
     {
       "id": "Ashling, Rekindled",
@@ -663,8 +663,8 @@
       "self_prob": 0.9150774055852025,
       "card_image": "",
       "image": "",
-      "prob_norm": 0.6225510065820894,
-      "self_prob_norm": 0.45720157848294657
+      "prob_norm": 0.3163133199531882,
+      "self_prob_norm": 0.9150774055852025
     },
     {
       "id": "Hovel Hurler",
@@ -672,8 +672,8 @@
       "self_prob": 0.9923938012622002,
       "card_image": "https://cards.scryfall.io/normal/front/a/d/adc6a4c5-4e92-43ee-8d0c-204042965eb7.jpg?1767774270",
       "image": "https://cards.scryfall.io/art_crop/front/a/d/adc6a4c5-4e92-43ee-8d0c-204042965eb7.jpg?1767774270",
-      "prob_norm": 0.6223650982150859,
-      "self_prob_norm": 0.5599809433812624
+      "prob_norm": 0.3159765775682671,
+      "self_prob_norm": 0.9923938012622002
     },
     {
       "id": "Summit Sentinel",
@@ -681,8 +681,8 @@
       "self_prob": 1.0047046372696091,
       "card_image": "https://cards.scryfall.io/normal/front/8/1/81251057-f270-4f05-9dc5-205c70e1f295.jpg?1767957040",
       "image": "https://cards.scryfall.io/art_crop/front/8/1/81251057-f270-4f05-9dc5-205c70e1f295.jpg?1767957040",
-      "prob_norm": 0.5014646028287174,
-      "self_prob_norm": 0.5775095329809485
+      "prob_norm": 0.09698524430697444,
+      "self_prob_norm": 1.0047046372696091
     },
     {
       "id": "Sear",
@@ -690,8 +690,8 @@
       "self_prob": 1.032463789560915,
       "card_image": "https://cards.scryfall.io/normal/front/a/e/aeb4612c-758b-4492-ba03-eb6741b4176e.jpg?1767658325",
       "image": "https://cards.scryfall.io/art_crop/front/a/e/aeb4612c-758b-4492-ba03-eb6741b4176e.jpg?1767658325",
-      "prob_norm": 0.6219093517827475,
-      "self_prob_norm": 0.6182301959409072
+      "prob_norm": 0.31515106797438247,
+      "self_prob_norm": 1.032463789560915
     },
     {
       "id": "Foraging Wickermaw",
@@ -699,8 +699,8 @@
       "self_prob": 1.0077789647372897,
       "card_image": "https://cards.scryfall.io/normal/front/f/5/f524bc08-caeb-4362-b960-eb8e0e4159d0.jpg?1767957290",
       "image": "https://cards.scryfall.io/art_crop/front/f/5/f524bc08-caeb-4362-b960-eb8e0e4159d0.jpg?1767957290",
-      "prob_norm": 0.5034489548216292,
-      "self_prob_norm": 0.5819375260591849
+      "prob_norm": 0.10057957108949689,
+      "self_prob_norm": 1.0077789647372897
     },
     {
       "id": "Lofty Dreams",
@@ -708,8 +708,8 @@
       "self_prob": 0.930261673383116,
       "card_image": "https://cards.scryfall.io/normal/front/a/2/a2908ed1-517e-4f1a-94e5-b06fb033c1a6.jpg?1767871777",
       "image": "https://cards.scryfall.io/art_crop/front/a/2/a2908ed1-517e-4f1a-94e5-b06fb033c1a6.jpg?1767871777",
-      "prob_norm": 0.6195707785991572,
-      "self_prob_norm": 0.4764046170618992
+      "prob_norm": 0.310915127850507,
+      "self_prob_norm": 0.930261673383116
     },
     {
       "id": "Kulrath Zealot",
@@ -717,8 +717,8 @@
       "self_prob": 0.977284290741432,
       "card_image": "https://cards.scryfall.io/normal/front/3/5/3502685d-4e57-4c5c-94c6-ae69048cdfbf.jpg?1767871934",
       "image": "https://cards.scryfall.io/art_crop/front/3/5/3502685d-4e57-4c5c-94c6-ae69048cdfbf.jpg?1767871934",
-      "prob_norm": 0.618809894657899,
-      "self_prob_norm": 0.5389089982213007
+      "prob_norm": 0.309536911919954,
+      "self_prob_norm": 0.977284290741432
     },
     {
       "id": "Scarblade Scout",
@@ -726,8 +726,8 @@
       "self_prob": 0.937865833742054,
       "card_image": "https://cards.scryfall.io/normal/front/c/2/c2412fea-4591-4345-913f-edc2da9ad975.jpg?1767871946",
       "image": "https://cards.scryfall.io/art_crop/front/c/2/c2412fea-4591-4345-913f-edc2da9ad975.jpg?1767871946",
-      "prob_norm": 0.6187114816965836,
-      "self_prob_norm": 0.4861999701391517
+      "prob_norm": 0.30935865305062693,
+      "self_prob_norm": 0.937865833742054
     },
     {
       "id": "Blossoming Defense",
@@ -735,8 +735,8 @@
       "self_prob": 0.948568133502346,
       "card_image": "https://cards.scryfall.io/normal/front/3/c/3cce80d0-b937-4325-a603-1278c110f244.jpg?1767658356",
       "image": "https://cards.scryfall.io/art_crop/front/3/c/3cce80d0-b937-4325-a603-1278c110f244.jpg?1767658356",
-      "prob_norm": 0.6180874561473954,
-      "self_prob_norm": 0.5001893810101655
+      "prob_norm": 0.30822833355467183,
+      "self_prob_norm": 0.948568133502346
     },
     {
       "id": "Wanderbrine Trapper",
@@ -744,8 +744,8 @@
       "self_prob": 0.9953780351392988,
       "card_image": "https://cards.scryfall.io/normal/front/f/4/f4c134ed-adbf-4e88-80e0-75c176ce94c3.jpg?1767956997",
       "image": "https://cards.scryfall.io/art_crop/front/f/4/f4c134ed-adbf-4e88-80e0-75c176ce94c3.jpg?1767956997",
-      "prob_norm": 0.6178061720456198,
-      "self_prob_norm": 0.5642002485135627
+      "prob_norm": 0.30771883373603026,
+      "self_prob_norm": 0.9953780351392988
     },
     {
       "id": "Nameless Inversion",
@@ -753,8 +753,8 @@
       "self_prob": 1.01778834873586,
       "card_image": "https://cards.scryfall.io/normal/front/7/a/7a4944ac-839e-4aa1-8200-78cff36bb2ed.jpg?1767871890",
       "image": "https://cards.scryfall.io/art_crop/front/7/a/7a4944ac-839e-4aa1-8200-78cff36bb2ed.jpg?1767871890",
-      "prob_norm": 0.6177826552527221,
-      "self_prob_norm": 0.5964950278588085
+      "prob_norm": 0.3076762369392658,
+      "self_prob_norm": 1.01778834873586
     },
     {
       "id": "Mischievous Sneakling",
@@ -762,8 +762,8 @@
       "self_prob": 0.9588334304444542,
       "card_image": "https://cards.scryfall.io/normal/front/3/b/3b66fa00-2fa6-4060-9e7f-8e3fde6deb73.jpg?1767957261",
       "image": "https://cards.scryfall.io/art_crop/front/3/b/3b66fa00-2fa6-4060-9e7f-8e3fde6deb73.jpg?1767957261",
-      "prob_norm": 0.5052145237874152,
-      "self_prob_norm": 0.5138318962114496
+      "prob_norm": 0.10377760845523809,
+      "self_prob_norm": 0.9588334304444542
     },
     {
       "id": "Flamekin Gildweaver",
@@ -771,8 +771,8 @@
       "self_prob": 0.9458625983447612,
       "card_image": "https://cards.scryfall.io/normal/front/b/1/b1628ece-a028-49d4-9065-ee997838c20a.jpg?1767862536",
       "image": "https://cards.scryfall.io/art_crop/front/b/1/b1628ece-a028-49d4-9065-ee997838c20a.jpg?1767862536",
-      "prob_norm": 0.6167021486493617,
-      "self_prob_norm": 0.49663036826047186
+      "prob_norm": 0.3057190772029773,
+      "self_prob_norm": 0.9458625983447612
     },
     {
       "id": "Spiral into Solitude",
@@ -780,8 +780,8 @@
       "self_prob": 1.0037802923607748,
       "card_image": "https://cards.scryfall.io/normal/front/e/7/e7a12664-a930-4159-8311-19862488fb05.jpg?1767871731",
       "image": "https://cards.scryfall.io/art_crop/front/e/7/e7a12664-a930-4159-8311-19862488fb05.jpg?1767871731",
-      "prob_norm": 0.6158855369389199,
-      "self_prob_norm": 0.5761821535396112
+      "prob_norm": 0.3042399195977505,
+      "self_prob_norm": 1.0037802923607748
     },
     {
       "id": "Firdoch Core",
@@ -789,8 +789,8 @@
       "self_prob": 1.0,
       "card_image": "https://cards.scryfall.io/normal/front/8/e/8e45cd37-bf97-4742-978d-96f96ed653cd.jpg?1767872077",
       "image": "https://cards.scryfall.io/art_crop/front/8/e/8e45cd37-bf97-4742-978d-96f96ed653cd.jpg?1767872077",
-      "prob_norm": 0.507161237527534,
-      "self_prob_norm": 0.5707726315688031
+      "prob_norm": 0.10730375974241269,
+      "self_prob_norm": 1.0
     },
     {
       "id": "Cinder Strike",
@@ -798,8 +798,8 @@
       "self_prob": 0.986923347801266,
       "card_image": "https://cards.scryfall.io/normal/front/6/f/6fb6faa4-236c-4cae-9140-0981c44d2392.jpg?1767957230",
       "image": "https://cards.scryfall.io/art_crop/front/6/f/6fb6faa4-236c-4cae-9140-0981c44d2392.jpg?1767957230",
-      "prob_norm": 0.6134831033434607,
-      "self_prob_norm": 0.552295746827285
+      "prob_norm": 0.2998883068565453,
+      "self_prob_norm": 0.986923347801266
     },
     {
       "id": "Goldmeadow Nomad",
@@ -807,8 +807,8 @@
       "self_prob": 1.040158086801704,
       "card_image": "https://cards.scryfall.io/normal/front/0/0/00ddbe6c-11de-4bc6-aabe-d6d8385a838a.jpg?1767871695",
       "image": "https://cards.scryfall.io/art_crop/front/0/0/00ddbe6c-11de-4bc6-aabe-d6d8385a838a.jpg?1767871695",
-      "prob_norm": 0.5092780014352065,
-      "self_prob_norm": 0.6298128471965778
+      "prob_norm": 0.1111379288982891,
+      "self_prob_norm": 1.040158086801704
     },
     {
       "id": "Shimmercreep",
@@ -816,8 +816,8 @@
       "self_prob": 1.039780577483991,
       "card_image": "https://cards.scryfall.io/normal/front/f/7/f7c02899-5f0f-4b38-bbbc-fbc8c46419a6.jpg?1767732711",
       "image": "https://cards.scryfall.io/art_crop/front/f/7/f7c02899-5f0f-4b38-bbbc-fbc8c46419a6.jpg?1767732711",
-      "prob_norm": 0.6124578066202218,
-      "self_prob_norm": 0.6292415506152869
+      "prob_norm": 0.2980311507241989,
+      "self_prob_norm": 1.039780577483991
     },
     {
       "id": "Giantfall",
@@ -825,8 +825,8 @@
       "self_prob": 0.9793018297488688,
       "card_image": "https://cards.scryfall.io/normal/front/1/a/1ac52728-adb3-4220-8392-73f7bd379ab4.jpg?1767957191",
       "image": "https://cards.scryfall.io/art_crop/front/1/a/1ac52728-adb3-4220-8392-73f7bd379ab4.jpg?1767957191",
-      "prob_norm": 0.6119096392654195,
-      "self_prob_norm": 0.5416946614172383
+      "prob_norm": 0.29703823585238776,
+      "self_prob_norm": 0.9793018297488688
     },
     {
       "id": "Temporal Cleansing",
@@ -834,8 +834,8 @@
       "self_prob": 0.9950893470582404,
       "card_image": "https://cards.scryfall.io/normal/front/5/0/50ee7315-ec53-43d2-841e-8ec192b850f1.jpg?1767732550",
       "image": "https://cards.scryfall.io/art_crop/front/5/0/50ee7315-ec53-43d2-841e-8ec192b850f1.jpg?1767732550",
-      "prob_norm": 0.6109686827278544,
-      "self_prob_norm": 0.5637912519976465
+      "prob_norm": 0.29533384807429147,
+      "self_prob_norm": 0.9950893470582404
     },
     {
       "id": "Enraged Flamecaster",
@@ -843,8 +843,8 @@
       "self_prob": 0.992716554264581,
       "card_image": "https://cards.scryfall.io/normal/front/1/0/104baa2c-75c5-44fc-a3b9-b19efcf3d7c2.jpg?1767871913",
       "image": "https://cards.scryfall.io/art_crop/front/1/0/104baa2c-75c5-44fc-a3b9-b19efcf3d7c2.jpg?1767871913",
-      "prob_norm": 0.5107123856952673,
-      "self_prob_norm": 0.5604363563885101
+      "prob_norm": 0.1137360797207145,
+      "self_prob_norm": 0.992716554264581
     },
     {
       "id": "Glen Elendra Guardian",
@@ -852,8 +852,8 @@
       "self_prob": 1.0,
       "card_image": "https://cards.scryfall.io/normal/front/3/8/388d2e4a-0aa5-4b82-a86c-4777ca60161c.jpg?1767951867",
       "image": "https://cards.scryfall.io/art_crop/front/3/8/388d2e4a-0aa5-4b82-a86c-4777ca60161c.jpg?1767951867",
-      "prob_norm": 0.610388404913868,
-      "self_prob_norm": 0.5707726315688031
+      "prob_norm": 0.2942827703947441,
+      "self_prob_norm": 1.0
     },
     {
       "id": "Gilt-Leaf's Embrace",
@@ -861,8 +861,8 @@
       "self_prob": 1.0736059672602942,
       "card_image": "https://cards.scryfall.io/normal/front/7/3/739e5ab5-d562-407a-906e-c5c5173ad325.jpg?1767957211",
       "image": "https://cards.scryfall.io/art_crop/front/7/3/739e5ab5-d562-407a-906e-c5c5173ad325.jpg?1767957211",
-      "prob_norm": 0.6102707413293443,
-      "self_prob_norm": 0.6816719636755795
+      "prob_norm": 0.2940696421923426,
+      "self_prob_norm": 1.0736059672602942
     },
     {
       "id": "Unforgiving Aim",
@@ -870,8 +870,8 @@
       "self_prob": 0.9974512008429404,
       "card_image": "https://cards.scryfall.io/normal/front/0/b/0bef3905-24f8-419b-aeca-396adfc6d0dc.jpg?1767872046",
       "image": "https://cards.scryfall.io/art_crop/front/0/b/0bef3905-24f8-419b-aeca-396adfc6d0dc.jpg?1767872046",
-      "prob_norm": 0.5113924231417262,
-      "self_prob_norm": 0.5671426190232091
+      "prob_norm": 0.11496785554257294,
+      "self_prob_norm": 0.9974512008429404
     },
     {
       "id": "Bristlebane Outrider",
@@ -879,8 +879,8 @@
       "self_prob": 0.9715183170981968,
       "card_image": "https://cards.scryfall.io/normal/front/3/8/38b17a3c-4457-47e3-986e-ff0b94c41b1a.jpg?1767862561",
       "image": "https://cards.scryfall.io/art_crop/front/3/8/38b17a3c-4457-47e3-986e-ff0b94c41b1a.jpg?1767862561",
-      "prob_norm": 0.6091456249740307,
-      "self_prob_norm": 0.5309952348186076
+      "prob_norm": 0.29203167923828827,
+      "self_prob_norm": 0.9715183170981968
     },
     {
       "id": "Dundoolin Weaver",
@@ -888,8 +888,8 @@
       "self_prob": 0.9798065775399528,
       "card_image": "https://cards.scryfall.io/normal/front/2/2/2260912b-4dfb-49dd-bf95-060d44333645.jpg?1767862918",
       "image": "https://cards.scryfall.io/art_crop/front/2/2/2260912b-4dfb-49dd-bf95-060d44333645.jpg?1767862918",
-      "prob_norm": 0.6089786895508648,
-      "self_prob_norm": 0.5423929264414118
+      "prob_norm": 0.2917293032159998,
+      "self_prob_norm": 0.9798065775399528
     },
     {
       "id": "Gristle Glutton",
@@ -897,8 +897,8 @@
       "self_prob": 1.0,
       "card_image": "https://cards.scryfall.io/normal/front/a/4/a4164af6-356e-4de2-8377-dbe70434a996.jpg?1767862542",
       "image": "https://cards.scryfall.io/art_crop/front/a/4/a4164af6-356e-4de2-8377-dbe70434a996.jpg?1767862542",
-      "prob_norm": 0.5134939832858036,
-      "self_prob_norm": 0.5707726315688031
+      "prob_norm": 0.11877448558498559,
+      "self_prob_norm": 1.0
     },
     {
       "id": "Brambleback Brute",
@@ -906,8 +906,8 @@
       "self_prob": 0.9881736841199644,
       "card_image": "https://cards.scryfall.io/normal/front/5/e/5ebb8365-c6e1-46e8-a242-6aa27b21e68a.jpg?1767952109",
       "image": "https://cards.scryfall.io/art_crop/front/5/e/5ebb8365-c6e1-46e8-a242-6aa27b21e68a.jpg?1767952109",
-      "prob_norm": 0.6071099894429093,
-      "self_prob_norm": 0.5540466723706264
+      "prob_norm": 0.2883444607734697,
+      "self_prob_norm": 0.9881736841199644
     },
     {
       "id": "Rooftop Percher",
@@ -915,8 +915,8 @@
       "self_prob": 1.0,
       "card_image": "https://cards.scryfall.io/normal/front/2/d/2d89595c-1542-41fe-8d23-997522922698.jpg?1767732447",
       "image": "https://cards.scryfall.io/art_crop/front/2/d/2d89595c-1542-41fe-8d23-997522922698.jpg?1767732447",
-      "prob_norm": 0.606455085469859,
-      "self_prob_norm": 0.5707726315688031
+      "prob_norm": 0.28715821009882986,
+      "self_prob_norm": 1.0
     },
     {
       "id": "Virulent Emissary",
@@ -924,8 +924,8 @@
       "self_prob": 1.0402899195490638,
       "card_image": "https://cards.scryfall.io/normal/front/0/7/0702efed-915e-466a-96bb-ac09af06b21e.jpg?1767658502",
       "image": "https://cards.scryfall.io/art_crop/front/0/7/0702efed-915e-466a-96bb-ac09af06b21e.jpg?1767658502",
-      "prob_norm": 0.6064243695652151,
-      "self_prob_norm": 0.6300124270772416
+      "prob_norm": 0.28710257329693895,
+      "self_prob_norm": 1.0402899195490638
     },
     {
       "id": "Blight Rot",
@@ -933,8 +933,8 @@
       "self_prob": 1.0,
       "card_image": "https://cards.scryfall.io/normal/front/5/2/5201bdeb-ba47-459b-ac0d-603367914578.jpg?1767952066",
       "image": "https://cards.scryfall.io/art_crop/front/5/2/5201bdeb-ba47-459b-ac0d-603367914578.jpg?1767952066",
-      "prob_norm": 0.6049740873209349,
-      "self_prob_norm": 0.5707726315688031
+      "prob_norm": 0.2844756258947375,
+      "self_prob_norm": 1.0
     },
     {
       "id": "Tweeze",
@@ -942,8 +942,8 @@
       "self_prob": 0.9836097061658766,
       "card_image": "https://cards.scryfall.io/normal/front/3/c/3ceab0e6-1bb8-487d-ab4b-2da8457b970a.jpg?1767873738",
       "image": "https://cards.scryfall.io/art_crop/front/3/c/3ceab0e6-1bb8-487d-ab4b-2da8457b970a.jpg?1767873738",
-      "prob_norm": 0.6049321707788795,
-      "self_prob_norm": 0.5476715167518125
+      "prob_norm": 0.2843997009830894,
+      "self_prob_norm": 0.9836097061658766
     },
     {
       "id": "Goliath Daydreamer",
@@ -951,8 +951,8 @@
       "self_prob": 0.9803133726440773,
       "card_image": "https://cards.scryfall.io/normal/front/8/8/88e8cd13-2a29-4df6-937c-1bed68fbeafa.jpg?1767658300",
       "image": "https://cards.scryfall.io/art_crop/front/8/8/88e8cd13-2a29-4df6-937c-1bed68fbeafa.jpg?1767658300",
-      "prob_norm": 0.6040125458424488,
-      "self_prob_norm": 0.5430945667705402
+      "prob_norm": 0.2827339518868124,
+      "self_prob_norm": 0.9803133726440773
     },
     {
       "id": "Safewright Cavalry",
@@ -960,8 +960,8 @@
       "self_prob": 1.0437351412022744,
       "card_image": "https://cards.scryfall.io/normal/front/f/7/f7de412a-9731-4bfc-8fbc-c95988a3dd70.jpg?1767957270",
       "image": "https://cards.scryfall.io/art_crop/front/f/7/f7de412a-9731-4bfc-8fbc-c95988a3dd70.jpg?1767957270",
-      "prob_norm": 0.6036597030773139,
-      "self_prob_norm": 0.6352415623640254
+      "prob_norm": 0.28209483533628404,
+      "self_prob_norm": 1.0437351412022744
     },
     {
       "id": "Twinflame Travelers",
@@ -969,8 +969,8 @@
       "self_prob": 0.9480143838041122,
       "card_image": "https://cards.scryfall.io/normal/front/5/f/5fc9f409-3aef-4403-bf17-6e9a72ecfada.jpg?1767957280",
       "image": "https://cards.scryfall.io/art_crop/front/5/f/5fc9f409-3aef-4403-bf17-6e9a72ecfada.jpg?1767957280",
-      "prob_norm": 0.6033237447048129,
-      "self_prob_norm": 0.499459706328441
+      "prob_norm": 0.28148630208189857,
+      "self_prob_norm": 0.9480143838041122
     },
     {
       "id": "Glamermite",
@@ -978,8 +978,8 @@
       "self_prob": 1.0054004502296787,
       "card_image": "https://cards.scryfall.io/normal/front/b/8/b8b7c23a-0034-453c-ab44-f6ec0f31d1eb.jpg?1767956988",
       "image": "https://cards.scryfall.io/art_crop/front/b/8/b8b7c23a-0034-453c-ab44-f6ec0f31d1eb.jpg?1767956988",
-      "prob_norm": 0.6029588550995154,
-      "self_prob_norm": 0.5785099448139825
+      "prob_norm": 0.28082536466471175,
+      "self_prob_norm": 1.0054004502296787
     },
     {
       "id": "Silvergill Peddler",
@@ -987,8 +987,8 @@
       "self_prob": 0.9655558803542392,
       "card_image": "https://cards.scryfall.io/normal/front/f/e/feba2bb6-6005-4ade-a4c5-97bbd54b43a3.jpg?1767732538",
       "image": "https://cards.scryfall.io/art_crop/front/f/e/feba2bb6-6005-4ade-a4c5-97bbd54b43a3.jpg?1767732538",
-      "prob_norm": 0.5195792416374608,
-      "self_prob_norm": 0.522885589899707
+      "prob_norm": 0.12979692875538038,
+      "self_prob_norm": 0.9655558803542392
     },
     {
       "id": "Chitinous Graspling",
@@ -996,8 +996,8 @@
       "self_prob": 0.971384254892322,
       "card_image": "https://cards.scryfall.io/normal/front/a/9/a9767360-d536-4902-9d2d-1f3474ce89d6.jpg?1767872195",
       "image": "https://cards.scryfall.io/art_crop/front/a/9/a9767360-d536-4902-9d2d-1f3474ce89d6.jpg?1767872195",
-      "prob_norm": 0.5204185091885666,
-      "self_prob_norm": 0.530812070425265
+      "prob_norm": 0.131317123684212,
+      "self_prob_norm": 0.971384254892322
     },
     {
       "id": "Reluctant Dounguard",
@@ -1005,8 +1005,8 @@
       "self_prob": 0.9991382739386536,
       "card_image": "https://cards.scryfall.io/normal/front/d/b/dbce93c0-5efc-4b60-9cef-9d9b374d397b.jpg?1767871722",
       "image": "https://cards.scryfall.io/art_crop/front/d/b/dbce93c0-5efc-4b60-9cef-9d9b374d397b.jpg?1767871722",
-      "prob_norm": 0.5206157807727844,
-      "self_prob_norm": 0.5695438020247084
+      "prob_norm": 0.13167444866542355,
+      "self_prob_norm": 0.9991382739386536
     },
     {
       "id": "Blossombind",
@@ -1014,8 +1014,8 @@
       "self_prob": 0.9928316884616104,
       "card_image": "https://cards.scryfall.io/normal/front/3/8/382b83c0-bbbc-4db8-bc04-cfea79aed1b3.jpg?1767732510",
       "image": "https://cards.scryfall.io/art_crop/front/3/8/382b83c0-bbbc-4db8-bc04-cfea79aed1b3.jpg?1767732510",
-      "prob_norm": 0.5973255207606967,
-      "self_prob_norm": 0.5605988675363273
+      "prob_norm": 0.27062150740488744,
+      "self_prob_norm": 0.9928316884616104
     },
     {
       "id": "Changeling Wayfinder",
@@ -1023,8 +1023,8 @@
       "self_prob": 1.0192334026203145,
       "card_image": "https://cards.scryfall.io/normal/front/6/c/6c6061aa-a4da-4115-85b6-d0aa22f2386c.jpg?1767956913",
       "image": "https://cards.scryfall.io/art_crop/front/6/c/6c6061aa-a4da-4115-85b6-d0aa22f2386c.jpg?1767956913",
-      "prob_norm": 0.5235761155158154,
-      "self_prob_norm": 0.5986145391011592
+      "prob_norm": 0.13703660744073987,
+      "self_prob_norm": 1.0192334026203145
     },
     {
       "id": "Mudbutton Cursetosser",
@@ -1032,8 +1032,8 @@
       "self_prob": 1.0,
       "card_image": "https://cards.scryfall.io/normal/front/3/5/35bc841a-9a21-4c17-a60a-a3ee01472fcb.jpg?1767871878",
       "image": "https://cards.scryfall.io/art_crop/front/3/5/35bc841a-9a21-4c17-a60a-a3ee01472fcb.jpg?1767871878",
-      "prob_norm": 0.5953375501962783,
-      "self_prob_norm": 0.5707726315688031
+      "prob_norm": 0.267020626176114,
+      "self_prob_norm": 1.0
     },
     {
       "id": "Flaring Cinder",
@@ -1041,8 +1041,8 @@
       "self_prob": 0.9645508959138444,
       "card_image": "https://cards.scryfall.io/normal/front/0/6/0691a1a9-18e7-44b7-9a34-764b1ab45a76.jpg?1767862636",
       "image": "https://cards.scryfall.io/art_crop/front/0/6/0691a1a9-18e7-44b7-9a34-764b1ab45a76.jpg?1767862636",
-      "prob_norm": 0.5241908317697487,
-      "self_prob_norm": 0.5215260576576657
+      "prob_norm": 0.13815006468172153,
+      "self_prob_norm": 0.9645508959138444
     },
     {
       "id": "Barbed Bloodletter",
@@ -1050,8 +1050,8 @@
       "self_prob": 1.0,
       "card_image": "https://cards.scryfall.io/normal/front/8/f/8ff1a13c-e338-42e9-8eb3-b303fabd67de.jpg?1767957075",
       "image": "https://cards.scryfall.io/art_crop/front/8/f/8ff1a13c-e338-42e9-8eb3-b303fabd67de.jpg?1767957075",
-      "prob_norm": 0.595084878049862,
-      "self_prob_norm": 0.5707726315688031
+      "prob_norm": 0.26656295220178616,
+      "self_prob_norm": 1.0
     },
     {
       "id": "Stalactite Dagger",
@@ -1059,8 +1059,8 @@
       "self_prob": 1.0,
       "card_image": "https://cards.scryfall.io/normal/front/6/9/6954df09-95f3-46cf-9ba8-2a1aea653d8f.jpg?1767957330",
       "image": "https://cards.scryfall.io/art_crop/front/6/9/6954df09-95f3-46cf-9ba8-2a1aea653d8f.jpg?1767957330",
-      "prob_norm": 0.5245777903941072,
-      "self_prob_norm": 0.5707726315688031
+      "prob_norm": 0.13885097649183797,
+      "self_prob_norm": 1.0
     },
     {
       "id": "Noggle the Mind",
@@ -1068,8 +1068,8 @@
       "self_prob": 1.0385296818110097,
       "card_image": "https://cards.scryfall.io/normal/front/0/7/076c0ac1-722e-49ef-b815-ace210069972.jpg?1767957020",
       "image": "https://cards.scryfall.io/art_crop/front/0/7/076c0ac1-722e-49ef-b815-ace210069972.jpg?1767957020",
-      "prob_norm": 0.5942808364489346,
-      "self_prob_norm": 0.6273507539056726
+      "prob_norm": 0.2651065632794585,
+      "self_prob_norm": 1.0385296818110097
     },
     {
       "id": "Gnarlbark Elm",
@@ -1077,8 +1077,8 @@
       "self_prob": 0.9802746020187004,
       "card_image": "https://cards.scryfall.io/normal/front/1/e/1e9d65b6-22ff-49f2-8b2a-aeaef91088d3.jpg?1767871866",
       "image": "https://cards.scryfall.io/art_crop/front/1/e/1e9d65b6-22ff-49f2-8b2a-aeaef91088d3.jpg?1767871866",
-      "prob_norm": 0.5931117553354989,
-      "self_prob_norm": 0.5430408709523981
+      "prob_norm": 0.26298896540772343,
+      "self_prob_norm": 0.9802746020187004
     },
     {
       "id": "Mistmeadow Council",
@@ -1086,8 +1086,8 @@
       "self_prob": 0.9971669066473506,
       "card_image": "https://cards.scryfall.io/normal/front/d/4/d4a7c9bc-81c8-4c31-96a9-eb6ba7715e7f.jpg?1767872109",
       "image": "https://cards.scryfall.io/art_crop/front/d/4/d4a7c9bc-81c8-4c31-96a9-eb6ba7715e7f.jpg?1767872109",
-      "prob_norm": 0.5929451160950238,
-      "self_prob_norm": 0.5667385870023792
+      "prob_norm": 0.2626871258715934,
+      "self_prob_norm": 0.9971669066473506
     },
     {
       "id": "Unexpected Assistance",
@@ -1095,8 +1095,8 @@
       "self_prob": 0.9837262068888052,
       "card_image": "https://cards.scryfall.io/normal/front/7/b/7b540a5f-7f1b-421a-864f-5af469556fc6.jpg?1765451670",
       "image": "https://cards.scryfall.io/art_crop/front/7/b/7b540a5f-7f1b-421a-864f-5af469556fc6.jpg?1765451670",
-      "prob_norm": 0.5917994849383964,
-      "self_prob_norm": 0.5478336994629994
+      "prob_norm": 0.260612003734056,
+      "self_prob_norm": 0.9837262068888052
     },
     {
       "id": "Surly Farrier",
@@ -1104,8 +1104,8 @@
       "self_prob": 0.9888151489399362,
       "card_image": "https://cards.scryfall.io/normal/front/0/5/056f7f51-18a9-4d80-8928-decaf4d12c0d.jpg?1767732856",
       "image": "https://cards.scryfall.io/art_crop/front/0/5/056f7f51-18a9-4d80-8928-decaf4d12c0d.jpg?1767732856",
-      "prob_norm": 0.5274898246022075,
-      "self_prob_norm": 0.5549462472703294
+      "prob_norm": 0.14412564680395212,
+      "self_prob_norm": 0.9888151489399362
     },
     {
       "id": "Morcant's Eyes",
@@ -1113,8 +1113,8 @@
       "self_prob": 1.1248582201590698,
       "card_image": "https://cards.scryfall.io/normal/front/a/7/a730b254-ff7c-4f89-a559-b44ad7fd6c6c.jpg?1767732849",
       "image": "https://cards.scryfall.io/art_crop/front/a/7/a730b254-ff7c-4f89-a559-b44ad7fd6c6c.jpg?1767732849",
-      "prob_norm": 0.5912022648220194,
-      "self_prob_norm": 0.765962673873836
+      "prob_norm": 0.25953023786438034,
+      "self_prob_norm": 1.1248582201590698
     },
     {
       "id": "Iron-Shield Elf",
@@ -1122,8 +1122,8 @@
       "self_prob": 0.9949875918944032,
       "card_image": "https://cards.scryfall.io/normal/front/9/e/9e0140b2-0185-4adb-b365-2611ce89a0e2.jpg?1767658146",
       "image": "https://cards.scryfall.io/art_crop/front/9/e/9e0140b2-0185-4adb-b365-2611ce89a0e2.jpg?1767658146",
-      "prob_norm": 0.5910874275930046,
-      "self_prob_norm": 0.5636471336034367
+      "prob_norm": 0.2593222291394398,
+      "self_prob_norm": 0.9949875918944032
     },
     {
       "id": "Kinsbaile Aspirant",
@@ -1131,8 +1131,8 @@
       "self_prob": 1.0,
       "card_image": "https://cards.scryfall.io/normal/front/5/6/56dfdab1-ea3f-4663-a855-a9e72505f85e.jpg?1767732481",
       "image": "https://cards.scryfall.io/art_crop/front/5/6/56dfdab1-ea3f-4663-a855-a9e72505f85e.jpg?1767732481",
-      "prob_norm": 0.5904171335577024,
-      "self_prob_norm": 0.5707726315688031
+      "prob_norm": 0.2581081019020053,
+      "self_prob_norm": 1.0
     },
     {
       "id": "Dawn's Light Archer",
@@ -1140,8 +1140,8 @@
       "self_prob": 0.9850051242359716,
       "card_image": "https://cards.scryfall.io/normal/front/7/6/76e80656-6bcb-4d99-8bd2-ca5f75f40daf.jpg?1767873724",
       "image": "https://cards.scryfall.io/art_crop/front/7/6/76e80656-6bcb-4d99-8bd2-ca5f75f40daf.jpg?1767873724",
-      "prob_norm": 0.589945974288613,
-      "self_prob_norm": 0.5496159975303129
+      "prob_norm": 0.25725467449307216,
+      "self_prob_norm": 0.9850051242359716
     },
     {
       "id": "Eclipsed Realms",
@@ -1149,8 +1149,8 @@
       "self_prob": 1.0898411066122409,
       "card_image": "https://cards.scryfall.io/normal/front/a/1/a174f0db-8b4f-4c37-9583-44c92d37b9c0.jpg?1767862754",
       "image": "https://cards.scryfall.io/art_crop/front/a/1/a174f0db-8b4f-4c37-9583-44c92d37b9c0.jpg?1767862754",
-      "prob_norm": 0.5292076723219108,
-      "self_prob_norm": 0.7077356983757531
+      "prob_norm": 0.14723724499282204,
+      "self_prob_norm": 1.0898411066122409
     },
     {
       "id": "Kulrath Mystic",
@@ -1158,8 +1158,8 @@
       "self_prob": 1.0613334984273226,
       "card_image": "https://cards.scryfall.io/normal/front/3/7/377d257c-920c-4dd4-a4b1-01cbc631ef8f.jpg?1767732526",
       "image": "https://cards.scryfall.io/art_crop/front/3/7/377d257c-920c-4dd4-a4b1-01cbc631ef8f.jpg?1767732526",
-      "prob_norm": 0.5292491140913427,
-      "self_prob_norm": 0.6623580522342811
+      "prob_norm": 0.14731230993206484,
+      "self_prob_norm": 1.0613334984273226
     },
     {
       "id": "Vinebred Brawler",
@@ -1167,8 +1167,8 @@
       "self_prob": 1.0,
       "card_image": "https://cards.scryfall.io/normal/front/6/3/63c573fe-e74c-48ca-ad05-92f37dc466f1.jpg?1767658495",
       "image": "https://cards.scryfall.io/art_crop/front/6/3/63c573fe-e74c-48ca-ad05-92f37dc466f1.jpg?1767658495",
-      "prob_norm": 0.5882321184024801,
-      "self_prob_norm": 0.5707726315688031
+      "prob_norm": 0.2541503068532001,
+      "self_prob_norm": 1.0
     },
     {
       "id": "Boggart Prankster",
@@ -1176,8 +1176,8 @@
       "self_prob": 1.0255697753427144,
       "card_image": "https://cards.scryfall.io/normal/front/e/b/eb228ea6-9235-4093-aea7-708e743b1b44.jpg?1767957110",
       "image": "https://cards.scryfall.io/art_crop/front/e/b/eb228ea6-9235-4093-aea7-708e743b1b44.jpg?1767957110",
-      "prob_norm": 0.5307288931091371,
-      "self_prob_norm": 0.607961634170673
+      "prob_norm": 0.14999268588092482,
+      "self_prob_norm": 1.0255697753427144
     },
     {
       "id": "Wanderbrine Preacher",
@@ -1185,8 +1185,8 @@
       "self_prob": 0.9976860823833544,
       "card_image": "https://cards.scryfall.io/normal/front/3/f/3fc3f5f2-5a83-4358-8f23-42f26f345140.jpg?1767732504",
       "image": "https://cards.scryfall.io/art_crop/front/3/f/3fc3f5f2-5a83-4358-8f23-42f26f345140.jpg?1767732504",
-      "prob_norm": 0.5317183818703103,
-      "self_prob_norm": 0.5674765573136944
+      "prob_norm": 0.1517849817880995,
+      "self_prob_norm": 0.9976860823833544
     },
     {
       "id": "Omni-Changeling",
@@ -1194,8 +1194,8 @@
       "self_prob": 0.9806691304587096,
       "card_image": "https://cards.scryfall.io/normal/front/f/2/f29ce8f9-42a3-43fa-8197-666cc26e2c76.jpg?1767732596",
       "image": "https://cards.scryfall.io/art_crop/front/f/2/f29ce8f9-42a3-43fa-8197-666cc26e2c76.jpg?1767732596",
-      "prob_norm": 0.5857652998856068,
-      "self_prob_norm": 0.5435874263296991
+      "prob_norm": 0.24968207143201873,
+      "self_prob_norm": 0.9806691304587096
     },
     {
       "id": "Feed the Flames",
@@ -1203,8 +1203,8 @@
       "self_prob": 1.0,
       "card_image": "https://cards.scryfall.io/normal/front/5/9/59740755-c353-4b6c-a84c-3b76133ce3ec.jpg?1767957151",
       "image": "https://cards.scryfall.io/art_crop/front/5/9/59740755-c353-4b6c-a84c-3b76133ce3ec.jpg?1767957151",
-      "prob_norm": 0.5854704154195995,
-      "self_prob_norm": 0.5707726315688031
+      "prob_norm": 0.24914793679375624,
+      "self_prob_norm": 1.0
     },
     {
       "id": "Thoughtweft Charge",
@@ -1212,8 +1212,8 @@
       "self_prob": 1.015365749601577,
       "card_image": "https://cards.scryfall.io/normal/front/1/9/19cfc015-b6d5-4918-99a7-990209e77441.jpg?1767872036",
       "image": "https://cards.scryfall.io/art_crop/front/1/9/19cfc015-b6d5-4918-99a7-990209e77441.jpg?1767872036",
-      "prob_norm": 0.5849482332966763,
-      "self_prob_norm": 0.5929518313860426
+      "prob_norm": 0.24820208988933515,
+      "self_prob_norm": 1.015365749601577
     },
     {
       "id": "Lys Alana Dignitary",
@@ -1221,8 +1221,8 @@
       "self_prob": 0.930737205898734,
       "card_image": "https://cards.scryfall.io/normal/front/9/4/94e8d6a9-7aa3-4e93-8e4d-e50da7ff09d2.jpg?1767957201",
       "image": "https://cards.scryfall.io/art_crop/front/9/4/94e8d6a9-7aa3-4e93-8e4d-e50da7ff09d2.jpg?1767957201",
-      "prob_norm": 0.5849470324183843,
-      "self_prob_norm": 0.477013673509211
+      "prob_norm": 0.24819991469611197,
+      "self_prob_norm": 0.930737205898734
     },
     {
       "id": "Flame-Chain Mauler",
@@ -1230,8 +1230,8 @@
       "self_prob": 0.9815962251535192,
       "card_image": "https://cards.scryfall.io/normal/front/7/5/752d7e8e-0dd0-4ace-9c89-a8f9ce73775e.jpg?1767732741",
       "image": "https://cards.scryfall.io/art_crop/front/7/5/752d7e8e-0dd0-4ace-9c89-a8f9ce73775e.jpg?1767732741",
-      "prob_norm": 0.533458718421966,
-      "self_prob_norm": 0.5448730648262751
+      "prob_norm": 0.15493731479180217,
+      "self_prob_norm": 0.9815962251535192
     },
     {
       "id": "Lys Alana Informant",
@@ -1239,8 +1239,8 @@
       "self_prob": 1.0020734856864368,
       "card_image": "https://cards.scryfall.io/normal/front/a/7/a79649c4-559e-4306-a102-5fd8750629c7.jpg?1767658380",
       "image": "https://cards.scryfall.io/art_crop/front/a/7/a79649c4-559e-4306-a102-5fd8750629c7.jpg?1767658380",
-      "prob_norm": 0.5840620568173019,
-      "self_prob_norm": 0.5737359565139868
+      "prob_norm": 0.24659692716355142,
+      "self_prob_norm": 1.0020734856864368
     },
     {
       "id": "Keep Out",
@@ -1248,8 +1248,8 @@
       "self_prob": 1.0277928144615447,
       "card_image": "https://cards.scryfall.io/normal/front/4/a/4ab1601c-634c-4f21-8926-ba3cb92008c1.jpg?1767956928",
       "image": "https://cards.scryfall.io/art_crop/front/4/a/4ab1601c-634c-4f21-8926-ba3cb92008c1.jpg?1767956928",
-      "prob_norm": 0.534362992668791,
-      "self_prob_norm": 0.6112615570663326
+      "prob_norm": 0.156575258642348,
+      "self_prob_norm": 1.0277928144615447
     },
     {
       "id": "Tam, Mindful First-Year",
@@ -1257,8 +1257,8 @@
       "self_prob": 1.0649618592224883,
       "card_image": "https://cards.scryfall.io/normal/front/6/c/6cb0f825-b75b-4f2a-803c-08142ca07e76.jpg?1767862738",
       "image": "https://cards.scryfall.io/art_crop/front/6/c/6cb0f825-b75b-4f2a-803c-08142ca07e76.jpg?1767862738",
-      "prob_norm": 0.5346076868293176,
-      "self_prob_norm": 0.6680335527313468
+      "prob_norm": 0.1570184818093312,
+      "self_prob_norm": 1.0649618592224883
     },
     {
       "id": "Timid Shieldbearer",
@@ -1266,8 +1266,8 @@
       "self_prob": 0.9605618065166192,
       "card_image": "https://cards.scryfall.io/normal/front/1/c/1c672d38-a1a6-4912-a9a6-b11e7bf0cc67.jpg?1767956979",
       "image": "https://cards.scryfall.io/art_crop/front/1/c/1c672d38-a1a6-4912-a9a6-b11e7bf0cc67.jpg?1767956979",
-      "prob_norm": 0.5827565049059537,
-      "self_prob_norm": 0.5161505882145807
+      "prob_norm": 0.24423213492019202,
+      "self_prob_norm": 0.9605618065166192
     },
     {
       "id": "Squawkroaster",
@@ -1275,8 +1275,8 @@
       "self_prob": 1.0059680832979887,
       "card_image": "https://cards.scryfall.io/normal/front/4/1/4112f960-70af-4e2d-bcd4-9e9cf7aac4fb.jpg?1767871978",
       "image": "https://cards.scryfall.io/art_crop/front/4/1/4112f960-70af-4e2d-bcd4-9e9cf7aac4fb.jpg?1767871978",
-      "prob_norm": 0.5359798553931722,
-      "self_prob_norm": 0.5793268343359593
+      "prob_norm": 0.15950393914594052,
+      "self_prob_norm": 1.0059680832979887
     },
     {
       "id": "Wanderwine Distracter",
@@ -1284,8 +1284,8 @@
       "self_prob": 1.060409087052388,
       "card_image": "https://cards.scryfall.io/normal/front/c/b/cbf593a7-d4ae-4771-926a-3c1b2c8c901a.jpg?1767732580",
       "image": "https://cards.scryfall.io/art_crop/front/c/b/cbf593a7-d4ae-4771-926a-3c1b2c8c901a.jpg?1767732580",
-      "prob_norm": 0.5368405679247804,
-      "self_prob_norm": 0.6609167253520899
+      "prob_norm": 0.16106297812464138,
+      "self_prob_norm": 1.060409087052388
     },
     {
       "id": "Scarblade's Malice",
@@ -1293,8 +1293,8 @@
       "self_prob": 0.9530335756250242,
       "card_image": "https://cards.scryfall.io/normal/front/a/e/aea9b5c0-3b32-44be-9773-566b9daafa6b.jpg?1767957161",
       "image": "https://cards.scryfall.io/art_crop/front/a/e/aea9b5c0-3b32-44be-9773-566b9daafa6b.jpg?1767957161",
-      "prob_norm": 0.5379205529821753,
-      "self_prob_norm": 0.5060968609899776
+      "prob_norm": 0.16301919316631977,
+      "self_prob_norm": 0.9530335756250242
     },
     {
       "id": "Swat Away",
@@ -1302,8 +1302,8 @@
       "self_prob": 1.0499296337024566,
       "card_image": "https://cards.scryfall.io/normal/front/2/f/2fb0ea3f-2f6d-4b64-a9d7-e822c8854a03.jpg?1767732569",
       "image": "https://cards.scryfall.io/art_crop/front/2/f/2fb0ea3f-2f6d-4b64-a9d7-e822c8854a03.jpg?1767732569",
-      "prob_norm": 0.5794313834599353,
-      "self_prob_norm": 0.6447088393137836
+      "prob_norm": 0.2382092251182742,
+      "self_prob_norm": 1.0499296337024566
     },
     {
       "id": "Retched Wretch",
@@ -1311,8 +1311,8 @@
       "self_prob": 1.0251422752694066,
       "card_image": "https://cards.scryfall.io/normal/front/c/7/c7a4d7f1-976a-4a28-97a9-ff089a241c9d.jpg?1767871902",
       "image": "https://cards.scryfall.io/art_crop/front/c/7/c7a4d7f1-976a-4a28-97a9-ff089a241c9d.jpg?1767871902",
-      "prob_norm": 0.5788506446677045,
-      "self_prob_norm": 0.6073282730842449
+      "prob_norm": 0.2371573124525673,
+      "self_prob_norm": 1.0251422752694066
     },
     {
       "id": "Gutsplitter Gang",
@@ -1320,8 +1320,8 @@
       "self_prob": 0.998270298335741,
       "card_image": "https://cards.scryfall.io/normal/front/9/f/9ff74349-693d-4373-a194-9796316dd1f1.jpg?1767732693",
       "image": "https://cards.scryfall.io/art_crop/front/9/f/9ff74349-693d-4373-a194-9796316dd1f1.jpg?1767732693",
-      "prob_norm": 0.5390221889983309,
-      "self_prob_norm": 0.5683076666117385
+      "prob_norm": 0.1650146253535543,
+      "self_prob_norm": 0.998270298335741
     },
     {
       "id": "Unwelcome Sprite",
@@ -1329,8 +1329,8 @@
       "self_prob": 1.0,
       "card_image": "https://cards.scryfall.io/normal/front/9/0/902f8d86-fde2-4cdf-88f0-bf63d616f3af.jpg?1767732556",
       "image": "https://cards.scryfall.io/art_crop/front/9/0/902f8d86-fde2-4cdf-88f0-bf63d616f3af.jpg?1767732556",
-      "prob_norm": 0.5783953105343668,
-      "self_prob_norm": 0.5707726315688031
+      "prob_norm": 0.23633254967041037,
+      "self_prob_norm": 1.0
     },
     {
       "id": "Glister Bairn",
@@ -1338,8 +1338,8 @@
       "self_prob": 1.0253383852617604,
       "card_image": "https://cards.scryfall.io/normal/front/d/c/dcccdd98-a1ba-41f4-a9ae-84d263da0af9.jpg?1767862652",
       "image": "https://cards.scryfall.io/art_crop/front/d/c/dcccdd98-a1ba-41f4-a9ae-84d263da0af9.jpg?1767862652",
-      "prob_norm": 0.5771344411175198,
-      "self_prob_norm": 0.6076187699127258
+      "prob_norm": 0.2340486924059606,
+      "self_prob_norm": 1.0253383852617604
     },
     {
       "id": "Shore Lurker",
@@ -1347,8 +1347,8 @@
       "self_prob": 1.0053425547802022,
       "card_image": "https://cards.scryfall.io/normal/front/b/b/bb353c27-e311-4677-9277-cab6820562ce.jpg?1767732498",
       "image": "https://cards.scryfall.io/art_crop/front/b/b/bb353c27-e311-4677-9277-cab6820562ce.jpg?1767732498",
-      "prob_norm": 0.5411314076015307,
-      "self_prob_norm": 0.5784266654431199
+      "prob_norm": 0.1688351274332036,
+      "self_prob_norm": 1.0053425547802022
     },
     {
       "id": "Requiting Hex",
@@ -1356,8 +1356,8 @@
       "self_prob": 0.9836264501783416,
       "card_image": "https://cards.scryfall.io/normal/front/f/2/f21b0fb7-91b6-403f-a81a-562665961276.jpg?1767732705",
       "image": "https://cards.scryfall.io/art_crop/front/f/2/f21b0fb7-91b6-403f-a81a-562665961276.jpg?1767732705",
-      "prob_norm": 0.5411352052468575,
-      "self_prob_norm": 0.5476948246139774
+      "prob_norm": 0.1688420062421838,
+      "self_prob_norm": 0.9836264501783416
     },
     {
       "id": "Prideful Feastling",
@@ -1365,8 +1365,8 @@
       "self_prob": 0.9890201420470506,
       "card_image": "https://cards.scryfall.io/normal/front/7/5/7578cb61-f606-4559-a10a-343a583228ab.jpg?1767776681",
       "image": "https://cards.scryfall.io/art_crop/front/7/5/7578cb61-f606-4559-a10a-343a583228ab.jpg?1767776681",
-      "prob_norm": 0.5414216530962478,
-      "self_prob_norm": 0.5552339093376899
+      "prob_norm": 0.16936085933908251,
+      "self_prob_norm": 0.9890201420470506
     },
     {
       "id": "Midnight Tilling",
@@ -1374,8 +1374,8 @@
       "self_prob": 1.0,
       "card_image": "https://cards.scryfall.io/normal/front/c/5/c5112bbf-752c-41e7-9c61-4c81e6a77463.jpg?1767732843",
       "image": "https://cards.scryfall.io/art_crop/front/c/5/c5112bbf-752c-41e7-9c61-4c81e6a77463.jpg?1767732843",
-      "prob_norm": 0.575733690641524,
-      "self_prob_norm": 0.5707726315688031
+      "prob_norm": 0.23151146364337868,
+      "self_prob_norm": 1.0
     },
     {
       "id": "Personify",
@@ -1383,8 +1383,8 @@
       "self_prob": 0.9881042296516084,
       "card_image": "https://cards.scryfall.io/normal/front/1/1/1172582d-fb2d-4022-95b1-e48b03df3a95.jpg?1767658640",
       "image": "https://cards.scryfall.io/art_crop/front/1/1/1172582d-fb2d-4022-95b1-e48b03df3a95.jpg?1767658640",
-      "prob_norm": 0.5754250373830729,
-      "self_prob_norm": 0.5539493236220778
+      "prob_norm": 0.23095238910553137,
+      "self_prob_norm": 0.9881042296516084
     },
     {
       "id": "Dream Seizer",
@@ -1392,8 +1392,8 @@
       "self_prob": 1.087620507454137,
       "card_image": "https://cards.scryfall.io/normal/front/3/5/3573f425-9251-4c17-9619-15278ce5d8fb.jpg?1767658140",
       "image": "https://cards.scryfall.io/art_crop/front/3/5/3573f425-9251-4c17-9619-15278ce5d8fb.jpg?1767658140",
-      "prob_norm": 0.5421540546930835,
-      "self_prob_norm": 0.7041360991926447
+      "prob_norm": 0.17068748419418495,
+      "self_prob_norm": 1.087620507454137
     },
     {
       "id": "Bile-Vial Boggart",
@@ -1401,8 +1401,8 @@
       "self_prob": 0.952138349318533,
       "card_image": "https://cards.scryfall.io/normal/front/2/c/2c0fcf98-1f3c-4cff-9234-7f3d0c8b22e9.jpg?1767732575",
       "image": "https://cards.scryfall.io/art_crop/front/2/c/2c0fcf98-1f3c-4cff-9234-7f3d0c8b22e9.jpg?1767732575",
-      "prob_norm": 0.5423658236674602,
-      "self_prob_norm": 0.5049092006260888
+      "prob_norm": 0.17107106880973127,
+      "self_prob_norm": 0.952138349318533
     },
     {
       "id": "Tend the Sprigs",
@@ -1410,8 +1410,8 @@
       "self_prob": 0.9939507327704284,
       "card_image": "https://cards.scryfall.io/normal/front/3/8/388f6d9d-bb9a-4a3d-93c5-701db194863c.jpg?1767658392",
       "image": "https://cards.scryfall.io/art_crop/front/3/8/388f6d9d-bb9a-4a3d-93c5-701db194863c.jpg?1767658392",
-      "prob_norm": 0.5436685419402801,
-      "self_prob_norm": 0.5621798640746214
+      "prob_norm": 0.17343072838363927,
+      "self_prob_norm": 0.9939507327704284
     },
     {
       "id": "Flamebraider",
@@ -1419,8 +1419,8 @@
       "self_prob": 1.0009590791882597,
       "card_image": "https://cards.scryfall.io/normal/front/b/8/b8aa428c-5a77-444f-b75e-a113e46fe4e0.jpg?1767732747",
       "image": "https://cards.scryfall.io/art_crop/front/b/8/b8aa428c-5a77-444f-b75e-a113e46fe4e0.jpg?1767732747",
-      "prob_norm": 0.5439757429203629,
-      "self_prob_norm": 0.5721421565105004
+      "prob_norm": 0.1739871723584345,
+      "self_prob_norm": 1.0009590791882597
     },
     {
       "id": "Elder Auntie",
@@ -1428,8 +1428,8 @@
       "self_prob": 0.9792654394529904,
       "card_image": "https://cards.scryfall.io/normal/front/8/4/84678e98-2258-4ea1-aaf0-8ac4cc2ecf8d.jpg?1767658171",
       "image": "https://cards.scryfall.io/art_crop/front/8/4/84678e98-2258-4ea1-aaf0-8ac4cc2ecf8d.jpg?1767658171",
-      "prob_norm": 0.5724345566086598,
-      "self_prob_norm": 0.5416443401602152
+      "prob_norm": 0.22553562575987154,
+      "self_prob_norm": 0.9792654394529904
     },
     {
       "id": "Crossroads Watcher",
@@ -1437,8 +1437,8 @@
       "self_prob": 0.9928869553969938,
       "card_image": "https://cards.scryfall.io/normal/front/6/d/6d62fcbb-f1a0-46ce-a4af-2a33bcc3ac8e.jpg?1767658374",
       "image": "https://cards.scryfall.io/art_crop/front/6/d/6d62fcbb-f1a0-46ce-a4af-2a33bcc3ac8e.jpg?1767658374",
-      "prob_norm": 0.572360546794007,
-      "self_prob_norm": 0.5606768864877435
+      "prob_norm": 0.2254015691711584,
+      "self_prob_norm": 0.9928869553969938
     },
     {
       "id": "Burning Curiosity",
@@ -1446,8 +1446,8 @@
       "self_prob": 1.0668139705029185,
       "card_image": "https://cards.scryfall.io/normal/front/6/8/689ed288-6228-4d7e-b198-56a12b8be299.jpg?1767732735",
       "image": "https://cards.scryfall.io/art_crop/front/6/8/689ed288-6228-4d7e-b198-56a12b8be299.jpg?1767732735",
-      "prob_norm": 0.5454280107212378,
-      "self_prob_norm": 0.6709418418230173
+      "prob_norm": 0.17661771626935643,
+      "self_prob_norm": 1.0668139705029185
     },
     {
       "id": "Wary Farmer",
@@ -1455,8 +1455,8 @@
       "self_prob": 1.0133198936122418,
       "card_image": "https://cards.scryfall.io/normal/front/2/2/22d20c0d-176d-49c9-aa0b-2c5778548cc5.jpg?1767749680",
       "image": "https://cards.scryfall.io/art_crop/front/2/2/22d20c0d-176d-49c9-aa0b-2c5778548cc5.jpg?1767749680",
-      "prob_norm": 0.5711129663464761,
-      "self_prob_norm": 0.5899695033962
+      "prob_norm": 0.22314178268573165,
+      "self_prob_norm": 1.0133198936122418
     },
     {
       "id": "Aquitect's Defenses",
@@ -1464,8 +1464,8 @@
       "self_prob": 0.781772913944745,
       "card_image": "https://cards.scryfall.io/normal/front/9/a/9af9a907-fd2e-4ae0-ac7b-529074b79a14.jpg?1767871750",
       "image": "https://cards.scryfall.io/art_crop/front/9/a/9af9a907-fd2e-4ae0-ac7b-529074b79a14.jpg?1767871750",
-      "prob_norm": 0.5710070493797481,
-      "self_prob_norm": 0.3084357349312337
+      "prob_norm": 0.22294993154662235,
+      "self_prob_norm": 0.781772913944745
     },
     {
       "id": "Sun-Dappled Celebrant",
@@ -1473,8 +1473,8 @@
       "self_prob": 1.0612415921540492,
       "card_image": "https://cards.scryfall.io/normal/front/9/1/91c715a5-6643-4064-a8a8-3e05dce15979.jpg?1767659096",
       "image": "https://cards.scryfall.io/art_crop/front/9/1/91c715a5-6643-4064-a8a8-3e05dce15979.jpg?1767659096",
-      "prob_norm": 0.5464365878844176,
-      "self_prob_norm": 0.6622146691536976
+      "prob_norm": 0.1784445876726189,
+      "self_prob_norm": 1.0612415921540492
     },
     {
       "id": "Thirst for Identity",
@@ -1482,8 +1482,8 @@
       "self_prob": 0.9318143923587758,
       "card_image": "https://cards.scryfall.io/normal/front/c/3/c3949f8c-d1c5-45c2-80ed-a57f4f9af86e.jpg?1767957051",
       "image": "https://cards.scryfall.io/art_crop/front/c/3/c3949f8c-d1c5-45c2-80ed-a57f4f9af86e.jpg?1767957051",
-      "prob_norm": 0.5466230824425815,
-      "self_prob_norm": 0.4783950483091282
+      "prob_norm": 0.1787823918462724,
+      "self_prob_norm": 0.9318143923587758
     },
     {
       "id": "Encumbered Reejerey",
@@ -1491,8 +1491,8 @@
       "self_prob": 0.9942804703045394,
       "card_image": "https://cards.scryfall.io/normal/front/1/5/15ff6797-f59c-4333-98ea-5711150fd5b8.jpg?1767951670",
       "image": "https://cards.scryfall.io/art_crop/front/1/5/15ff6797-f59c-4333-98ea-5711150fd5b8.jpg?1767951670",
-      "prob_norm": 0.5706192440175387,
-      "self_prob_norm": 0.5626462300638471
+      "prob_norm": 0.22224748601035949,
+      "self_prob_norm": 0.9942804703045394
     },
     {
       "id": "Flock Impostor",
@@ -1500,8 +1500,8 @@
       "self_prob": 1.1888050150284513,
       "card_image": "https://cards.scryfall.io/normal/front/d/3/d32d0336-5140-41f9-bc67-f3d743b9231d.jpg?1767658337",
       "image": "https://cards.scryfall.io/art_crop/front/d/3/d32d0336-5140-41f9-bc67-f3d743b9231d.jpg?1767658337",
-      "prob_norm": 0.5698062349920221,
-      "self_prob_norm": 0.8795078334062512
+      "prob_norm": 0.22077485407545833,
+      "self_prob_norm": 1.1888050150284513
     },
     {
       "id": "Meanders Guide",
@@ -1509,8 +1509,8 @@
       "self_prob": 0.9703129446707842,
       "card_image": "https://cards.scryfall.io/normal/front/8/c/8c41a0ad-138e-4eef-8f7f-35017e3b086f.jpg?1767871713",
       "image": "https://cards.scryfall.io/art_crop/front/8/c/8c41a0ad-138e-4eef-8f7f-35017e3b086f.jpg?1767871713",
-      "prob_norm": 0.5693832638632121,
-      "self_prob_norm": 0.5293497394570089
+      "prob_norm": 0.22000871154532964,
+      "self_prob_norm": 0.9703129446707842
     },
     {
       "id": "Warren Torchmaster",
@@ -1518,8 +1518,8 @@
       "self_prob": 0.904529302092322,
       "card_image": "https://cards.scryfall.io/normal/front/8/f/8f067a14-6667-4acf-b33d-e1149188a84d.jpg?1767732778",
       "image": "https://cards.scryfall.io/art_crop/front/8/f/8f067a14-6667-4acf-b33d-e1149188a84d.jpg?1767732778",
-      "prob_norm": 0.5490367353155055,
-      "self_prob_norm": 0.44413984987339256
+      "prob_norm": 0.18315432646062108,
+      "self_prob_norm": 0.904529302092322
     },
     {
       "id": "Soulbright Seeker",
@@ -1527,8 +1527,8 @@
       "self_prob": 0.9698646668487878,
       "card_image": "https://cards.scryfall.io/normal/front/8/9/895ac890-608a-47de-8bc8-9337fd2064e8.jpg?1767957180",
       "image": "https://cards.scryfall.io/art_crop/front/8/9/895ac890-608a-47de-8bc8-9337fd2064e8.jpg?1767957180",
-      "prob_norm": 0.5496136204368792,
-      "self_prob_norm": 0.5287385615525627
+      "prob_norm": 0.18419925883632823,
+      "self_prob_norm": 0.9698646668487878
     },
     {
       "id": "Gangly Stompling",
@@ -1536,8 +1536,8 @@
       "self_prob": 0.9591190785670032,
       "card_image": "https://cards.scryfall.io/normal/front/5/0/502000a7-a3c1-4259-aea5-ff01724396a1.jpg?1767749620",
       "image": "https://cards.scryfall.io/art_crop/front/5/0/502000a7-a3c1-4259-aea5-ff01724396a1.jpg?1767749620",
-      "prob_norm": 0.5671022817068675,
-      "self_prob_norm": 0.5142146736261511
+      "prob_norm": 0.2158770880812007,
+      "self_prob_norm": 0.9591190785670032
     },
     {
       "id": "Graveshifter",
@@ -1545,8 +1545,8 @@
       "self_prob": 1.0046265040783429,
       "card_image": "https://cards.scryfall.io/normal/front/d/a/dadb02b9-d3a0-4b51-bbc3-53b2316cd70d.jpg?1767873656",
       "image": "https://cards.scryfall.io/art_crop/front/d/a/dadb02b9-d3a0-4b51-bbc3-53b2316cd70d.jpg?1767873656",
-      "prob_norm": 0.5669045308171766,
-      "self_prob_norm": 0.5773972611018376
+      "prob_norm": 0.21551889491707324,
+      "self_prob_norm": 1.0046265040783429
     },
     {
       "id": "Riverguard's Reflexes",
@@ -1554,8 +1554,8 @@
       "self_prob": 1.0261682473009908,
       "card_image": "https://cards.scryfall.io/normal/front/8/8/88a79f3e-ca74-467c-b0a8-22802ac5b465.jpg?1767956969",
       "image": "https://cards.scryfall.io/art_crop/front/8/8/88a79f3e-ca74-467c-b0a8-22802ac5b465.jpg?1767956969",
-      "prob_norm": 0.5666880592615576,
-      "self_prob_norm": 0.6088489634797277
+      "prob_norm": 0.2151267923501925,
+      "self_prob_norm": 1.0261682473009908
     },
     {
       "id": "Luminollusk",
@@ -1563,8 +1563,8 @@
       "self_prob": 1.077191829075837,
       "card_image": "https://cards.scryfall.io/normal/front/3/d/3d591e66-4bf9-47e7-bcef-57769ec3edc6.jpg?1767872025",
       "image": "https://cards.scryfall.io/art_crop/front/3/d/3d591e66-4bf9-47e7-bcef-57769ec3edc6.jpg?1767872025",
-      "prob_norm": 0.5665466099653238,
-      "self_prob_norm": 0.687378219399955
+      "prob_norm": 0.2148705802488928,
+      "self_prob_norm": 1.077191829075837
     },
     {
       "id": "Run Away Together",
@@ -1572,8 +1572,8 @@
       "self_prob": 1.0291056002639185,
       "card_image": "https://cards.scryfall.io/normal/front/3/5/35c56aff-1f0f-464a-b705-d67803e3d060.jpg?1767732563",
       "image": "https://cards.scryfall.io/art_crop/front/3/5/35c56aff-1f0f-464a-b705-d67803e3d060.jpg?1767732563",
-      "prob_norm": 0.5660883955420724,
-      "self_prob_norm": 0.6132153175180981
+      "prob_norm": 0.21404060029598435,
+      "self_prob_norm": 1.0291056002639185
     },
     {
       "id": "Burdened Stoneback",
@@ -1581,8 +1581,8 @@
       "self_prob": 1.0,
       "card_image": "https://cards.scryfall.io/normal/front/3/2/3278b8d0-3d2b-4d3d-bbf1-fd9b714b53ed.jpg?1767732463",
       "image": "https://cards.scryfall.io/art_crop/front/3/2/3278b8d0-3d2b-4d3d-bbf1-fd9b714b53ed.jpg?1767732463",
-      "prob_norm": 0.5511395805534182,
-      "self_prob_norm": 0.5707726315688031
+      "prob_norm": 0.18696328423884187,
+      "self_prob_norm": 1.0
     },
     {
       "id": "Rime Chill",
@@ -1590,8 +1590,8 @@
       "self_prob": 1.148129922183969,
       "card_image": "https://cards.scryfall.io/normal/front/a/9/a9a425f4-2103-4f96-88a0-91fe554037d7.jpg?1767957062",
       "image": "https://cards.scryfall.io/art_crop/front/a/9/a9a425f4-2103-4f96-88a0-91fe554037d7.jpg?1767957062",
-      "prob_norm": 0.5648769382121834,
-      "self_prob_norm": 0.8061961678125
+      "prob_norm": 0.21184624488814482,
+      "self_prob_norm": 1.148129922183969
     },
     {
       "id": "Boneclub Berserker",
@@ -1599,8 +1599,8 @@
       "self_prob": 1.0320444021855335,
       "card_image": "https://cards.scryfall.io/normal/front/b/3/b3dbbe30-3d6e-46f8-92c1-caee995cba1a.jpg?1767732716",
       "image": "https://cards.scryfall.io/art_crop/front/b/3/b3dbbe30-3d6e-46f8-92c1-caee995cba1a.jpg?1767732716",
-      "prob_norm": 0.5525129984614725,
-      "self_prob_norm": 0.6176025735533436
+      "prob_norm": 0.1894510045566833,
+      "self_prob_norm": 1.0320444021855335
     },
     {
       "id": "Wildvine Pummeler",
@@ -1608,8 +1608,8 @@
       "self_prob": 1.0185300355744604,
       "card_image": "https://cards.scryfall.io/normal/front/1/1/11bad5c7-fe9a-4d89-a531-8d4f03d5a0e4.jpg?1767957300",
       "image": "https://cards.scryfall.io/art_crop/front/1/1/11bad5c7-fe9a-4d89-a531-8d4f03d5a0e4.jpg?1767957300",
-      "prob_norm": 0.5641586997902786,
-      "self_prob_norm": 0.5975823225277905
+      "prob_norm": 0.21054527429154157,
+      "self_prob_norm": 1.0185300355744604
     },
     {
       "id": "Shinestriker",
@@ -1617,8 +1617,8 @@
       "self_prob": 0.9786690904662442,
       "card_image": "https://cards.scryfall.io/normal/front/2/1/214e78f9-5364-49ab-b17e-0c76549c583e.jpg?1767659586",
       "image": "https://cards.scryfall.io/art_crop/front/2/1/214e78f9-5364-49ab-b17e-0c76549c583e.jpg?1767659586",
-      "prob_norm": 0.563684636179982,
-      "self_prob_norm": 0.5408200959694475
+      "prob_norm": 0.20968658614690047,
+      "self_prob_norm": 0.9786690904662442
     },
     {
       "id": "Sting-Slinger",
@@ -1626,8 +1626,8 @@
       "self_prob": 0.9632399680162088,
       "card_image": "https://cards.scryfall.io/normal/front/3/8/386c5f73-fb8f-46c8-ad45-56e2c19b7d1f.jpg?1767957220",
       "image": "https://cards.scryfall.io/art_crop/front/3/8/386c5f73-fb8f-46c8-ad45-56e2c19b7d1f.jpg?1767957220",
-      "prob_norm": 0.5630676879144193,
-      "self_prob_norm": 0.5197558392060723
+      "prob_norm": 0.20856908598449808,
+      "self_prob_norm": 0.9632399680162088
     },
     {
       "id": "Sizzling Changeling",
@@ -1635,8 +1635,8 @@
       "self_prob": 1.008647502003487,
       "card_image": "https://cards.scryfall.io/normal/front/e/5/e58f0722-9ad1-4952-9aee-ea8137c58911.jpg?1767658331",
       "image": "https://cards.scryfall.io/art_crop/front/e/5/e58f0722-9ad1-4952-9aee-ea8137c58911.jpg?1767658331",
-      "prob_norm": 0.563025053221806,
-      "self_prob_norm": 0.5831921691721307
+      "prob_norm": 0.20849186026140454,
+      "self_prob_norm": 1.008647502003487
     },
     {
       "id": "Dawn-Blessed Pennant",
@@ -1644,8 +1644,8 @@
       "self_prob": 1.0,
       "card_image": "https://cards.scryfall.io/normal/front/2/9/294266b6-0343-4fa5-90b8-0adf7df490e4.jpg?1767658603",
       "image": "https://cards.scryfall.io/art_crop/front/2/9/294266b6-0343-4fa5-90b8-0adf7df490e4.jpg?1767658603",
-      "prob_norm": 0.5547699223257255,
-      "self_prob_norm": 0.5707726315688031
+      "prob_norm": 0.19353905038745117,
+      "self_prob_norm": 1.0
     },
     {
       "id": "Gravelgill Scoundrel",
@@ -1653,8 +1653,8 @@
       "self_prob": 1.0,
       "card_image": "https://cards.scryfall.io/normal/front/3/2/320bc30c-7a8a-411a-9f36-9c69126e131b.jpg?1767871759",
       "image": "https://cards.scryfall.io/art_crop/front/3/2/320bc30c-7a8a-411a-9f36-9c69126e131b.jpg?1767871759",
-      "prob_norm": 0.5551484833892469,
-      "self_prob_norm": 0.5707726315688031
+      "prob_norm": 0.19422475139931566,
+      "self_prob_norm": 1.0
     },
     {
       "id": "Auntie's Sentence",
@@ -1662,8 +1662,8 @@
       "self_prob": 1.0,
       "card_image": "https://cards.scryfall.io/normal/front/e/6/e64bfe16-7362-4982-9136-1f4e0d335441.jpg?1767871817",
       "image": "https://cards.scryfall.io/art_crop/front/e/6/e64bfe16-7362-4982-9136-1f4e0d335441.jpg?1767871817",
-      "prob_norm": 0.5618563020081493,
-      "self_prob_norm": 0.5707726315688031
+      "prob_norm": 0.20637485994877966,
+      "self_prob_norm": 1.0
     },
     {
       "id": "Tributary Vaulter",
@@ -1671,8 +1671,8 @@
       "self_prob": 1.019730219090167,
       "card_image": "https://cards.scryfall.io/normal/front/a/1/a1db2c83-41d1-4cc6-b9a3-fed504b01127.jpg?1767871741",
       "image": "https://cards.scryfall.io/art_crop/front/a/1/a1db2c83-41d1-4cc6-b9a3-fed504b01127.jpg?1767871741",
-      "prob_norm": 0.5614979925052322,
-      "self_prob_norm": 0.5993442794494992
+      "prob_norm": 0.20572584130321306,
+      "self_prob_norm": 1.019730219090167
     },
     {
       "id": "Wild Unraveling",
@@ -1680,8 +1680,8 @@
       "self_prob": 1.0,
       "card_image": "https://cards.scryfall.io/normal/front/0/1/01522fec-9136-4fa6-91a3-370a8bb08b42.jpg?1767871807",
       "image": "https://cards.scryfall.io/art_crop/front/0/1/01522fec-9136-4fa6-91a3-370a8bb08b42.jpg?1767871807",
-      "prob_norm": 0.5564863657007544,
-      "self_prob_norm": 0.5707726315688031
+      "prob_norm": 0.19664810483725992,
+      "self_prob_norm": 1.0
     },
     {
       "id": "Chaos Spewer",
@@ -1689,8 +1689,8 @@
       "self_prob": 1.0,
       "card_image": "https://cards.scryfall.io/normal/front/b/5/b5918fa5-1d13-447b-8838-633b6b61e791.jpg?1767749712",
       "image": "https://cards.scryfall.io/art_crop/front/b/5/b5918fa5-1d13-447b-8838-633b6b61e791.jpg?1767749712",
-      "prob_norm": 0.5601591852095812,
-      "self_prob_norm": 0.5707726315688031
+      "prob_norm": 0.20330081240885148,
+      "self_prob_norm": 1.0
     },
     {
       "id": "Pestered Wellguard",
@@ -1698,8 +1698,8 @@
       "self_prob": 0.9770827928538648,
       "card_image": "https://cards.scryfall.io/normal/front/3/e/3e06c99e-ecb2-42e9-ac58-2542de8d54a5.jpg?1767871787",
       "image": "https://cards.scryfall.io/art_crop/front/3/e/3e06c99e-ecb2-42e9-ac58-2542de8d54a5.jpg?1767871787",
-      "prob_norm": 0.558081104180179,
-      "self_prob_norm": 0.5386312585846449
+      "prob_norm": 0.1995367109153096,
+      "self_prob_norm": 0.9770827928538648
     },
     {
       "id": "Moonlit Lamenter",
@@ -1707,8 +1707,8 @@
       "self_prob": 1.0271397625474357,
       "card_image": "https://cards.scryfall.io/normal/front/f/b/fb8fc509-cff6-470f-abf6-b07f6c3f94e1.jpg?1767956948",
       "image": "https://cards.scryfall.io/art_crop/front/f/b/fb8fc509-cff6-470f-abf6-b07f6c3f94e1.jpg?1767956948",
-      "prob_norm": 0.5585363306065273,
-      "self_prob_norm": 0.6102910421075846
+      "prob_norm": 0.20036127860399616,
+      "self_prob_norm": 1.0271397625474357
     },
     {
       "id": "Stratosoarer",
@@ -1716,8 +1716,8 @@
       "self_prob": 0.985630359354136,
       "card_image": "https://cards.scryfall.io/normal/front/4/f/4f607889-6f3f-4511-8920-88a39f3b28ca.jpg?1767871852",
       "image": "https://cards.scryfall.io/art_crop/front/4/f/4f607889-6f3f-4511-8920-88a39f3b28ca.jpg?1767871852",
-      "prob_norm": 0.5585363306065273,
-      "self_prob_norm": 0.5504885890188497
+      "prob_norm": 0.20036127860399616,
+      "self_prob_norm": 0.985630359354136
     }
   ],
   "links": [
@@ -1731,1069 +1731,565 @@
       "source": "Liminal Hold",
       "target": "Silvergill Peddler",
       "weight": 1.2364466648624073,
-      "weight_norm": 0.9529093334046623
+      "weight_norm": 0.8664788342022709
     },
     {
       "source": "Graveshifter",
       "target": "Scarblade Scout",
       "weight": 1.2281343451117088,
-      "weight_norm": 0.9369745695264876
+      "weight_norm": 0.8204029570924437
     },
     {
       "source": "Changeling Wayfinder",
       "target": "Shinestriker",
       "weight": 1.1898422221099818,
-      "weight_norm": 0.8656384766862696
+      "weight_norm": 0.6081465465334408
     },
     {
       "source": "Explosive Prodigy",
       "target": "Twinflame Travelers",
       "weight": 1.1891927294921232,
-      "weight_norm": 0.8644576570017009
+      "weight_norm": 0.6045463551378103
     },
     {
       "source": "Changeling Wayfinder",
       "target": "Liminal Hold",
       "weight": 1.1836917229727548,
-      "weight_norm": 0.8544952228279872
+      "weight_norm": 0.5740538202054918
     },
     {
       "source": "Flame-Chain Mauler",
       "target": "Tanufel Rimespeaker",
       "weight": 1.1779683616810208,
-      "weight_norm": 0.8442035566181415
+      "weight_norm": 0.5423287543463591
     },
     {
       "source": "Flamekin Gildweaver",
       "target": "Omni-Changeling",
       "weight": 1.1706947794270188,
-      "weight_norm": 0.8312321193195957
+      "weight_norm": 0.5020106852471218
     },
     {
       "source": "Dawnhand Eulogist",
       "target": "Morcant's Eyes",
       "weight": 1.1688254275616492,
-      "weight_norm": 0.8279178376216262
+      "weight_norm": 0.4916487129689789
     },
     {
       "source": "Shinestriker",
       "target": "Summit Sentinel",
       "weight": 1.1667385067913418,
-      "weight_norm": 0.8242271968733106
+      "weight_norm": 0.48008073822371616
     },
     {
       "source": "Temporal Cleansing",
       "target": "Tweeze",
       "weight": 1.1640016464089666,
-      "weight_norm": 0.8194021489382645
+      "weight_norm": 0.4649100943568849
     },
     {
       "source": "Blight Rot",
       "target": "Moonglove Extractor",
       "weight": 1.1635467796700545,
-      "weight_norm": 0.8186018718214684
+      "weight_norm": 0.4623887303343203
     },
     {
       "source": "Moon-Vigil Adherents",
       "target": "Scarblade Scout",
       "weight": 1.1546623829831042,
-      "weight_norm": 0.8030649209260019
+      "weight_norm": 0.41314178336642
     },
     {
       "source": "Stratosoarer",
       "target": "Tanufel Rimespeaker",
       "weight": 1.1521671576251526,
-      "weight_norm": 0.7987333919652424
+      "weight_norm": 0.39931054246105907
     },
     {
       "source": "Great Forest Druid",
       "target": "Prismabasher",
       "weight": 1.151750520059154,
-      "weight_norm": 0.7980115086734761
+      "weight_norm": 0.39700108591149874
     },
     {
       "source": "Moonlit Lamenter",
       "target": "Spiral into Solitude",
       "weight": 1.150930300422706,
-      "weight_norm": 0.7965915068178129
+      "weight_norm": 0.3924545405059436
     },
     {
       "source": "Foraging Wickermaw",
       "target": "Shinestriker",
       "weight": 1.1498620263516908,
-      "weight_norm": 0.7947443364338397
+      "weight_norm": 0.3865330088166003
     },
     {
       "source": "Blight Rot",
       "target": "Morcant's Eyes",
       "weight": 1.14794398577537,
-      "weight_norm": 0.7914342754309587
+      "weight_norm": 0.375901150979467
     },
     {
       "source": "Explosive Prodigy",
       "target": "Shinestriker",
       "weight": 1.147713544435282,
-      "weight_norm": 0.7910371486553095
+      "weight_norm": 0.37462379553774144
     },
     {
       "source": "Blossombind",
       "target": "Stratosoarer",
       "weight": 1.1457099970539188,
-      "weight_norm": 0.787589411213085
+      "weight_norm": 0.3635179663954439
     },
     {
       "source": "Evolving Wilds",
       "target": "Unexpected Assistance",
       "weight": 1.143463563903918,
-      "weight_norm": 0.78373445223609
+      "weight_norm": 0.35106580131286413
     },
     {
       "source": "Enraged Flamecaster",
       "target": "Stratosoarer",
       "weight": 1.1409490100509982,
-      "weight_norm": 0.7794328430876463
+      "weight_norm": 0.3371274209583989
     },
     {
       "source": "Lys Alana Informant",
       "target": "Moon-Vigil Adherents",
       "weight": 1.1389225281543107,
-      "weight_norm": 0.7759765030362276
+      "weight_norm": 0.32589446389737897
     },
     {
       "source": "Gristle Glutton",
       "target": "Mudbutton Cursetosser",
       "weight": 1.1365513592417678,
-      "weight_norm": 0.7719439650903118
+      "weight_norm": 0.3127508781478303
     },
     {
       "source": "Bogslither's Embrace",
       "target": "Dream Seizer",
       "weight": 1.1352442294014609,
-      "weight_norm": 0.7697263776547183
+      "weight_norm": 0.30550534913849353
     },
     {
       "source": "Morcant's Eyes",
       "target": "Scarblade Scout",
       "weight": 1.133494455969274,
-      "weight_norm": 0.7667638208089212
+      "weight_norm": 0.29580621002336116
     },
     {
       "source": "Lys Alana Dignitary",
       "target": "Safewright Cavalry",
       "weight": 1.1327542472306664,
-      "weight_norm": 0.7655126295725141
+      "weight_norm": 0.29170317165397786
     },
     {
       "source": "Enraged Flamecaster",
       "target": "Twinflame Travelers",
       "weight": 1.1316779276962698,
-      "weight_norm": 0.7636954897852153
+      "weight_norm": 0.28573704329449123
     },
     {
       "source": "Summit Sentinel",
       "target": "Twinflame Travelers",
       "weight": 1.1313281049496693,
-      "weight_norm": 0.7631054453193697
+      "weight_norm": 0.28379794682491244
     },
     {
       "source": "Dundoolin Weaver",
       "target": "Lys Alana Informant",
       "weight": 1.130542608845759,
-      "weight_norm": 0.7617815494251741
+      "weight_norm": 0.2794438768372927
     },
     {
       "source": "Bogslither's Embrace",
       "target": "Morcant's Eyes",
       "weight": 1.1304192801103123,
-      "weight_norm": 0.7615738131841896
+      "weight_norm": 0.27876025543809463
     },
     {
       "source": "Temporal Cleansing",
       "target": "Unwelcome Sprite",
       "weight": 1.1288495611304092,
-      "weight_norm": 0.7589327308996867
+      "weight_norm": 0.2700591730706964
     },
     {
       "source": "Changeling Wayfinder",
       "target": "Flaring Cinder",
       "weight": 1.127873695510759,
-      "weight_norm": 0.7572935925470811
+      "weight_norm": 0.26464986908393184
     },
     {
       "source": "Chitinous Graspling",
       "target": "Evolving Wilds",
       "weight": 1.125971002016448,
-      "weight_norm": 0.7541037960238601
+      "weight_norm": 0.25410308139398863
     },
     {
       "source": "Evolving Wilds",
       "target": "Spiral into Solitude",
       "weight": 1.125954984017803,
-      "weight_norm": 0.7540769767170513
+      "weight_norm": 0.25401429230030004
     },
     {
       "source": "Kulrath Zealot",
       "target": "Tweeze",
       "weight": 1.1255614984960165,
-      "weight_norm": 0.7534183344730172
+      "weight_norm": 0.25183316945011086
     },
     {
       "source": "Moonglove Extractor",
       "target": "Stoic Grove-Guide",
       "weight": 1.1250582120515953,
-      "weight_norm": 0.7525764033961475
+      "weight_norm": 0.24904341098801067
     },
     {
       "source": "Blossombind",
       "target": "Tanufel Rimespeaker",
       "weight": 1.1250130724883518,
-      "weight_norm": 0.7525009185288698
+      "weight_norm": 0.24879319864883506
     },
     {
       "source": "Flamebraider",
       "target": "Shinestriker",
       "weight": 1.1246804134526722,
-      "weight_norm": 0.7519447678407453
+      "weight_norm": 0.24694924205102034
     },
     {
       "source": "Blight Rot",
       "target": "Unbury",
       "weight": 1.124025853253598,
-      "weight_norm": 0.7508511720715846
+      "weight_norm": 0.24332096063282882
     },
     {
       "source": "Assert Perfection",
       "target": "Bristlebane Outrider",
       "weight": 1.123471056723139,
-      "weight_norm": 0.7499250024713648
+      "weight_norm": 0.24024567749586292
     },
     {
       "source": "Gravelgill Scoundrel",
       "target": "Wanderbrine Preacher",
       "weight": 1.1229886473493689,
-      "weight_norm": 0.7491202323998852
+      "weight_norm": 0.23757164236618789
     },
     {
       "source": "Changeling Wayfinder",
       "target": "Summit Sentinel",
       "weight": 1.12196033843999,
-      "weight_norm": 0.7474065061381057
+      "weight_norm": 0.23187164087917875
     },
     {
       "source": "Shore Lurker",
       "target": "Wanderbrine Preacher",
       "weight": 1.12109147831493,
-      "weight_norm": 0.7459603440857498
+      "weight_norm": 0.22705547721505395
     },
     {
       "source": "Midnight Tilling",
       "target": "Stoic Grove-Guide",
       "weight": 1.1204069030409154,
-      "weight_norm": 0.7448220958505314
+      "weight_norm": 0.22326081974951667
     },
     {
       "source": "Dundoolin Weaver",
       "target": "Mistmeadow Council",
       "weight": 1.1200170743590565,
-      "weight_norm": 0.7441743908705669
+      "weight_norm": 0.22109996706603965
     },
     {
       "source": "Feed the Flames",
       "target": "Shinestriker",
       "weight": 1.1195590077643671,
-      "weight_norm": 0.7434137397981727
+      "weight_norm": 0.21856086597777222
     },
     {
       "source": "Assert Perfection",
       "target": "Changeling Wayfinder",
       "weight": 1.1174717942453098,
-      "weight_norm": 0.7399536848194254
+      "weight_norm": 0.20699126850193258
     },
     {
       "source": "Flamekin Gildweaver",
       "target": "Twinflame Travelers",
       "weight": 1.1151724312138356,
-      "weight_norm": 0.7361531473873879
+      "weight_norm": 0.19424570870074884
     },
     {
       "source": "Omni-Changeling",
       "target": "Temporal Cleansing",
       "weight": 1.1143225380971122,
-      "weight_norm": 0.7347513598577408
+      "weight_norm": 0.18953468073537946
     },
     {
       "source": "Feed the Flames",
       "target": "Stratosoarer",
       "weight": 1.1114001527554278,
-      "weight_norm": 0.7299434946678228
+      "weight_norm": 0.17333565664710401
     },
     {
       "source": "Mistmeadow Council",
       "target": "Surly Farrier",
       "weight": 1.1105310108002695,
-      "weight_norm": 0.7285172476462419
+      "weight_norm": 0.16851793077539365
     },
     {
       "source": "Shore Lurker",
       "target": "Silvergill Peddler",
       "weight": 1.1090589067531924,
-      "weight_norm": 0.7261053672207203
+      "weight_norm": 0.16035793606870494
     },
     {
       "source": "Midnight Tilling",
       "target": "Moon-Vigil Adherents",
       "weight": 1.1083766841904727,
-      "weight_norm": 0.7249892476286258
+      "weight_norm": 0.15657631987681325
     },
     {
       "source": "Midnight Tilling",
       "target": "Morcant's Eyes",
       "weight": 1.1080998791967105,
-      "weight_norm": 0.7245366870049641
+      "weight_norm": 0.15504196686123
     },
     {
       "source": "Blight Rot",
       "target": "Mischievous Sneakling",
       "weight": 1.1079713878084485,
-      "weight_norm": 0.7243266684175468
+      "weight_norm": 0.15432972844971643
     },
     {
       "source": "Evolving Wilds",
       "target": "Flaring Cinder",
       "weight": 1.1072277749291384,
-      "weight_norm": 0.7231119539491422
+      "weight_norm": 0.15020782064636234
     },
     {
       "source": "Evolving Wilds",
       "target": "Wildvine Pummeler",
       "weight": 1.1059517109743655,
-      "weight_norm": 0.7210303143512377
+      "weight_norm": 0.1431344924145587
     },
     {
       "source": "Reluctant Dounguard",
       "target": "Timid Shieldbearer",
       "weight": 1.1049146587153862,
-      "weight_norm": 0.7193412253990678
+      "weight_norm": 0.13738602581626827
     },
     {
       "source": "Blossombind",
       "target": "Eclipsed Merrow",
       "weight": 1.1043234913235305,
-      "weight_norm": 0.718379430646503
+      "weight_norm": 0.1341091359810099
     },
     {
       "source": "Dawnhand Eulogist",
       "target": "Evolving Wilds",
       "weight": 1.104032290863074,
-      "weight_norm": 0.7179059483453762
+      "weight_norm": 0.13249498770077908
     },
     {
       "source": "Mistmeadow Council",
       "target": "Timid Shieldbearer",
       "weight": 1.1026735962398768,
-      "weight_norm": 0.7156992311200893
+      "weight_norm": 0.12496363082739187
     },
     {
       "source": "Blossombind",
       "target": "Twinflame Travelers",
       "weight": 1.1001895849617591,
-      "weight_norm": 0.7116753694177494
+      "weight_norm": 0.11119455049571203
     },
     {
       "source": "Keep Out",
       "target": "Liminal Hold",
       "weight": 1.0992524893986058,
-      "weight_norm": 0.710160898940356
+      "weight_norm": 0.10600015214447076
     },
     {
       "source": "Blossombind",
       "target": "Shinestriker",
       "weight": 1.0978186726686785,
-      "weight_norm": 0.7078474070607049
+      "weight_norm": 0.0980523872091058
     },
     {
       "source": "Moonglove Extractor",
       "target": "Safewright Cavalry",
       "weight": 1.0977464797749703,
-      "weight_norm": 0.7077310421418458
+      "weight_norm": 0.09765221601761358
     },
     {
       "source": "Gristle Glutton",
       "target": "Heirloom Auntie",
       "weight": 1.0971878955100207,
-      "weight_norm": 0.7068310698500815
+      "weight_norm": 0.09455593715452751
     },
     {
       "source": "Kulrath Zealot",
       "target": "Summit Sentinel",
       "weight": 1.096865879243169,
-      "weight_norm": 0.7063125602032834
+      "weight_norm": 0.0927709743061503
     },
     {
       "source": "Evolving Wilds",
       "target": "Tweeze",
       "weight": 1.0953254422790968,
-      "weight_norm": 0.7038353106053366
+      "weight_norm": 0.08423220457871544
     },
     {
       "source": "Foraging Wickermaw",
       "target": "Wildvine Pummeler",
       "weight": 1.0951640497284827,
-      "weight_norm": 0.703576069792819
+      "weight_norm": 0.08333759229820115
     },
     {
       "source": "Summit Sentinel",
       "target": "Tweeze",
       "weight": 1.094865148916129,
-      "weight_norm": 0.7030961042265106
+      "weight_norm": 0.0816807603293779
     },
     {
       "source": "Cinder Strike",
       "target": "Shinestriker",
       "weight": 1.0944781018270269,
-      "weight_norm": 0.7024748881024879
+      "weight_norm": 0.0795353262450255
     },
     {
       "source": "Bile-Vial Boggart",
       "target": "Gristle Glutton",
       "weight": 1.0935003870642608,
-      "weight_norm": 0.7009071089586114
+      "weight_norm": 0.07411577230475642
     },
     {
       "source": "Shinestriker",
       "target": "Temporal Cleansing",
       "weight": 1.0926059618395385,
-      "weight_norm": 0.699474726138741
+      "weight_norm": 0.06915789917496373
     },
     {
       "source": "Bogslither's Embrace",
       "target": "Elder Auntie",
       "weight": 1.0925006669629955,
-      "weight_norm": 0.6993062166663159
+      "weight_norm": 0.0685742409498959
     },
     {
       "source": "Blighted Blackthorn",
       "target": "Bogslither's Embrace",
       "weight": 1.0918638265491971,
-      "weight_norm": 0.6982875633332425
+      "weight_norm": 0.06504418176969155
     },
     {
       "source": "Evolving Wilds",
       "target": "Tanufel Rimespeaker",
       "weight": 1.0911696897469214,
-      "weight_norm": 0.6971782766259853
+      "weight_norm": 0.06119652396076568
     },
     {
       "source": "Explosive Prodigy",
       "target": "Unexpected Assistance",
       "weight": 1.0907758443219262,
-      "weight_norm": 0.6965493502737047
+      "weight_norm": 0.05901340613726976
     },
     {
       "source": "Liminal Hold",
       "target": "Sun-Dappled Celebrant",
       "weight": 1.0891970987965072,
-      "weight_norm": 0.6940316910652397
+      "weight_norm": 0.05026228888016658
     },
     {
       "source": "Assert Perfection",
       "target": "Moonglove Extractor",
       "weight": 1.0881460009424675,
-      "weight_norm": 0.6923585151926096
+      "weight_norm": 0.044435966384684424
     },
     {
       "source": "Goldmeadow Nomad",
       "target": "Mistmeadow Council",
       "weight": 1.0878385322241249,
-      "weight_norm": 0.6918695333057813
+      "weight_norm": 0.042731641803055914
     },
     {
       "source": "Brambleback Brute",
       "target": "Cinder Strike",
       "weight": 1.086799478601004,
-      "weight_norm": 0.6902186112750656
+      "weight_norm": 0.03697208147750252
     },
     {
       "source": "Feed the Flames",
       "target": "Kulrath Zealot",
       "weight": 1.0863257812200595,
-      "weight_norm": 0.6894667525337596
+      "weight_norm": 0.034346337645907075
     },
     {
       "source": "Cinder Strike",
       "target": "Omni-Changeling",
       "weight": 1.085379743553997,
-      "weight_norm": 0.6879666602751636
+      "weight_norm": 0.029102372477326353
     },
     {
       "source": "Liminal Hold",
       "target": "Tributary Vaulter",
       "weight": 1.084795009850828,
-      "weight_norm": 0.6870404527224566
+      "weight_norm": 0.025861145111534013
     },
     {
       "source": "Burning Curiosity",
       "target": "Kulrath Zealot",
       "weight": 1.0847897021566857,
-      "weight_norm": 0.6870320488600405
+      "weight_norm": 0.02583172412312435
     },
     {
       "source": "Feed the Flames",
       "target": "Sear",
       "weight": 1.084129453336106,
-      "weight_norm": 0.6859871342225399
+      "weight_norm": 0.02217191020458774
     },
     {
       "source": "Liminal Hold",
       "target": "Moonlit Lamenter",
       "weight": 1.0839035989763548,
-      "weight_norm": 0.6856299144788823
+      "weight_norm": 0.02091998077493056
     },
     {
       "source": "Ashling's Command",
       "target": "Flamekin Gildweaver",
       "weight": 1.08315392406074,
-      "weight_norm": 0.6844450006379398
+      "weight_norm": 0.016764470602058906
     },
     {
       "source": "Flame-Chain Mauler",
       "target": "Sear",
       "weight": 1.0829542082627446,
-      "weight_norm": 0.6841295432180196
+      "weight_norm": 0.01565742938597082
     },
     {
       "source": "Changeling Wayfinder",
       "target": "Stratosoarer",
       "weight": 1.0828879666291515,
-      "weight_norm": 0.6840249317320921
+      "weight_norm": 0.015290246522398906
     },
     {
       "source": "Merrow Skyswimmer",
       "target": "Timid Shieldbearer",
       "weight": 1.0824781724437504,
-      "weight_norm": 0.6833779814107654
+      "weight_norm": 0.013018723398510852
     },
     {
       "source": "Bogslither's Embrace",
       "target": "Scarblade's Malice",
       "weight": 1.0823572996089483,
-      "weight_norm": 0.6831872271803221
+      "weight_norm": 0.012348715260073865
     },
     {
       "source": "Keep Out",
       "target": "Timid Shieldbearer",
       "weight": 1.0803281212466582,
-      "weight_norm": 0.6799896692114801
+      "weight_norm": 0.0011008114667984505
     },
     {
       "source": "Lys Alana Informant",
       "target": "Morcant's Eyes",
       "weight": 1.0801295293267377,
-      "weight_norm": 0.6796772135928243
-    },
-    {
-      "source": "Eclipsed Flamekin",
-      "target": "Twinflame Travelers",
-      "weight": 1.0798865985363075,
-      "weight_norm": 0.6792951143457023
-    },
-    {
-      "source": "Silvergill Mentor",
-      "target": "Temporal Cleansing",
-      "weight": 1.0795364080679628,
-      "weight_norm": 0.6787445361149852
-    },
-    {
-      "source": "Blight Rot",
-      "target": "Eclipsed Elf",
-      "weight": 1.0790728568889592,
-      "weight_norm": 0.6780161412509019
-    },
-    {
-      "source": "Crossroads Watcher",
-      "target": "Eclipsed Kithkin",
-      "weight": 1.078223710140293,
-      "weight_norm": 0.6766830629315628
-    },
-    {
-      "source": "Evolving Wilds",
-      "target": "Gristle Glutton",
-      "weight": 1.077489080922876,
-      "weight_norm": 0.6755310358764981
-    },
-    {
-      "source": "Mischievous Sneakling",
-      "target": "Prideful Feastling",
-      "weight": 1.077281241186652,
-      "weight_norm": 0.6752053205548028
-    },
-    {
-      "source": "Crossroads Watcher",
-      "target": "Timid Shieldbearer",
-      "weight": 1.0770677823160626,
-      "weight_norm": 0.6748708973292902
-    },
-    {
-      "source": "Cinder Strike",
-      "target": "Gangly Stompling",
-      "weight": 1.075921360949183,
-      "weight_norm": 0.6730765142130358
-    },
-    {
-      "source": "Morcant's Loyalist",
-      "target": "Scarblade Scout",
-      "weight": 1.0748358982239798,
-      "weight_norm": 0.671380184959841
-    },
-    {
-      "source": "Blossombind",
-      "target": "Shore Lurker",
-      "weight": 1.0747989285691597,
-      "weight_norm": 0.6713224550927904
-    },
-    {
-      "source": "Flaring Cinder",
-      "target": "Mischievous Sneakling",
-      "weight": 1.0746860302348882,
-      "weight_norm": 0.6711461774325638
-    },
-    {
-      "source": "Mischievous Sneakling",
-      "target": "Unexpected Assistance",
-      "weight": 1.0746812377118526,
-      "weight_norm": 0.6711386950780267
-    },
-    {
-      "source": "Merrow Skyswimmer",
-      "target": "Shinestriker",
-      "weight": 1.0742899640926815,
-      "weight_norm": 0.6705279856987982
-    },
-    {
-      "source": "Eclipsed Flamekin",
-      "target": "Feed the Flames",
-      "weight": 1.0740793360129486,
-      "weight_norm": 0.6701993703814823
-    },
-    {
-      "source": "Blight Rot",
-      "target": "Graveshifter",
-      "weight": 1.0735418035313016,
-      "weight_norm": 0.6693611671157403
-    },
-    {
-      "source": "Assert Perfection",
-      "target": "Morcant's Eyes",
-      "weight": 1.073264165222948,
-      "weight_norm": 0.6689284772645319
-    },
-    {
-      "source": "Evolving Wilds",
-      "target": "Great Forest Druid",
-      "weight": 1.072656673245838,
-      "weight_norm": 0.6679823071551962
-    },
-    {
-      "source": "Safewright Cavalry",
-      "target": "Scarblade's Malice",
-      "weight": 1.0723808060362152,
-      "weight_norm": 0.6675529086409172
-    },
-    {
-      "source": "Flame-Chain Mauler",
-      "target": "Stratosoarer",
-      "weight": 1.0713317496578227,
-      "weight_norm": 0.6659215223954383
-    },
-    {
-      "source": "Evolving Wilds",
-      "target": "Safewright Cavalry",
-      "weight": 1.070849195798417,
-      "weight_norm": 0.6651719075972625
-    },
-    {
-      "source": "Deepchannel Duelist",
-      "target": "Merrow Skyswimmer",
-      "weight": 1.070688538546571,
-      "weight_norm": 0.6649224498143971
-    },
-    {
-      "source": "Evolving Wilds",
-      "target": "Stratosoarer",
-      "weight": 1.070619573187749,
-      "weight_norm": 0.6648153822629558
-    },
-    {
-      "source": "Gristle Glutton",
-      "target": "Sting-Slinger",
-      "weight": 1.0701647688099944,
-      "weight_norm": 0.6641095652123733
-    },
-    {
-      "source": "Flamebraider",
-      "target": "Flaring Cinder",
-      "weight": 1.069288933027427,
-      "weight_norm": 0.6627516108959082
-    },
-    {
-      "source": "Feed the Flames",
-      "target": "Tanufel Rimespeaker",
-      "weight": 1.0690870562665151,
-      "weight_norm": 0.6624388441586455
-    },
-    {
-      "source": "Blight Rot",
-      "target": "Safewright Cavalry",
-      "weight": 1.0690080251628715,
-      "weight_norm": 0.6623164257595546
-    },
-    {
-      "source": "Evolving Wilds",
-      "target": "Mischievous Sneakling",
-      "weight": 1.068872209951573,
-      "weight_norm": 0.6621060810470851
-    },
-    {
-      "source": "Meanders Guide",
-      "target": "Merrow Skyswimmer",
-      "weight": 1.068552816782855,
-      "weight_norm": 0.66161157673068
-    },
-    {
-      "source": "Tanufel Rimespeaker",
-      "target": "Temporal Cleansing",
-      "weight": 1.068429028857203,
-      "weight_norm": 0.6614199801907094
-    },
-    {
-      "source": "Noggle the Mind",
-      "target": "Unexpected Assistance",
-      "weight": 1.068264802047849,
-      "weight_norm": 0.6611658445200976
-    },
-    {
-      "source": "Bile-Vial Boggart",
-      "target": "Cinder Strike",
-      "weight": 1.0678933973178253,
-      "weight_norm": 0.6605913238239691
-    },
-    {
-      "source": "Silvergill Peddler",
-      "target": "Wanderbrine Preacher",
-      "weight": 1.0676457912529222,
-      "weight_norm": 0.6602084719966363
-    },
-    {
-      "source": "Evolving Wilds",
-      "target": "Feed the Flames",
-      "weight": 1.0664179903191944,
-      "weight_norm": 0.6583119966677589
-    },
-    {
-      "source": "Changeling Wayfinder",
-      "target": "Mischievous Sneakling",
-      "weight": 1.0663543925713572,
-      "weight_norm": 0.6582138520187009
-    },
-    {
-      "source": "Creakwood Safewright",
-      "target": "Midnight Tilling",
-      "weight": 1.066069862133872,
-      "weight_norm": 0.6577748694450513
-    },
-    {
-      "source": "Merrow Skyswimmer",
-      "target": "Protective Response",
-      "weight": 1.065628184997205,
-      "weight_norm": 0.6570937840315794
-    },
-    {
-      "source": "Kulrath Zealot",
-      "target": "Stratosoarer",
-      "weight": 1.065477381579552,
-      "weight_norm": 0.656861335526865
-    },
-    {
-      "source": "Burning Curiosity",
-      "target": "Gristle Glutton",
-      "weight": 1.064461413648922,
-      "weight_norm": 0.655296607631446
-    },
-    {
-      "source": "Flock Impostor",
-      "target": "Liminal Hold",
-      "weight": 1.0644546279603038,
-      "weight_norm": 0.6552861642809044
-    },
-    {
-      "source": "Spiral into Solitude",
-      "target": "Unexpected Assistance",
-      "weight": 1.06428774391337,
-      "weight_norm": 0.6550293568373856
-    },
-    {
-      "source": "Mistmeadow Council",
-      "target": "Reluctant Dounguard",
-      "weight": 1.0642473639735166,
-      "weight_norm": 0.654967227743221
-    },
-    {
-      "source": "Deepchannel Duelist",
-      "target": "Gravelgill Scoundrel",
-      "weight": 1.0639817700855485,
-      "weight_norm": 0.6545586696849652
-    },
-    {
-      "source": "Pestered Wellguard",
-      "target": "Temporal Cleansing",
-      "weight": 1.0638643960463208,
-      "weight_norm": 0.6543781641520598
-    },
-    {
-      "source": "Dawn's Light Archer",
-      "target": "Morcant's Eyes",
-      "weight": 1.062702430338461,
-      "weight_norm": 0.6525928279687471
-    },
-    {
-      "source": "Blight Rot",
-      "target": "Changeling Wayfinder",
-      "weight": 1.0626100296493717,
-      "weight_norm": 0.6524509818294283
-    },
-    {
-      "source": "Flamekin Gildweaver",
-      "target": "Tanufel Rimespeaker",
-      "weight": 1.062248526880625,
-      "weight_norm": 0.651896209494421
-    },
-    {
-      "source": "Flamebraider",
-      "target": "Kulrath Zealot",
-      "weight": 1.0617311666289306,
-      "weight_norm": 0.6511027464026524
-    },
-    {
-      "source": "Foraging Wickermaw",
-      "target": "Liminal Hold",
-      "weight": 1.061572688035492,
-      "weight_norm": 0.6508598075602007
-    },
-    {
-      "source": "Flaring Cinder",
-      "target": "Summit Sentinel",
-      "weight": 1.0608923618963857,
-      "weight_norm": 0.649817523462562
-    },
-    {
-      "source": "Dawnhand Eulogist",
-      "target": "Lys Alana Dignitary",
-      "weight": 1.060872281504279,
-      "weight_norm": 0.6497867748072271
-    },
-    {
-      "source": "Dawn's Light Archer",
-      "target": "Stoic Grove-Guide",
-      "weight": 1.0608372357650315,
-      "weight_norm": 0.6497331121419181
-    },
-    {
-      "source": "Pitiless Fists",
-      "target": "Scarblade Scout",
-      "weight": 1.060523362324863,
-      "weight_norm": 0.6492526220429392
-    },
-    {
-      "source": "Liminal Hold",
-      "target": "Reluctant Dounguard",
-      "weight": 1.060109730592247,
-      "weight_norm": 0.6486197436334442
-    },
-    {
-      "source": "Dawnhand Eulogist",
-      "target": "Iron-Shield Elf",
-      "weight": 1.059527243654381,
-      "weight_norm": 0.6477291357150599
-    },
-    {
-      "source": "Cinder Strike",
-      "target": "Stratosoarer",
-      "weight": 1.059103492292048,
-      "weight_norm": 0.6470816918207434
-    },
-    {
-      "source": "Pestered Wellguard",
-      "target": "Wanderbrine Preacher",
-      "weight": 1.0584764481920892,
-      "weight_norm": 0.6461243524068534
-    },
-    {
-      "source": "Foraging Wickermaw",
-      "target": "Kulrath Zealot",
-      "weight": 1.057312172439261,
-      "weight_norm": 0.6443490497124712
-    },
-    {
-      "source": "Flame-Chain Mauler",
-      "target": "Twinflame Travelers",
-      "weight": 1.0570250219994255,
-      "weight_norm": 0.643911649500913
-    },
-    {
-      "source": "Elder Auntie",
-      "target": "Heirloom Auntie",
-      "weight": 1.0568700503649335,
-      "weight_norm": 0.6436756639129304
-    },
-    {
-      "source": "Blossombind",
-      "target": "Foraging Wickermaw",
-      "weight": 1.0565784648443206,
-      "weight_norm": 0.6432317879867572
-    },
-    {
-      "source": "Boggart Prankster",
-      "target": "Boneclub Berserker",
-      "weight": 1.0565506170623762,
-      "weight_norm": 0.6431894053689877
-    },
-    {
-      "source": "Changeling Wayfinder",
-      "target": "Lys Alana Informant",
-      "weight": 1.056254936220177,
-      "weight_norm": 0.6427395005868147
-    },
-    {
-      "source": "Kulrath Mystic",
-      "target": "Stratosoarer",
-      "weight": 1.0560665944800496,
-      "weight_norm": 0.6424530202985436
-    },
-    {
-      "source": "Liminal Hold",
-      "target": "Mistmeadow Council",
-      "weight": 1.056060533433605,
-      "weight_norm": 0.6424438023172779
-    },
-    {
-      "source": "Bogslither's Embrace",
-      "target": "Cinder Strike",
-      "weight": 1.0557061101948315,
-      "weight_norm": 0.6419049134555592
-    },
-    {
-      "source": "Enraged Flamecaster",
-      "target": "Kulrath Zealot",
-      "weight": 1.055613975427404,
-      "weight_norm": 0.6417648700090866
-    },
-    {
-      "source": "Gangly Stompling",
-      "target": "Mistmeadow Council",
-      "weight": 1.0554252569598936,
-      "weight_norm": 0.6414780780401155
-    },
-    {
-      "source": "Deepchannel Duelist",
-      "target": "Shore Lurker",
-      "weight": 1.0553327908259074,
-      "weight_norm": 0.6413375870386802
-    },
-    {
-      "source": "Flaring Cinder",
-      "target": "Temporal Cleansing",
-      "weight": 1.054839368926984,
-      "weight_norm": 0.6405882048199694
-    },
-    {
-      "source": "Boggart Mischief",
-      "target": "Boggart Prankster",
-      "weight": 1.054707892590581,
-      "weight_norm": 0.6403886144373071
-    },
-    {
-      "source": "Blight Rot",
-      "target": "Stoic Grove-Guide",
-      "weight": 1.0542190676095191,
-      "weight_norm": 0.6396468707984713
-    },
-    {
-      "source": "Feed the Flames",
-      "target": "Flamebraider",
-      "weight": 1.0538598925285971,
-      "weight_norm": 0.6391021867738399
-    },
-    {
-      "source": "Great Forest Druid",
-      "target": "Wildvine Pummeler",
-      "weight": 1.053053720957092,
-      "weight_norm": 0.6378806523551356
-    },
-    {
-      "source": "Blossombind",
-      "target": "Wild Unraveling",
-      "weight": 1.0530292307227116,
-      "weight_norm": 0.6378435659893303
-    },
-    {
-      "source": "Kulrath Zealot",
-      "target": "Tanufel Rimespeaker",
-      "weight": 1.0529690324706429,
-      "weight_norm": 0.6377524112986893
-    },
-    {
-      "source": "Moonglove Extractor",
-      "target": "Scarblade Scout",
-      "weight": 1.0524094476245176,
-      "weight_norm": 0.6369054387288715
-    },
-    {
-      "source": "Assert Perfection",
-      "target": "Prideful Feastling",
-      "weight": 1.0523003791536685,
-      "weight_norm": 0.6367404342644194
-    },
-    {
-      "source": "Liminal Hold",
-      "target": "Wanderbrine Trapper",
-      "weight": 1.0518663118650209,
-      "weight_norm": 0.6360840088298856
-    },
-    {
-      "source": "Spiral into Solitude",
-      "target": "Wanderbrine Trapper",
-      "weight": 1.0514177652891885,
-      "weight_norm": 0.6354061136023403
-    },
-    {
-      "source": "Bogslither's Embrace",
-      "target": "Graveshifter",
-      "weight": 1.051207481019813,
-      "weight_norm": 0.6350884571174986
-    },
-    {
-      "source": "Evolving Wilds",
-      "target": "Shinestriker",
-      "weight": 1.0509748019637437,
-      "weight_norm": 0.6347370820204428
-    },
-    {
-      "source": "Lys Alana Informant",
-      "target": "Pummeler for Hire",
-      "weight": 1.0506135297931851,
-      "weight_norm": 0.6341917460935841
-    },
-    {
-      "source": "Cinder Strike",
-      "target": "Kulrath Mystic",
-      "weight": 1.0504845225938455,
-      "weight_norm": 0.6339970794437444
-    },
-    {
-      "source": "Bile-Vial Boggart",
-      "target": "Chaos Spewer",
-      "weight": 1.0501035381212862,
-      "weight_norm": 0.633422398569165
+      "weight_norm": 0.0
     }
   ]
 }

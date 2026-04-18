@@ -32,37 +32,22 @@ function initGraph(nodes, links) {
 
   const simulation = d3.forceSimulation(nodes)
 
-    // -----------------------------
-    // LINKS
-    // -----------------------------
     .force("link", d3.forceLink(links)
       .id(d => d.id)
       .distance(d => 190 + (1 - d.weight_norm) * 260)
-      .strength(d => 0.6 + d.weight_norm * 1.1)
+      .strength(d => 0.5 + d.weight_norm * 0.9)
     )
 
-    // -----------------------------
-    // 🔼 MORE SEPARATION (IMPORTANT CHANGE)
-    // -----------------------------
-    .force("charge", d3.forceManyBody().strength(-1450))
+    .force("charge", d3.forceManyBody().strength(-350))
 
-    // -----------------------------
-    // CENTER STABILITY
-    // -----------------------------
-    .force("center", d3.forceCenter(width / 2, height / 2).strength(0.95))
+    .force("center", d3.forceCenter(width / 2, height / 2).strength(0.9))
 
-    // -----------------------------
-    // SOFT GRAVITY
-    // -----------------------------
-    .force("x", d3.forceX(width / 2).strength(0.07))
-    .force("y", d3.forceY(height / 2).strength(0.07))
+    .force("x", d3.forceX(width / 2).strength(0.04))
+    .force("y", d3.forceY(height / 2).strength(0.04))
 
-    // -----------------------------
-    // COLLISION (slightly looser)
-    // -----------------------------
     .force("collide", d3.forceCollide()
-      .radius(d => 18 + Math.pow(d.self_prob_norm, 1.8) * 90)
-      .strength(0.5)
+      .radius(d => 26 + Math.pow(d.self_prob_norm, 1.2) * 95)
+      .strength(0.7)
     );
 
   // -----------------------------
@@ -73,15 +58,12 @@ function initGraph(nodes, links) {
     .data(links)
     .join("line")
     .attr("stroke", d => d3.interpolateRgbBasis([
-      "#ff2d2d",
-      "#ffcc33",
-      "#00ff7f"
+      "#ffffff",
+      "#F200FF",
     ])(d.weight_norm))
-
-    .attr("stroke-width", d => 1 + Math.pow(d.weight_norm, 2.6) * 11)
-
-    .attr("stroke-opacity", d => 0.2 + d.weight_norm * 0.8)
-
+    .attr("stroke-width", d =>
+      0.8 + Math.pow(d.weight_norm, 2.0) * 9
+    )
     .attr("stroke-linecap", "round");
 
   // -----------------------------
@@ -94,10 +76,10 @@ function initGraph(nodes, links) {
     .call(drag(simulation));
 
   // -----------------------------
-  // 🎯 SIZE = PROB (MAIN SIGNAL)
+  // SIZE
   // -----------------------------
   node.append("circle")
-    .attr("r", d => 12 + Math.pow(d.prob_norm, 2.8) * 140)
+    .attr("r", d => 60 * d.prob)
 
     .attr("fill", d => d3.interpolateRgbBasis([
       "#ff3b3b",
@@ -109,15 +91,14 @@ function initGraph(nodes, links) {
     .attr("stroke-width", 2)
 
     // -----------------------------
-    // ✨ SELF_PROB = GLOW ONLY (secondary signal)
+    // ✨ SELF_PROB
     // -----------------------------
     .style("filter", d => {
       const s = d.self_prob_norm;
 
-      if (s > 0.85) return "drop-shadow(0 0 18px #2bff88)";
-      if (s > 0.65) return "drop-shadow(0 0 12px #ffcc33)";
-      if (s > 0.45) return "drop-shadow(0 0 8px #ff6b6b)";
-      return "drop-shadow(0 0 2px rgba(255,255,255,0.05))";
+      if (s > 1.05) return "drop-shadow(0 0 10px #2bff88)";
+      if (s < 0.95) return "drop-shadow(0 0 10px #ff3b3b)";
+      return "drop-shadow(0 0 0px #000000)";
     });
 
   // -----------------------------
@@ -131,7 +112,7 @@ function initGraph(nodes, links) {
     .attr("id", d => `clip-${d.id.replace(/[^a-zA-Z0-9]/g, "-")}`);
 
   clip.append("circle")
-    .attr("r", d => 12 + Math.pow(d.prob_norm, 2.8) * 140)
+    .attr("r", d => 60 * d.prob)
     .attr("cx", 0)
     .attr("cy", 0);
 
@@ -140,10 +121,10 @@ function initGraph(nodes, links) {
   // -----------------------------
   node.append("image")
     .attr("href", d => d.image)
-    .attr("x", d => -(12 + Math.pow(d.prob_norm, 2.8) * 140))
-    .attr("y", d => -(12 + Math.pow(d.prob_norm, 2.8) * 140))
-    .attr("width", d => (12 + Math.pow(d.prob_norm, 2.8) * 140) * 2)
-    .attr("height", d => (12 + Math.pow(d.prob_norm, 2.8) * 140) * 2)
+    .attr("x", d => -(60 * d.prob))
+    .attr("y", d => -(60 * d.prob))
+    .attr("width", d => (60 * d.prob) * 2)
+    .attr("height", d => (60 * d.prob) * 2)
     .attr("clip-path", d =>
       `url(#clip-${d.id.replace(/[^a-zA-Z0-9]/g, "-")})`
     );
@@ -163,18 +144,16 @@ function initGraph(nodes, links) {
 
       link
         .attr("stroke-opacity", l =>
-          l.source.id === d.id || l.target.id === d.id
-            ? 1
-            : 0.06
+          l.source.id === d.id || l.target.id === d.id ? 1 : 0.05
         )
         .attr("stroke-width", l =>
           l.source.id === d.id || l.target.id === d.id
-            ? 4 + l.weight_norm * 10
-            : 1
+            ? 3 + l.weight_norm * 8
+            : 0.8 + Math.pow(l.weight_norm, 2.0) * 9
         );
 
       node.style("opacity", n =>
-        n.id === d.id || connected.has(n.id) ? 1 : 0.2
+        n.id === d.id || connected.has(n.id) ? 1 : 0.3
       );
 
       d3.select("#tooltip")
@@ -191,8 +170,10 @@ function initGraph(nodes, links) {
     .on("mouseout", () => {
 
       link
-        .attr("stroke-opacity", d => 0.2 + d.weight_norm * 0.8)
-        .attr("stroke-width", d => 1 + Math.pow(d.weight_norm, 2.6) * 11);
+        .attr("stroke-opacity", d => 1)
+        .attr("stroke-width", d =>
+          0.8 + Math.pow(d.weight_norm, 2.0) * 9
+        );
 
       node.style("opacity", 1);
 
