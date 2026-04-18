@@ -1,0 +1,197 @@
+feature,type,coefficient,odds_multiplier,count
+Selfless Safewright (repeat),squared,-0.3485707922201094,0.7056959554721651,27
+Bristlebane Battler (repeat),squared,-0.3181491657074258,0.7274942631242637,47
+Trystan's Command (repeat),squared,-0.3107313110047916,0.7329107744754748,61
+"Lluwen, Imperfect Naturalist (repeat)",squared,-0.2725032388118295,0.7614709629100489,53
+Aquitect's Defenses (repeat),squared,-0.2577285399573017,0.772804989310686,101
+Figure of Fable (repeat),squared,-0.22419700789167704,0.7991576784904921,110
+Champions of the Shoal (repeat),squared,-0.20870021093360638,0.8116385195286836,182
+"Sanar, Innovative First-Year (repeat)",squared,-0.2079222236442232,0.8122702096720402,131
+Gloom Ripper (repeat),squared,-0.20450869258074061,0.8150476570191497,52
+Blighted Blackthorn (repeat),squared,0.19395191786393398,1.2140379080169659,340
+Flock Impostor (repeat),squared,0.18273409385134087,1.200495146595001,216
+Pyrrhic Strike (repeat),squared,-0.15949634037859084,0.8525730874854379,382
+Slumbering Walker (repeat),squared,-0.15600312722609957,0.8555565148481721,85
+Dawnhand Dissident (repeat),squared,0.1405387912148841,1.1508937232646785,52
+Rime Chill (repeat),squared,0.13224100518558693,1.1413833654319396,138
+Thoughtweft Imbuer (repeat),squared,-0.1319985506771005,0.8763422651813656,435
+Shinestriker (repeat),squared,-0.12169550901077525,0.8854179292422886,706
+Morcant's Eyes (repeat),squared,0.11556993588878704,1.1225130157486531,580
+Kinbinding (repeat),squared,-0.11343315526849501,0.8927638709779505,76
+"Ashling, Rekindled (repeat)",squared,-0.10807885500486819,0.8975568167926495,83
+"Brigid, Clachan's Heart (repeat)",squared,-0.10744518978721965,0.8981257475650983,71
+Disruptor of Currents (repeat),squared,-0.10692768579643015,0.8985906515081414,74
+Thoughtweft Lieutenant (repeat),squared,-0.09743807012957606,0.9071585200258203,426
+Lofty Dreams (repeat),squared,-0.089734176204339,0.9141741622209667,170
+Thirst for Identity (repeat),squared,-0.08793336945914561,0.9158218963986994,114
+Rimekin Recluse (repeat),squared,-0.08669627646075341,0.9169555543300741,752
+Eclipsed Realms (repeat),squared,0.08557302297720168,1.0893411053704618,88
+Eclipsed Kithkin (repeat),squared,0.08272582777091042,1.0862439497927547,486
+Formidable Speaker (repeat),squared,-0.08271226627562812,0.9206160013853547,33
+Warren Torchmaster (repeat),squared,-0.08022149543576969,0.9229119029717042,163
+Dream Seizer (repeat),squared,0.07856309408279108,1.0817316038725817,477
+Clachan Festival (repeat),squared,-0.07764196979522557,0.9252956510372322,261
+Gilt-Leaf's Embrace (repeat),squared,0.0753336901977204,1.0782438902774765,268
+Twinflame Travelers (repeat),squared,-0.07327325518379575,0.9293468464828676,749
+Reaping Willow (repeat),squared,-0.07248570650770063,0.9300790406428747,293
+Morcant's Loyalist (repeat),squared,-0.06731898376484023,0.9348969368238913,665
+Sunderflock (repeat),squared,-0.06579957266139685,0.9363185093133011,103
+Silvergill Peddler (repeat),squared,-0.06519463620595273,0.9368850938700402,1161
+Virulent Emissary (repeat),squared,0.06377651556764347,1.065854170328093,359
+"Tam, Mindful First-Year (repeat)",squared,0.06354725447600186,1.0656098394463254,47
+Gathering Stone (repeat),squared,0.0635364276808399,1.065598302369326,254
+Blossoming Defense (repeat),squared,-0.06310174220276038,0.9388479483714132,152
+Scarblade Scout (repeat),squared,-0.062365507543571265,0.9395394152804312,1905
+Ashling's Command (repeat),squared,-0.06066951649853272,0.9411342177182619,122
+Lys Alana Dignitary (repeat),squared,-0.058727132439444635,0.9429640383521313,396
+Deepchannel Duelist (repeat),squared,-0.05796413076154558,0.943683796048839,769
+Goldmeadow Nomad (repeat),squared,0.057676786519166016,1.059372536884468,470
+Glamer Gifter (repeat),squared,-0.057512797557610455,0.9441098080094513,483
+Flaring Cinder (repeat),squared,-0.05636614108688328,0.9451929985349113,1755
+Eclipsed Elf (repeat),squared,-0.056099806138774716,0.9454447699894091,638
+Merrow Skyswimmer (repeat),squared,-0.0546893622075597,0.9467792076810894,2632
+Silvergill Mentor (repeat),squared,-0.0533436437090477,0.9480541636483797,594
+Scarblade's Malice (repeat),squared,-0.05232697232809968,0.9490185133144386,259
+Flamekin Gildweaver (repeat),squared,-0.051145522610640225,0.9501403935609123,2028
+Bristlebane Outrider (repeat),squared,-0.0504737372477376,0.9507788984151038,318
+Sun-Dappled Celebrant (repeat),squared,0.04916645729955446,1.0503951821341266,677
+Pitiless Fists (repeat),squared,0.04902397304163972,1.050245528018014,384
+Plains (repeat),squared,-0.0487762193127248,0.9523942332894639,78827
+Eclipsed Merrow (repeat),squared,-0.04820900707647747,0.9529345961880537,713
+Nameless Inversion (repeat),squared,0.04782839154913959,1.0489906242214933,328
+Chitinous Graspling (repeat),squared,-0.04724328213812785,0.9538553134004382,396
+Kulrath Mystic (repeat),squared,0.04651097442659985,1.0476095759198443,650
+Unexpected Assistance (repeat),squared,-0.04543637002517013,0.9555804041945979,1505
+Gallant Fowlknight (repeat),squared,-0.04473466873749546,0.9562511715063181,684
+Boggart Mischief (repeat),squared,0.04387275476864822,1.0448493943264157,497
+Creakwood Safewright (repeat),squared,-0.0431511496425778,0.9577666130445741,492
+Dawn-Blessed Pennant (repeat),squared,0.04261937168683805,1.0435406181428277,48
+Forest (repeat),squared,-0.042471212216454106,0.9584180558553512,89259
+Assert Perfection (repeat),squared,-0.04162285530639381,0.959231481424578,2389
+Moonglove Extractor (repeat),squared,0.04156955954678373,1.042445671378027,502
+Dundoolin Weaver (repeat),squared,-0.041546753815179215,0.9593044831484692,332
+Sting-Slinger (repeat),squared,-0.040702365508648884,0.9601148507207441,265
+Sear (repeat),squared,0.040567365794274786,1.0414014621762109,477
+Gangly Stompling (repeat),squared,-0.04007938848610359,0.9607131665609074,685
+Noggle Robber (repeat),squared,-0.03979827830523159,0.9609832707756691,437
+Timid Shieldbearer (repeat),squared,-0.03972408570606872,0.9610545712672317,1230
+Swamp (repeat),squared,-0.03942298396454463,0.9613439900424019,76437
+Keep Out (repeat),squared,0.037247375353406255,1.0379497522691192,535
+Wanderwine Distracter (repeat),squared,0.03713095784813703,1.037828923781777,257
+Shimmerwilds Growth (repeat),squared,0.03672129926998641,1.03740385533291,178
+Luminollusk (repeat),squared,0.036553809305044226,1.0372301151478243,208
+Safewright Cavalry (repeat),squared,0.036412798803563746,1.0370838651207737,1640
+Flitterwing Nuisance (repeat),squared,-0.036151148637088834,0.9644945004359698,80
+Boneclub Berserker (repeat),squared,0.0354580379958798,1.036094170628013,516
+Tributary Vaulter (repeat),squared,0.03408908764856353,1.03467677954364,1252
+Mischievous Sneakling (repeat),squared,-0.03402253602399843,0.9665497222043276,1035
+Island (repeat),squared,-0.03383798446538645,0.9667281169230417,90259
+Tend the Sprigs (repeat),squared,-0.03367080600901594,0.9668897465474781,278
+Tweeze (repeat),squared,-0.03308737342605265,0.9674540261232857,1927
+Retched Wretch (repeat),squared,0.03308061239427474,1.0336338595831587,213
+Dawnhand Eulogist (repeat),squared,-0.03304483432833478,0.9674951816199931,2333
+Burning Curiosity (repeat),squared,0.03280679894057229,1.033350875470399,268
+Kulrath Zealot (repeat),squared,-0.03245116511105166,0.9680697242544543,2275
+Boggart Prankster (repeat),squared,0.032310012671990504,1.0328376484374648,899
+Bile-Vial Boggart (repeat),squared,-0.03216309181324646,0.968348639464509,659
+Shimmercreep (repeat),squared,0.032111402960650064,1.0326325372194614,300
+Gnarlbark Elm (repeat),squared,-0.0319547583796085,0.9685503998775173,264
+Elder Auntie (repeat),squared,-0.031885864177097246,0.9686171296835309,988
+Soulbright Seeker (repeat),squared,-0.03125960941229544,0.9692239207593333,393
+Flame-Chain Mauler (repeat),squared,-0.030994254291492666,0.9694811434160766,1135
+Glen Elendra Guardian (repeat),squared,-0.030814728832249838,0.9696552055874037,54
+Bogslither's Embrace (repeat),squared,-0.030787102077223433,0.9696819943842706,1598
+Moonlit Lamenter (repeat),squared,0.030622834272198935,1.0310965362629725,378
+Mountain (repeat),squared,-0.02965407911585523,0.97078128899455,78156
+Hovel Hurler (repeat),squared,-0.029626369571651805,0.9708081892742847,222
+Run Away Together (repeat),squared,0.029622805630883226,1.0300659256007274,149
+Meanders Guide (repeat),squared,-0.02928924772253985,0.9711355250991149,310
+Giantfall (repeat),squared,-0.02850422575716037,0.9718981871317355,191
+Unbury (repeat),squared,-0.028449799881317087,0.9719510849812935,155
+Gristle Glutton (repeat),squared,-0.026546073818773625,0.9738031759708752,1402
+Pestered Wellguard (repeat),squared,-0.025842403147009366,0.974488653852933,397
+Chomping Changeling (repeat),squared,-0.02526979075727327,0.9750468179203655,35
+Auntie's Sentence (repeat),squared,0.02515420836303303,1.0254732448824937,457
+Sourbread Auntie (repeat),squared,-0.02492704692853746,0.9753810664774792,434
+Boggart Cursecrafter (repeat),squared,-0.024807389644143755,0.9754977849101091,571
+Taster of Wares (repeat),squared,-0.024495423204541976,0.975802154955058,75
+Stratosoarer (repeat),squared,-0.02362427008940822,0.9766525984215548,829
+Unforgiving Aim (repeat),squared,-0.021367531728461047,0.9788591366590069,82
+Stoic Grove-Guide (repeat),squared,0.02067500945112748,1.0208902180467574,809
+Kithkeeper (repeat),squared,-0.020308237729778477,0.9798965856527615,178
+Mistmeadow Council (repeat),squared,-0.020071769924639805,0.9801283270462432,2308
+Enraged Flamecaster (repeat),squared,-0.019699504092695254,0.9804932632557498,697
+Mudbutton Cursetosser (repeat),squared,0.019668892025361866,1.0198635991447718,305
+Prideful Feastling (repeat),squared,-0.01842774261816504,0.9817410100639821,721
+Brambleback Brute (repeat),squared,-0.018362373786617814,0.9818051874242687,453
+High Perfect Morcant (repeat),squared,-0.0176721805482898,0.9824830566294457,87
+Goliath Daydreamer (repeat),squared,-0.01728544993518368,0.9828630863841359,117
+Eclipsed Flamekin (repeat),squared,-0.016681361949862326,0.9834570015362792,892
+Dawn's Light Archer (repeat),squared,-0.016652930588855593,0.9834849629548132,914
+Omni-Changeling (repeat),squared,-0.015866775131789072,0.9842584390217618,474
+Flamebraider (repeat),squared,0.0154282517236947,1.015547881634309,797
+Wary Farmer (repeat),squared,0.015011710175694394,1.015124951837656,1086
+Feisty Spikeling (repeat),squared,0.014894991069436973,1.0150064742749698,641
+Adept Watershaper (repeat),squared,-0.014182785529439704,0.9859173163731816,90
+Heirloom Auntie (repeat),squared,0.013846158895975203,1.0139424609117413,456
+Thoughtweft Charge (repeat),squared,0.01383840066367137,1.0139345945411016,108
+Changeling Wayfinder (repeat),squared,0.012380948000553735,1.0124579092269264,831
+Swat Away (repeat),squared,0.011306952321177982,1.0113711175161326,291
+Sizzling Changeling (repeat),squared,0.010660561352657886,1.0107175876006205,461
+Pummeler for Hire (repeat),squared,0.009780570667793585,1.0098285567653011,328
+Gutsplitter Gang (repeat),squared,-0.008491552510524802,0.9915443988884622,197
+Riverguard's Reflexes (repeat),squared,0.008258295551491263,1.0082924893368477,109
+Evolving Wilds (repeat),squared,0.00825015605008621,1.0082842823721143,1223
+Blossombind (repeat),squared,-0.008197975126333992,0.9918355366330347,1981
+Wild Unraveling (repeat),squared,0.006709579769079287,1.0067321394264679,289
+Noggle the Mind (repeat),squared,0.006504752605163239,1.0065259544543885,274
+Reluctant Dounguard (repeat),squared,-0.006454142875579643,0.9935666403678373,448
+Personify (repeat),squared,-0.006225759047138092,0.9937935808347562,119
+End-Blaze Epiphany (repeat),squared,0.006201543778240098,1.0062208131635748,74
+Boulder Dash (repeat),squared,-0.006118104039306175,0.9939005734495263,275
+Squawkroaster (repeat),squared,0.00601089287278339,1.006028994540234,239
+Wildvine Pummeler (repeat),squared,0.005451040234476825,1.0054659241863464,859
+Midnight Tilling (repeat),squared,-0.0027174772285459264,0.9972862117703511,767
+Tanufel Rimespeaker (repeat),squared,0.002671807418826095,1.0026753798771995,674
+Crossroads Watcher (repeat),squared,-0.0025030936951631775,0.9975000364316486,1095
+Cinder Strike (repeat),squared,-0.002488083972859826,0.9975150087425579,2756
+Surly Farrier (repeat),squared,-0.002478924981729065,0.9975241450155152,822
+Feed the Flames (repeat),squared,-0.0015589125730567771,0.9984423018999807,1696
+Temporal Cleansing (repeat),squared,-0.0015055140384948387,0.9984956186792531,1668
+Foraging Wickermaw (repeat),squared,0.0012825168401512555,1.001283339616578,1167
+Great Forest Druid (repeat),squared,0.0012345474439356568,1.0012353098113254,1304
+Unwelcome Sprite (repeat),squared,-0.0011752540991927846,0.9988254362414377,497
+Protective Response (repeat),squared,-0.0009451361809747614,0.9990553103195465,319
+Explosive Prodigy (repeat),squared,-2.8021207420354216e-05,0.99997197918517,698
+Firdoch Core (repeat),squared,0.0,1.0,119
+Encumbered Reejerey (repeat),squared,0.0,1.0,415
+Eclipsed Boggart (repeat),squared,0.0,1.0,517
+Blight Rot (repeat),squared,0.0,1.0,1528
+Barbed Bloodletter (repeat),squared,0.0,1.0,89
+Burdened Stoneback (repeat),squared,0.0,1.0,172
+Champions of the Perfect (repeat),squared,0.0,1.0,170
+Chaos Spewer (repeat),squared,0.0,1.0,589
+"Abigale, Eloquent First-Year (repeat)",squared,0.0,1.0,28
+Gravelgill Scoundrel (repeat),squared,0.0,1.0,1589
+Glister Bairn (repeat),squared,0.0,1.0,153
+Glamermite (repeat),squared,0.0,1.0,638
+Graveshifter (repeat),squared,0.0,1.0,261
+Iron-Shield Elf (repeat),squared,0.0,1.0,408
+Kinsbaile Aspirant (repeat),squared,0.0,1.0,367
+Liminal Hold (repeat),squared,0.0,1.0,1797
+Requiting Hex (repeat),squared,0.0,1.0,116
+Prismabasher (repeat),squared,0.0,1.0,244
+Lys Alana Informant (repeat),squared,0.0,1.0,1945
+Moon-Vigil Adherents (repeat),squared,0.0,1.0,561
+"Maralen, Fae Ascendant (repeat)",squared,0.0,1.0,95
+Rooftop Percher (repeat),squared,0.0,1.0,447
+Spiral into Solitude (repeat),squared,0.0,1.0,1500
+Shore Lurker (repeat),squared,0.0,1.0,628
+Summit Sentinel (repeat),squared,0.0,1.0,1226
+Stalactite Dagger (repeat),squared,0.0,1.0,121
+"Trystan, Callous Cultivator (repeat)",squared,0.0,1.0,95
+"Sygg, Wanderwine Wisdom (repeat)",squared,0.0,1.0,91
+Vinebred Brawler (repeat),squared,0.0,1.0,296
+Wanderwine Farewell (repeat),squared,0.0,1.0,358
+Wanderbrine Preacher (repeat),squared,0.0,1.0,1688
+Wanderbrine Trapper (repeat),squared,0.0,1.0,521
