@@ -7,9 +7,9 @@ import time
 # LOAD CSV FILES
 # -----------------------------
 
-df_cards = pd.read_csv("../results/drawn_card_rankings.csv")
-df_pairs = pd.read_csv("../results/drawn_pair_synergies.csv")
-df_self = pd.read_csv("../results/drawn_squared_terms.csv")
+df_cards = pd.read_csv("../results/drawn_without_basics_card_rankings.csv")
+df_pairs = pd.read_csv("../results/drawn_without_basics_pair_synergies.csv")
+df_self = pd.read_csv("../results/drawn_without_basics_squared_terms.csv")
 
 # -----------------------------
 # BUILD NODES
@@ -34,7 +34,7 @@ df_nodes = df_nodes.merge(df_self, on="id", how="left")
 # SCRYFALL IMAGE ENRICHMENT (BATCHED)
 # -----------------------------
 
-MAX_BATCH = 50
+MAX_BATCH = 20
 card_names = df_nodes["id"].dropna().unique().tolist()
 
 lookup = {}
@@ -127,7 +127,7 @@ df_links = df_links.drop_duplicates("pair")
 # FILTER WEAK LINKS
 # -----------------------------
 
-df_links = df_links[df_links["weight"] >= 1.05]
+df_links = df_links[df_links["weight"] >= 1]
 
 # -----------------------------
 # NORMALIZATION
@@ -135,7 +135,9 @@ df_links = df_links[df_links["weight"] >= 1.05]
 
 df_nodes["prob_norm"] = df_nodes["prob"] / df_nodes["prob"].max()
 df_nodes["self_prob_norm"] = df_nodes["self_prob"] / df_nodes["self_prob"].max()
+# df_nodes["self_prob_norm"] = df_nodes["self_prob"].rank(pct=True) ** 2.5
 df_links["weight_norm"] = df_links["weight"] / df_links["weight"].max()
+df_links["weight_norm"] = df_links["weight_norm"] ** 2.5
 
 # -----------------------------
 # FINAL GRAPH STRUCTURE

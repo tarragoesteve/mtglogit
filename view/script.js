@@ -6,20 +6,17 @@ const svg = d3.select("svg")
   .attr("height", height);
 
 // -----------------------------
-// CONTAINER (ZOOM)
+// CONTAINER + ZOOM
 // -----------------------------
 const container = svg.append("g");
 
-// -----------------------------
-// ZOOM + PAN
-// -----------------------------
-const zoom = d3.zoom()
-  .scaleExtent([0.2, 5])
-  .on("zoom", (event) => {
-    container.attr("transform", event.transform);
-  });
-
-svg.call(zoom);
+svg.call(
+  d3.zoom()
+    .scaleExtent([0.2, 5])
+    .on("zoom", (event) => {
+      container.attr("transform", event.transform);
+    })
+);
 
 // -----------------------------
 // LOAD DATA
@@ -34,20 +31,31 @@ d3.json("data.json").then(data => {
 function initGraph(nodes, links) {
 
   const simulation = d3.forceSimulation(nodes)
-    .force("link", d3.forceLink(links).id(d => d.id).distance(160))
-    .force("charge", d3.forceManyBody().strength(-300))
-    .force("center", d3.forceCenter(width / 2, height / 2));
+    .force("link", d3.forceLink(links)
+      .id(d => d.id)
+      .distance(d => 200 + (1 - d.weight_norm) * 300)
+      .strength(0.8)
+    )
+    .force("charge", d3.forceManyBody().strength(-1800))
+    .force("center", d3.forceCenter(width / 2, height / 2))
+    .force("x", d3.forceX(width / 2).strength(0.08))
+    .force("y", d3.forceY(width / 2).strength(0.08))
+    .force("collide", d3.forceCollide()
+      .radius(d => 35 + Math.pow(d.self_prob_norm, 1.5) * 90)
+      .strength(0.6)
+    );
 
   // -----------------------------
-  // LINKS (RED -> GREEN)
+  // LINKS (weight)
   // -----------------------------
   const link = container.append("g")
     .selectAll("line")
     .data(links)
     .join("line")
     .attr("stroke", d => d3.interpolateRdYlGn(d.weight_norm))
-    .attr("stroke-opacity", d => 0.2 + d.weight_norm * 0.8)
-    .attr("stroke-width", d => 1 + Math.pow(d.weight_norm, 2) * 10);
+    .attr("stroke-opacity", d => 0.25 + d.weight_norm * 0.75)
+    .attr("stroke-width", d => 1 + Math.pow(d.weight_norm, 2.5) * 12)
+    .attr("stroke-linecap", "round");
 
   // -----------------------------
   // NODES
@@ -59,50 +67,63 @@ function initGraph(nodes, links) {
     .call(drag(simulation));
 
   // -----------------------------
-  // SELF SCORE NODE VISUAL
+  // COLOR = prob (GLOBAL QUALITY)
   // -----------------------------
   node.append("circle")
-    .attr("r", d => 20 + Math.pow(d.prob_norm, 1.5) * 80)
-    .attr("fill", d => d3.interpolateGreys(1 - d.self_prob_norm * 0.8))
-    .attr("stroke", d => d3.interpolateGreens(d.self_prob_norm))
-    .attr("stroke-width", d => 2 + d.self_prob_norm * 12)
-    .style("filter", d => {
+    .attr("r", d => 20 + Math.pow(d.self_prob_norm, 2.2) * 120)
 
-      if (d.self_prob_norm > 0.75) {
-        return "drop-shadow(0 0 14px #00ff66)";
-      }
+    .attr("fill", d => {
+      const p = d.prob_norm;
 
-      if (d.self_prob_norm > 0.5) {
-        return "drop-shadow(0 0 6px #00aa44)";
-      }
+      return d3.interpolateRgbBasis([
+        "#ff3b3b",  // bad
+        "#ffcc33",  // mid
+        "#2bff88"   // good
+      ])(p);
+    })
 
-      return "none";
-    });
+    .attr("stroke", d => {
+      const p = d.prob_norm;
+
+      return d3.interpolateRgbBasis([
+        "#aa0000",
+        "#cc8800",
+        "#00cc66"
+      ])(p);
+    })
+
+    .attr("stroke-width", 2);
 
   // -----------------------------
-  // CLIP PATH (CIRCLE MASK)
+  // CLIP PATH (correct)
   // -----------------------------
-  node.append("clipPath")
-    .attr("id", d => `clip-${d.id.replace(/[^a-zA-Z0-9]/g, "-")}`)
-    .append("circle")
-    .attr("r", d => 20 + Math.pow(d.prob_norm, 1.5) * 80);
+  const defs = svg.append("defs");
+
+  const clip = defs.selectAll("clipPath")
+    .data(nodes)
+    .join("clipPath")
+    .attr("id", d => `clip-${d.id.replace(/[^a-zA-Z0-9]/g, "-")}`);
+
+  clip.append("circle")
+    .attr("cx", 0)
+    .attr("cy", 0)
+    .attr("r", d => 20 + Math.pow(d.self_prob_norm, 2.2) * 120);
 
   // -----------------------------
-  // ART IMAGE (DEFAULT NODE IMAGE)
+  // IMAGE
   // -----------------------------
   node.append("image")
     .attr("href", d => d.image)
-    .attr("x", d => -(20 + Math.pow(d.prob_norm, 1.5) * 80))
-    .attr("y", d => -(20 + Math.pow(d.prob_norm, 1.5) * 80))
-    .attr("width", d => (20 + Math.pow(d.prob_norm, 1.5) * 80) * 2)
-    .attr("height", d => (20 + Math.pow(d.prob_norm, 1.5) * 80) * 2)
+    .attr("x", d => -(20 + Math.pow(d.self_prob_norm, 2.2) * 120))
+    .attr("y", d => -(20 + Math.pow(d.self_prob_norm, 2.2) * 120))
+    .attr("width", d => (20 + Math.pow(d.self_prob_norm, 2.2) * 120) * 2)
+    .attr("height", d => (20 + Math.pow(d.self_prob_norm, 2.2) * 120) * 2)
     .attr("clip-path", d =>
       `url(#clip-${d.id.replace(/[^a-zA-Z0-9]/g, "-")})`
-    )
-    .style("opacity", d => 0.4 + d.self_prob_norm * 0.6);
+    );
 
   // -----------------------------
-  // TOOLTIP (FULL CARD IMAGE)
+  // TOOLTIP
   // -----------------------------
   node
     .on("mouseover", (event, d) => {
@@ -130,8 +151,7 @@ function initGraph(nodes, links) {
       .attr("x2", d => d.target.x)
       .attr("y2", d => d.target.y);
 
-    node
-      .attr("transform", d => `translate(${d.x}, ${d.y})`);
+    node.attr("transform", d => `translate(${d.x}, ${d.y})`);
   });
 }
 
