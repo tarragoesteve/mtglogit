@@ -1,192 +1,313 @@
 feature,type,coefficient,odds_multiplier,count
-Bristlebane Battler (repeat),squared,-0.34808218844064565,0.706040845433569,47
-Selfless Safewright (repeat),squared,-0.3379528358431288,0.7132289259459693,27
-"Lluwen, Imperfect Naturalist (repeat)",squared,-0.2851072326069671,0.7519336181939038,53
-Trystan's Command (repeat),squared,-0.260620170575896,0.7705735505445754,61
-Aquitect's Defenses (repeat),squared,-0.24619097198357207,0.781772913944745,101
-Figure of Fable (repeat),squared,-0.22993739694401097,0.7945833442919145,110
-Champions of the Shoal (repeat),squared,-0.22602137816595455,0.7977010480979996,182
-Blighted Blackthorn (repeat),squared,0.22430573681032587,1.251453576369223,340
-"Sanar, Innovative First-Year (repeat)",squared,-0.18944854277565193,0.8274152922963656,131
-Flock Impostor (repeat),squared,0.17294861353609617,1.1888050150284513,216
-Pyrrhic Strike (repeat),squared,-0.16058939109155615,0.8516416909888422,382
-Gloom Ripper (repeat),squared,-0.1531219112797848,0.8580251124954438,52
-Slumbering Walker (repeat),squared,-0.1498124404218523,0.8608694255902198,85
-Dawnhand Dissident (repeat),squared,0.14112963314820579,1.1515739204619058,52
-Rime Chill (repeat),squared,0.1381344641279546,1.148129922183969,138
-Thoughtweft Imbuer (repeat),squared,-0.12641475010111022,0.8812492727527459,435
-Morcant's Eyes (repeat),squared,0.11765700118910234,1.1248582201590698,580
-Thoughtweft Lieutenant (repeat),squared,-0.10812729103790635,0.897513343753857,426
-Disruptor of Currents (repeat),squared,-0.10560974344206651,0.8997757229433817,74
-Kinbinding (repeat),squared,-0.10395024363765155,0.9012701402292591,76
-"Brigid, Clachan's Heart (repeat)",squared,-0.10122991655002396,0.9037252276113416,71
-Warren Torchmaster (repeat),squared,-0.10034057877066949,0.9045293020923221,163
-"Ashling, Rekindled (repeat)",squared,-0.08874662101669745,0.9150774055852025,83
-Deepchannel Duelist (repeat),squared,-0.08724685535955888,0.9164508369068489,769
-Eclipsed Realms (repeat),squared,0.08603191186478881,1.0898411066122409,88
-Dream Seizer (repeat),squared,0.08399228929364666,1.087620507454137,477
-Rimekin Recluse (repeat),squared,-0.0833579226548501,0.9200217916395453,752
-Luminollusk (repeat),squared,0.07435749659033038,1.077191829075837,208
-Silvergill Mentor (repeat),squared,-0.07272413554658724,0.9298573092257805,594
-Lofty Dreams (repeat),squared,-0.07228936318257637,0.9302616733831159,170
-Lys Alana Dignitary (repeat),squared,-0.07177831233642945,0.930737205898734,396
-Gilt-Leaf's Embrace (repeat),squared,0.07102304539820012,1.0736059672602942,268
-Thirst for Identity (repeat),squared,-0.07062163395914602,0.9318143923587758,114
-Gathering Stone (repeat),squared,0.07053291236310755,1.0730798864443927,254
-Formidable Speaker (repeat),squared,-0.06533648704016516,0.936752205363309,33
-Burning Curiosity (repeat),squared,0.06467660894949627,1.0668139705029183,268
-Scarblade Scout (repeat),squared,-0.06414837459644052,0.9378658337420541,1905
-Eclipsed Kithkin (repeat),squared,0.06411223889196281,1.0662120625064098,486
-"Tam, Mindful First-Year (repeat)",squared,0.06293898558345946,1.0649618592224885,47
-Morcant's Loyalist (repeat),squared,-0.06240629583862645,0.9395010938510829,665
-Sunderflock (repeat),squared,-0.06178440706308121,0.9400855407476079,103
-Eclipsed Merrow (repeat),squared,-0.06019840909508958,0.9415776974709578,713
-Kulrath Mystic (repeat),squared,0.05952613486739657,1.0613334984273226,650
-Sun-Dappled Celebrant (repeat),squared,0.05943953602456786,1.0612415921540492,677
-Wanderwine Distracter (repeat),squared,0.05865476485319043,1.060409087052388,257
-Moonglove Extractor (repeat),squared,0.058285673835422463,1.0600177718031116,502
-Clachan Festival (repeat),squared,-0.05806259440263347,0.9435908820806432,261
-Flamekin Gildweaver (repeat),squared,-0.05565796535800562,0.9458625983447612,2028
-Eclipsed Elf (repeat),squared,-0.05521944663167227,0.9462774677640301,638
-Twinflame Travelers (repeat),squared,-0.05338560405307303,0.9480143838041122,749
-Blossoming Defense (repeat),squared,-0.05280165929041052,0.948568133502346,152
-Bile-Vial Boggart (repeat),squared,-0.04904492983498876,0.952138349318533,659
-Swat Away (repeat),squared,0.04872314640232165,1.0499296337024566,291
-Scarblade's Malice (repeat),squared,-0.04810514444275322,0.9530335756250242,259
-Merrow Skyswimmer (repeat),squared,-0.047987007739412356,0.9531461705204857,2632
-Glamer Gifter (repeat),squared,-0.04787704423910927,0.953250987572616,483
-Gallant Fowlknight (repeat),squared,-0.04780991193182361,0.9533149836589124,684
-Chomping Changeling (repeat),squared,-0.047281152850679666,0.953819190904045,35
-Creakwood Safewright (repeat),squared,-0.044545855644331056,0.956431741294286,492
-Boggart Mischief (repeat),squared,0.043945372788558486,1.044925271975545,497
-Safewright Cavalry (repeat),squared,0.04280576110772682,1.0437351412022744,1640
-Dawnhand Eulogist (repeat),squared,-0.0423166149480488,0.9585662361226138,2333
-Mischievous Sneakling (repeat),squared,-0.04203791006640217,0.9588334304444542,1035
-Gangly Stompling (repeat),squared,-0.04174004228988636,0.9591190785670033,685
-Flitterwing Nuisance (repeat),squared,-0.04121964447957748,0.9596183319292262,80
-Timid Shieldbearer (repeat),squared,-0.04023695057036774,0.9605618065166193,1230
-Assert Perfection (repeat),squared,-0.04010086572573831,0.9606925333155824,2389
-Stoic Grove-Guide (repeat),squared,0.03991497999132096,1.040722288212926,809
-Boggart Cursecrafter (repeat),squared,-0.039909546223154006,0.9608763501165015,571
-Virulent Emissary (repeat),squared,0.03949944310165657,1.0402899195490638,359
-Goldmeadow Nomad (repeat),squared,0.03937270814155774,1.040158086801704,470
-Shimmercreep (repeat),squared,0.03900970770472722,1.039780577483991,300
-Noggle Robber (repeat),squared,-0.03875390906267942,0.9619874164044102,437
-Noggle the Mind (repeat),squared,0.037805945351693175,1.0385296818110095,274
-Sting-Slinger (repeat),squared,-0.03745271025503608,0.9632399680162089,265
-Tanufel Rimespeaker (repeat),squared,0.03642433661507375,1.0370958308679588,674
-Pitiless Fists (repeat),squared,0.03634468933504848,1.037013232295324,384
-Flaring Cinder (repeat),squared,-0.03609267880740275,0.9645508959138445,1755
-Silvergill Peddler (repeat),squared,-0.03505130167368719,0.9655558803542393,1161
-"Abigale, Eloquent First-Year (repeat)",squared,-0.034009585515400946,0.966562239595868,28
-Heirloom Auntie (repeat),squared,0.03214256711923077,1.0326647188450608,456
-Sear (repeat),squared,0.031947974594879885,1.032463789560915,477
-Boneclub Berserker (repeat),squared,0.031541691507385373,1.0320444021855337,516
-Soulbright Seeker (repeat),squared,-0.030598735930939352,0.9698646668487878,393
-Meanders Guide (repeat),squared,-0.030136636144495372,0.9703129446707842,310
-Chitinous Graspling (repeat),squared,-0.02903315787766067,0.9713842548923219,396
-Bristlebane Outrider (repeat),squared,-0.028895155892362703,0.9715183170981968,318
-Run Away Together (repeat),squared,0.02869007574959936,1.0291056002639183,149
-Bogslither's Embrace (repeat),squared,-0.027539138981892725,0.9728366059740138,1598
-Keep Out (repeat),squared,0.02741360436800125,1.0277928144615447,535
-Moonlit Lamenter (repeat),squared,0.026778009854195133,1.0271397625474357,378
-Ashling's Command (repeat),squared,-0.025930919985446225,0.9744023990157604,122
-Riverguard's Reflexes (repeat),squared,0.02583171702887914,1.0261682473009908,109
-Boggart Prankster (repeat),squared,0.02524833653035083,1.0255697753427144,899
-Glister Bairn (repeat),squared,0.025022690071498627,1.0253383852617604,153
-Explosive Prodigy (repeat),squared,-0.025011657316121826,0.97529854259864,698
-Retched Wretch (repeat),squared,0.024831408098713755,1.0251422752694066,213
-Adept Watershaper (repeat),squared,-0.024312598981262683,0.9759805715350512,90
-Pestered Wellguard (repeat),squared,-0.02318388861176958,0.9770827928538647,397
-Kulrath Zealot (repeat),squared,-0.02297768590811935,0.977284290741432,2275
-Shinestriker (repeat),squared,-0.021561701284461693,0.9786690904662442,706
-Reaping Willow (repeat),squared,-0.021063639502739626,0.9791566495443508,293
-Elder Auntie (repeat),squared,-0.020952539950337027,0.9792654394529904,988
-Giantfall (repeat),squared,-0.020915379831861817,0.9793018297488688,191
-Dundoolin Weaver (repeat),squared,-0.02040009665470392,0.9798065775399528,332
-Gnarlbark Elm (repeat),squared,-0.019922540426397316,0.9802746020187004,264
-Goliath Daydreamer (repeat),squared,-0.019882990428250875,0.9803133726440773,117
-Tributary Vaulter (repeat),squared,0.01953810122417155,1.019730219090167,1252
-Omni-Changeling (repeat),squared,-0.019520154127598128,0.9806691304587096,474
-End-Blaze Epiphany (repeat),squared,0.01941907510162946,1.0196088517792332,74
-Changeling Wayfinder (repeat),squared,0.019050778670306873,1.0192334026203145,831
-Flame-Chain Mauler (repeat),squared,-0.018575231198454036,0.9815962251535192,1135
-Wildvine Pummeler (repeat),squared,0.018360446259190193,1.0185300355744604,859
-Nameless Inversion (repeat),squared,0.017631987608408537,1.01778834873586,328
-Sourbread Auntie (repeat),squared,-0.016975622819353952,0.9831676511982285,434
-Tweeze (repeat),squared,-0.016526100687693366,0.9836097061658766,1927
-Requiting Hex (repeat),squared,-0.016509077807739306,0.9836264501783416,116
-Unexpected Assistance (repeat),squared,-0.01640766567891651,0.9837262068888053,1505
-Eclipsed Flamekin (repeat),squared,-0.015853373486882337,0.9842716297922469,892
-Thoughtweft Charge (repeat),squared,0.01524889202033867,1.0153657496015773,108
-Dawn's Light Archer (repeat),squared,-0.015108435553557929,0.9850051242359716,914
-Stratosoarer (repeat),squared,-0.014473883761153704,0.9856303593541359,829
-Boulder Dash (repeat),squared,-0.013361175491673719,0.9867276887961932,275
-Wary Farmer (repeat),squared,0.013231963779411828,1.0133198936122418,1086
-Cinder Strike (repeat),squared,-0.013162904366651474,0.986923347801266,2756
-"Sygg, Wanderwine Wisdom (repeat)",squared,0.013001710013599418,1.013086599750191,91
-Shimmerwilds Growth (repeat),squared,0.01206623734550359,1.012139328068175,178
-Personify (repeat),squared,-0.011967091199744822,0.9881042296516083,119
-Brambleback Brute (repeat),squared,-0.011896803040472533,0.9881736841199644,453
-Kithkeeper (repeat),squared,-0.011364876506532761,0.9886994597472952,178
-Surly Farrier (repeat),squared,-0.011247871866198187,0.9888151489399362,822
-Prideful Feastling (repeat),squared,-0.011040581492947522,0.9890201420470506,721
-Sizzling Changeling (repeat),squared,0.008610326521009437,1.008647502003487,461
-Great Forest Druid (repeat),squared,0.008587797587278057,1.0086247785067253,1304
-Foraging Wickermaw (repeat),squared,0.007748864588986271,1.0077789647372895,1167
-Hovel Hurler (repeat),squared,-0.0076352733929868416,0.9923938012622002,222
-Enraged Flamecaster (repeat),squared,-0.007310099526127324,0.992716554264581,697
-Pummeler for Hire (repeat),squared,0.007198895024065871,1.00722486936028,328
-Blossombind (repeat),squared,-0.00719412732793948,0.9928316884616105,1981
-Crossroads Watcher (repeat),squared,-0.007138462910859585,0.9928869553969938,1095
-Evolving Wilds (repeat),squared,-0.006459190567788395,0.9935616251619054,1223
-Tend the Sprigs (repeat),squared,-0.006067638171204612,0.9939507327704283,278
-Squawkroaster (repeat),squared,0.005950344830308786,1.0059680832979887,239
-Encumbered Reejerey (repeat),squared,-0.005735948841891024,0.9942804703045394,415
-Glamermite (repeat),squared,0.0053859200877341765,1.0054004502296787,638
-Shore Lurker (repeat),squared,0.005328333962258875,1.0053425547802022,628
-Iron-Shield Elf (repeat),squared,-0.005025012359187267,0.9949875918944032,408
-Temporal Cleansing (repeat),squared,-0.004922749816534763,0.9950893470582403,1668
-Summit Sentinel (repeat),squared,0.004693605051879921,1.0047046372696091,1226
-Wanderbrine Trapper (repeat),squared,-0.004632679167133836,0.9953780351392988,521
-Graveshifter (repeat),squared,0.004615834703630233,1.0046265040783429,261
-Unbury (repeat),squared,-0.0037901604364101167,0.9962170131557732,155
-Spiral into Solitude (repeat),squared,0.00377316501226852,1.0037802923607748,1500
-Liminal Hold (repeat),squared,-0.002951576123607367,0.9970527754947689,1797
-Mistmeadow Council (repeat),squared,-0.00283711415762802,0.9971669066473506,2308
-Prismabasher (repeat),squared,0.002714712626981841,1.00271840079599,244
-Unforgiving Aim (repeat),squared,-0.002552052875523499,0.9974512008429405,82
-Wanderbrine Preacher (repeat),squared,-0.0023165988609314533,0.9976860823833543,1688
-Lys Alana Informant (repeat),squared,0.00207133898191952,1.0020734856864368,1945
-Gutsplitter Gang (repeat),squared,-0.0017311993254364932,0.998270298335741,197
-Flamebraider (repeat),squared,0.0009586195656678125,1.0009590791882597,797
-Reluctant Dounguard (repeat),squared,-0.0008620975606844338,0.9991382739386537,448
-Taster of Wares (repeat),squared,-0.0004026285288847679,0.9995974525151041,75
-Feisty Spikeling (repeat),squared,0.0,1.0,641
-Feed the Flames (repeat),squared,0.0,1.0,1696
-Firdoch Core (repeat),squared,0.0,1.0,119
-Chaos Spewer (repeat),squared,0.0,1.0,589
-Barbed Bloodletter (repeat),squared,0.0,1.0,89
-Blight Rot (repeat),squared,0.0,1.0,1528
-Auntie's Sentence (repeat),squared,0.0,1.0,457
-Eclipsed Boggart (repeat),squared,0.0,1.0,517
-Dawn-Blessed Pennant (repeat),squared,0.0,1.0,48
-Burdened Stoneback (repeat),squared,0.0,1.0,172
-Champions of the Perfect (repeat),squared,0.0,1.0,170
-Glen Elendra Guardian (repeat),squared,0.0,1.0,54
-Protective Response (repeat),squared,0.0,1.0,319
-Mudbutton Cursetosser (repeat),squared,0.0,1.0,305
-Midnight Tilling (repeat),squared,0.0,1.0,767
-Moon-Vigil Adherents (repeat),squared,0.0,1.0,561
-"Maralen, Fae Ascendant (repeat)",squared,0.0,1.0,95
-Gristle Glutton (repeat),squared,0.0,1.0,1402
-Gravelgill Scoundrel (repeat),squared,0.0,1.0,1589
-Kinsbaile Aspirant (repeat),squared,0.0,1.0,367
-High Perfect Morcant (repeat),squared,0.0,1.0,87
-Rooftop Percher (repeat),squared,0.0,1.0,447
-Stalactite Dagger (repeat),squared,0.0,1.0,121
-"Trystan, Callous Cultivator (repeat)",squared,0.0,1.0,95
-Vinebred Brawler (repeat),squared,0.0,1.0,296
-Unwelcome Sprite (repeat),squared,0.0,1.0,497
-Wanderwine Farewell (repeat),squared,0.0,1.0,358
-Wild Unraveling (repeat),squared,0.0,1.0,289
+Sunbaked Canyon (repeat),squared,-0.624024718781115,0.5357837135834269,17
+Sunbillow Verge (repeat),squared,-0.49042472840522594,0.6123662496023222,9
+"Kytheon, Hero of Akros (repeat)",squared,-0.48983726371206476,0.6127260988422597,27
+The Wandering Emperor (repeat),squared,-0.4553580907851894,0.6342208186496864,36
+"Phlage, Titan of Fire's Fury (repeat)",squared,-0.45284781582178385,0.6358148872301544,62
+Bayou (repeat),squared,0.4429223522051842,1.5572514125090282,16
+Preacher of the Schism (repeat),squared,-0.40798951275820916,0.6649858526532579,51
+Guide of Souls (repeat),squared,-0.3689674964794806,0.6914478845755668,45
+"Saheeli, Sublime Artificer (repeat)",squared,-0.36766147978964914,0.6923515170040454,74
+Lightning Helix (repeat),squared,-0.35158550702689456,0.703571687066691,35
+Volcanic Island (repeat),squared,0.3467708160235441,1.4144925092013465,20
+Wasteland (repeat),squared,0.3423952475158141,1.4083168212496238,25
+Witch Enchanter (repeat),squared,-0.30340669254033636,0.7382987747011203,31
+"Chandra, Torch of Defiance (repeat)",squared,-0.2954985017661886,0.7441605296487471,31
+Lightstall Inquisitor (repeat),squared,-0.28241108043241886,0.7539636811032264,23
+Umezawa's Jitte (repeat),squared,0.2821977709940919,1.3260409464917333,21
+Glimmer Lens (repeat),squared,0.28005028641329466,1.3231963494629653,12
+Sanguine Evangelist (repeat),squared,-0.27263798400908973,0.7613683652673687,34
+Glorybringer (repeat),squared,-0.27108906130663096,0.7625485798078525,23
+"Phelia, Exuberant Shepherd (repeat)",squared,-0.26883712385508957,0.7642677264922286,77
+Sacred Foundry (repeat),squared,-0.26038658195118053,0.7707535687847773,13
+Tolarian Academy (repeat),squared,-0.2559114420125601,0.7742105282826978,17
+"Urza, Lord High Artificer (repeat)",squared,-0.25105507045417724,0.7779795266933495,113
+Esper Sentinel (repeat),squared,-0.24422693763804235,0.7833098516032589,30
+Sage of the Skies (repeat),squared,-0.24336365647833058,0.7839863602069164,31
+Goblin Rabblemaster (repeat),squared,-0.23638509989949982,0.7894765880301277,37
+Reanimate (repeat),squared,-0.22928033593594763,0.7951056055850815,51
+Soul-Guide Lantern (repeat),squared,0.2284768200311182,1.2566843948891122,54
+Voice of Victory (repeat),squared,-0.22742147035290758,0.7965849745782568,60
+Necromancy (repeat),squared,-0.22720734610210497,0.7967555610018323,25
+"Minsc & Boo, Timeless Heroes (repeat)",squared,-0.22652972776074262,0.7972956401466512,70
+Retrofitter Foundry (repeat),squared,0.2250446960525281,1.252378691324694,31
+Blood Crypt (repeat),squared,-0.21604834305092313,0.8056963511122576,25
+Elite Spellbinder (repeat),squared,-0.2117294889966369,0.8091835610196754,53
+Bonecrusher Giant (repeat),squared,-0.2102267758420766,0.8104004458867302,20
+Cathar Commando (repeat),squared,-0.20875399416343823,0.8115948681615136,27
+Talisman of Dominance (repeat),squared,0.2026439966230387,1.224636415934434,29
+Ketria Triome (repeat),squared,-0.20177515806650528,0.8172786658008976,35
+Skyclave Apparition (repeat),squared,-0.2000909893046779,0.818656260725096,47
+Fire Covenant (repeat),squared,-0.19897865798881928,0.8195673843625585,66
+The Mightstone and Weakstone (repeat),squared,-0.19723781783864447,0.8209953627514601,41
+Cori-Steel Cutter (repeat),squared,-0.19098403482472762,0.8261457776080476,37
+Ancestral Recall (repeat),squared,-0.1896067467785337,0.8272844022390172,131
+Psychic Frog (repeat),squared,-0.18672440237839938,0.8296723606091023,123
+Parallax Wave (repeat),squared,-0.18652024167927914,0.8298417643904938,60
+Sneak Attack (repeat),squared,-0.18372717392540835,0.8321628085713406,46
+Fable of the Mirror-Breaker (repeat),squared,-0.18074702851579094,0.8346464737488737,54
+"Adeline, Resplendent Cathar (repeat)",squared,-0.17900521084413493,0.8361015425908648,66
+Burst Lightning (repeat),squared,-0.17640896167942846,0.8382750908379347,28
+Marsh Flats (repeat),squared,-0.1723305122970957,0.8417009346810229,58
+Mox Ruby (repeat),squared,-0.16682615683809246,0.8463467301406565,14
+"Elspeth, Storm Slayer (repeat)",squared,-0.16445096212393487,0.8483593576653655,74
+Fury (repeat),squared,-0.1633986765666692,0.8492525438258371,60
+Xander's Lounge (repeat),squared,0.16229433721322356,1.1762063916875385,47
+Archon of Cruelty (repeat),squared,-0.1622540279226078,0.8502251961649846,39
+Currency Converter (repeat),squared,-0.16040864704306465,0.8517956340676642,29
+"Makdee and Itla, Skysnarers (repeat)",squared,-0.16018549612470848,0.851985734255385,54
+Windswept Heath (repeat),squared,0.14914722992395416,1.1608438875853913,79
+Time Walk (repeat),squared,-0.14831034907448534,0.8621635017726135,183
+Pyrogoyf (repeat),squared,-0.1472887754129725,0.863044715333587,82
+"Tamiyo, Inquisitive Student (repeat)",squared,-0.14613135276434203,0.8640442011360691,102
+Skullclamp (repeat),squared,0.14572524475952306,1.1568782860084952,17
+Faerie Mastermind (repeat),squared,-0.14179386101085165,0.8678001254899941,64
+Nova Hellkite (repeat),squared,-0.13497210861485917,0.8737402811748788,32
+Death-Greeter's Champion (repeat),squared,-0.13429886055902704,0.8743287231819741,55
+Broadside Bombardiers (repeat),squared,-0.12989932483941677,0.8781838377691888,91
+Aether Spellbomb (repeat),squared,0.12960669008954814,1.13838055890782,95
+Smuggler's Copter (repeat),squared,-0.12681648049670996,0.8808953192354845,36
+Timetwister (repeat),squared,0.125797834583137,1.1340528788336133,174
+Thraben Inspector (repeat),squared,-0.12252625424441917,0.8846826779633208,34
+Mox Jet (repeat),squared,-0.12085926843358288,0.8861586613144363,9
+"Comet, Stellar Pup (repeat)",squared,-0.11924170325988807,0.8875932406533352,91
+"Jace, the Mind Sculptor (repeat)",squared,-0.11464015804962602,0.8916869525552953,80
+Mox Diamond (repeat),squared,0.11357246318787304,1.1202730645087655,27
+Intrepid Adversary (repeat),squared,-0.11180443254779447,0.8942191205561594,21
+Watery Grave (repeat),squared,-0.10972087340456547,0.8960842213299954,56
+Spara's Headquarters (repeat),squared,0.10769312086373976,1.1137059198288592,55
+Subtlety (repeat),squared,0.1071211982698065,1.1130691483596642,108
+Gitaxian Probe (repeat),squared,-0.10701794870587407,0.8985095457620126,96
+Bloodstained Mire (repeat),squared,0.10553221345064283,1.1113019028152513,87
+Lotus Petal (repeat),squared,0.10455049394229442,1.1102114514038837,49
+"Narset, Parter of Veils (repeat)",squared,-0.1043362130434702,0.9009223446522965,154
+Kolaghan's Command (repeat),squared,-0.102895310455076,0.9022214216876175,35
+Deep-Cavern Bat (repeat),squared,-0.10289068745738496,0.902225592664808,63
+Hired Claw (repeat),squared,-0.10094819572747628,0.9039798616919985,22
+"Ragavan, Nimble Pilferer (repeat)",squared,0.09965576701037092,1.1047905472583153,65
+Arena of Glory (repeat),squared,-0.09643879380183747,0.9080654751343034,5
+Dauthi Voidwalker (repeat),squared,-0.09628043226097911,0.9082092891691513,48
+Underworld Breach (repeat),squared,-0.0954212877924027,0.9089899074401692,95
+Sleight of Hand (repeat),squared,0.0935607480506269,1.0980773073710697,79
+Urza's Bauble (repeat),squared,0.09347622077339836,1.0979844938087853,80
+Go for the Throat (repeat),squared,-0.09325328493027385,0.9109627379394994,44
+Breeding Pool (repeat),squared,0.09288139879663564,1.0973315827039107,47
+Mystical Tutor (repeat),squared,0.09200267613528014,1.096367756105323,143
+Treasure Cruise (repeat),squared,-0.09121559777068179,0.9128208875343047,111
+Mother of Runes (repeat),squared,-0.08974046407415898,0.9141684140309138,45
+"Nia, Skysail Storyteller (repeat)",squared,0.08971786246529212,1.0938656196151753,31
+Hymn to Tourach (repeat),squared,-0.08933024794725859,0.9145434975844537,50
+Fallen Shinobi (repeat),squared,-0.08902583008682406,0.9148219433390428,59
+Kappa Cannoneer (repeat),squared,-0.08896132526271845,0.9148809556708554,75
+Arid Mesa (repeat),squared,-0.08777791756897413,0.9159642737096794,73
+Collective Brutality (repeat),squared,-0.08348642331266957,0.9199035758296787,52
+Ocelot Pride (repeat),squared,0.08199807338246645,1.0854537185733684,45
+Savai Triome (repeat),squared,-0.08097343945984756,0.9222181857324674,24
+Reprieve (repeat),squared,-0.08063328642928375,0.9225319344014404,47
+Cosmogrand Zenith (repeat),squared,-0.07915236171566435,0.9238991468616854,36
+"Tezzeret, Cruel Captain (repeat)",squared,-0.07900628318683521,0.9240341185478381,66
+Strip Mine (repeat),squared,-0.07893745359777786,0.9240977216253544,46
+Polluted Delta (repeat),squared,0.07709652257972853,1.0801463298713554,106
+Sol Ring (repeat),squared,-0.07694983507262294,0.9259363019687903,17
+"Malcolm, Alluring Scoundrel (repeat)",squared,-0.07626094330889613,0.926574391623071,82
+Crabomination (repeat),squared,-0.07509616974511235,0.9276542697639789,49
+Enduring Innocence (repeat),squared,-0.07303646024335222,0.9295669371711842,31
+"Teferi, Hero of Dominaria (repeat)",squared,-0.07302981093322562,0.9295731181705825,115
+"Jace, Vryn's Prodigy (repeat)",squared,-0.07038647205660156,0.932033545371311,79
+Daze (repeat),squared,-0.06869701663145993,0.9336095053831986,134
+Flash (repeat),squared,-0.0684506413055354,0.9338395520671233,82
+"Torsten, Founder of Benalia (repeat)",squared,-0.06841349047507062,0.9338742456264467,41
+Brazen Borrower (repeat),squared,-0.06793281319859226,0.934323245658819,63
+Talisman of Creativity (repeat),squared,-0.06738288162554101,0.9348372008181743,36
+Cut Down (repeat),squared,-0.06705639104162554,0.9351424661921588,85
+Noble Hierarch (repeat),squared,0.06538248222349702,1.0675672718093785,29
+Generous Plunderer (repeat),squared,0.06426886982895039,1.0663790773802941,56
+Cryptic Command (repeat),squared,-0.06414222434402951,0.937871601871397,122
+Raugrin Triome (repeat),squared,0.0639999431418636,1.0660923381454799,49
+Barrowgoyf (repeat),squared,-0.06314811315399109,0.9388044141083566,87
+Sink into Stupor (repeat),squared,0.0629630355501501,1.0649874718277197,105
+Fear of Missing Out (repeat),squared,-0.06152845570729302,0.9403261877119636,41
+"Inti, Seneschal of the Sun (repeat)",squared,-0.06003316075695861,0.9417333044772316,37
+Screaming Nemesis (repeat),squared,-0.060027893441533774,0.9417382648966564,58
+Sheoldred's Edict (repeat),squared,-0.057659845993998315,0.9439709883452625,54
+Chain Lightning (repeat),squared,-0.05745340824956016,0.9441658797026855,47
+Fatal Push (repeat),squared,-0.057116771039700504,0.9444837745746926,85
+"Laelia, the Blade Reforged (repeat)",squared,-0.05634774761938399,0.9452103840715002,76
+Quantum Riddler (repeat),squared,-0.05603043515884681,0.945510358694521,100
+No More Lies (repeat),squared,-0.05494476970447274,0.9465374240515164,114
+Vampiric Tutor (repeat),squared,0.05451171369026401,1.0560248462892368,85
+Unexpectedly Absent (repeat),squared,0.05386992905328791,1.0553473232018329,44
+Underground Sea (repeat),squared,-0.053582682940966415,0.9478275685929167,33
+Tishana's Tidebinder (repeat),squared,-0.053505711064440624,0.947900527467349,75
+Luminarch Aspirant (repeat),squared,-0.053332004855100396,0.9480651979765379,64
+Abrade (repeat),squared,-0.05269650127371434,0.9486678882908822,50
+Hullbreacher (repeat),squared,-0.051262913270276746,0.9500288624998454,136
+"Gut, True Soul Zealot (repeat)",squared,-0.049951391424032036,0.9512756635322555,54
+Badlands (repeat),squared,0.0495758036134734,1.0508252455465226,21
+Thundertrap Trainer (repeat),squared,0.04864989997784629,1.049852732927225,80
+Mystic Confluence (repeat),squared,-0.04757145044697955,0.9535423396721887,149
+Entomb (repeat),squared,-0.04668713302288787,0.9543859467310043,53
+Memory Lapse (repeat),squared,0.04440461073294663,1.0454052515134589,140
+"Titania, Protector of Argoth (repeat)",squared,-0.044254349246062495,0.9567105879071918,37
+Prismatic Vista (repeat),squared,-0.044041909071261896,0.9569138532618195,60
+Mana Crypt (repeat),squared,0.04312504628781036,1.0440684435712146,15
+Trinket Mage (repeat),squared,-0.04312294362442423,0.9577936282080418,85
+Seachrome Coast (repeat),squared,0.04301396321555654,1.0439524716822355,63
+Descendant of Storms (repeat),squared,0.04292106183511463,1.0438554915613638,21
+Counterspell (repeat),squared,0.04170485170611446,1.0425867156447692,136
+Wheel of Fortune (repeat),squared,0.040752073521319675,1.0415938348390423,130
+Mishra's Bauble (repeat),squared,-0.03924866773602096,0.9615115825076789,68
+Get Lost (repeat),squared,-0.038477954915682226,0.9622529174526989,49
+"Oko, Thief of Crowns (repeat)",squared,-0.03819658777748343,0.9625237018954415,100
+Fiery Confluence (repeat),squared,-0.037677889441619664,0.9630230908427554,57
+Force of Will (repeat),squared,-0.03751733143615084,0.9631777243229309,146
+Inspiring Vantage (repeat),squared,-0.037430167958022224,0.963261681902403,11
+Zagoth Triome (repeat),squared,0.03718773936302091,1.0378878549533446,35
+Mind Twist (repeat),squared,0.03715151247146543,1.0378502561836238,63
+Grief (repeat),squared,-0.035729819614833354,0.9649009555804708,50
+Mana Vault (repeat),squared,0.03486601100614945,1.0354809564526806,11
+Containment Priest (repeat),squared,-0.034776965420814765,0.9658208036737684,37
+Celestial Colonnade (repeat),squared,0.03394756647039136,1.0345303612276624,52
+"Tamiyo, Collector of Tales (repeat)",squared,-0.03393352210774076,0.9666357624096897,79
+Fiery Islet (repeat),squared,0.03071012876656502,1.0311865492425099,79
+Lion's Eye Diamond (repeat),squared,0.030311982511881632,1.0307760679012758,161
+Figure of Destiny (repeat),squared,-0.03027935736936229,0.9701744703006674,30
+Staff of the Storyteller (repeat),squared,-0.027220622719340126,0.973146519607469,32
+Snapcaster Mage (repeat),squared,0.02680562808082274,1.0271681307179132,84
+Robber of the Rich (repeat),squared,0.026160040893927268,1.0265052181408916,39
+"Thalia, Guardian of Thraben (repeat)",squared,-0.02613233728171384,0.974206157282977,22
+Creeping Tar Pit (repeat),squared,0.024844470749648753,1.025155666432569,44
+Chrome Host Seedshark (repeat),squared,-0.024468123950855503,0.9758287939892452,77
+Floodfarm Verge (repeat),squared,-0.024256189084100106,0.9760356280515758,25
+Dismember (repeat),squared,-0.023942654237352732,0.9763416972118033,91
+Miscalculation (repeat),squared,0.023775107121537475,1.024059988193375,130
+Unholy Heat (repeat),squared,0.021808594843135926,1.0220481404627517,38
+Splitskin Doll (repeat),squared,0.021772319934468615,1.0220110664322353,17
+Chromatic Star (repeat),squared,-0.020299060013363058,0.9799055789070097,72
+"Sheoldred, the Apocalypse (repeat)",squared,-0.020094674942865945,0.9801058774461534,100
+Mox Sapphire (repeat),squared,0.01944474932447515,1.0196350297801577,11
+Pest Infestation (repeat),squared,0.01912972006875561,1.0193138655063476,74
+"Takenuma, Abandoned Mire (repeat)",squared,-0.01892104312876074,0.9812568361538818,34
+Hallowed Fountain (repeat),squared,0.017447298761465144,1.0176003919365963,73
+Consult the Star Charts (repeat),squared,0.015036348210370273,1.0151499628295293,145
+Demonic Tutor (repeat),squared,-0.014008106870558775,0.986089550130116,114
+"Nadu, Winged Wisdom (repeat)",squared,-0.01339258526170829,0.9866966963931361,68
+Expressive Iteration (repeat),squared,0.012962498773706359,1.0130468761473066,106
+Ancient Tomb (repeat),squared,0.012798543275937295,1.0128807951577823,28
+Toxic Deluge (repeat),squared,-0.01194534941275638,0.9881257130368345,92
+Thoughtseize (repeat),squared,0.01191776293122096,1.0119890624298449,80
+Darkslick Shores (repeat),squared,0.009492894600223635,1.009538095038618,65
+Tinker (repeat),squared,-0.00932041696026535,0.9907228834953693,118
+Galvanic Blast (repeat),squared,0.00853235309802266,1.0085688573713043,54
+"Kari Zev, Skyship Raider (repeat)",squared,-0.006388808245433621,0.9936315567974335,36
+"Teferi, Time Raveler (repeat)",squared,-0.006170694736190371,0.9938483049001667,102
+Multiversal Passage (repeat),squared,-0.005937119526943595,0.9940804703389333,41
+Grim Monolith (repeat),squared,0.00581827176873831,1.0058352307866973,27
+Brain Freeze (repeat),squared,0.005622297348298635,1.005638132124065,155
+Mana Confluence (repeat),squared,0.005053061073230247,1.0050658493171878,34
+Godless Shrine (repeat),squared,0.004471030431768518,1.0044810404010618,27
+Time Warp (repeat),squared,0.004413105467429927,1.0044228575577536,115
+Talisman of Progress (repeat),squared,-0.004086585505359221,0.9959217532223452,44
+Preordain (repeat),squared,0.0036424035541546738,1.0036490451673439,120
+Pentad Prism (repeat),squared,0.003319645907451355,1.0033251620341004,34
+Portable Hole (repeat),squared,0.003002261825162944,1.0030067731267696,27
+Emperor of Bones (repeat),squared,0.0027502244154197775,1.002754009751967,71
+Raffine's Tower (repeat),squared,-0.0026886121626003476,0.99731499891809,56
+Wooded Foothills (repeat),squared,0.0024454314381031302,1.0024484239443883,71
+Ponder (repeat),squared,-0.0020062191427323668,0.9979957919697564,156
+"Ajani, Nacatl Pariah (repeat)",squared,-0.00047908146690490045,0.9995210332742969,54
+Plateau (repeat),squared,0.0,1.0,12
+"Ugin, Eye of the Storms (repeat)",squared,0.0,1.0,86
+Tundra (repeat),squared,0.0,1.0,14
+Urza's Saga (repeat),squared,0.0,1.0,72
+Pyrokinesis (repeat),squared,0.0,1.0,37
+Reckoner Bankbuster (repeat),squared,0.0,1.0,46
+Raucous Theater (repeat),squared,0.0,1.0,26
+Remand (repeat),squared,0.0,1.0,164
+Willowrush Verge (repeat),squared,0.0,1.0,19
+Overlord of the Mistmoors (repeat),squared,0.0,1.0,35
+Oust (repeat),squared,0.0,1.0,88
+Path to Exile (repeat),squared,0.0,1.0,66
+Meticulous Archive (repeat),squared,0.0,1.0,42
+Mine Collapse (repeat),squared,0.0,1.0,30
+Prismatic Ending (repeat),squared,0.0,1.0,62
+Misty Rainforest (repeat),squared,0.0,1.0,85
+Mox Emerald (repeat),squared,0.0,1.0,16
+Mox Pearl (repeat),squared,0.0,1.0,8
+Mox Opal (repeat),squared,0.0,1.0,7
+Chrome Mox (repeat),squared,0.0,1.0,35
+Consider (repeat),squared,0.0,1.0,104
+Riverpyre Verge (repeat),squared,0.0,1.0,34
+Caustic Bronco (repeat),squared,0.0,1.0,35
+Life // Death (repeat),squared,0.0,1.0,27
+"Otawara, Soaring City (repeat)",squared,0.0,1.0,75
+Tropical Island (repeat),squared,0.0,1.0,9
+Undercity Sewers (repeat),squared,0.0,1.0,45
+Upheaval (repeat),squared,0.0,1.0,119
+Baleful Strix (repeat),squared,0.0,1.0,65
+Balance (repeat),squared,0.0,1.0,150
+"Atraxa, Grand Unifier (repeat)",squared,0.0,1.0,50
+Inquisition of Kozilek (repeat),squared,0.0,1.0,72
+Mana Tithe (repeat),squared,0.0,1.0,40
+Mana Leak (repeat),squared,0.0,1.0,133
+Mana Drain (repeat),squared,0.0,1.0,146
+Malevolent Rumble (repeat),squared,0.0,1.0,55
+"Magda, Brazen Outlaw (repeat)",squared,0.0,1.0,26
+Lightning Bolt (repeat),squared,0.0,1.0,50
+"Ivora, Insatiable Heir (repeat)",squared,0.0,1.0,41
+Seasoned Pyromancer (repeat),squared,0.0,1.0,22
+Serra Paragon (repeat),squared,0.0,1.0,46
+Shelldock Isle (repeat),squared,0.0,1.0,44
+Karakas (repeat),squared,0.0,1.0,19
+Kumano Faces Kakkazan (repeat),squared,0.0,1.0,8
+Library of Alexandria (repeat),squared,0.0,1.0,41
+"Karn, Scion of Urza (repeat)",squared,0.0,1.0,77
+"Kellan, Planar Trailblazer (repeat)",squared,0.0,1.0,27
+Goblin Bombardment (repeat),squared,0.0,1.0,12
+"Goben, Gene-Splice Savant (repeat)",squared,0.0,1.0,65
+Snuff Out (repeat),squared,0.0,1.0,69
+Solitude (repeat),squared,0.0,1.0,51
+Spell Pierce (repeat),squared,0.0,1.0,128
+Spirebluff Canal (repeat),squared,0.0,1.0,68
+Steam Vents (repeat),squared,0.0,1.0,60
+Stock Up (repeat),squared,0.0,1.0,162
+Stomping Ground (repeat),squared,0.0,1.0,17
+Swords to Plowshares (repeat),squared,0.0,1.0,88
+Taiga (repeat),squared,0.0,1.0,15
+Showdown of the Skalds (repeat),squared,0.0,1.0,22
+Giver of Runes (repeat),squared,0.0,1.0,31
+Gloomlake Verge (repeat),squared,0.0,1.0,39
+Scalding Tarn (repeat),squared,0.0,1.0,74
+Scrubland (repeat),squared,0.0,1.0,18
+Flame Slash (repeat),squared,0.0,1.0,47
+Draconautics Engineer (repeat),squared,0.0,1.0,28
+Displacer Kitten (repeat),squared,0.0,1.0,77
+Dig Through Time (repeat),squared,0.0,1.0,105
+Dack Fayden (repeat),squared,0.0,1.0,113
+Flooded Strand (repeat),squared,0.0,1.0,117
+Fractured Identity (repeat),squared,0.0,1.0,144
+Force of Negation (repeat),squared,0.0,1.0,136
+Third Path Iconoclast (repeat),squared,0.0,1.0,84
+Thirst for Discovery (repeat),squared,0.0,1.0,84
+Three Steps Ahead (repeat),squared,0.0,1.0,97
+Verdant Catacombs (repeat),squared,0.0,1.0,67
+Frantic Search (repeat),squared,0.0,1.0,124
+Galvanic Discharge (repeat),squared,0.0,1.0,55
+Tersa Lightshatter (repeat),squared,0.0,1.0,38
+Thieving Skydiver (repeat),squared,0.0,1.0,80
+Elegant Parlor (repeat),squared,0.0,1.0,12
+Echo of Eons (repeat),squared,0.0,1.0,136
+Duress (repeat),squared,0.0,1.0,77
+Dragon's Rage Channeler (repeat),squared,0.0,1.0,25
+Bitter Triumph (repeat),squared,0.0,1.0,50
+Fabled Passage (repeat),squared,0.0,1.0,60
+Thundering Falls (repeat),squared,0.0,1.0,49
+Birds of Paradise (repeat),squared,0.0,1.0,15
+Blazemire Verge (repeat),squared,0.0,1.0,20
+Blackcleave Cliffs (repeat),squared,0.0,1.0,26
+Black Lotus (repeat),squared,0.0,1.0,82
+Booster Tutor (repeat),squared,0.0,1.0,104
+Time Spiral (repeat),squared,0.0,1.0,102
+Brainstorm (repeat),squared,0.0,1.0,97
+Animate Dead (repeat),squared,0.0,1.0,39
+Ademi of the Silkchutes (repeat),squared,0.0,1.0,21
