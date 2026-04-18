@@ -26,9 +26,16 @@ def load_data(csv_path: str) -> pd.DataFrame:
     return df
 
 
-def split_by_prefix(df: pd.DataFrame, prefix: str):
-    """Extract target and feature columns for a given prefix (deck_ or drawn_)."""
+def split_by_prefix(df: pd.DataFrame, prefix: str, exclude_cards=None):
+    """Extract target and feature columns for a given prefix (deck_ or drawn_).
+    
+    Args:
+        exclude_cards: list of card names to drop (without prefix).
+    """
     feature_cols = [c for c in df.columns if c.startswith(prefix)]
+    if exclude_cards:
+        exclude_set = {f"{prefix}{name}" for name in exclude_cards}
+        feature_cols = [c for c in feature_cols if c not in exclude_set]
     y = df["won"].values
     X_df = df[feature_cols]
     # Strip prefix from card names for cleaner output

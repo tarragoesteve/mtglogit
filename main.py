@@ -61,7 +61,11 @@ def main():
                         help="Regularization strength inverse (default: 1.0)")
     parser.add_argument("--max-iter", type=int, default=1000,
                         help="Max solver iterations (default: 1000)")
+    parser.add_argument("--all", action="store_true",
+                        help="Run all analyses (deck, drawn, drawn_without_basics). Default: only drawn_without_basics")
     args = parser.parse_args()
+
+    BASIC_LANDS = ["Forest", "Island", "Plains", "Swamp", "Mountain"]
 
     # Find and load data
     csv_path = find_csv(args.data_dir)
@@ -70,15 +74,21 @@ def main():
 
     all_metrics = {}
 
-    # Run for deck_ columns
-    X_deck, y, deck_names = split_by_prefix(df, "deck_")
-    metrics_deck = run_pipeline("deck", X_deck, y, deck_names, args, args.output_dir)
-    all_metrics["deck"] = metrics_deck
+    if args.all:
+        # Run for deck_ columns
+        X_deck, y, deck_names = split_by_prefix(df, "deck_")
+        metrics_deck = run_pipeline("deck", X_deck, y, deck_names, args, args.output_dir)
+        all_metrics["deck"] = metrics_deck
 
-    # Run for drawn_ columns
-    X_drawn, y, drawn_names = split_by_prefix(df, "drawn_")
-    metrics_drawn = run_pipeline("drawn", X_drawn, y, drawn_names, args, args.output_dir)
-    all_metrics["drawn"] = metrics_drawn
+        # Run for drawn_ columns
+        X_drawn, y, drawn_names = split_by_prefix(df, "drawn_")
+        metrics_drawn = run_pipeline("drawn", X_drawn, y, drawn_names, args, args.output_dir)
+        all_metrics["drawn"] = metrics_drawn
+
+    # Run for drawn_ columns without basic lands (default)
+    X_drawn_nb, y, drawn_nb_names = split_by_prefix(df, "drawn_", exclude_cards=BASIC_LANDS)
+    metrics_drawn_nb = run_pipeline("drawn_without_basics", X_drawn_nb, y, drawn_nb_names, args, args.output_dir)
+    all_metrics["drawn_without_basics"] = metrics_drawn_nb
 
     # Save combined metrics
     print(f"\n{'='*60}")

@@ -1,0 +1,250 @@
+feature,type,coefficient,odds_multiplier,count
+Liminal Hold × Silvergill Peddler,pair,0.18326901795511683,1.20113749217313,1860
+Dawnhand Eulogist × Morcant's Eyes,pair,0.15417246398077158,1.1666920817892545,2335
+Blossombind × Stratosoarer,pair,0.1405242275755687,1.1508769621856538,2280
+Morcant's Eyes × Scarblade Scout,pair,0.13219437321620597,1.1413301417187638,1943
+Evolving Wilds × Unexpected Assistance,pair,0.13152648672155973,1.1405681172324351,2188
+Blossombind × Tanufel Rimespeaker,pair,0.12464203364571728,1.1327428966383297,1891
+Kulrath Zealot × Tweeze,pair,0.12067090764290435,1.1282535516439955,4029
+Assert Perfection × Crossroads Watcher,pair,-0.1166876439730468,0.8898631038612654,2250
+Flamekin Gildweaver × Twinflame Travelers,pair,0.11553435796130596,1.122473079772406,2185
+Gravelgill Scoundrel × Wanderbrine Preacher,pair,0.11531217336843103,1.1222237112521112,2804
+Deepchannel Duelist × Silvergill Peddler,pair,-0.10901439675394115,0.8967175075839938,1876
+Liminal Hold × Timid Shieldbearer,pair,-0.10786991391393634,0.8977443728865286,2492
+Evolving Wilds × Flaring Cinder,pair,0.10613705640679731,1.1119742692608865,1849
+Explosive Prodigy × Tweeze,pair,-0.10532709059572003,0.900030083058657,1951
+Blossombind × Rimekin Recluse,pair,-0.10339916271076498,0.9017669498921036,2395
+Mistmeadow Council × Surly Farrier,pair,0.10149447482248912,1.1068238029770567,2382
+Summit Sentinel × Tweeze,pair,0.09806618253118748,1.1030357843930438,1994
+Blossombind × Shinestriker,pair,0.09735556315105177,1.1022522242271642,2129
+Kulrath Zealot × Summit Sentinel,pair,0.09388546486725152,1.0984339294361842,2624
+Spiral into Solitude × Timid Shieldbearer,pair,-0.09319220054995901,0.9110183852334093,2410
+Eclipsed Flamekin × Tweeze,pair,-0.09309675138228775,0.9111053453300815,1935
+Cinder Strike × Elder Auntie,pair,-0.09226996450555586,0.9118589467638798,2026
+Eclipsed Merrow × Unexpected Assistance,pair,-0.09214312677665959,0.9119746122169777,1857
+Evolving Wilds × Tweeze,pair,0.09155629277440502,1.0958784649954274,1991
+Rimekin Recluse × Unexpected Assistance,pair,-0.09087372151451956,0.9131330126729285,2335
+Mistmeadow Council × Timid Shieldbearer,pair,0.08968254316646627,1.0938269857307457,2379
+Dawnhand Eulogist × Midnight Tilling,pair,-0.08854186503600871,0.9152647923404138,2734
+Blight Rot × Safewright Cavalry,pair,0.08635612588039897,1.090194505659159,2253
+Shinestriker × Temporal Cleansing,pair,0.08612349291374573,1.0899409199744172,1832
+Assert Perfection × Scarblade Scout,pair,-0.08343229362115584,0.9199533712741547,3145
+Mischievous Sneakling × Unexpected Assistance,pair,0.08255972759334984,1.0860635394633287,2039
+Dawnhand Eulogist × Lys Alana Informant,pair,-0.0820871776099407,0.9211916479095862,3581
+Evolving Wilds × Mischievous Sneakling,pair,0.08082900249994196,1.0841854877069892,1854
+Kulrath Zealot × Stratosoarer,pair,0.08057112972154024,1.0839059418281567,2121
+Lys Alana Informant × Morcant's Eyes,pair,0.08003812911388729,1.0833283732384018,1938
+Feed the Flames × Kulrath Zealot,pair,0.08003176593235066,1.083321479845231,4078
+Cinder Strike × Stratosoarer,pair,0.07780367845674144,1.0809104318343128,1919
+Dawn's Light Archer × Scarblade Scout,pair,-0.07519306523924951,0.9275643885997319,2421
+Evolving Wilds × Feed the Flames,pair,0.07436102023136007,1.0771956247198502,2117
+Eclipsed Flamekin × Feed the Flames,pair,0.07428229761514701,1.077110828399837,2061
+Flamebraider × Flaring Cinder,pair,0.07337884611596139,1.0761381504569631,2239
+Kulrath Zealot × Tanufel Rimespeaker,pair,0.0723155788876373,1.0749945361199977,1950
+Assert Perfection × Morcant's Eyes,pair,0.07211523820574751,1.0747791925533623,1867
+Eclipsed Elf × Scarblade Scout,pair,-0.07190351841674529,0.9306206792364549,2145
+Flamebraider × Flamekin Gildweaver,pair,-0.07053788908465158,0.9318924303057095,2533
+Liminal Hold × Wanderbrine Preacher,pair,-0.06945044530977564,0.9329063621249045,2792
+Silvergill Peddler × Wanderbrine Preacher,pair,0.06937019180634717,1.0718329194789231,2610
+Morcant's Loyalist × Scarblade Scout,pair,0.06911419120821319,1.071558564729425,2141
+Blossombind × Cinder Strike,pair,-0.06853753825680393,0.9337584077827212,2170
+Blossombind × Temporal Cleansing,pair,-0.06758891719422049,0.9346446109447444,3392
+Blight Rot × Scarblade Scout,pair,-0.06733483132603016,0.9348821211048756,2877
+Flamekin Gildweaver × Stratosoarer,pair,0.0666640211055609,1.0689362778072644,1938
+Tanufel Rimespeaker × Unexpected Assistance,pair,0.06434426360757443,1.0664594787592272,1850
+Dawnhand Eulogist × Scarblade Scout,pair,-0.06425086519150884,0.9377697162403138,4198
+Tweeze × Unexpected Assistance,pair,-0.063337767872072,0.9386263823046851,1898
+Assert Perfection × Bogslither's Embrace,pair,-0.06321370471713429,0.9387428384787925,2092
+Flaring Cinder × Temporal Cleansing,pair,0.06313552858206553,1.0651711905903347,2383
+Flaring Cinder × Summit Sentinel,pair,0.06258814335732597,1.0645882911686073,2689
+Crossroads Watcher × Timid Shieldbearer,pair,0.06228975079643741,1.06427067333187,1903
+Deepchannel Duelist × Merrow Skyswimmer,pair,0.062245084443691256,1.0642231373041962,2406
+Creakwood Safewright × Scarblade Scout,pair,-0.06098791293210117,0.9408346116391157,1824
+Feed the Flames × Flamebraider,pair,0.05957920682645659,1.06138982697002,2128
+Flamekin Gildweaver × Unexpected Assistance,pair,-0.05903948915532749,0.9426695431980799,2205
+Cinder Strike × Explosive Prodigy,pair,-0.05859045938771483,0.9430929249323847,2426
+Foraging Wickermaw × Kulrath Zealot,pair,0.05805232368873915,1.0597704453585277,2041
+Merrow Skyswimmer × Spiral into Solitude,pair,-0.056535960071125595,0.945032500448184,2743
+Dawn's Light Archer × Dawnhand Eulogist,pair,-0.05584596288147767,0.9456847952325236,2722
+Elder Auntie × Gristle Glutton,pair,-0.05527228112204743,0.9462274729970029,2038
+Enraged Flamecaster × Kulrath Zealot,pair,0.05526671609028698,1.056822448640626,2012
+Gallant Fowlknight × Mistmeadow Council,pair,-0.05508997275816274,0.9463999939049922,1985
+Flamebraider × Kulrath Zealot,pair,0.05494722205213363,1.0564848541014915,2827
+Eclipsed Flamekin × Kulrath Zealot,pair,-0.05380561969118527,0.9476162865471482,2649
+Liminal Hold × Mistmeadow Council,pair,0.051547832528512756,1.052899547935309,2084
+Liminal Hold × Tributary Vaulter,pair,0.051453069696091834,1.0527997769192587,1852
+Lys Alana Informant × Scarblade Scout,pair,-0.050478235630277535,0.9507746214575276,3050
+Gallant Fowlknight × Timid Shieldbearer,pair,-0.049737729100306875,0.9514789370161981,1892
+Bogslither's Embrace × Scarblade Scout,pair,-0.049427319644259414,0.9517743309196365,3045
+Blossombind × Unexpected Assistance,pair,-0.04900535787665711,0.9521760280431237,3978
+Assert Perfection × Stoic Grove-Guide,pair,0.04879135157474642,1.0500012467763205,2200
+Cinder Strike × Eclipsed Flamekin,pair,0.047911944339532636,1.049078273976883,2400
+Cinder Strike × Sear,pair,-0.047502123076876006,0.9536084485464312,2164
+Explosive Prodigy × Kulrath Zealot,pair,-0.047173658738893065,0.9539217263616565,2359
+Stratosoarer × Unexpected Assistance,pair,-0.046440597154305416,0.9546212661054858,1999
+Enraged Flamecaster × Flamekin Gildweaver,pair,0.045937526767502304,1.0470089988770923,1825
+Bogslither's Embrace × Lys Alana Informant,pair,-0.04558589159888743,0.9554375349900296,2399
+Crossroads Watcher × Mistmeadow Council,pair,0.04558528808282057,1.0466402667491503,2766
+Omni-Changeling × Unexpected Assistance,pair,0.044007990329833956,1.0449907046754887,1895
+Liminal Hold × Spiral into Solitude,pair,-0.0438234880717086,0.9571228861698927,3191
+Merrow Skyswimmer × Silvergill Peddler,pair,0.043590116036744585,1.0445541211483569,3048
+Gravelgill Scoundrel × Liminal Hold,pair,-0.042745360693057295,0.9581553430181969,2046
+Flamekin Gildweaver × Shinestriker,pair,0.041453963020990144,1.0423251752446885,1925
+Dawnhand Eulogist × Safewright Cavalry,pair,-0.04085136733442828,0.9599718025125156,3415
+Tributary Vaulter × Wanderbrine Preacher,pair,0.040554367154659675,1.041387925461889,2654
+Deepchannel Duelist × Gravelgill Scoundrel,pair,0.04046870244025488,1.0412987190836436,2002
+Blossombind × Flaring Cinder,pair,0.04009150623804084,1.040906019228538,2778
+Cinder Strike × Unexpected Assistance,pair,0.04002969195784455,1.04084167836082,2275
+Eclipsed Flamekin × Flaring Cinder,pair,-0.039879335965263586,0.9609053788773203,2292
+Eclipsed Merrow × Wanderbrine Preacher,pair,-0.03973681005331649,0.9610423425529442,2041
+Flamekin Gildweaver × Kulrath Zealot,pair,-0.039573022989212774,0.9611997617479723,4433
+Assert Perfection × Midnight Tilling,pair,0.039551366888376904,1.0403439367433502,2299
+Evolving Wilds × Flamekin Gildweaver,pair,-0.03939771996174228,0.9613682777464614,1934
+Temporal Cleansing × Unexpected Assistance,pair,-0.03763427295986125,0.9630650954378697,3968
+Assert Perfection × Evolving Wilds,pair,-0.03729150940430542,0.9633952556344227,2184
+Assert Perfection × Gangly Stompling,pair,-0.036887858777591744,0.9637842092285324,1929
+Cinder Strike × Summit Sentinel,pair,-0.03644183797460517,0.9642141729146847,2316
+Safewright Cavalry × Scarblade Scout,pair,0.03610832370861979,1.0367681469790708,3232
+Tweeze × Twinflame Travelers,pair,-0.03609134816905936,0.9645521793831046,1872
+Mistmeadow Council × Spiral into Solitude,pair,-0.03558192145344824,0.9650436732112974,2016
+Feed the Flames × Flamekin Gildweaver,pair,0.03527625029069778,1.0359058385651274,3440
+Assert Perfection × Dawnhand Eulogist,pair,-0.034965726470096964,0.9656385115308178,3252
+Gravelgill Scoundrel × Tributary Vaulter,pair,0.0344121583542493,1.0350111073038086,2842
+Deepchannel Duelist × Wanderbrine Preacher,pair,-0.03434818924450909,0.9662350134202539,2053
+Evolving Wilds × Liminal Hold,pair,0.03344706559502394,1.0340127074301693,1893
+Eclipsed Elf × Safewright Cavalry,pair,-0.032216904039947675,0.9682965318700217,1887
+Cinder Strike × Flaring Cinder,pair,0.03204939064741703,1.0325685032725758,3477
+Assert Perfection × Dawn's Light Archer,pair,-0.03190346464543018,0.9686000817184396,2548
+Blossombind × Merrow Skyswimmer,pair,0.03182082516353611,1.0323325207227454,3238
+Spiral into Solitude × Wanderbrine Preacher,pair,0.03180571513416008,1.0323169222658781,2400
+Blossombind × Mischievous Sneakling,pair,-0.03174363795706724,0.9687549022337443,2028
+Flame-Chain Mauler × Tweeze,pair,0.031441720595615015,1.0319412329227082,2536
+Dawn's Light Archer × Lys Alana Informant,pair,0.031052072007521317,1.0315392168058968,2535
+Flaring Cinder × Tanufel Rimespeaker,pair,0.030809039705766667,1.0312885499169957,1918
+Liminal Hold × Wary Farmer,pair,-0.03042999303154315,0.9700283384335143,2010
+Flamekin Gildweaver × Tweeze,pair,-0.029703552887387564,0.9707332619708992,3332
+Changeling Wayfinder × Evolving Wilds,pair,0.02965172921087757,1.0300957192257931,2256
+Blossombind × Feed the Flames,pair,-0.029083778263089267,0.971335084291468,1958
+Eclipsed Flamekin × Summit Sentinel,pair,-0.028786296361260077,0.9716240818833017,1814
+Stratosoarer × Summit Sentinel,pair,-0.027542362620267154,0.9728334699056534,1899
+Eclipsed Elf × Lys Alana Informant,pair,-0.02726218020663486,0.9731060789236569,2050
+Crossroads Watcher × Wary Farmer,pair,0.027169167392214453,1.0275416145967609,1974
+Blossombind × Wanderbrine Preacher,pair,0.027140844721743985,1.0275125122863453,2141
+Rimekin Recluse × Temporal Cleansing,pair,-0.026953992344959876,0.9734060246227411,2083
+Midnight Tilling × Scarblade Scout,pair,-0.02665619337981232,0.9736959470967058,2343
+Dawn's Light Archer × Midnight Tilling,pair,0.02664847097356006,1.0270067166298351,1887
+Scarblade Scout × Stoic Grove-Guide,pair,0.02581499113246812,1.0261510838607235,2552
+Dawnhand Eulogist × Morcant's Loyalist,pair,0.02574628770780268,1.0260805861887816,2235
+Flaring Cinder × Unexpected Assistance,pair,0.02548637872855238,1.0258139332852398,2585
+Feed the Flames × Flame-Chain Mauler,pair,0.024945478023359682,1.0252592198413004,2652
+Summit Sentinel × Unexpected Assistance,pair,-0.024774238086400707,0.9755301247173083,2403
+Explosive Prodigy × Flaring Cinder,pair,-0.02432152749528783,0.9759718575177317,1852
+Cinder Strike × Kulrath Zealot,pair,0.02426020894953306,1.0245568820779463,4870
+Assert Perfection × Eclipsed Elf,pair,-0.024190395330785097,0.9760998472115011,1871
+Assert Perfection × Pitiless Fists,pair,-0.024099029005858558,0.9761890339415721,1858
+Merrow Skyswimmer × Tributary Vaulter,pair,-0.024061740298952305,0.9762254354470221,2918
+Lys Alana Informant × Safewright Cavalry,pair,-0.023893936707462784,0.9763892633262624,3538
+Gravelgill Scoundrel × Temporal Cleansing,pair,-0.023657514450087524,0.9766201307700006,2536
+Flame-Chain Mauler × Flaring Cinder,pair,0.023366242396752848,1.0236413717727149,2485
+Liminal Hold × Merrow Skyswimmer,pair,-0.02327013663437689,0.9769985250290764,3005
+Kulrath Zealot × Unexpected Assistance,pair,0.02324931345941167,1.0235216854724272,2394
+Kulrath Zealot × Shinestriker,pair,-0.02312644980575966,0.9771389169346938,1935
+Merrow Skyswimmer × Unexpected Assistance,pair,-0.02274045455548715,0.9775161607179573,3706
+Flaring Cinder × Kulrath Zealot,pair,0.022616752817340248,1.0228744506671044,3940
+Summit Sentinel × Temporal Cleansing,pair,-0.022349514515518212,0.9778983856335426,2191
+Assert Perfection × Surly Farrier,pair,0.022087658585362848,1.0223333968420703,1998
+Cinder Strike × Tweeze,pair,-0.021956536321319015,0.9782827538944651,4512
+Temporal Cleansing × Wanderbrine Preacher,pair,-0.021887047170842732,0.9783507362939511,2249
+Merrow Skyswimmer × Temporal Cleansing,pair,-0.02138055726138074,0.9788463865801371,3226
+Lys Alana Informant × Mistmeadow Council,pair,0.021197505043756712,1.0214237680628726,1981
+Gristle Glutton × Kulrath Zealot,pair,-0.020765021973646703,0.9794490865448668,1902
+Silvergill Peddler × Unexpected Assistance,pair,0.0203675524753953,1.0205763864750872,2650
+Bogslither's Embrace × Dawnhand Eulogist,pair,0.020197345958423537,1.0204026925053837,2792
+Blossombind × Silvergill Peddler,pair,0.02005780153251546,1.0202603109319717,2303
+Merrow Skyswimmer × Shore Lurker,pair,-0.01938882153581328,0.9807979327350794,1826
+Cinder Strike × Flamekin Gildweaver,pair,-0.018970484011824062,0.9812083231486632,4139
+Flaring Cinder × Twinflame Travelers,pair,0.018857149352550485,1.0190360682574062,2279
+Gravelgill Scoundrel × Silvergill Peddler,pair,0.018320664335502477,1.0184895172962642,2854
+Kulrath Zealot × Sear,pair,0.01773569665380736,1.0178939080675597,1953
+Eclipsed Merrow × Gravelgill Scoundrel,pair,0.017065306139661642,1.0172117503287714,1954
+Lys Alana Informant × Stoic Grove-Guide,pair,-0.016975140859663517,0.9831681250455194,2228
+Cinder Strike × Temporal Cleansing,pair,-0.016705693545747396,0.9834330727490614,1819
+Explosive Prodigy × Feed the Flames,pair,0.016699953651687055,1.016840177366678,2015
+Gravelgill Scoundrel × Merrow Skyswimmer,pair,0.01635940269242398,1.016493950426163,3459
+Blossombind × Flamekin Gildweaver,pair,0.01628474494089558,1.0164180641061682,2462
+Bogslither's Embrace × Stoic Grove-Guide,pair,0.015584876489730086,1.0157069540406818,1826
+Evolving Wilds × Foraging Wickermaw,pair,0.01548437981123569,1.0156048839944132,2114
+Enraged Flamecaster × Feed the Flames,pair,0.015139710574030789,1.0152548965521626,1854
+Flame-Chain Mauler × Kulrath Zealot,pair,-0.0145683511118454,0.9855372538631101,2945
+Blight Rot × Lys Alana Informant,pair,0.012987956097014261,1.013072665937427,2427
+Silvergill Peddler × Tributary Vaulter,pair,-0.012565125718343851,0.9875134858744945,2325
+Cinder Strike × Evolving Wilds,pair,-0.012551093605220963,0.9875273428726599,2498
+Unexpected Assistance × Wanderbrine Preacher,pair,0.012306436977498463,1.0123824727627684,2596
+Flamekin Gildweaver × Flaring Cinder,pair,0.012258210299326722,1.0123336500963547,3802
+Temporal Cleansing × Tributary Vaulter,pair,-0.011874580859001012,0.9881956437388927,1960
+Flamekin Gildweaver × Temporal Cleansing,pair,0.010970538899145947,1.01103093592158,1937
+Morcant's Eyes × Safewright Cavalry,pair,0.010874794226684692,1.0109341397297058,1892
+Midnight Tilling × Safewright Cavalry,pair,-0.010853086593015525,0.9892055956648749,2310
+Blight Rot × Bogslither's Embrace,pair,-0.010771570136173468,0.9892862354868135,3222
+Silvergill Peddler × Temporal Cleansing,pair,0.010638535496210957,1.0106953259252947,2379
+Merrow Skyswimmer × Wanderbrine Trapper,pair,0.01018322879442776,1.0102352543147317,1953
+Cinder Strike × Sizzling Changeling,pair,0.009856734954666166,1.0099054725662722,2079
+Mistmeadow Council × Wary Farmer,pair,0.009032120310242262,1.0090730329922126,2865
+Evolving Wilds × Kulrath Zealot,pair,-0.008902856022958436,0.9911366570530382,2326
+Merrow Skyswimmer × Silvergill Mentor,pair,0.00845463393240583,1.0084904752871768,2242
+Cinder Strike × Gristle Glutton,pair,-0.00839549317409956,0.9916396505602886,3190
+Flamekin Gildweaver × Summit Sentinel,pair,-0.00836383710239062,0.9916710424730458,2357
+Blight Rot × Dawnhand Eulogist,pair,-0.008099869533619535,0.9919328460194508,2739
+Assert Perfection × Wary Farmer,pair,0.007841141820081277,1.0078719640805063,2325
+Flaring Cinder × Tweeze,pair,0.007609854259460216,1.0076388827879565,2803
+Flaring Cinder × Stratosoarer,pair,0.007379430966951557,1.00740672606711,2129
+Cinder Strike × Foraging Wickermaw,pair,-0.007324119707932852,0.9927026362955753,1988
+Blossombind × Tweeze,pair,0.007173204604727128,1.007198993663398,1956
+Dawnhand Eulogist × Eclipsed Elf,pair,-0.007079038213903669,0.9929459591565526,2213
+Cinder Strike × Flamebraider,pair,0.007036558512483237,1.0070613732596612,2310
+Blossombind × Gravelgill Scoundrel,pair,0.006790468529490129,1.0068135760349006,2354
+Assert Perfection × Lys Alana Informant,pair,0.006333617861297048,1.006353717631251,4115
+Tributary Vaulter × Unexpected Assistance,pair,0.0059530488731195826,1.00597080348243,2232
+Evolving Wilds × Temporal Cleansing,pair,0.00586437345490429,1.005881602555742,1952
+Lys Alana Informant × Midnight Tilling,pair,-0.0056232839268968585,0.994392497139835,2341
+Bogslither's Embrace × Safewright Cavalry,pair,-0.004925793796101357,0.9950863180312111,2297
+Flamebraider × Tweeze,pair,-0.00480473495229168,0.9952067893222732,1978
+Dawnhand Eulogist × Stoic Grove-Guide,pair,-0.004674551361421637,0.995336357349398,2575
+Kulrath Zealot × Temporal Cleansing,pair,-0.004643366579446215,0.9953673971806768,2138
+Cinder Strike × Twinflame Travelers,pair,0.0045983439132222794,1.0046089325203924,2149
+Gristle Glutton × Tweeze,pair,-0.0042755886080898566,0.9957335387080332,2475
+Creakwood Safewright × Dawnhand Eulogist,pair,0.0031923788297555304,1.003197479897788,2001
+Blossombind × Eclipsed Flamekin,pair,0.0029015635737034075,1.0029057771836563,1854
+Merrow Skyswimmer × Wanderbrine Preacher,pair,0.002734106753138662,1.0027378478317333,3695
+Eclipsed Merrow × Merrow Skyswimmer,pair,-0.0017144930127912892,0.9982869758907593,2353
+Explosive Prodigy × Flamekin Gildweaver,pair,0.001685059470565669,1.0016864799810448,2061
+Morcant's Loyalist × Safewright Cavalry,pair,-0.001283146626345445,0.9987176762542904,1960
+Eclipsed Flamekin × Flamekin Gildweaver,pair,0.001210723829463056,1.0012114570514385,2496
+Cinder Strike × Feed the Flames,pair,-0.00117860266656839,0.9988220916127678,4435
+Spiral into Solitude × Wary Farmer,pair,-0.0009751041697057789,0.9990253710898767,1946
+Gravelgill Scoundrel × Unexpected Assistance,pair,-0.0008561426005676185,0.9991442237849417,2833
+Feed the Flames × Gristle Glutton,pair,0.0002827251455281964,1.0002827651160489,2396
+Blossombind × Omni-Changeling,pair,2.1310175221912467e-05,1.0000213104022853,1912
+Assert Perfection × Safewright Cavalry,pair,0.0,1.0,3563
+Assert Perfection × Mistmeadow Council,pair,0.0,1.0,3309
+Assert Perfection × Great Forest Druid,pair,0.0,1.0,2300
+Blossombind × Summit Sentinel,pair,0.0,1.0,2442
+Blossombind × Kulrath Zealot,pair,0.0,1.0,2694
+Blossombind × Evolving Wilds,pair,0.0,1.0,2217
+Boulder Dash × Cinder Strike,pair,0.0,1.0,1997
+Cinder Strike × Flame-Chain Mauler,pair,0.0,1.0,2925
+Dawn's Light Archer × Safewright Cavalry,pair,0.0,1.0,2502
+Assert Perfection × Blight Rot,pair,0.0,1.0,2043
+Feed the Flames × Unexpected Assistance,pair,0.0,1.0,1895
+Feed the Flames × Summit Sentinel,pair,0.0,1.0,2058
+Feed the Flames × Flaring Cinder,pair,0.0,1.0,3046
+Feed the Flames × Twinflame Travelers,pair,0.0,1.0,1877
+Feed the Flames × Tweeze,pair,0.0,1.0,3823
+Kulrath Zealot × Twinflame Travelers,pair,0.0,1.0,2492
+Flaring Cinder × Shinestriker,pair,0.0,1.0,2044
+Flame-Chain Mauler × Flamekin Gildweaver,pair,0.0,1.0,2806
+Lys Alana Informant × Morcant's Loyalist,pair,0.0,1.0,1971
+Liminal Hold × Unexpected Assistance,pair,0.0,1.0,2048
+Safewright Cavalry × Stoic Grove-Guide,pair,0.0,1.0,2270
+Shinestriker × Unexpected Assistance,pair,0.0,1.0,1936
+Timid Shieldbearer × Wary Farmer,pair,0.0,1.0,2172
