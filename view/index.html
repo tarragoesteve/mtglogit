@@ -15,14 +15,35 @@
       width: 100vw;
       height: 100vh;
     }
+
+    /* -----------------------------
+       TOOLTIP
+    ----------------------------- */
+    #tooltip {
+      position: absolute;
+      display: none;
+      pointer-events: none;
+      z-index: 9999;
+      background: rgba(0,0,0,0.85);
+      padding: 8px;
+      border-radius: 8px;
+      border: 1px solid #333;
+    }
+
+    #tooltip img {
+      width: 240px;
+      height: auto;
+      border-radius: 6px;
+    }
   </style>
 </head>
 
 <body>
 
 <svg></svg>
+<div id="tooltip"></div>
 
-<!-- D3.js -->
+<!-- D3 -->
 <script src="https://d3js.org/d3.v7.min.js"></script>
 
 <!-- App -->
