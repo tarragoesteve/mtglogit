@@ -1,0 +1,6332 @@
+{
+  "nodes": [
+    {
+      "id": "Gloom Ripper",
+      "prob": 1.6658279027839034,
+      "self_prob": 0.8150476570191497,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 1.0,
+      "self_prob_norm": 0.6713527243564124
+    },
+    {
+      "id": "Deepchannel Duelist",
+      "prob": 1.6197840945803312,
+      "self_prob": 0.943683796048839,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.9723598049194491,
+      "self_prob_norm": 0.777309991572068
+    },
+    {
+      "id": "Blighted Blackthorn",
+      "prob": 0.6303833319033749,
+      "self_prob": 1.214037908016966,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.3784204423817664,
+      "self_prob_norm": 1.0
+    },
+    {
+      "id": "Rimekin Recluse",
+      "prob": 1.576642369480589,
+      "self_prob": 0.916955554330074,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.9464617364409198,
+      "self_prob_norm": 0.7552940054630153
+    },
+    {
+      "id": "Sunderflock",
+      "prob": 1.497491122015435,
+      "self_prob": 0.9363185093133012,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.8989470758130856,
+      "self_prob_norm": 0.7712432232389701
+    },
+    {
+      "id": "Shinestriker",
+      "prob": 0.671264020006195,
+      "self_prob": 0.8854179292422886,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.40296120558695764,
+      "self_prob_norm": 0.7293165422557093
+    },
+    {
+      "id": "Ashling's Command",
+      "prob": 1.477709763002692,
+      "self_prob": 0.941134217718262,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.8870722843177069,
+      "self_prob_norm": 0.7752099102535682
+    },
+    {
+      "id": "Brigid, Clachan's Heart",
+      "prob": 1.4468571481667163,
+      "self_prob": 0.8981257475650983,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.8685513946241105,
+      "self_prob_norm": 0.7397839405460699
+    },
+    {
+      "id": "Moonglove Extractor",
+      "prob": 0.7090193368356179,
+      "self_prob": 1.042445671378027,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.42562580183145976,
+      "self_prob_norm": 0.8586599022107791
+    },
+    {
+      "id": "Boggart Cursecrafter",
+      "prob": 1.391671499057978,
+      "self_prob": 0.9754977849101092,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.8354233331860033,
+      "self_prob_norm": 0.8035150949310198
+    },
+    {
+      "id": "Silvergill Mentor",
+      "prob": 1.3820576527194637,
+      "self_prob": 0.9480541636483796,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.8296521209722759,
+      "self_prob_norm": 0.7809098524748295
+    },
+    {
+      "id": "Firdoch Core",
+      "prob": 0.7236567805731562,
+      "self_prob": 1.0,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.4344126901487202,
+      "self_prob_norm": 0.8236975084521209
+    },
+    {
+      "id": "Reaping Willow",
+      "prob": 0.7266718155251,
+      "self_prob": 0.9300790406428748,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.43622262198315825,
+      "self_prob_norm": 0.7661037884410749
+    },
+    {
+      "id": "Champions of the Shoal",
+      "prob": 1.3637942520679025,
+      "self_prob": 0.8116385195286836,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.818688563079507,
+      "self_prob_norm": 0.6685446262995447
+    },
+    {
+      "id": "Disruptor of Currents",
+      "prob": 1.3636027795515575,
+      "self_prob": 0.8985906515081414,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.8185736217245057,
+      "self_prob_norm": 0.7401668807656241
+    },
+    {
+      "id": "Eclipsed Elf",
+      "prob": 1.356469719411599,
+      "self_prob": 0.9454447699894092,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.8142916306928765,
+      "self_prob_norm": 0.7787605014193648
+    },
+    {
+      "id": "Tanufel Rimespeaker",
+      "prob": 0.7383902437644982,
+      "self_prob": 1.0026753798771997,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.4432572191464154,
+      "self_prob_norm": 0.8259012121911331
+    },
+    {
+      "id": "Unforgiving Aim",
+      "prob": 0.7402515565725163,
+      "self_prob": 0.9788591366590068,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.44437456914692114,
+      "self_prob_norm": 0.8062838319916179
+    },
+    {
+      "id": "Trystan, Callous Cultivator",
+      "prob": 1.349706761628876,
+      "self_prob": 1.0,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.8102318128861145,
+      "self_prob_norm": 0.8236975084521209
+    },
+    {
+      "id": "Stoic Grove-Guide",
+      "prob": 0.7461184538092752,
+      "self_prob": 1.0208902180467574,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.44789647991990933,
+      "self_prob_norm": 0.8409047290082564
+    },
+    {
+      "id": "Taster of Wares",
+      "prob": 1.3376332145348258,
+      "self_prob": 0.975802154955058,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.8029840371261616,
+      "self_prob_norm": 0.8037658037786916
+    },
+    {
+      "id": "End-Blaze Epiphany",
+      "prob": 1.3373274930915575,
+      "self_prob": 1.0062208131635748,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.8028005118996017,
+      "self_prob_norm": 0.8288215767555035
+    },
+    {
+      "id": "Figure of Fable",
+      "prob": 1.3333664632556983,
+      "self_prob": 0.7991576784904921,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.8004226973431042,
+      "self_prob_norm": 0.6582641886329994
+    },
+    {
+      "id": "Boggart Mischief",
+      "prob": 1.328113274965165,
+      "self_prob": 1.0448493943264157,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.7972691973436419,
+      "self_prob_norm": 0.8606398428143761
+    },
+    {
+      "id": "Thoughtweft Lieutenant",
+      "prob": 1.322152925261689,
+      "self_prob": 0.9071585200258204,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.7936911868579758,
+      "self_prob_norm": 0.7472242127163816
+    },
+    {
+      "id": "Kinbinding",
+      "prob": 1.3034737877330662,
+      "self_prob": 0.8927638709779505,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.7824780612419343,
+      "self_prob_norm": 0.7353673761606085
+    },
+    {
+      "id": "Explosive Prodigy",
+      "prob": 1.3030615954240738,
+      "self_prob": 0.99997197918517,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.7822306213303424,
+      "self_prob_norm": 0.8236744277767606
+    },
+    {
+      "id": "Chomping Changeling",
+      "prob": 0.7697182353333653,
+      "self_prob": 0.9750468179203656,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.4620634784944022,
+      "self_prob_norm": 0.8031436345451739
+    },
+    {
+      "id": "Burning Curiosity",
+      "prob": 0.7723860297852128,
+      "self_prob": 1.033350875470399,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.46366496112498434,
+      "self_prob_norm": 0.8511685414817854
+    },
+    {
+      "id": "Eclipsed Kithkin",
+      "prob": 1.2937804077621704,
+      "self_prob": 1.0862439497927547,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.7766591048211082,
+      "self_prob_norm": 0.8947364350154827
+    },
+    {
+      "id": "Eclipsed Merrow",
+      "prob": 1.2927414140386742,
+      "self_prob": 0.9529345961880537,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.7760353946996965,
+      "self_prob_norm": 0.7849298525979277
+    },
+    {
+      "id": "Heirloom Auntie",
+      "prob": 0.7745916306138092,
+      "self_prob": 1.0139424609117411,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.4649889879496704,
+      "self_prob_norm": 0.835181878766813
+    },
+    {
+      "id": "Morcant's Eyes",
+      "prob": 0.7786422795612851,
+      "self_prob": 1.1225130157486531,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.46742060104770206,
+      "self_prob_norm": 0.9246111742772418
+    },
+    {
+      "id": "Wanderwine Distracter",
+      "prob": 0.7812560151222603,
+      "self_prob": 1.037828923781777,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.4689896320121895,
+      "self_prob_norm": 0.8548570987185957
+    },
+    {
+      "id": "Kithkeeper",
+      "prob": 0.7861013379502704,
+      "self_prob": 0.9798965856527616,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.47189828951511203,
+      "self_prob_norm": 0.8071383761429199
+    },
+    {
+      "id": "Abigale, Eloquent First-Year",
+      "prob": 1.261169347453777,
+      "self_prob": 1.0,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.7570826166053122,
+      "self_prob_norm": 0.8236975084521209
+    },
+    {
+      "id": "Assert Perfection",
+      "prob": 1.2593094390785171,
+      "self_prob": 0.959231481424578,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.7559661096887502,
+      "self_prob_norm": 0.7901165812782618
+    },
+    {
+      "id": "Chitinous Graspling",
+      "prob": 0.7947261472877396,
+      "self_prob": 0.9538553134004382,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.4770757807331758,
+      "self_prob_norm": 0.7856882450717577
+    },
+    {
+      "id": "Silvergill Peddler",
+      "prob": 0.7949453104203703,
+      "self_prob": 0.9368850938700402,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.4772073448234786,
+      "self_prob_norm": 0.7717099175266834
+    },
+    {
+      "id": "Gathering Stone",
+      "prob": 0.8006004555226967,
+      "self_prob": 1.065598302369326,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.48060214034399756,
+      "self_prob_norm": 0.8777306666724235
+    },
+    {
+      "id": "Eclipsed Flamekin",
+      "prob": 1.243470206346389,
+      "self_prob": 0.9834570015362792,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.7464577849058253,
+      "self_prob_norm": 0.8100710818352268
+    },
+    {
+      "id": "Graveshifter",
+      "prob": 0.8104428309774304,
+      "self_prob": 1.0,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.48651053906771047,
+      "self_prob_norm": 0.8236975084521209
+    },
+    {
+      "id": "Eclipsed Boggart",
+      "prob": 1.229585900422577,
+      "self_prob": 1.0,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.7381230068050331,
+      "self_prob_norm": 0.8236975084521209
+    },
+    {
+      "id": "Gristle Glutton",
+      "prob": 0.8150810402220318,
+      "self_prob": 0.9738031759708752,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.489294865850117,
+      "self_prob_norm": 0.8021192497699721
+    },
+    {
+      "id": "Flock Impostor",
+      "prob": 0.8180076258061487,
+      "self_prob": 1.200495146595001,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.49105170134268267,
+      "self_prob_norm": 0.9888448611591658
+    },
+    {
+      "id": "High Perfect Morcant",
+      "prob": 1.221099972160108,
+      "self_prob": 0.9824830566294456,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.7330288861889193,
+      "self_prob_norm": 0.8092688458420982
+    },
+    {
+      "id": "Adept Watershaper",
+      "prob": 1.2208135881894049,
+      "self_prob": 0.9859173163731816,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.732856969287885,
+      "self_prob_norm": 0.812097637036391
+    },
+    {
+      "id": "Boulder Dash",
+      "prob": 1.2181365289040147,
+      "self_prob": 0.9939005734495264,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.7312499249582058,
+      "self_prob_norm": 0.818673425999509
+    },
+    {
+      "id": "Noggle Robber",
+      "prob": 1.2180177151655065,
+      "self_prob": 0.9609832707756693,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.7311786008206346,
+      "self_prob_norm": 0.7915595258020885
+    },
+    {
+      "id": "Morcant's Loyalist",
+      "prob": 1.217426567526913,
+      "self_prob": 0.9348969368238912,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.7308237336476177,
+      "self_prob_norm": 0.770072277521359
+    },
+    {
+      "id": "Glister Bairn",
+      "prob": 0.8220847410063373,
+      "self_prob": 1.0,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.49349920218798304,
+      "self_prob_norm": 0.8236975084521209
+    },
+    {
+      "id": "Virulent Emissary",
+      "prob": 1.215581292238326,
+      "self_prob": 1.065854170328093,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.7297160110038181,
+      "self_prob_norm": 0.8779414244725526
+    },
+    {
+      "id": "Stalactite Dagger",
+      "prob": 0.8259612614528341,
+      "self_prob": 1.0,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.495826285579982,
+      "self_prob_norm": 0.8236975084521209
+    },
+    {
+      "id": "Pyrrhic Strike",
+      "prob": 1.204141437377312,
+      "self_prob": 0.8525730874854379,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.7228486420265691,
+      "self_prob_norm": 0.7022623279350872
+    },
+    {
+      "id": "Sun-Dappled Celebrant",
+      "prob": 0.8309041391915182,
+      "self_prob": 1.0503951821341266,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.4987935055013338,
+      "self_prob_norm": 0.8652078944139917
+    },
+    {
+      "id": "Dream Seizer",
+      "prob": 0.8355734846381233,
+      "self_prob": 1.0817316038725815,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5015965234114083,
+      "self_prob_norm": 0.8910196269237619
+    },
+    {
+      "id": "Protective Response",
+      "prob": 1.1961060032165731,
+      "self_prob": 0.9990553103195464,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.7180249539689311,
+      "self_prob_norm": 0.8229193699160707
+    },
+    {
+      "id": "Bristlebane Battler",
+      "prob": 1.1958154156362768,
+      "self_prob": 0.7274942631242637,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.7178505136322008,
+      "self_prob_norm": 0.5992352119486676
+    },
+    {
+      "id": "Blossoming Defense",
+      "prob": 1.1947411768098009,
+      "self_prob": 0.9388479483714132,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.7172056458012077,
+      "self_prob_norm": 0.7733267158889183
+    },
+    {
+      "id": "Pestered Wellguard",
+      "prob": 0.8385168534800004,
+      "self_prob": 0.974488653852933,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5033634339289702,
+      "self_prob_norm": 0.8026838761935221
+    },
+    {
+      "id": "Lofty Dreams",
+      "prob": 0.8409322945112986,
+      "self_prob": 0.9141741622209668,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.504813428269479,
+      "self_prob_norm": 0.7530029797127152
+    },
+    {
+      "id": "Burdened Stoneback",
+      "prob": 0.8413579503891738,
+      "self_prob": 1.0,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5050689503898396,
+      "self_prob_norm": 0.8236975084521209
+    },
+    {
+      "id": "Bogslither's Embrace",
+      "prob": 1.1851676160818403,
+      "self_prob": 0.9696819943842706,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.711458617124379,
+      "self_prob_norm": 0.7987246427652072
+    },
+    {
+      "id": "Mischievous Sneakling",
+      "prob": 0.8468694754166504,
+      "self_prob": 0.9665497222043276,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5083775304768137,
+      "self_prob_norm": 0.7961445979747941
+    },
+    {
+      "id": "Kinsbaile Aspirant",
+      "prob": 1.176462066778376,
+      "self_prob": 1.0,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.7062326575346064,
+      "self_prob_norm": 0.8236975084521209
+    },
+    {
+      "id": "Shore Lurker",
+      "prob": 0.8534013366801873,
+      "self_prob": 1.0,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5122986205561796,
+      "self_prob_norm": 0.8236975084521209
+    },
+    {
+      "id": "Creakwood Safewright",
+      "prob": 1.1695876551693936,
+      "self_prob": 0.957766613044574,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.7021059337611038,
+      "self_prob_norm": 0.7889099728434421
+    },
+    {
+      "id": "Prideful Feastling",
+      "prob": 0.8552449620133136,
+      "self_prob": 0.981741010063982,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5134053527282396,
+      "self_prob_norm": 0.8086576239349704
+    },
+    {
+      "id": "Hovel Hurler",
+      "prob": 0.8553461537584406,
+      "self_prob": 0.9708081892742848,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.513466098346054,
+      "self_prob_norm": 0.7996522866901433
+    },
+    {
+      "id": "Glamer Gifter",
+      "prob": 1.1690983410808329,
+      "self_prob": 0.9441098080094512,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.7018121974827385,
+      "self_prob_norm": 0.7776608965625951
+    },
+    {
+      "id": "Gutsplitter Gang",
+      "prob": 0.8567571798307586,
+      "self_prob": 0.9915443988884622,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5143131402703488,
+      "self_prob_norm": 0.8167326508840822
+    },
+    {
+      "id": "Wildvine Pummeler",
+      "prob": 0.860204827958205,
+      "self_prob": 1.0054659241863464,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5163827707055725,
+      "self_prob_norm": 0.8281997765858026
+    },
+    {
+      "id": "Cinder Strike",
+      "prob": 1.161550551624582,
+      "self_prob": 0.997515008742558,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.6972812435686895,
+      "self_prob_norm": 0.8216506273448406
+    },
+    {
+      "id": "Sear",
+      "prob": 1.1611543391446408,
+      "self_prob": 1.0414014621762109,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.697043396382147,
+      "self_prob_norm": 0.8577997896929405
+    },
+    {
+      "id": "Enraged Flamecaster",
+      "prob": 0.8618020624863639,
+      "self_prob": 0.9804932632557498,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5173415939582564,
+      "self_prob_norm": 0.8076298579978505
+    },
+    {
+      "id": "Wanderbrine Trapper",
+      "prob": 1.1580157600592695,
+      "self_prob": 1.0,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.6951593007441004,
+      "self_prob_norm": 0.8236975084521209
+    },
+    {
+      "id": "Dawn-Blessed Pennant",
+      "prob": 0.8644646061592336,
+      "self_prob": 1.0435406181428275,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5189399245351546,
+      "self_prob_norm": 0.859561807132833
+    },
+    {
+      "id": "Great Forest Druid",
+      "prob": 0.8647545532458198,
+      "self_prob": 1.0012353098113254,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5191139803821612,
+      "self_prob_norm": 0.824715030065876
+    },
+    {
+      "id": "Sanar, Innovative First-Year",
+      "prob": 1.1529923789368637,
+      "self_prob": 0.8122702096720402,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.6921437544718769,
+      "self_prob_norm": 0.6690649478967413
+    },
+    {
+      "id": "Nameless Inversion",
+      "prob": 1.1516533161440028,
+      "self_prob": 1.0489906242214933,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.6913399122558694,
+      "self_prob_norm": 0.864050963560879
+    },
+    {
+      "id": "Shimmerwilds Growth",
+      "prob": 0.868688712048989,
+      "self_prob": 1.03740385533291,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5214756642011166,
+      "self_prob_norm": 0.8545069708963423
+    },
+    {
+      "id": "Foraging Wickermaw",
+      "prob": 0.8705997370410716,
+      "self_prob": 1.001283339616578,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5226228565304616,
+      "self_prob_norm": 0.8247545920967939
+    },
+    {
+      "id": "Prismabasher",
+      "prob": 0.8706641582156366,
+      "self_prob": 1.0,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5226615286972907,
+      "self_prob_norm": 0.8236975084521209
+    },
+    {
+      "id": "Rooftop Percher",
+      "prob": 0.8715043084581028,
+      "self_prob": 1.0,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5231658726580697,
+      "self_prob_norm": 0.8236975084521209
+    },
+    {
+      "id": "Slumbering Walker",
+      "prob": 1.14607416336737,
+      "self_prob": 0.8555565148481721,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.6879907350885828,
+      "self_prob_norm": 0.7047197696204193
+    },
+    {
+      "id": "Dawnhand Dissident",
+      "prob": 1.1413054791019024,
+      "self_prob": 1.1508937232646783,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.6851280838762348,
+      "self_prob_norm": 0.9479882923463001
+    },
+    {
+      "id": "Stratosoarer",
+      "prob": 0.8763567273115173,
+      "self_prob": 0.9766525984215548,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.526078789919994,
+      "self_prob_norm": 0.8044663119431245
+    },
+    {
+      "id": "Summit Sentinel",
+      "prob": 0.8763963160799714,
+      "self_prob": 1.0,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5261025551411119,
+      "self_prob_norm": 0.8236975084521209
+    },
+    {
+      "id": "Flaring Cinder",
+      "prob": 0.8778309147218604,
+      "self_prob": 0.9451929985349112,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5269637477285884,
+      "self_prob_norm": 0.7785531178995955
+    },
+    {
+      "id": "Safewright Cavalry",
+      "prob": 0.8790435687500269,
+      "self_prob": 1.0370838651207737,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5276917064968021,
+      "self_prob_norm": 0.8542433957558766
+    },
+    {
+      "id": "Lys Alana Dignitary",
+      "prob": 1.1366094826573578,
+      "self_prob": 0.9429640383521312,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.6823090673159427,
+      "self_prob_norm": 0.7767171289506005
+    },
+    {
+      "id": "Ashling, Rekindled",
+      "prob": 1.1349566286037065,
+      "self_prob": 0.8975568167926495,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.6813168555449133,
+      "self_prob_norm": 0.7393153136863221
+    },
+    {
+      "id": "Evolving Wilds",
+      "prob": 0.882741298171178,
+      "self_prob": 1.0082842823721143,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5299114612595669,
+      "self_prob_norm": 0.8305212512013452
+    },
+    {
+      "id": "Unbury",
+      "prob": 0.8835282778928819,
+      "self_prob": 0.9719510849812936,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5303838868447002,
+      "self_prob_norm": 0.8005936870364271
+    },
+    {
+      "id": "Dawnhand Eulogist",
+      "prob": 1.1272734867900795,
+      "self_prob": 0.9674951816199931,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.6767046493255391,
+      "self_prob_norm": 0.7969233705398204
+    },
+    {
+      "id": "Boneclub Berserker",
+      "prob": 0.8882723037196042,
+      "self_prob": 1.036094170628013,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5332317355443131,
+      "self_prob_norm": 0.8534281868680608
+    },
+    {
+      "id": "Feisty Spikeling",
+      "prob": 0.8892305588474002,
+      "self_prob": 1.0150064742749698,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5338069781166068,
+      "self_prob_norm": 0.8360583039230643
+    },
+    {
+      "id": "Pitiless Fists",
+      "prob": 1.123686960133575,
+      "self_prob": 1.050245528018014,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.6745516498166998,
+      "self_prob_norm": 0.8650846246914202
+    },
+    {
+      "id": "Sting-Slinger",
+      "prob": 0.8914733642919532,
+      "self_prob": 0.960114850720744,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5351533389506431,
+      "self_prob_norm": 0.7908442103665567
+    },
+    {
+      "id": "Unexpected Assistance",
+      "prob": 0.8915841729098173,
+      "self_prob": 0.955580404194598,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5352198575974246,
+      "self_prob_norm": 0.787109198060761
+    },
+    {
+      "id": "Pummeler for Hire",
+      "prob": 1.120461097229866,
+      "self_prob": 1.0098285567653011,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.6726151575185951,
+      "self_prob_norm": 0.8317932661713796
+    },
+    {
+      "id": "Scarblade Scout",
+      "prob": 1.1192071321535215,
+      "self_prob": 0.9395394152804312,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.6718623996411163,
+      "self_prob_norm": 0.7738962754590536
+    },
+    {
+      "id": "Gravelgill Scoundrel",
+      "prob": 0.893492531931699,
+      "self_prob": 1.0,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5363654495392407,
+      "self_prob_norm": 0.8236975084521209
+    },
+    {
+      "id": "Maralen, Fae Ascendant",
+      "prob": 1.119087841032632,
+      "self_prob": 1.0,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.6717907889298956,
+      "self_prob_norm": 0.8236975084521209
+    },
+    {
+      "id": "Tam, Mindful First-Year",
+      "prob": 0.8937219861779045,
+      "self_prob": 1.0656098394463254,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5365031914067062,
+      "self_prob_norm": 0.8777401697340027
+    },
+    {
+      "id": "Timid Shieldbearer",
+      "prob": 0.8941335040298477,
+      "self_prob": 0.9610545712672316,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5367502264403106,
+      "self_prob_norm": 0.7916182558393399
+    },
+    {
+      "id": "Chaos Spewer",
+      "prob": 0.896054497199663,
+      "self_prob": 1.0,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5379034026877518,
+      "self_prob_norm": 0.8236975084521209
+    },
+    {
+      "id": "Run Away Together",
+      "prob": 0.8969301408550605,
+      "self_prob": 1.0300659256007274,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5384290534190993,
+      "self_prob_norm": 0.8484627364587468
+    },
+    {
+      "id": "Meanders Guide",
+      "prob": 0.8990670586630317,
+      "self_prob": 0.9711355250991148,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5397118496817865,
+      "self_prob_norm": 0.7999219123934829
+    },
+    {
+      "id": "Tend the Sprigs",
+      "prob": 0.8993416509223763,
+      "self_prob": 0.966889746547478,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5398766879936467,
+      "self_prob_norm": 0.7964246751790601
+    },
+    {
+      "id": "Flamekin Gildweaver",
+      "prob": 1.109364484740425,
+      "self_prob": 0.9501403935609124,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.6659538376602252,
+      "self_prob_norm": 0.7826282748558411
+    },
+    {
+      "id": "Squawkroaster",
+      "prob": 0.902601890951977,
+      "self_prob": 1.006028994540234,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.541833816952858,
+      "self_prob_norm": 0.828663576233383
+    },
+    {
+      "id": "Thoughtweft Charge",
+      "prob": 0.9029513792538124,
+      "self_prob": 1.0139345945411016,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5420436155168342,
+      "self_prob_norm": 0.8351753992569168
+    },
+    {
+      "id": "Dundoolin Weaver",
+      "prob": 0.904680240958346,
+      "self_prob": 0.9593044831484692,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.543081454840839,
+      "self_prob_norm": 0.7901767126163436
+    },
+    {
+      "id": "Goldmeadow Nomad",
+      "prob": 0.9048676042515288,
+      "self_prob": 1.059372536884468,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5431939294205178,
+      "self_prob_norm": 0.8726025191543387
+    },
+    {
+      "id": "Gnarlbark Elm",
+      "prob": 0.9049704328485058,
+      "self_prob": 0.9685503998775172,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5432556576439466,
+      "self_prob_norm": 0.7977925511894163
+    },
+    {
+      "id": "Moonlit Lamenter",
+      "prob": 0.9095382065205352,
+      "self_prob": 1.0310965362629725,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.545997701803728,
+      "self_prob_norm": 0.8493116478934223
+    },
+    {
+      "id": "Iron-Shield Elf",
+      "prob": 1.098656328565219,
+      "self_prob": 1.0,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.659525708945782,
+      "self_prob_norm": 0.8236975084521209
+    },
+    {
+      "id": "Trystan's Command",
+      "prob": 1.096303113787901,
+      "self_prob": 0.7329107744754748,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.6581130691566505,
+      "self_prob_norm": 0.6036967788531629
+    },
+    {
+      "id": "Selfless Safewright",
+      "prob": 1.091396276174859,
+      "self_prob": 0.7056959554721651,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.6551674841986594,
+      "self_prob_norm": 0.5812800002471612
+    },
+    {
+      "id": "Kulrath Mystic",
+      "prob": 0.9162732761118052,
+      "self_prob": 1.0476095759198445,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5500407782703992,
+      "self_prob_norm": 0.8629133975157588
+    },
+    {
+      "id": "Mudbutton Cursetosser",
+      "prob": 1.091372918039245,
+      "self_prob": 1.0198635991447718,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.655153462260634,
+      "self_prob_norm": 0.8400591055765609
+    },
+    {
+      "id": "Gilt-Leaf's Embrace",
+      "prob": 0.9178740665414132,
+      "self_prob": 1.0782438902774765,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5510017361382155,
+      "self_prob_norm": 0.8881468059252793
+    },
+    {
+      "id": "Omni-Changeling",
+      "prob": 0.9249964810319256,
+      "self_prob": 0.9842584390217618,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5552773365640515,
+      "self_prob_norm": 0.8107312238951989
+    },
+    {
+      "id": "Champions of the Perfect",
+      "prob": 0.9261066316258152,
+      "self_prob": 1.0,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5559437623046903,
+      "self_prob_norm": 0.8236975084521209
+    },
+    {
+      "id": "Merrow Skyswimmer",
+      "prob": 1.0794998098424629,
+      "self_prob": 0.9467792076810894,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.6480260103930431,
+      "self_prob_norm": 0.7798596744211863
+    },
+    {
+      "id": "Temporal Cleansing",
+      "prob": 1.0772391352514286,
+      "self_prob": 0.9984956186792532,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.6466689226727231,
+      "self_prob_norm": 0.8224583533064598
+    },
+    {
+      "id": "Reluctant Dounguard",
+      "prob": 0.930694846531568,
+      "self_prob": 0.9935666403678372,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5586980773801462,
+      "self_prob_norm": 0.8183983661521318
+    },
+    {
+      "id": "Kulrath Zealot",
+      "prob": 0.931323239771343,
+      "self_prob": 0.9680697242544544,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5590753031660302,
+      "self_prob_norm": 0.7973966198763257
+    },
+    {
+      "id": "Surly Farrier",
+      "prob": 0.9347257092207638,
+      "self_prob": 0.9975241450155152,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.561117812745642,
+      "self_prob_norm": 0.8216581528701119
+    },
+    {
+      "id": "Lluwen, Imperfect Naturalist",
+      "prob": 0.935748275035559,
+      "self_prob": 0.7614709629100489,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5617316611588462,
+      "self_prob_norm": 0.6272217349076445
+    },
+    {
+      "id": "Wanderbrine Preacher",
+      "prob": 0.9357570417084734,
+      "self_prob": 1.0,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5617369238110684,
+      "self_prob_norm": 0.8236975084521209
+    },
+    {
+      "id": "Rime Chill",
+      "prob": 0.9365641156716208,
+      "self_prob": 1.1413833654319396,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5622214120116794,
+      "self_prob_norm": 0.9401546342949852
+    },
+    {
+      "id": "Feed the Flames",
+      "prob": 0.9374174859547048,
+      "self_prob": 0.9984423018999808,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5627336919906963,
+      "self_prob_norm": 0.8224144364082144
+    },
+    {
+      "id": "Luminollusk",
+      "prob": 0.9377927707121136,
+      "self_prob": 1.0372301151478245,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5629589762213073,
+      "self_prob_norm": 0.8543638615387694
+    },
+    {
+      "id": "Thirst for Identity",
+      "prob": 0.9386549370460702,
+      "self_prob": 0.9158218963986994,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5634765364881966,
+      "self_prob_norm": 0.754360214249505
+    },
+    {
+      "id": "Thoughtweft Imbuer",
+      "prob": 1.063487531908973,
+      "self_prob": 0.8763422651813656,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.6384138062111282,
+      "self_prob_norm": 0.7218409403811786
+    },
+    {
+      "id": "Mistmeadow Council",
+      "prob": 0.9415385817497756,
+      "self_prob": 0.9801283270462432,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5652075944797732,
+      "self_prob_norm": 0.807329260951336
+    },
+    {
+      "id": "Mountain",
+      "prob": 0.9416818918140404,
+      "self_prob": 0.97078128899455,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5652936238133108,
+      "self_prob_norm": 0.799630128996749
+    },
+    {
+      "id": "Flame-Chain Mauler",
+      "prob": 0.9417095200397764,
+      "self_prob": 0.9694811434160766,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5653102090954338,
+      "self_prob_norm": 0.7985592023231355
+    },
+    {
+      "id": "Unwelcome Sprite",
+      "prob": 1.0617154183557806,
+      "self_prob": 0.9988254362414376,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.6373500027112403,
+      "self_prob_norm": 0.8227300232106748
+    },
+    {
+      "id": "Clachan Festival",
+      "prob": 0.9426807001783194,
+      "self_prob": 0.9252956510372322,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5658932105789124,
+      "self_prob_norm": 0.7621637223409512
+    },
+    {
+      "id": "Goliath Daydreamer",
+      "prob": 1.0594013615512392,
+      "self_prob": 0.982863086384136,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.6359608695356739,
+      "self_prob_norm": 0.8095818754041744
+    },
+    {
+      "id": "Warren Torchmaster",
+      "prob": 0.9441489586459616,
+      "self_prob": 0.9229119029717042,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.566774609230711,
+      "self_prob_norm": 0.7602002349985982
+    },
+    {
+      "id": "Tweeze",
+      "prob": 1.05837061477294,
+      "self_prob": 0.9674540261232856,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.6353421100728406,
+      "self_prob_norm": 0.7968894708597233
+    },
+    {
+      "id": "Sizzling Changeling",
+      "prob": 0.9454558887694178,
+      "self_prob": 1.0107175876006205,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5675591621375701,
+      "self_prob_norm": 0.8325255586553693
+    },
+    {
+      "id": "Blight Rot",
+      "prob": 1.0544120654662916,
+      "self_prob": 1.0,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.632965784583255,
+      "self_prob_norm": 0.8236975084521209
+    },
+    {
+      "id": "Keep Out",
+      "prob": 0.9503753866724732,
+      "self_prob": 1.0379497522691192,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5705123470943319,
+      "self_prob_norm": 0.8549566248425695
+    },
+    {
+      "id": "Flitterwing Nuisance",
+      "prob": 1.051937629793798,
+      "self_prob": 0.9644945004359698,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.6314803756353328,
+      "self_prob_norm": 0.7944517169248814
+    },
+    {
+      "id": "Swat Away",
+      "prob": 0.9522191584754794,
+      "self_prob": 1.0113711175161326,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5716191671925694,
+      "self_prob_norm": 0.8330638696184756
+    },
+    {
+      "id": "Shimmercreep",
+      "prob": 0.953348821126169,
+      "self_prob": 1.0326325372194614,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.572297306062018,
+      "self_prob_norm": 0.8505768480542623
+    },
+    {
+      "id": "Glamermite",
+      "prob": 1.048425878883259,
+      "self_prob": 1.0,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.6293722641643518,
+      "self_prob_norm": 0.8236975084521209
+    },
+    {
+      "id": "Midnight Tilling",
+      "prob": 0.9543500708133136,
+      "self_prob": 0.9972862117703511,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5728983583588796,
+      "self_prob_norm": 0.8214621678488924
+    },
+    {
+      "id": "Lys Alana Informant",
+      "prob": 1.0452190158833066,
+      "self_prob": 1.0,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.6274471775485057,
+      "self_prob_norm": 0.8236975084521209
+    },
+    {
+      "id": "Boggart Prankster",
+      "prob": 0.9570866149134702,
+      "self_prob": 1.0328376484374648,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5745411115481998,
+      "self_prob_norm": 0.8507457976534872
+    },
+    {
+      "id": "Blossombind",
+      "prob": 1.044548553899575,
+      "self_prob": 0.9918355366330348,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.6270446978069841,
+      "self_prob_norm": 0.816972460318903
+    },
+    {
+      "id": "Sourbread Auntie",
+      "prob": 1.0431898335869982,
+      "self_prob": 0.9753810664774792,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.6262290551404722,
+      "self_prob_norm": 0.8034189542488721
+    },
+    {
+      "id": "Barbed Bloodletter",
+      "prob": 0.960821564132093,
+      "self_prob": 1.0,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5767832094338102,
+      "self_prob_norm": 0.8236975084521209
+    },
+    {
+      "id": "Bristlebane Outrider",
+      "prob": 0.9615742859848816,
+      "self_prob": 0.9507788984151038,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5772350699480511,
+      "self_prob_norm": 0.783154209713373
+    },
+    {
+      "id": "Liminal Hold",
+      "prob": 1.038463489798175,
+      "self_prob": 1.0,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.6233918210054666,
+      "self_prob_norm": 0.8236975084521209
+    },
+    {
+      "id": "Personify",
+      "prob": 0.9635141221711184,
+      "self_prob": 0.9937935808347562,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.578399557697953,
+      "self_prob_norm": 0.8185852964493
+    },
+    {
+      "id": "Moon-Vigil Adherents",
+      "prob": 1.032351980762312,
+      "self_prob": 1.0,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.6197230692540705,
+      "self_prob_norm": 0.8236975084521209
+    },
+    {
+      "id": "Bile-Vial Boggart",
+      "prob": 0.9688648245695436,
+      "self_prob": 0.968348639464509,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5816115956218485,
+      "self_prob_norm": 0.7976263616399171
+    },
+    {
+      "id": "Wanderwine Farewell",
+      "prob": 1.0314565678695171,
+      "self_prob": 1.0,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.6191855510078589,
+      "self_prob_norm": 0.8236975084521209
+    },
+    {
+      "id": "Giantfall",
+      "prob": 1.03101021318181,
+      "self_prob": 0.9718981871317356,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.618917603348343,
+      "self_prob_norm": 0.8005501152095437
+    },
+    {
+      "id": "Retched Wretch",
+      "prob": 1.029422478641494,
+      "self_prob": 1.033633859583159,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.617964482958378,
+      "self_prob_norm": 0.8514016347903973
+    },
+    {
+      "id": "Glen Elendra Guardian",
+      "prob": 0.9714934948922572,
+      "self_prob": 0.9696552055874036,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5831895919552756,
+      "self_prob_norm": 0.7987025768999733
+    },
+    {
+      "id": "Changeling Wayfinder",
+      "prob": 0.9715732358988064,
+      "self_prob": 1.0124579092269264,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5832374606495243,
+      "self_prob_norm": 0.8339590572428628
+    },
+    {
+      "id": "Crossroads Watcher",
+      "prob": 0.9720395684657036,
+      "self_prob": 0.9975000364316486,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.583517401072012,
+      "self_prob_norm": 0.8216382946896488
+    },
+    {
+      "id": "Forest",
+      "prob": 0.975581915814908,
+      "self_prob": 0.9584180558553512,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5856438796495917,
+      "self_prob_norm": 0.7894465646635783
+    },
+    {
+      "id": "Noggle the Mind",
+      "prob": 0.9779443410788592,
+      "self_prob": 1.0065259544543883,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5870620485132559,
+      "self_prob_norm": 0.8290729208764724
+    },
+    {
+      "id": "Island",
+      "prob": 0.9782659112774889,
+      "self_prob": 0.9667281169230416,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5872550877810532,
+      "self_prob_norm": 0.7962915412601199
+    },
+    {
+      "id": "Vinebred Brawler",
+      "prob": 0.9791437735584432,
+      "self_prob": 1.0,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5877820703579972,
+      "self_prob_norm": 0.8236975084521209
+    },
+    {
+      "id": "Gallant Fowlknight",
+      "prob": 1.0203512905578709,
+      "self_prob": 0.956251171506318,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.6125190296384622,
+      "self_prob_norm": 0.7876617074241758
+    },
+    {
+      "id": "Sygg, Wanderwine Wisdom",
+      "prob": 0.9804510442327428,
+      "self_prob": 1.0,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5885668276982452,
+      "self_prob_norm": 0.8236975084521209
+    },
+    {
+      "id": "Wild Unraveling",
+      "prob": 0.9812145014013816,
+      "self_prob": 1.006732139426468,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5890251326452105,
+      "self_prob_norm": 0.8292427549242549
+    },
+    {
+      "id": "Swamp",
+      "prob": 0.9814173756927356,
+      "self_prob": 0.961343990042402,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5891469185097737,
+      "self_prob_norm": 0.791856649363347
+    },
+    {
+      "id": "Flamebraider",
+      "prob": 1.0183985379868152,
+      "self_prob": 1.015547881634309,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.6113467881555381,
+      "self_prob_norm": 0.8365042598160097
+    },
+    {
+      "id": "Spiral into Solitude",
+      "prob": 0.9825901156014024,
+      "self_prob": 1.0,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5898509167479512,
+      "self_prob_norm": 0.8236975084521209
+    },
+    {
+      "id": "Encumbered Reejerey",
+      "prob": 1.0169067860124292,
+      "self_prob": 1.0,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.6104512863021395,
+      "self_prob_norm": 0.8236975084521209
+    },
+    {
+      "id": "Gangly Stompling",
+      "prob": 0.9836333858445578,
+      "self_prob": 0.9607131665609074,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.590477194073125,
+      "self_prob_norm": 0.7913370416333668
+    },
+    {
+      "id": "Tributary Vaulter",
+      "prob": 0.9842126150057556,
+      "self_prob": 1.03467677954364,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5908249065590486,
+      "self_prob_norm": 0.8522606853633605
+    },
+    {
+      "id": "Plains",
+      "prob": 1.013927629529192,
+      "self_prob": 0.952394233289464,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.6086628923880631,
+      "self_prob_norm": 0.7844847570246994
+    },
+    {
+      "id": "Dawn's Light Archer",
+      "prob": 0.987551238734342,
+      "self_prob": 0.9834849629548132,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5928290894179183,
+      "self_prob_norm": 0.810094113586006
+    },
+    {
+      "id": "Wary Farmer",
+      "prob": 0.9876222614812517,
+      "self_prob": 1.015124951837656,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5928717245225357,
+      "self_prob_norm": 0.8361558935962563
+    },
+    {
+      "id": "Twinflame Travelers",
+      "prob": 0.9877745972412932,
+      "self_prob": 0.9293468464828676,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5929631720002655,
+      "self_prob_norm": 0.7655006819357737
+    },
+    {
+      "id": "Soulbright Seeker",
+      "prob": 1.011004556199652,
+      "self_prob": 0.9692239207593332,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.6069081653093205,
+      "self_prob_norm": 0.7983473286616585
+    },
+    {
+      "id": "Eclipsed Realms",
+      "prob": 0.9898420893418348,
+      "self_prob": 1.0893411053704618,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5942042918645002,
+      "self_prob_norm": 0.8972875543481286
+    },
+    {
+      "id": "Elder Auntie",
+      "prob": 1.010185938026696,
+      "self_prob": 0.9686171296835308,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.6064167470952374,
+      "self_prob_norm": 0.7978475163643691
+    },
+    {
+      "id": "Riverguard's Reflexes",
+      "prob": 0.9908975241180294,
+      "self_prob": 1.0082924893368477,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5948378715844886,
+      "self_prob_norm": 0.830528011257748
+    },
+    {
+      "id": "Brambleback Brute",
+      "prob": 0.9938194208233048,
+      "self_prob": 0.9818051874242688,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.596591892333206,
+      "self_prob_norm": 0.8087104866667377
+    },
+    {
+      "id": "Aquitect's Defenses",
+      "prob": 1.005570016672835,
+      "self_prob": 0.772804989310686,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.6036457997806036,
+      "self_prob_norm": 0.6365575442145799
+    },
+    {
+      "id": "Scarblade's Malice",
+      "prob": 0.9952708729889336,
+      "self_prob": 0.9490185133144386,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5974632021264944,
+      "self_prob_norm": 0.781704184892039
+    },
+    {
+      "id": "Requiting Hex",
+      "prob": 0.9979572227573535,
+      "self_prob": 1.0,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5990758235527117,
+      "self_prob_norm": 0.8236975084521209
+    },
+    {
+      "id": "Formidable Speaker",
+      "prob": 0.9985461624420068,
+      "self_prob": 0.9206160013853548,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.5994293652863261,
+      "self_prob_norm": 0.758309106582271
+    },
+    {
+      "id": "Auntie's Sentence",
+      "prob": 0.9986221865033704,
+      "self_prob": 1.0254732448824937,
+      "image": "https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg",
+      "prob_norm": 0.599475002690548,
+      "self_prob_norm": 0.8446797567940216
+    }
+  ],
+  "links": [
+    {
+      "source": "Plains",
+      "target": "Reaping Willow",
+      "weight": 1.2139947844617935,
+      "weight_norm": 1.0
+    },
+    {
+      "source": "Forest",
+      "target": "Trystan's Command",
+      "weight": 1.213689322577886,
+      "weight_norm": 0.9997483828696653
+    },
+    {
+      "source": "Reaping Willow",
+      "target": "Swamp",
+      "weight": 1.202370845585324,
+      "weight_norm": 0.990425050399518
+    },
+    {
+      "source": "Forest",
+      "target": "Shinestriker",
+      "weight": 1.201538638589267,
+      "weight_norm": 0.9897395392204681
+    },
+    {
+      "source": "Island",
+      "target": "Shinestriker",
+      "weight": 1.159350963967306,
+      "weight_norm": 0.9549884223607163
+    },
+    {
+      "source": "Blossombind",
+      "target": "Stratosoarer",
+      "weight": 1.152086674889085,
+      "weight_norm": 0.9490046329975342
+    },
+    {
+      "source": "Blighted Blackthorn",
+      "target": "Swamp",
+      "weight": 1.1514548399131217,
+      "weight_norm": 0.948484173614965
+    },
+    {
+      "source": "Mountain",
+      "target": "Shinestriker",
+      "weight": 1.151333876373647,
+      "weight_norm": 0.9483845327095648
+    },
+    {
+      "source": "Swamp",
+      "target": "Trystan's Command",
+      "weight": 1.150019135979336,
+      "weight_norm": 0.947301545853988
+    },
+    {
+      "source": "Plains",
+      "target": "Shinestriker",
+      "weight": 1.1462786246195744,
+      "weight_norm": 0.9442203865214791
+    },
+    {
+      "source": "Forest",
+      "target": "Maralen, Fae Ascendant",
+      "weight": 1.1457699401614732,
+      "weight_norm": 0.9438013695169483
+    },
+    {
+      "source": "Liminal Hold",
+      "target": "Silvergill Peddler",
+      "weight": 1.1448504246426894,
+      "weight_norm": 0.9430439399706662
+    },
+    {
+      "source": "Evolving Wilds",
+      "target": "Unexpected Assistance",
+      "weight": 1.1442136890942551,
+      "weight_norm": 0.9425194438553747
+    },
+    {
+      "source": "Morcant's Eyes",
+      "target": "Swamp",
+      "weight": 1.1395049588643316,
+      "weight_norm": 0.9386407367223691
+    },
+    {
+      "source": "Forest",
+      "target": "Kithkeeper",
+      "weight": 1.1360478020532605,
+      "weight_norm": 0.9357929841164107
+    },
+    {
+      "source": "Gathering Stone",
+      "target": "Swamp",
+      "weight": 1.132249568484873,
+      "weight_norm": 0.9326642774555567
+    },
+    {
+      "source": "Dawn-Blessed Pennant",
+      "target": "Forest",
+      "weight": 1.131681033230628,
+      "weight_norm": 0.9321959597481647
+    },
+    {
+      "source": "Dawnhand Eulogist",
+      "target": "Morcant's Eyes",
+      "weight": 1.1316304468921878,
+      "weight_norm": 0.9321542904271037
+    },
+    {
+      "source": "Liminal Hold",
+      "target": "Timid Shieldbearer",
+      "weight": 0.884395122147932,
+      "weight_norm": 0.7284999354754357
+    },
+    {
+      "source": "Mountain",
+      "target": "Reaping Willow",
+      "weight": 1.1288720132344725,
+      "weight_norm": 0.9298820947858858
+    },
+    {
+      "source": "Mountain",
+      "target": "Sanar, Innovative First-Year",
+      "weight": 1.1273993883660005,
+      "weight_norm": 0.9286690542627135
+    },
+    {
+      "source": "Evolving Wilds",
+      "target": "Flaring Cinder",
+      "weight": 1.1273503110045286,
+      "weight_norm": 0.9286286279263734
+    },
+    {
+      "source": "Dawnhand Eulogist",
+      "target": "Midnight Tilling",
+      "weight": 0.8886527122797666,
+      "weight_norm": 0.7320070264335917
+    },
+    {
+      "source": "Gravelgill Scoundrel",
+      "target": "Wanderbrine Preacher",
+      "weight": 1.1250544732193293,
+      "weight_norm": 0.926737484888047
+    },
+    {
+      "source": "Spiral into Solitude",
+      "target": "Timid Shieldbearer",
+      "weight": 0.8894507981066109,
+      "weight_norm": 0.7326644310922107
+    },
+    {
+      "source": "Mountain",
+      "target": "Prismabasher",
+      "weight": 1.1233597666187625,
+      "weight_norm": 0.9253415096974962
+    },
+    {
+      "source": "Kinbinding",
+      "target": "Plains",
+      "weight": 1.1229807502737716,
+      "weight_norm": 0.9250293037886719
+    },
+    {
+      "source": "Prismabasher",
+      "target": "Swamp",
+      "weight": 1.122820092691627,
+      "weight_norm": 0.9248969658378001
+    },
+    {
+      "source": "Flaring Cinder",
+      "target": "Shinestriker",
+      "weight": 0.8920406711394034,
+      "weight_norm": 0.734797778834673
+    },
+    {
+      "source": "Tweeze",
+      "target": "Unexpected Assistance",
+      "weight": 0.8952120241914774,
+      "weight_norm": 0.7374101072339914
+    },
+    {
+      "source": "Graveshifter",
+      "target": "Mountain",
+      "weight": 1.1154547518189486,
+      "weight_norm": 0.9188299374065835
+    },
+    {
+      "source": "Forest",
+      "target": "Graveshifter",
+      "weight": 1.115175467643177,
+      "weight_norm": 0.9185998835551616
+    },
+    {
+      "source": "Forest",
+      "target": "Unforgiving Aim",
+      "weight": 1.1144919490378693,
+      "weight_norm": 0.9180368509836413
+    },
+    {
+      "source": "Eclipsed Flamekin",
+      "target": "Tweeze",
+      "weight": 0.8973125244790311,
+      "weight_norm": 0.7391403455467407
+    },
+    {
+      "source": "Kulrath Zealot",
+      "target": "Shinestriker",
+      "weight": 0.8975357312951378,
+      "weight_norm": 0.7393242069759359
+    },
+    {
+      "source": "Champions of the Perfect",
+      "target": "Forest",
+      "weight": 1.1138381201619263,
+      "weight_norm": 0.9174982746369291
+    },
+    {
+      "source": "Kithkeeper",
+      "target": "Plains",
+      "weight": 1.11298003161905,
+      "weight_norm": 0.9167914441349705
+    },
+    {
+      "source": "Flock Impostor",
+      "target": "Forest",
+      "weight": 1.1126211714614556,
+      "weight_norm": 0.9164958414172426
+    },
+    {
+      "source": "Plains",
+      "target": "Slumbering Walker",
+      "weight": 1.1121420930475816,
+      "weight_norm": 0.9161012117038322
+    },
+    {
+      "source": "Evolving Wilds",
+      "target": "Tweeze",
+      "weight": 1.1119585850706777,
+      "weight_norm": 0.9159500512711412
+    },
+    {
+      "source": "Forest",
+      "target": "Gathering Stone",
+      "weight": 1.1090109555864205,
+      "weight_norm": 0.9135220099632338
+    },
+    {
+      "source": "Gnarlbark Elm",
+      "target": "Swamp",
+      "weight": 1.108537393539332,
+      "weight_norm": 0.9131319242288058
+    },
+    {
+      "source": "Gathering Stone",
+      "target": "Mountain",
+      "weight": 1.1083541476098828,
+      "weight_norm": 0.9129809796516177
+    },
+    {
+      "source": "Shinestriker",
+      "target": "Unexpected Assistance",
+      "weight": 0.9024283892112916,
+      "weight_norm": 0.7433544202674395
+    },
+    {
+      "source": "Forest",
+      "target": "Personify",
+      "weight": 1.1073355104437346,
+      "weight_norm": 0.9121419009511275
+    },
+    {
+      "source": "Kulrath Zealot",
+      "target": "Tweeze",
+      "weight": 1.107173794753349,
+      "weight_norm": 0.9120086914081744
+    },
+    {
+      "source": "Forest",
+      "target": "Morcant's Eyes",
+      "weight": 1.107139393246511,
+      "weight_norm": 0.9119803539661373
+    },
+    {
+      "source": "Blighted Blackthorn",
+      "target": "Forest",
+      "weight": 1.1069888170038,
+      "weight_norm": 0.9118563202844129
+    },
+    {
+      "source": "Hovel Hurler",
+      "target": "Plains",
+      "weight": 1.1062460370250349,
+      "weight_norm": 0.9112444725332758
+    },
+    {
+      "source": "Gathering Stone",
+      "target": "Plains",
+      "weight": 1.106184670290724,
+      "weight_norm": 0.911193923111568
+    },
+    {
+      "source": "Glister Bairn",
+      "target": "Island",
+      "weight": 1.1045380449157651,
+      "weight_norm": 0.9098375537135817
+    },
+    {
+      "source": "Dawnhand Eulogist",
+      "target": "Lys Alana Informant",
+      "weight": 0.9055915588156472,
+      "weight_norm": 0.7459600077418189
+    },
+    {
+      "source": "Plains",
+      "target": "Prismabasher",
+      "weight": 1.103630613639371,
+      "weight_norm": 0.9090900782812252
+    },
+    {
+      "source": "Forest",
+      "target": "Prismabasher",
+      "weight": 1.1027632510961984,
+      "weight_norm": 0.9083756085369774
+    },
+    {
+      "source": "Island",
+      "target": "Kithkeeper",
+      "weight": 1.1020797828481963,
+      "weight_norm": 0.9078126174461177
+    },
+    {
+      "source": "Moonlit Lamenter",
+      "target": "Plains",
+      "weight": 1.1016770861700338,
+      "weight_norm": 0.9074809054129881
+    },
+    {
+      "source": "Stratosoarer",
+      "target": "Unexpected Assistance",
+      "weight": 0.9083129598357412,
+      "weight_norm": 0.7482016986081437
+    },
+    {
+      "source": "Blossombind",
+      "target": "Tanufel Rimespeaker",
+      "weight": 1.1007303655189609,
+      "weight_norm": 0.9067010662710163
+    },
+    {
+      "source": "Assert Perfection",
+      "target": "Crossroads Watcher",
+      "weight": 0.9085224716206012,
+      "weight_norm": 0.7483742790735144
+    },
+    {
+      "source": "Mistmeadow Council",
+      "target": "Surly Farrier",
+      "weight": 1.100459438899947,
+      "weight_norm": 0.9064778967628095
+    },
+    {
+      "source": "Burning Curiosity",
+      "target": "Mountain",
+      "weight": 1.098348637894206,
+      "weight_norm": 0.9047391734727612
+    },
+    {
+      "source": "Hovel Hurler",
+      "target": "Mountain",
+      "weight": 1.098128596433101,
+      "weight_norm": 0.9045579194312106
+    },
+    {
+      "source": "Flamekin Gildweaver",
+      "target": "Twinflame Travelers",
+      "weight": 1.0979870853643,
+      "weight_norm": 0.9044413529758911
+    },
+    {
+      "source": "Dream Seizer",
+      "target": "Swamp",
+      "weight": 1.0979379385222676,
+      "weight_norm": 0.9044008694065535
+    },
+    {
+      "source": "Forest",
+      "target": "Safewright Cavalry",
+      "weight": 1.097428787715058,
+      "weight_norm": 0.9039814682577789
+    },
+    {
+      "source": "Firdoch Core",
+      "target": "Plains",
+      "weight": 1.0969631033468423,
+      "weight_norm": 0.9035978715783071
+    },
+    {
+      "source": "Lluwen, Imperfect Naturalist",
+      "target": "Swamp",
+      "weight": 1.0967982791490838,
+      "weight_norm": 0.9034621014746228
+    },
+    {
+      "source": "Island",
+      "target": "Stalactite Dagger",
+      "weight": 1.0965966525426405,
+      "weight_norm": 0.9032960162417834
+    },
+    {
+      "source": "Morcant's Eyes",
+      "target": "Scarblade Scout",
+      "weight": 1.0958849391138514,
+      "weight_norm": 0.9027097588394465
+    },
+    {
+      "source": "Island",
+      "target": "Lofty Dreams",
+      "weight": 1.0934331104100694,
+      "weight_norm": 0.900690121905941
+    },
+    {
+      "source": "Evolving Wilds",
+      "target": "Feed the Flames",
+      "weight": 1.092461749434727,
+      "weight_norm": 0.8998899858692998
+    },
+    {
+      "source": "Explosive Prodigy",
+      "target": "Tweeze",
+      "weight": 0.9153992941382462,
+      "weight_norm": 0.7540389018591005
+    },
+    {
+      "source": "Assert Perfection",
+      "target": "Scarblade Scout",
+      "weight": 0.9155006478319851,
+      "weight_norm": 0.7541223896096545
+    },
+    {
+      "source": "Island",
+      "target": "Tanufel Rimespeaker",
+      "weight": 1.0916481084050238,
+      "weight_norm": 0.8992197679737065
+    },
+    {
+      "source": "Swamp",
+      "target": "Unbury",
+      "weight": 1.0916116423981743,
+      "weight_norm": 0.8991897299477477
+    },
+    {
+      "source": "Dawn's Light Archer",
+      "target": "Dawnhand Eulogist",
+      "weight": 0.9162364799581718,
+      "weight_norm": 0.7547285142286435
+    },
+    {
+      "source": "Forest",
+      "target": "Hovel Hurler",
+      "weight": 1.090613091698558,
+      "weight_norm": 0.8983671970074113
+    },
+    {
+      "source": "Forest",
+      "target": "Moon-Vigil Adherents",
+      "weight": 1.0905356858165076,
+      "weight_norm": 0.8983034357103769
+    },
+    {
+      "source": "Burning Curiosity",
+      "target": "Swamp",
+      "weight": 1.0902426715882392,
+      "weight_norm": 0.8980620720471892
+    },
+    {
+      "source": "Mountain",
+      "target": "Unbury",
+      "weight": 1.089903779211856,
+      "weight_norm": 0.8977829173253397
+    },
+    {
+      "source": "Mistmeadow Council",
+      "target": "Spiral into Solitude",
+      "weight": 0.9175656125342362,
+      "weight_norm": 0.7558233563095785
+    },
+    {
+      "source": "Deepchannel Duelist",
+      "target": "Merrow Skyswimmer",
+      "weight": 1.0898221639324923,
+      "weight_norm": 0.8977156886350617
+    },
+    {
+      "source": "Kulrath Zealot",
+      "target": "Swamp",
+      "weight": 1.0897852650186088,
+      "weight_norm": 0.897685294011991
+    },
+    {
+      "source": "Rooftop Percher",
+      "target": "Swamp",
+      "weight": 1.0897666518381113,
+      "weight_norm": 0.8976699618369802
+    },
+    {
+      "source": "Dundoolin Weaver",
+      "target": "Forest",
+      "weight": 1.0895849263936477,
+      "weight_norm": 0.8975202697239749
+    },
+    {
+      "source": "Flamekin Gildweaver",
+      "target": "Unexpected Assistance",
+      "weight": 0.9181457828664276,
+      "weight_norm": 0.7563012581421211
+    },
+    {
+      "source": "Dawn's Light Archer",
+      "target": "Scarblade Scout",
+      "weight": 0.9185554632219816,
+      "weight_norm": 0.7566387228172561
+    },
+    {
+      "source": "Kithkeeper",
+      "target": "Mountain",
+      "weight": 1.0886469584112357,
+      "weight_norm": 0.8967476403894693
+    },
+    {
+      "source": "Stoic Grove-Guide",
+      "target": "Swamp",
+      "weight": 1.088024064253931,
+      "weight_norm": 0.8962345457985557
+    },
+    {
+      "source": "Forest",
+      "target": "Glister Bairn",
+      "weight": 1.087774159120761,
+      "weight_norm": 0.8960286922509386
+    },
+    {
+      "source": "Blossombind",
+      "target": "Rimekin Recluse",
+      "weight": 0.919329226689647,
+      "weight_norm": 0.757276092497562
+    },
+    {
+      "source": "Dawnhand Eulogist",
+      "target": "Scarblade Scout",
+      "weight": 0.919548998056004,
+      "weight_norm": 0.7574571240548388
+    },
+    {
+      "source": "Island",
+      "target": "Prismabasher",
+      "weight": 1.0869387154590562,
+      "weight_norm": 0.8953405149437559
+    },
+    {
+      "source": "Blighted Blackthorn",
+      "target": "Mountain",
+      "weight": 1.085335125130541,
+      "weight_norm": 0.8940195946654813
+    },
+    {
+      "source": "Flamebraider",
+      "target": "Flaring Cinder",
+      "weight": 1.0850891836756789,
+      "weight_norm": 0.8938170061057856
+    },
+    {
+      "source": "Burdened Stoneback",
+      "target": "Plains",
+      "weight": 1.0847978210310585,
+      "weight_norm": 0.8935770028962582
+    },
+    {
+      "source": "Forest",
+      "target": "Gilt-Leaf's Embrace",
+      "weight": 1.0846480290919314,
+      "weight_norm": 0.89345361526639
+    },
+    {
+      "source": "Clachan Festival",
+      "target": "Plains",
+      "weight": 1.0841226769968682,
+      "weight_norm": 0.8930208686831367
+    },
+    {
+      "source": "Eclipsed Flamekin",
+      "target": "Kulrath Zealot",
+      "weight": 0.9224548269041783,
+      "weight_norm": 0.7598507330598911
+    },
+    {
+      "source": "Island",
+      "target": "Sygg, Wanderwine Wisdom",
+      "weight": 1.0839654771653977,
+      "weight_norm": 0.8928913789740519
+    },
+    {
+      "source": "Cinder Strike",
+      "target": "Elder Auntie",
+      "weight": 0.9227407877007006,
+      "weight_norm": 0.7600862866225442
+    },
+    {
+      "source": "Forest",
+      "target": "Stoic Grove-Guide",
+      "weight": 1.0835679552020447,
+      "weight_norm": 0.8925639294920269
+    },
+    {
+      "source": "Stratosoarer",
+      "target": "Summit Sentinel",
+      "weight": 0.9234689756464828,
+      "weight_norm": 0.7606861145255158
+    },
+    {
+      "source": "Dundoolin Weaver",
+      "target": "Plains",
+      "weight": 1.082456107214931,
+      "weight_norm": 0.8916480705432535
+    },
+    {
+      "source": "Liminal Hold",
+      "target": "Tributary Vaulter",
+      "weight": 1.082345668185473,
+      "weight_norm": 0.8915570989584728
+    },
+    {
+      "source": "Forest",
+      "target": "Luminollusk",
+      "weight": 1.081606660429378,
+      "weight_norm": 0.8909483584881233
+    },
+    {
+      "source": "Blight Rot",
+      "target": "Scarblade Scout",
+      "weight": 0.9248661238788428,
+      "weight_norm": 0.7618369829231749
+    },
+    {
+      "source": "Plains",
+      "target": "Timid Shieldbearer",
+      "weight": 1.0804952378320631,
+      "weight_norm": 0.8900328499443139
+    },
+    {
+      "source": "Plains",
+      "target": "Rooftop Percher",
+      "weight": 1.0800890634644165,
+      "weight_norm": 0.8896982732452658
+    },
+    {
+      "source": "Plains",
+      "target": "Silvergill Peddler",
+      "weight": 1.079752268694622,
+      "weight_norm": 0.8894208463781119
+    },
+    {
+      "source": "Forest",
+      "target": "Swamp",
+      "weight": 0.9265804485798228,
+      "weight_norm": 0.7632491180681706
+    },
+    {
+      "source": "Forest",
+      "target": "Formidable Speaker",
+      "weight": 1.0787647353561856,
+      "weight_norm": 0.8886073887330906
+    },
+    {
+      "source": "Gristle Glutton",
+      "target": "Mountain",
+      "weight": 1.078654117651057,
+      "weight_norm": 0.8885162699683773
+    },
+    {
+      "source": "Eclipsed Merrow",
+      "target": "Unexpected Assistance",
+      "weight": 0.927344063078513,
+      "weight_norm": 0.7638781277710655
+    },
+    {
+      "source": "Forest",
+      "target": "Mistmeadow Council",
+      "weight": 1.0781528946233745,
+      "weight_norm": 0.8881033991438089
+    },
+    {
+      "source": "Glen Elendra Guardian",
+      "target": "Island",
+      "weight": 1.0779375954119876,
+      "weight_norm": 0.887926051420291
+    },
+    {
+      "source": "Forest",
+      "target": "Plains",
+      "weight": 0.9277445769849952,
+      "weight_norm": 0.7642080417967339
+    },
+    {
+      "source": "Tweeze",
+      "target": "Twinflame Travelers",
+      "weight": 0.9278792390047524,
+      "weight_norm": 0.7643189665070216
+    },
+    {
+      "source": "Mountain",
+      "target": "Tanufel Rimespeaker",
+      "weight": 1.076972433572951,
+      "weight_norm": 0.8871310217781624
+    },
+    {
+      "source": "Plains",
+      "target": "Wildvine Pummeler",
+      "weight": 1.076855335193405,
+      "weight_norm": 0.8870345647084577
+    },
+    {
+      "source": "Pestered Wellguard",
+      "target": "Plains",
+      "weight": 1.0766591995929389,
+      "weight_norm": 0.8868730025642241
+    },
+    {
+      "source": "Plains",
+      "target": "Safewright Cavalry",
+      "weight": 1.0766486198890943,
+      "weight_norm": 0.8868642877789713
+    },
+    {
+      "source": "Gathering Stone",
+      "target": "Island",
+      "weight": 1.0753624319098682,
+      "weight_norm": 0.8858048203119868
+    },
+    {
+      "source": "Plains",
+      "target": "Sun-Dappled Celebrant",
+      "weight": 1.07529972059855,
+      "weight_norm": 0.8857531633262066
+    },
+    {
+      "source": "Moonglove Extractor",
+      "target": "Swamp",
+      "weight": 1.0752198869843783,
+      "weight_norm": 0.8856874022412387
+    },
+    {
+      "source": "Island",
+      "target": "Omni-Changeling",
+      "weight": 1.074368547763492,
+      "weight_norm": 0.8849861313364681
+    },
+    {
+      "source": "Forest",
+      "target": "Reaping Willow",
+      "weight": 1.0743624814649992,
+      "weight_norm": 0.8849811343640177
+    },
+    {
+      "source": "Firdoch Core",
+      "target": "Forest",
+      "weight": 1.074300927950798,
+      "weight_norm": 0.8849304310867145
+    },
+    {
+      "source": "Plains",
+      "target": "Thoughtweft Imbuer",
+      "weight": 1.073900027680473,
+      "weight_norm": 0.8846001988028067
+    },
+    {
+      "source": "Evolving Wilds",
+      "target": "Mischievous Sneakling",
+      "weight": 1.07364289347907,
+      "weight_norm": 0.8843883904781795
+    },
+    {
+      "source": "Forest",
+      "target": "Shimmercreep",
+      "weight": 1.0735443032723972,
+      "weight_norm": 0.8843071790858946
+    },
+    {
+      "source": "Island",
+      "target": "Unexpected Assistance",
+      "weight": 1.0731203402566034,
+      "weight_norm": 0.8839579494012038
+    },
+    {
+      "source": "Forest",
+      "target": "Unbury",
+      "weight": 1.0730330022485568,
+      "weight_norm": 0.8838860067461245
+    },
+    {
+      "source": "Ashling's Command",
+      "target": "Mountain",
+      "weight": 1.0727250248921738,
+      "weight_norm": 0.883632317553778
+    },
+    {
+      "source": "Lys Alana Informant",
+      "target": "Morcant's Eyes",
+      "weight": 1.0726296894908114,
+      "weight_norm": 0.8835537872317514
+    },
+    {
+      "source": "Chitinous Graspling",
+      "target": "Plains",
+      "weight": 1.0725100870389943,
+      "weight_norm": 0.8834552674906883
+    },
+    {
+      "source": "Gallant Fowlknight",
+      "target": "Mistmeadow Council",
+      "weight": 0.9327516138404308,
+      "weight_norm": 0.7683324720822028
+    },
+    {
+      "source": "Bristlebane Outrider",
+      "target": "Forest",
+      "weight": 1.0717968875553383,
+      "weight_norm": 0.882867785985179
+    },
+    {
+      "source": "Elder Auntie",
+      "target": "Gristle Glutton",
+      "weight": 0.933595536642173,
+      "weight_norm": 0.7690276338840027
+    },
+    {
+      "source": "Island",
+      "target": "Wanderwine Distracter",
+      "weight": 1.0707756765537888,
+      "weight_norm": 0.8820265871475726
+    },
+    {
+      "source": "Firdoch Core",
+      "target": "Island",
+      "weight": 1.0706411303327728,
+      "weight_norm": 0.8819157578238077
+    },
+    {
+      "source": "Clachan Festival",
+      "target": "Forest",
+      "weight": 1.070616437813709,
+      "weight_norm": 0.8818954179348891
+    },
+    {
+      "source": "Forest",
+      "target": "Lluwen, Imperfect Naturalist",
+      "weight": 1.0704575504166662,
+      "weight_norm": 0.8817645381328698
+    },
+    {
+      "source": "Champions of the Perfect",
+      "target": "Swamp",
+      "weight": 1.0701969180664133,
+      "weight_norm": 0.881549848289397
+    },
+    {
+      "source": "Graveshifter",
+      "target": "Swamp",
+      "weight": 1.070157596001466,
+      "weight_norm": 0.8815174576519325
+    },
+    {
+      "source": "Meanders Guide",
+      "target": "Plains",
+      "weight": 1.0701352737747278,
+      "weight_norm": 0.8814990702362501
+    },
+    {
+      "source": "Forest",
+      "target": "Thoughtweft Charge",
+      "weight": 1.0690989192308602,
+      "weight_norm": 0.880645397257476
+    },
+    {
+      "source": "Flock Impostor",
+      "target": "Plains",
+      "weight": 1.068917257445201,
+      "weight_norm": 0.8804957575819319
+    },
+    {
+      "source": "Forest",
+      "target": "Thoughtweft Imbuer",
+      "weight": 1.068468649372442,
+      "weight_norm": 0.8801262271041236
+    },
+    {
+      "source": "Barbed Bloodletter",
+      "target": "Swamp",
+      "weight": 1.0675805700425398,
+      "weight_norm": 0.8793946923881025
+    },
+    {
+      "source": "Summit Sentinel",
+      "target": "Tweeze",
+      "weight": 1.0673553567622516,
+      "weight_norm": 0.8792091781806523
+    },
+    {
+      "source": "Crossroads Watcher",
+      "target": "Timid Shieldbearer",
+      "weight": 1.067015029365699,
+      "weight_norm": 0.8789288413942768
+    },
+    {
+      "source": "Eclipsed Flamekin",
+      "target": "Flaring Cinder",
+      "weight": 0.9378110937131872,
+      "weight_norm": 0.772500101084826
+    },
+    {
+      "source": "Island",
+      "target": "Stratosoarer",
+      "weight": 1.0661332974386666,
+      "weight_norm": 0.878202535203906
+    },
+    {
+      "source": "Forest",
+      "target": "Wildvine Pummeler",
+      "weight": 1.0661182577522963,
+      "weight_norm": 0.8781901466116627
+    },
+    {
+      "source": "Merrow Skyswimmer",
+      "target": "Spiral into Solitude",
+      "weight": 0.9381407873173296,
+      "weight_norm": 0.7727716785317496
+    },
+    {
+      "source": "Explosive Prodigy",
+      "target": "Kulrath Zealot",
+      "weight": 0.9384491522043792,
+      "weight_norm": 0.7730256869434794
+    },
+    {
+      "source": "Liminal Hold",
+      "target": "Wanderbrine Preacher",
+      "weight": 0.9386190115493944,
+      "weight_norm": 0.7731656046327391
+    },
+    {
+      "source": "Morcant's Loyalist",
+      "target": "Scarblade Scout",
+      "weight": 1.0651969563723065,
+      "weight_norm": 0.8774312460037015
+    },
+    {
+      "source": "Kulrath Zealot",
+      "target": "Summit Sentinel",
+      "weight": 1.064960894459468,
+      "weight_norm": 0.8772367954872248
+    },
+    {
+      "source": "Lofty Dreams",
+      "target": "Mountain",
+      "weight": 1.0645063939168071,
+      "weight_norm": 0.8768624112242296
+    },
+    {
+      "source": "Summit Sentinel",
+      "target": "Unexpected Assistance",
+      "weight": 0.9394370671057196,
+      "weight_norm": 0.7738394588920784
+    },
+    {
+      "source": "Deepchannel Duelist",
+      "target": "Gravelgill Scoundrel",
+      "weight": 1.0642338864486325,
+      "weight_norm": 0.8766379395282532
+    },
+    {
+      "source": "Dawnhand Eulogist",
+      "target": "Safewright Cavalry",
+      "weight": 0.9397775191101636,
+      "weight_norm": 0.7741198983213095
+    },
+    {
+      "source": "Plains",
+      "target": "Tanufel Rimespeaker",
+      "weight": 1.064065299529684,
+      "weight_norm": 0.8764990699704047
+    },
+    {
+      "source": "Island",
+      "target": "Noggle the Mind",
+      "weight": 1.063834139360084,
+      "weight_norm": 0.8763086571510429
+    },
+    {
+      "source": "Firdoch Core",
+      "target": "Swamp",
+      "weight": 1.0636456983145592,
+      "weight_norm": 0.8761534332176811
+    },
+    {
+      "source": "Plains",
+      "target": "Spiral into Solitude",
+      "weight": 1.063459121469378,
+      "weight_norm": 0.875999744876043
+    },
+    {
+      "source": "Mountain",
+      "target": "Rime Chill",
+      "weight": 1.0633909026536714,
+      "weight_norm": 0.875943551211474
+    },
+    {
+      "source": "Deepchannel Duelist",
+      "target": "Silvergill Peddler",
+      "weight": 0.9405028295164852,
+      "weight_norm": 0.7747173559180018
+    },
+    {
+      "source": "Gristle Glutton",
+      "target": "Swamp",
+      "weight": 1.0627058623820516,
+      "weight_norm": 0.8753792652026807
+    },
+    {
+      "source": "Cinder Strike",
+      "target": "Eclipsed Flamekin",
+      "weight": 1.0624864083862329,
+      "weight_norm": 0.8751984950720116
+    },
+    {
+      "source": "Island",
+      "target": "Silvergill Peddler",
+      "weight": 1.0622029866732627,
+      "weight_norm": 0.8749650330204463
+    },
+    {
+      "source": "Kulrath Zealot",
+      "target": "Stratosoarer",
+      "weight": 1.062173158834607,
+      "weight_norm": 0.8749404630313182
+    },
+    {
+      "source": "Forest",
+      "target": "Moonglove Extractor",
+      "weight": 1.0616372912035736,
+      "weight_norm": 0.8744990545196079
+    },
+    {
+      "source": "Eclipsed Elf",
+      "target": "Scarblade Scout",
+      "weight": 0.9421936271063092,
+      "weight_norm": 0.776110111151768
+    },
+    {
+      "source": "Mountain",
+      "target": "Rooftop Percher",
+      "weight": 1.061065558092146,
+      "weight_norm": 0.8740281026516548
+    },
+    {
+      "source": "Eclipsed Flamekin",
+      "target": "Summit Sentinel",
+      "weight": 0.9424757838679718,
+      "weight_norm": 0.7763425312290814
+    },
+    {
+      "source": "Brigid, Clachan's Heart",
+      "target": "Plains",
+      "weight": 0.9427201610873012,
+      "weight_norm": 0.7765438312860974
+    },
+    {
+      "source": "Mountain",
+      "target": "Swamp",
+      "weight": 0.9431036107619652,
+      "weight_norm": 0.7768596890472442
+    },
+    {
+      "source": "Gristle Glutton",
+      "target": "Kulrath Zealot",
+      "weight": 0.9432255499968984,
+      "weight_norm": 0.7769601336591108
+    },
+    {
+      "source": "Flamebraider",
+      "target": "Flamekin Gildweaver",
+      "weight": 0.9435810279935458,
+      "weight_norm": 0.7772529504003334
+    },
+    {
+      "source": "Forest",
+      "target": "Tend the Sprigs",
+      "weight": 1.0595239106465038,
+      "weight_norm": 0.8727582063840809
+    },
+    {
+      "source": "Feed the Flames",
+      "target": "Flamebraider",
+      "weight": 1.0591824953140816,
+      "weight_norm": 0.8724769734358079
+    },
+    {
+      "source": "Mountain",
+      "target": "Sunderflock",
+      "weight": 1.0591732675851049,
+      "weight_norm": 0.8724693723084432
+    },
+    {
+      "source": "Island",
+      "target": "Kulrath Zealot",
+      "weight": 1.0589758489343917,
+      "weight_norm": 0.8723067532813765
+    },
+    {
+      "source": "Island",
+      "target": "Plains",
+      "weight": 0.944643157725626,
+      "weight_norm": 0.7781278550915847
+    },
+    {
+      "source": "Morcant's Loyalist",
+      "target": "Swamp",
+      "weight": 1.058568961221974,
+      "weight_norm": 0.871971588981146
+    },
+    {
+      "source": "Island",
+      "target": "Silvergill Mentor",
+      "weight": 0.9447061849007063,
+      "weight_norm": 0.7781797722628008
+    },
+    {
+      "source": "Island",
+      "target": "Run Away Together",
+      "weight": 1.058367535379218,
+      "weight_norm": 0.8718056691227297
+    },
+    {
+      "source": "Liminal Hold",
+      "target": "Spiral into Solitude",
+      "weight": 0.9451724504209712,
+      "weight_norm": 0.7785638476527716
+    },
+    {
+      "source": "Ashling's Command",
+      "target": "Island",
+      "weight": 1.057635719954029,
+      "weight_norm": 0.8712028531678708
+    },
+    {
+      "source": "Feed the Flames",
+      "target": "Mountain",
+      "weight": 1.0574903770057504,
+      "weight_norm": 0.8710831302908546
+    },
+    {
+      "source": "Formidable Speaker",
+      "target": "Swamp",
+      "weight": 1.0573852502943166,
+      "weight_norm": 0.8709965346046298
+    },
+    {
+      "source": "Kulrath Zealot",
+      "target": "Mountain",
+      "weight": 1.057253055795597,
+      "weight_norm": 0.870887642457471
+    },
+    {
+      "source": "Blossombind",
+      "target": "Unexpected Assistance",
+      "weight": 0.9458806843327198,
+      "weight_norm": 0.779147238883783
+    },
+    {
+      "source": "Mountain",
+      "target": "Unexpected Assistance",
+      "weight": 1.0568756551365472,
+      "weight_norm": 0.8705767674324049
+    },
+    {
+      "source": "Heirloom Auntie",
+      "target": "Mountain",
+      "weight": 1.0565623809598947,
+      "weight_norm": 0.8703187151074178
+    },
+    {
+      "source": "Island",
+      "target": "Pestered Wellguard",
+      "weight": 1.05599527554576,
+      "weight_norm": 0.8698515751975984
+    },
+    {
+      "source": "Mischievous Sneakling",
+      "target": "Unexpected Assistance",
+      "weight": 1.0558166891091678,
+      "weight_norm": 0.8697044687694012
+    },
+    {
+      "source": "Spiral into Solitude",
+      "target": "Wanderbrine Preacher",
+      "weight": 1.0557603187798672,
+      "weight_norm": 0.8696580350202433
+    },
+    {
+      "source": "Feed the Flames",
+      "target": "Kulrath Zealot",
+      "weight": 1.0556104261786468,
+      "weight_norm": 0.8695345644723144
+    },
+    {
+      "source": "Mistmeadow Council",
+      "target": "Plains",
+      "weight": 1.0555869706641448,
+      "weight_norm": 0.8695152435371651
+    },
+    {
+      "source": "Chitinous Graspling",
+      "target": "Island",
+      "weight": 1.0555729454818052,
+      "weight_norm": 0.8695036906190481
+    },
+    {
+      "source": "Rimekin Recluse",
+      "target": "Unexpected Assistance",
+      "weight": 0.9477038135513682,
+      "weight_norm": 0.780648999222446
+    },
+    {
+      "source": "Mistmeadow Council",
+      "target": "Timid Shieldbearer",
+      "weight": 1.0551349407093031,
+      "weight_norm": 0.8691428943634889
+    },
+    {
+      "source": "Noggle Robber",
+      "target": "Plains",
+      "weight": 0.9477862372709204,
+      "weight_norm": 0.7807168938465475
+    },
+    {
+      "source": "Chaos Spewer",
+      "target": "Swamp",
+      "weight": 1.0550269561805412,
+      "weight_norm": 0.8690539446166333
+    },
+    {
+      "source": "Forest",
+      "target": "Prideful Feastling",
+      "weight": 1.054705624443998,
+      "weight_norm": 0.8687892550638807
+    },
+    {
+      "source": "Forest",
+      "target": "Rooftop Percher",
+      "weight": 1.0546088739325052,
+      "weight_norm": 0.8687095590777603
+    },
+    {
+      "source": "Eclipsed Flamekin",
+      "target": "Feed the Flames",
+      "weight": 1.0545082400388368,
+      "weight_norm": 0.8686266642457918
+    },
+    {
+      "source": "Dawnhand Eulogist",
+      "target": "Stoic Grove-Guide",
+      "weight": 0.9486778659415704,
+      "weight_norm": 0.7814513522495508
+    },
+    {
+      "source": "Plains",
+      "target": "Wanderwine Distracter",
+      "weight": 1.0540577126578057,
+      "weight_norm": 0.868255552782384
+    },
+    {
+      "source": "Forest",
+      "target": "Pitiless Fists",
+      "weight": 1.0539117840442402,
+      "weight_norm": 0.8681353474771939
+    },
+    {
+      "source": "Plains",
+      "target": "Shore Lurker",
+      "weight": 1.0538740516177116,
+      "weight_norm": 0.8681042662674461
+    },
+    {
+      "source": "Plains",
+      "target": "Unexpected Assistance",
+      "weight": 1.0534432453030422,
+      "weight_norm": 0.8677493995742911
+    },
+    {
+      "source": "Mountain",
+      "target": "Sting-Slinger",
+      "weight": 1.0531489251419306,
+      "weight_norm": 0.8675069601792634
+    },
+    {
+      "source": "Mountain",
+      "target": "Squawkroaster",
+      "weight": 1.0531415595592992,
+      "weight_norm": 0.8675008929516891
+    },
+    {
+      "source": "Forest",
+      "target": "Unexpected Assistance",
+      "weight": 1.053087220590409,
+      "weight_norm": 0.8674561324884764
+    },
+    {
+      "source": "Flamebraider",
+      "target": "Kulrath Zealot",
+      "weight": 1.052983075706368,
+      "weight_norm": 0.8673703455597566
+    },
+    {
+      "source": "Midnight Tilling",
+      "target": "Scarblade Scout",
+      "weight": 0.9497340193185828,
+      "weight_norm": 0.7823213340571584
+    },
+    {
+      "source": "Figure of Fable",
+      "target": "Plains",
+      "weight": 1.0525621551069315,
+      "weight_norm": 0.8670236219948583
+    },
+    {
+      "source": "Forest",
+      "target": "Sun-Dappled Celebrant",
+      "weight": 1.0524371083479822,
+      "weight_norm": 0.8669206176322779
+    },
+    {
+      "source": "Safewright Cavalry",
+      "target": "Swamp",
+      "weight": 1.0523461551291728,
+      "weight_norm": 0.866845697031322
+    },
+    {
+      "source": "Cinder Strike",
+      "target": "Stratosoarer",
+      "weight": 1.0523423294397083,
+      "weight_norm": 0.8668425457085045
+    },
+    {
+      "source": "Mountain",
+      "target": "Twinflame Travelers",
+      "weight": 1.052297664041859,
+      "weight_norm": 0.8668057536246991
+    },
+    {
+      "source": "Forest",
+      "target": "Stalactite Dagger",
+      "weight": 1.0522905861876048,
+      "weight_norm": 0.8667999234066909
+    },
+    {
+      "source": "Forest",
+      "target": "Stratosoarer",
+      "weight": 1.0522235139337537,
+      "weight_norm": 0.8667446741958131
+    },
+    {
+      "source": "Brambleback Brute",
+      "target": "Swamp",
+      "weight": 1.0520147669460596,
+      "weight_norm": 0.86657272371434
+    },
+    {
+      "source": "Assert Perfection",
+      "target": "Morcant's Eyes",
+      "weight": 1.05193629265844,
+      "weight_norm": 0.8665080823430392
+    },
+    {
+      "source": "Evolving Wilds",
+      "target": "Liminal Hold",
+      "weight": 1.0515730630487534,
+      "weight_norm": 0.8662088803906621
+    },
+    {
+      "source": "Flitterwing Nuisance",
+      "target": "Island",
+      "weight": 1.051511871830073,
+      "weight_norm": 0.8661584755458774
+    },
+    {
+      "source": "Lofty Dreams",
+      "target": "Plains",
+      "weight": 1.0514672230497986,
+      "weight_norm": 0.8661216971504131
+    },
+    {
+      "source": "Lys Alana Informant",
+      "target": "Scarblade Scout",
+      "weight": 0.9510567841174656,
+      "weight_norm": 0.7834109308295772
+    },
+    {
+      "source": "Blossombind",
+      "target": "Cinder Strike",
+      "weight": 0.951230521277819,
+      "weight_norm": 0.7835540427791318
+    },
+    {
+      "source": "Mountain",
+      "target": "Stratosoarer",
+      "weight": 1.0511344669137237,
+      "weight_norm": 0.8658475970139595
+    },
+    {
+      "source": "Chitinous Graspling",
+      "target": "Swamp",
+      "weight": 1.051095296302707,
+      "weight_norm": 0.8658153311331517
+    },
+    {
+      "source": "Island",
+      "target": "Sanar, Innovative First-Year",
+      "weight": 1.05092729319278,
+      "weight_norm": 0.8656769424744217
+    },
+    {
+      "source": "Tributary Vaulter",
+      "target": "Wanderbrine Preacher",
+      "weight": 1.0503642445243098,
+      "weight_norm": 0.8652131442145965
+    },
+    {
+      "source": "Island",
+      "target": "Shore Lurker",
+      "weight": 1.050351279040362,
+      "weight_norm": 0.8652024641984105
+    },
+    {
+      "source": "Forest",
+      "target": "Selfless Safewright",
+      "weight": 1.0501288483409217,
+      "weight_norm": 0.8650192420772883
+    },
+    {
+      "source": "Midnight Tilling",
+      "target": "Swamp",
+      "weight": 1.050076670549435,
+      "weight_norm": 0.8649762618337532
+    },
+    {
+      "source": "Sourbread Auntie",
+      "target": "Swamp",
+      "weight": 1.0498812892929656,
+      "weight_norm": 0.8648153210628617
+    },
+    {
+      "source": "High Perfect Morcant",
+      "target": "Swamp",
+      "weight": 1.049803496213447,
+      "weight_norm": 0.8647512408209083
+    },
+    {
+      "source": "Dawnhand Eulogist",
+      "target": "Forest",
+      "weight": 1.0497919342081508,
+      "weight_norm": 0.8647417168876556
+    },
+    {
+      "source": "Dundoolin Weaver",
+      "target": "Swamp",
+      "weight": 1.0497482335243684,
+      "weight_norm": 0.8647057194646505
+    },
+    {
+      "source": "Island",
+      "target": "Rimekin Recluse",
+      "weight": 0.9526470329143052,
+      "weight_norm": 0.7847208613310864
+    },
+    {
+      "source": "Swamp",
+      "target": "Thoughtweft Charge",
+      "weight": 1.0494859394618818,
+      "weight_norm": 0.8644896608243303
+    },
+    {
+      "source": "Blight Rot",
+      "target": "Safewright Cavalry",
+      "weight": 1.0494799074819312,
+      "weight_norm": 0.8644846921209818
+    },
+    {
+      "source": "Eclipsed Elf",
+      "target": "Safewright Cavalry",
+      "weight": 0.952866046344144,
+      "weight_norm": 0.7849012685557647
+    },
+    {
+      "source": "Forest",
+      "target": "Rimekin Recluse",
+      "weight": 0.9528768298512554,
+      "weight_norm": 0.7849101512192238
+    },
+    {
+      "source": "Bristlebane Outrider",
+      "target": "Plains",
+      "weight": 1.0494477389353478,
+      "weight_norm": 0.864458194028078
+    },
+    {
+      "source": "Blossombind",
+      "target": "Temporal Cleansing",
+      "weight": 0.953143930494464,
+      "weight_norm": 0.7851301691687466
+    },
+    {
+      "source": "Island",
+      "target": "Thirst for Identity",
+      "weight": 1.0489976202548326,
+      "weight_norm": 0.8640874192222251
+    },
+    {
+      "source": "Cinder Strike",
+      "target": "Summit Sentinel",
+      "weight": 0.95336766657882,
+      "weight_norm": 0.7853144665703661
+    },
+    {
+      "source": "Mountain",
+      "target": "Shimmercreep",
+      "weight": 1.0488927947063715,
+      "weight_norm": 0.8640010716120025
+    },
+    {
+      "source": "Forest",
+      "target": "Riverguard's Reflexes",
+      "weight": 1.0481850346613557,
+      "weight_norm": 0.8634180707177032
+    },
+    {
+      "source": "Chomping Changeling",
+      "target": "Forest",
+      "weight": 1.0477596273673913,
+      "weight_norm": 0.863067651342423
+    },
+    {
+      "source": "Deepchannel Duelist",
+      "target": "Plains",
+      "weight": 0.9544246875940314,
+      "weight_norm": 0.7861851630747831
+    },
+    {
+      "source": "Hovel Hurler",
+      "target": "Island",
+      "weight": 1.0473978729692883,
+      "weight_norm": 0.8627696645613157
+    },
+    {
+      "source": "Flock Impostor",
+      "target": "Island",
+      "weight": 1.0473492030516045,
+      "weight_norm": 0.8627295738473301
+    },
+    {
+      "source": "Island",
+      "target": "Kinbinding",
+      "weight": 1.047202275721801,
+      "weight_norm": 0.8626085458728411
+    },
+    {
+      "source": "Cinder Strike",
+      "target": "Explosive Prodigy",
+      "weight": 0.9549872455821892,
+      "weight_norm": 0.7866485571481006
+    },
+    {
+      "source": "Forest",
+      "target": "Reluctant Dounguard",
+      "weight": 1.0470296750175088,
+      "weight_norm": 0.8624663700525647
+    },
+    {
+      "source": "Bogslither's Embrace",
+      "target": "Lys Alana Informant",
+      "weight": 0.9552657739307948,
+      "weight_norm": 0.786877988404454
+    },
+    {
+      "source": "Boneclub Berserker",
+      "target": "Mountain",
+      "weight": 1.0464780820410902,
+      "weight_norm": 0.8620120081529268
+    },
+    {
+      "source": "Chomping Changeling",
+      "target": "Swamp",
+      "weight": 1.0463543452894286,
+      "weight_norm": 0.8619100828784155
+    },
+    {
+      "source": "Gutsplitter Gang",
+      "target": "Swamp",
+      "weight": 1.0462243916636524,
+      "weight_norm": 0.8618030365982836
+    },
+    {
+      "source": "Assert Perfection",
+      "target": "Dawn's Light Archer",
+      "weight": 0.9558347817275206,
+      "weight_norm": 0.7873466953577364
+    },
+    {
+      "source": "Mountain",
+      "target": "Wildvine Pummeler",
+      "weight": 1.046051474764483,
+      "weight_norm": 0.8616606003198228
+    },
+    {
+      "source": "Cinder Strike",
+      "target": "Unexpected Assistance",
+      "weight": 1.0460176468113818,
+      "weight_norm": 0.8616327353293516
+    },
+    {
+      "source": "Island",
+      "target": "Twinflame Travelers",
+      "weight": 1.045893759471707,
+      "weight_norm": 0.8615306860114629
+    },
+    {
+      "source": "Plains",
+      "target": "Sygg, Wanderwine Wisdom",
+      "weight": 1.0458880706274596,
+      "weight_norm": 0.8615259999581781
+    },
+    {
+      "source": "Kinsbaile Aspirant",
+      "target": "Plains",
+      "weight": 0.956172380847557,
+      "weight_norm": 0.7876247847897153
+    },
+    {
+      "source": "Silvergill Peddler",
+      "target": "Wanderbrine Preacher",
+      "weight": 1.0458289828516725,
+      "weight_norm": 0.8614773277756091
+    },
+    {
+      "source": "Creakwood Safewright",
+      "target": "Scarblade Scout",
+      "weight": 0.9562409231143006,
+      "weight_norm": 0.7876812448895617
+    },
+    {
+      "source": "Plains",
+      "target": "Prideful Feastling",
+      "weight": 1.045620496874327,
+      "weight_norm": 0.8613055922953469
+    },
+    {
+      "source": "Enraged Flamecaster",
+      "target": "Kulrath Zealot",
+      "weight": 1.0455043743902954,
+      "weight_norm": 0.8612099390969
+    },
+    {
+      "source": "Forest",
+      "target": "Kulrath Zealot",
+      "weight": 1.0454872557659425,
+      "weight_norm": 0.8611958380277915
+    },
+    {
+      "source": "Burdened Stoneback",
+      "target": "Forest",
+      "weight": 1.0454298795060106,
+      "weight_norm": 0.8611485756666462
+    },
+    {
+      "source": "Dawnhand Dissident",
+      "target": "Forest",
+      "weight": 0.9567386958476402,
+      "weight_norm": 0.7880912736143227
+    },
+    {
+      "source": "Safewright Cavalry",
+      "target": "Stoic Grove-Guide",
+      "weight": 0.9567905226860416,
+      "weight_norm": 0.7881339647684075
+    },
+    {
+      "source": "Merrow Skyswimmer",
+      "target": "Plains",
+      "weight": 1.0451262372889585,
+      "weight_norm": 0.8608984574446089
+    },
+    {
+      "source": "Mountain",
+      "target": "Temporal Cleansing",
+      "weight": 1.045079160693746,
+      "weight_norm": 0.8608596791929928
+    },
+    {
+      "source": "Forest",
+      "target": "Virulent Emissary",
+      "weight": 0.9569851484240868,
+      "weight_norm": 0.7882942831985492
+    },
+    {
+      "source": "Flaring Cinder",
+      "target": "Tanufel Rimespeaker",
+      "weight": 0.9569899679426942,
+      "weight_norm": 0.7882982531650343
+    },
+    {
+      "source": "Brambleback Brute",
+      "target": "Mountain",
+      "weight": 1.0448262255919056,
+      "weight_norm": 0.8606513297790762
+    },
+    {
+      "source": "Assert Perfection",
+      "target": "Dawnhand Eulogist",
+      "weight": 0.957474753694864,
+      "weight_norm": 0.7886975841657723
+    },
+    {
+      "source": "Flaring Cinder",
+      "target": "Temporal Cleansing",
+      "weight": 1.0443950293836426,
+      "weight_norm": 0.8602961419201315
+    },
+    {
+      "source": "Flaring Cinder",
+      "target": "Forest",
+      "weight": 1.0443901524115529,
+      "weight_norm": 0.8602921246276751
+    },
+    {
+      "source": "Abigale, Eloquent First-Year",
+      "target": "Swamp",
+      "weight": 1.0443868006393673,
+      "weight_norm": 0.8602893636832061
+    },
+    {
+      "source": "Prideful Feastling",
+      "target": "Swamp",
+      "weight": 1.0443799743701194,
+      "weight_norm": 0.860283740702502
+    },
+    {
+      "source": "Dawn's Light Archer",
+      "target": "Swamp",
+      "weight": 1.0442160393135014,
+      "weight_norm": 0.8601487030081756
+    },
+    {
+      "source": "Feed the Flames",
+      "target": "Unexpected Assistance",
+      "weight": 0.9577676476500366,
+      "weight_norm": 0.7889388487567915
+    },
+    {
+      "source": "Island",
+      "target": "Wildvine Pummeler",
+      "weight": 1.0440192131673447,
+      "weight_norm": 0.8599865720429721
+    },
+    {
+      "source": "Swamp",
+      "target": "Trystan, Callous Cultivator",
+      "weight": 0.9578491823384812,
+      "weight_norm": 0.7890060110621722
+    },
+    {
+      "source": "Assert Perfection",
+      "target": "Bogslither's Embrace",
+      "weight": 0.9578563811249232,
+      "weight_norm": 0.7890119408952605
+    },
+    {
+      "source": "Figure of Fable",
+      "target": "Forest",
+      "weight": 1.0438919994169484,
+      "weight_norm": 0.8598817826715313
+    },
+    {
+      "source": "Forest",
+      "target": "Mountain",
+      "weight": 0.957959266827798,
+      "weight_norm": 0.7890966906027482
+    },
+    {
+      "source": "Flamekin Gildweaver",
+      "target": "Kulrath Zealot",
+      "weight": 0.9580563761114108,
+      "weight_norm": 0.7891766821190676
+    },
+    {
+      "source": "Island",
+      "target": "Mountain",
+      "weight": 0.9580819644245449,
+      "weight_norm": 0.7891977598975404
+    },
+    {
+      "source": "Liminal Hold",
+      "target": "Mistmeadow Council",
+      "weight": 1.043394197251022,
+      "weight_norm": 0.8594717297023604
+    },
+    {
+      "source": "Merrow Skyswimmer",
+      "target": "Shore Lurker",
+      "weight": 0.9584631466160274,
+      "weight_norm": 0.7895117498720949
+    },
+    {
+      "source": "Island",
+      "target": "Tam, Mindful First-Year",
+      "weight": 1.0430718498021672,
+      "weight_norm": 0.8592062034801883
+    },
+    {
+      "source": "Liminal Hold",
+      "target": "Swamp",
+      "weight": 1.0430578155455736,
+      "weight_norm": 0.8591946430873653
+    },
+    {
+      "source": "Liminal Hold",
+      "target": "Plains",
+      "weight": 1.0428868073532331,
+      "weight_norm": 0.8590537790618116
+    },
+    {
+      "source": "Sting-Slinger",
+      "target": "Swamp",
+      "weight": 1.0427644350790646,
+      "weight_norm": 0.8589529777439354
+    },
+    {
+      "source": "Shimmercreep",
+      "target": "Swamp",
+      "weight": 1.0427543776756962,
+      "weight_norm": 0.8589446931915657
+    },
+    {
+      "source": "Feed the Flames",
+      "target": "Summit Sentinel",
+      "weight": 0.9590871693954458,
+      "weight_norm": 0.7900257741392545
+    },
+    {
+      "source": "Flaring Cinder",
+      "target": "Mountain",
+      "weight": 1.0426291764040485,
+      "weight_norm": 0.8588415615527397
+    },
+    {
+      "source": "Forest",
+      "target": "Midnight Tilling",
+      "weight": 1.0421551903068171,
+      "weight_norm": 0.8584511265168582
+    },
+    {
+      "source": "Gravelgill Scoundrel",
+      "target": "Tributary Vaulter",
+      "weight": 1.042115044534739,
+      "weight_norm": 0.858418057369781
+    },
+    {
+      "source": "Bogslither's Embrace",
+      "target": "Scarblade Scout",
+      "weight": 0.9596668815446684,
+      "weight_norm": 0.7905032985542211
+    },
+    {
+      "source": "Flamekin Gildweaver",
+      "target": "Tweeze",
+      "weight": 0.9597001816060222,
+      "weight_norm": 0.7905307287061295
+    },
+    {
+      "source": "Forest",
+      "target": "Nameless Inversion",
+      "weight": 1.041973816060067,
+      "weight_norm": 0.8583017236948102
+    },
+    {
+      "source": "Blossombind",
+      "target": "Flaring Cinder",
+      "weight": 1.041901954470861,
+      "weight_norm": 0.8582425293802005
+    },
+    {
+      "source": "Mountain",
+      "target": "Plains",
+      "weight": 0.959940186725591,
+      "weight_norm": 0.790728427347541
+    },
+    {
+      "source": "Temporal Cleansing",
+      "target": "Unexpected Assistance",
+      "weight": 0.9599515552927682,
+      "weight_norm": 0.7907377919406371
+    },
+    {
+      "source": "Gallant Fowlknight",
+      "target": "Timid Shieldbearer",
+      "weight": 0.9600763623667417,
+      "weight_norm": 0.7908405988682868
+    },
+    {
+      "source": "Chitinous Graspling",
+      "target": "Mountain",
+      "weight": 1.041563411667937,
+      "weight_norm": 0.8579636626113667
+    },
+    {
+      "source": "Mountain",
+      "target": "Spiral into Solitude",
+      "weight": 1.041447823734828,
+      "weight_norm": 0.8578684497368234
+    },
+    {
+      "source": "Explosive Prodigy",
+      "target": "Forest",
+      "weight": 1.041332988480799,
+      "weight_norm": 0.8577738568641861
+    },
+    {
+      "source": "Flamekin Gildweaver",
+      "target": "Summit Sentinel",
+      "weight": 0.9603962991341736,
+      "weight_norm": 0.7911041393476422
+    },
+    {
+      "source": "Mountain",
+      "target": "Omni-Changeling",
+      "weight": 1.0409341371914882,
+      "weight_norm": 0.8574453123807866
+    },
+    {
+      "source": "Island",
+      "target": "Wanderwine Farewell",
+      "weight": 1.0409064252384432,
+      "weight_norm": 0.8574224853032738
+    },
+    {
+      "source": "Enraged Flamecaster",
+      "target": "Island",
+      "weight": 1.040812144980463,
+      "weight_norm": 0.857344824131095
+    },
+    {
+      "source": "Forest",
+      "target": "Lys Alana Dignitary",
+      "weight": 0.9608159680568442,
+      "weight_norm": 0.7914498318728838
+    },
+    {
+      "source": "Flamebraider",
+      "target": "Forest",
+      "weight": 0.9608773835243408,
+      "weight_norm": 0.7915004214374212
+    },
+    {
+      "source": "Feed the Flames",
+      "target": "Swamp",
+      "weight": 1.040636697690834,
+      "weight_norm": 0.8572003035022796
+    },
+    {
+      "source": "Boggart Cursecrafter",
+      "target": "Swamp",
+      "weight": 0.9609663096937858,
+      "weight_norm": 0.791573672303556
+    },
+    {
+      "source": "Assert Perfection",
+      "target": "Island",
+      "weight": 0.9610358841681388,
+      "weight_norm": 0.7916309826604401
+    },
+    {
+      "source": "Crossroads Watcher",
+      "target": "Mistmeadow Council",
+      "weight": 1.0405283957415046,
+      "weight_norm": 0.857111092287606
+    },
+    {
+      "source": "Explosive Prodigy",
+      "target": "Flaring Cinder",
+      "weight": 0.9611735016189192,
+      "weight_norm": 0.7917443418383722
+    },
+    {
+      "source": "Island",
+      "target": "Swat Away",
+      "weight": 1.040381965650869,
+      "weight_norm": 0.8569904739023297
+    },
+    {
+      "source": "Mountain",
+      "target": "Summit Sentinel",
+      "weight": 1.040339066000978,
+      "weight_norm": 0.8569551363123827
+    },
+    {
+      "source": "Glamermite",
+      "target": "Swamp",
+      "weight": 1.040074943030272,
+      "weight_norm": 0.8567375711514064
+    },
+    {
+      "source": "Blossombind",
+      "target": "Shinestriker",
+      "weight": 1.039958184082337,
+      "weight_norm": 0.8566413936806055
+    },
+    {
+      "source": "Glister Bairn",
+      "target": "Mountain",
+      "weight": 1.0398499868763689,
+      "weight_norm": 0.8565522687458421
+    },
+    {
+      "source": "Mountain",
+      "target": "Sourbread Auntie",
+      "weight": 1.039839430839436,
+      "weight_norm": 0.8565435734556581
+    },
+    {
+      "source": "Kulrath Zealot",
+      "target": "Temporal Cleansing",
+      "weight": 0.9620423454434224,
+      "weight_norm": 0.7924600317537027
+    },
+    {
+      "source": "Island",
+      "target": "Kulrath Mystic",
+      "weight": 1.0387379462170112,
+      "weight_norm": 0.8556362510877839
+    },
+    {
+      "source": "Assert Perfection",
+      "target": "Evolving Wilds",
+      "weight": 0.9628262961379532,
+      "weight_norm": 0.7931057929254679
+    },
+    {
+      "source": "Assert Perfection",
+      "target": "Surly Farrier",
+      "weight": 1.0383820641452677,
+      "weight_norm": 0.8553431014990883
+    },
+    {
+      "source": "Island",
+      "target": "Rooftop Percher",
+      "weight": 1.038285355364441,
+      "weight_norm": 0.8552634398876346
+    },
+    {
+      "source": "Plains",
+      "target": "Wanderwine Farewell",
+      "weight": 1.038141989526253,
+      "weight_norm": 0.8551453456091227
+    },
+    {
+      "source": "Evolving Wilds",
+      "target": "Flamekin Gildweaver",
+      "weight": 0.9633140961192576,
+      "weight_norm": 0.7935076068274284
+    },
+    {
+      "source": "Cinder Strike",
+      "target": "Flaring Cinder",
+      "weight": 1.0378930883679556,
+      "weight_norm": 0.8549403190624826
+    },
+    {
+      "source": "Plains",
+      "target": "Swamp",
+      "weight": 0.9635073352000324,
+      "weight_norm": 0.7936667830308587
+    },
+    {
+      "source": "Gutsplitter Gang",
+      "target": "Mountain",
+      "weight": 1.0378703868984065,
+      "weight_norm": 0.8549216192543453
+    },
+    {
+      "source": "Forest",
+      "target": "Spiral into Solitude",
+      "weight": 1.0377374116058824,
+      "weight_norm": 0.8548120839464296
+    },
+    {
+      "source": "Blight Rot",
+      "target": "Forest",
+      "weight": 1.03763876238842,
+      "weight_norm": 0.8547308239453777
+    },
+    {
+      "source": "Feisty Spikeling",
+      "target": "Forest",
+      "weight": 0.9640033979632888,
+      "weight_norm": 0.7940754032074901
+    },
+    {
+      "source": "Summit Sentinel",
+      "target": "Temporal Cleansing",
+      "weight": 0.9641230544439948,
+      "weight_norm": 0.7941739674535953
+    },
+    {
+      "source": "Midnight Tilling",
+      "target": "Safewright Cavalry",
+      "weight": 0.9641507111218376,
+      "weight_norm": 0.7941967489994444
+    },
+    {
+      "source": "Cinder Strike",
+      "target": "Foraging Wickermaw",
+      "weight": 0.9647747437576574,
+      "weight_norm": 0.7947107813855855
+    },
+    {
+      "source": "Chitinous Graspling",
+      "target": "Forest",
+      "weight": 1.0361228076976203,
+      "weight_norm": 0.8534820914877076
+    },
+    {
+      "source": "End-Blaze Epiphany",
+      "target": "Mountain",
+      "weight": 1.036073336956248,
+      "weight_norm": 0.8534413411138135
+    },
+    {
+      "source": "Deepchannel Duelist",
+      "target": "Island",
+      "weight": 0.9652226645040304,
+      "weight_norm": 0.7950797456942514
+    },
+    {
+      "source": "Kulrath Zealot",
+      "target": "Plains",
+      "weight": 1.0360111408452144,
+      "weight_norm": 0.8533901085122985
+    },
+    {
+      "source": "Assert Perfection",
+      "target": "Eclipsed Elf",
+      "weight": 0.965413622409167,
+      "weight_norm": 0.7952370428322463
+    },
+    {
+      "source": "Forest",
+      "target": "Thoughtweft Lieutenant",
+      "weight": 0.9654554158875552,
+      "weight_norm": 0.7952714692391166
+    },
+    {
+      "source": "Flaring Cinder",
+      "target": "Stratosoarer",
+      "weight": 0.9655031698757904,
+      "weight_norm": 0.7953108054774979
+    },
+    {
+      "source": "Cinder Strike",
+      "target": "Sear",
+      "weight": 0.965696565376808,
+      "weight_norm": 0.7954701105284692
+    },
+    {
+      "source": "Feed the Flames",
+      "target": "Island",
+      "weight": 1.0355091363136577,
+      "weight_norm": 0.8529765939420697
+    },
+    {
+      "source": "Ashling, Rekindled",
+      "target": "Mountain",
+      "weight": 1.0355075695256992,
+      "weight_norm": 0.8529753033368888
+    },
+    {
+      "source": "Blight Rot",
+      "target": "Island",
+      "weight": 1.0354530920380218,
+      "weight_norm": 0.8529304287720433
+    },
+    {
+      "source": "Gravelgill Scoundrel",
+      "target": "Liminal Hold",
+      "weight": 0.9658964476574444,
+      "weight_norm": 0.7956347589134497
+    },
+    {
+      "source": "Forest",
+      "target": "Morcant's Loyalist",
+      "weight": 1.035124863244374,
+      "weight_norm": 0.8526600579287341
+    },
+    {
+      "source": "Swamp",
+      "target": "Vinebred Brawler",
+      "weight": 1.0347548905065174,
+      "weight_norm": 0.8523553014811843
+    },
+    {
+      "source": "Dawnhand Dissident",
+      "target": "Swamp",
+      "weight": 1.034669558741362,
+      "weight_norm": 0.8522850114220772
+    },
+    {
+      "source": "Swamp",
+      "target": "Wildvine Pummeler",
+      "weight": 1.0346577109798487,
+      "weight_norm": 0.8522752521037796
+    },
+    {
+      "source": "Firdoch Core",
+      "target": "Mountain",
+      "weight": 1.034625453672298,
+      "weight_norm": 0.8522486808960912
+    },
+    {
+      "source": "Island",
+      "target": "Prideful Feastling",
+      "weight": 1.0346069551206591,
+      "weight_norm": 0.8522334431439396
+    },
+    {
+      "source": "Blossombind",
+      "target": "Merrow Skyswimmer",
+      "weight": 1.0345431057089278,
+      "weight_norm": 0.8521808486743846
+    },
+    {
+      "source": "Blossombind",
+      "target": "Mischievous Sneakling",
+      "weight": 0.9668488601657358,
+      "weight_norm": 0.7964192865905712
+    },
+    {
+      "source": "Island",
+      "target": "Wild Unraveling",
+      "weight": 1.0340258305115044,
+      "weight_norm": 0.8517547552479184
+    },
+    {
+      "source": "Forest",
+      "target": "Moonlit Lamenter",
+      "weight": 1.033767076251071,
+      "weight_norm": 0.8515416124373023
+    },
+    {
+      "source": "Eclipsed Realms",
+      "target": "Island",
+      "weight": 0.9676067608518812,
+      "weight_norm": 0.7970435896731264
+    },
+    {
+      "source": "Foraging Wickermaw",
+      "target": "Mountain",
+      "weight": 1.0332338795441487,
+      "weight_norm": 0.8511024040372772
+    },
+    {
+      "source": "Feed the Flames",
+      "target": "Flaring Cinder",
+      "weight": 0.9681138904656232,
+      "weight_norm": 0.7974613259107386
+    },
+    {
+      "source": "Flame-Chain Mauler",
+      "target": "Island",
+      "weight": 1.0326805193369184,
+      "weight_norm": 0.8506465864223147
+    },
+    {
+      "source": "Forest",
+      "target": "Tam, Mindful First-Year",
+      "weight": 1.0326432401755856,
+      "weight_norm": 0.8506158785792417
+    },
+    {
+      "source": "Plains",
+      "target": "Stalactite Dagger",
+      "weight": 1.032584313065604,
+      "weight_norm": 0.8505673387413973
+    },
+    {
+      "source": "Bristlebane Battler",
+      "target": "Forest",
+      "weight": 0.9684775271989444,
+      "weight_norm": 0.7977608632217513
+    },
+    {
+      "source": "Lys Alana Informant",
+      "target": "Safewright Cavalry",
+      "weight": 0.9685719944958392,
+      "weight_norm": 0.7978386784628907
+    },
+    {
+      "source": "Island",
+      "target": "Shimmercreep",
+      "weight": 1.0323672545384566,
+      "weight_norm": 0.8503885418223944
+    },
+    {
+      "source": "Foraging Wickermaw",
+      "target": "Kulrath Zealot",
+      "weight": 1.0322844077591802,
+      "weight_norm": 0.8503202987126737
+    },
+    {
+      "source": "Blossoming Defense",
+      "target": "Swamp",
+      "weight": 0.9687314453302152,
+      "weight_norm": 0.7979700223833233
+    },
+    {
+      "source": "Maralen, Fae Ascendant",
+      "target": "Swamp",
+      "weight": 1.0322755521158975,
+      "weight_norm": 0.8503130040822552
+    },
+    {
+      "source": "Gangly Stompling",
+      "target": "Plains",
+      "weight": 1.0322138071364753,
+      "weight_norm": 0.8502621430899242
+    },
+    {
+      "source": "Gravelgill Scoundrel",
+      "target": "Island",
+      "weight": 1.0321696707672046,
+      "weight_norm": 0.8502257867811199
+    },
+    {
+      "source": "Great Forest Druid",
+      "target": "Mountain",
+      "weight": 1.0321260873394509,
+      "weight_norm": 0.8501898859450443
+    },
+    {
+      "source": "Chaos Spewer",
+      "target": "Mountain",
+      "weight": 1.031984740258884,
+      "weight_norm": 0.8500734545712229
+    },
+    {
+      "source": "Forest",
+      "target": "Mischievous Sneakling",
+      "weight": 1.0319697963088623,
+      "weight_norm": 0.8500611448395725
+    },
+    {
+      "source": "Explosive Prodigy",
+      "target": "Swamp",
+      "weight": 0.9690557910882192,
+      "weight_norm": 0.7982371946662321
+    },
+    {
+      "source": "Merrow Skyswimmer",
+      "target": "Tributary Vaulter",
+      "weight": 0.9691240357792784,
+      "weight_norm": 0.7982934096450217
+    },
+    {
+      "source": "Foraging Wickermaw",
+      "target": "Plains",
+      "weight": 1.031833212627406,
+      "weight_norm": 0.8499486372051044
+    },
+    {
+      "source": "Champions of the Shoal",
+      "target": "Plains",
+      "weight": 1.0315774958293653,
+      "weight_norm": 0.8497379964335677
+    },
+    {
+      "source": "Enraged Flamecaster",
+      "target": "Flamekin Gildweaver",
+      "weight": 1.03149060228914,
+      "weight_norm": 0.8496664198985302
+    },
+    {
+      "source": "Assert Perfection",
+      "target": "Gangly Stompling",
+      "weight": 0.9695408106092764,
+      "weight_norm": 0.7986367182286601
+    },
+    {
+      "source": "Feed the Flames",
+      "target": "Twinflame Travelers",
+      "weight": 0.9695673642688016,
+      "weight_norm": 0.7986585911887957
+    },
+    {
+      "source": "Blossombind",
+      "target": "Feed the Flames",
+      "weight": 0.9696320726702532,
+      "weight_norm": 0.7987118932311765
+    },
+    {
+      "source": "Burning Curiosity",
+      "target": "Island",
+      "weight": 1.0311735745706927,
+      "weight_norm": 0.8494052756806926
+    },
+    {
+      "source": "Assert Perfection",
+      "target": "Blight Rot",
+      "weight": 0.9698149347039828,
+      "weight_norm": 0.7988625215831844
+    },
+    {
+      "source": "Flame-Chain Mauler",
+      "target": "Kulrath Zealot",
+      "weight": 0.9699482855997588,
+      "weight_norm": 0.7989723662855528
+    },
+    {
+      "source": "Assert Perfection",
+      "target": "Plains",
+      "weight": 0.9699501367254296,
+      "weight_norm": 0.7989738911073185
+    },
+    {
+      "source": "Heirloom Auntie",
+      "target": "Swamp",
+      "weight": 1.0309268733852437,
+      "weight_norm": 0.8492020613105762
+    },
+    {
+      "source": "Merrow Skyswimmer",
+      "target": "Silvergill Mentor",
+      "weight": 1.030816273783535,
+      "weight_norm": 0.8491109574581344
+    },
+    {
+      "source": "Forest",
+      "target": "Temporal Cleansing",
+      "weight": 0.9702412389811382,
+      "weight_norm": 0.7992136798275292
+    },
+    {
+      "source": "Dream Seizer",
+      "target": "Mountain",
+      "weight": 1.0302598861070065,
+      "weight_norm": 0.848652646035672
+    },
+    {
+      "source": "Adept Watershaper",
+      "target": "Island",
+      "weight": 0.9708015416230924,
+      "weight_norm": 0.7996752161118079
+    },
+    {
+      "source": "Foraging Wickermaw",
+      "target": "Forest",
+      "weight": 1.0298734912678484,
+      "weight_norm": 0.8483343622636957
+    },
+    {
+      "source": "Bristlebane Outrider",
+      "target": "Swamp",
+      "weight": 0.9710374245930892,
+      "weight_norm": 0.7998695192282759
+    },
+    {
+      "source": "Mountain",
+      "target": "Sizzling Changeling",
+      "weight": 1.029785254321664,
+      "weight_norm": 0.8482616791292096
+    },
+    {
+      "source": "Eclipsed Realms",
+      "target": "Forest",
+      "weight": 0.9711231110780082,
+      "weight_norm": 0.7999401014795472
+    },
+    {
+      "source": "Flaring Cinder",
+      "target": "Island",
+      "weight": 1.0295980471685704,
+      "weight_norm": 0.8481074715860721
+    },
+    {
+      "source": "Dawnhand Eulogist",
+      "target": "Swamp",
+      "weight": 1.029561839091292,
+      "weight_norm": 0.8480776460236052
+    },
+    {
+      "source": "Island",
+      "target": "Rime Chill",
+      "weight": 1.0294014402648966,
+      "weight_norm": 0.8479455212167706
+    },
+    {
+      "source": "Explosive Prodigy",
+      "target": "Island",
+      "weight": 0.9714791380682636,
+      "weight_norm": 0.8002333704415001
+    },
+    {
+      "source": "Forest",
+      "target": "Gallant Fowlknight",
+      "weight": 1.02931762795169,
+      "weight_norm": 0.8478764827709063
+    },
+    {
+      "source": "Liminal Hold",
+      "target": "Wary Farmer",
+      "weight": 0.9716784326291104,
+      "weight_norm": 0.800397534705958
+    },
+    {
+      "source": "Eclipsed Merrow",
+      "target": "Gravelgill Scoundrel",
+      "weight": 1.0290296637067344,
+      "weight_norm": 0.8476392789141507
+    },
+    {
+      "source": "Flaring Cinder",
+      "target": "Summit Sentinel",
+      "weight": 1.0290239104479006,
+      "weight_norm": 0.8476345398008469
+    },
+    {
+      "source": "Forest",
+      "target": "Wary Farmer",
+      "weight": 1.0290189086180284,
+      "weight_norm": 0.8476304196596928
+    },
+    {
+      "source": "Island",
+      "target": "Summit Sentinel",
+      "weight": 1.0289669609017211,
+      "weight_norm": 0.8475876289352415
+    },
+    {
+      "source": "Plains",
+      "target": "Rimekin Recluse",
+      "weight": 0.9718904005515138,
+      "weight_norm": 0.8005721383575687
+    },
+    {
+      "source": "Boggart Cursecrafter",
+      "target": "Mountain",
+      "weight": 0.9724467632299452,
+      "weight_norm": 0.8010304291884293
+    },
+    {
+      "source": "Island",
+      "target": "Swamp",
+      "weight": 0.9724480485051524,
+      "weight_norm": 0.8010314879040216
+    },
+    {
+      "source": "Mischievous Sneakling",
+      "target": "Mountain",
+      "weight": 1.0282787964082127,
+      "weight_norm": 0.8470207694212498
+    },
+    {
+      "source": "Plains",
+      "target": "Tweeze",
+      "weight": 1.0280762224814923,
+      "weight_norm": 0.8468539038553403
+    },
+    {
+      "source": "Forest",
+      "target": "Island",
+      "weight": 0.9727926954501678,
+      "weight_norm": 0.8013153828180909
+    },
+    {
+      "source": "Cinder Strike",
+      "target": "Temporal Cleansing",
+      "weight": 0.9728978874702778,
+      "weight_norm": 0.8014020323008204
+    },
+    {
+      "source": "Lys Alana Informant",
+      "target": "Stoic Grove-Guide",
+      "weight": 0.9729216890504744,
+      "weight_norm": 0.8014216382995456
+    },
+    {
+      "source": "Feed the Flames",
+      "target": "Gristle Glutton",
+      "weight": 0.9729322138723028,
+      "weight_norm": 0.8014303078770126
+    },
+    {
+      "source": "Bogslither's Embrace",
+      "target": "Dawnhand Eulogist",
+      "weight": 1.0277961014053665,
+      "weight_norm": 0.8466231606266945
+    },
+    {
+      "source": "Blossoming Defense",
+      "target": "Forest",
+      "weight": 0.97319012096114,
+      "weight_norm": 0.8016427528497079
+    },
+    {
+      "source": "Liminal Hold",
+      "target": "Merrow Skyswimmer",
+      "weight": 0.9733098951544636,
+      "weight_norm": 0.8017414140588471
+    },
+    {
+      "source": "Island",
+      "target": "Mischievous Sneakling",
+      "weight": 1.0273069696797783,
+      "weight_norm": 0.8462202497313195
+    },
+    {
+      "source": "Changeling Wayfinder",
+      "target": "Evolving Wilds",
+      "weight": 1.0272985355800768,
+      "weight_norm": 0.8462133023376326
+    },
+    {
+      "source": "Merrow Skyswimmer",
+      "target": "Unexpected Assistance",
+      "weight": 0.9734343041832204,
+      "weight_norm": 0.8018438931059971
+    },
+    {
+      "source": "Flamekin Gildweaver",
+      "target": "Stratosoarer",
+      "weight": 1.0271997969773046,
+      "weight_norm": 0.8461319687075083
+    },
+    {
+      "source": "Mountain",
+      "target": "Nameless Inversion",
+      "weight": 0.9736946833658084,
+      "weight_norm": 0.8020583744084876
+    },
+    {
+      "source": "Island",
+      "target": "Noggle Robber",
+      "weight": 0.97382231084239,
+      "weight_norm": 0.8021635045772619
+    },
+    {
+      "source": "Gallant Fowlknight",
+      "target": "Plains",
+      "weight": 1.0268309871746577,
+      "weight_norm": 0.84582817020082
+    },
+    {
+      "source": "Liminal Hold",
+      "target": "Mountain",
+      "weight": 1.0268026480397123,
+      "weight_norm": 0.8458048264967876
+    },
+    {
+      "source": "Moon-Vigil Adherents",
+      "target": "Swamp",
+      "weight": 1.0267740926489015,
+      "weight_norm": 0.8457813046570101
+    },
+    {
+      "source": "Cinder Strike",
+      "target": "Flamebraider",
+      "weight": 1.026675464536979,
+      "weight_norm": 0.8457000620411564
+    },
+    {
+      "source": "Aquitect's Defenses",
+      "target": "Plains",
+      "weight": 1.0266189461747135,
+      "weight_norm": 0.8456535063532828
+    },
+    {
+      "source": "Enraged Flamecaster",
+      "target": "Mountain",
+      "weight": 1.026616604260602,
+      "weight_norm": 0.8456515772559411
+    },
+    {
+      "source": "Flamekin Gildweaver",
+      "target": "Swamp",
+      "weight": 0.9740864947399658,
+      "weight_norm": 0.8023811199253319
+    },
+    {
+      "source": "Flame-Chain Mauler",
+      "target": "Tweeze",
+      "weight": 1.0264230540740298,
+      "weight_norm": 0.8454921447863378
+    },
+    {
+      "source": "Plains",
+      "target": "Pyrrhic Strike",
+      "weight": 1.0260062743226004,
+      "weight_norm": 0.8451488321487847
+    },
+    {
+      "source": "Forest",
+      "target": "Pyrrhic Strike",
+      "weight": 1.0259929211268035,
+      "weight_norm": 0.8451378327639704
+    },
+    {
+      "source": "Plains",
+      "target": "Protective Response",
+      "weight": 1.02593312450187,
+      "weight_norm": 0.845088576683385
+    },
+    {
+      "source": "Blight Rot",
+      "target": "Dawnhand Eulogist",
+      "weight": 0.9748018650594412,
+      "weight_norm": 0.8029703896064142
+    },
+    {
+      "source": "Mountain",
+      "target": "Tweeze",
+      "weight": 1.0258024411248805,
+      "weight_norm": 0.8449809292876449
+    },
+    {
+      "source": "Forest",
+      "target": "Timid Shieldbearer",
+      "weight": 1.0255507059467572,
+      "weight_norm": 0.8447735682830135
+    },
+    {
+      "source": "Disruptor of Currents",
+      "target": "Island",
+      "weight": 1.0255139706523546,
+      "weight_norm": 0.844743308437689
+    },
+    {
+      "source": "Gangly Stompling",
+      "target": "Swamp",
+      "weight": 1.0253562082099024,
+      "weight_norm": 0.8446133552908786
+    },
+    {
+      "source": "Gilt-Leaf's Embrace",
+      "target": "Plains",
+      "weight": 1.0251160077303345,
+      "weight_norm": 0.8444154957262064
+    },
+    {
+      "source": "Dawn's Light Archer",
+      "target": "Forest",
+      "weight": 1.0248992488439603,
+      "weight_norm": 0.8442369456293292
+    },
+    {
+      "source": "Eclipsed Merrow",
+      "target": "Wanderbrine Preacher",
+      "weight": 0.9757168810296086,
+      "weight_norm": 0.8037241127540578
+    },
+    {
+      "source": "Shinestriker",
+      "target": "Temporal Cleansing",
+      "weight": 1.024735396003907,
+      "weight_norm": 0.8441019756589878
+    },
+    {
+      "source": "Gloom Ripper",
+      "target": "Swamp",
+      "weight": 1.0246846513704324,
+      "weight_norm": 0.8440601759460697
+    },
+    {
+      "source": "Plains",
+      "target": "Pummeler for Hire",
+      "weight": 1.024656646003316,
+      "weight_norm": 0.8440371071755323
+    },
+    {
+      "source": "Giantfall",
+      "target": "Mountain",
+      "weight": 1.0244910730068248,
+      "weight_norm": 0.8439007202662882
+    },
+    {
+      "source": "Forest",
+      "target": "Great Forest Druid",
+      "weight": 1.0242027992785414,
+      "weight_norm": 0.8436632614798312
+    },
+    {
+      "source": "Gangly Stompling",
+      "target": "Island",
+      "weight": 1.0240961536797346,
+      "weight_norm": 0.8435754146454199
+    },
+    {
+      "source": "Lys Alana Informant",
+      "target": "Mistmeadow Council",
+      "weight": 1.0240156288494933,
+      "weight_norm": 0.8435090841872729
+    },
+    {
+      "source": "Eclipsed Boggart",
+      "target": "Swamp",
+      "weight": 1.023942309699854,
+      "weight_norm": 0.8434486892411185
+    },
+    {
+      "source": "Keep Out",
+      "target": "Plains",
+      "weight": 1.0236453891976365,
+      "weight_norm": 0.8432041078755165
+    },
+    {
+      "source": "Island",
+      "target": "Sunderflock",
+      "weight": 1.0235616835996697,
+      "weight_norm": 0.8431351573338517
+    },
+    {
+      "source": "Flamekin Gildweaver",
+      "target": "Island",
+      "weight": 1.0233810305296862,
+      "weight_norm": 0.8429863485644108
+    },
+    {
+      "source": "Silvergill Peddler",
+      "target": "Tributary Vaulter",
+      "weight": 0.9774793225345066,
+      "weight_norm": 0.8051758829984245
+    },
+    {
+      "source": "Feed the Flames",
+      "target": "Flamekin Gildweaver",
+      "weight": 1.0230236096021417,
+      "weight_norm": 0.842691931379
+    },
+    {
+      "source": "Flaring Cinder",
+      "target": "Plains",
+      "weight": 1.0230136962861638,
+      "weight_norm": 0.8426837655152708
+    },
+    {
+      "source": "Swamp",
+      "target": "Virulent Emissary",
+      "weight": 0.9775759316880348,
+      "weight_norm": 0.8052554625442057
+    },
+    {
+      "source": "Boggart Mischief",
+      "target": "Mountain",
+      "weight": 1.022844602891101,
+      "weight_norm": 0.8425444787594897
+    },
+    {
+      "source": "Evolving Wilds",
+      "target": "Temporal Cleansing",
+      "weight": 1.0225517329896558,
+      "weight_norm": 0.8423032339821698
+    },
+    {
+      "source": "Bogslither's Embrace",
+      "target": "Mountain",
+      "weight": 1.0224855579300085,
+      "weight_norm": 0.8422487238141737
+    },
+    {
+      "source": "Island",
+      "target": "Wanderbrine Preacher",
+      "weight": 1.0224262866208804,
+      "weight_norm": 0.842199900450279
+    },
+    {
+      "source": "Ashling, Rekindled",
+      "target": "Island",
+      "weight": 0.9781015303330932,
+      "weight_norm": 0.8056884122172897
+    },
+    {
+      "source": "Feed the Flames",
+      "target": "Forest",
+      "weight": 1.0221775763037164,
+      "weight_norm": 0.8419950311045888
+    },
+    {
+      "source": "Eclipsed Elf",
+      "target": "Forest",
+      "weight": 1.0221516539009858,
+      "weight_norm": 0.8419736781275724
+    },
+    {
+      "source": "Mistmeadow Council",
+      "target": "Swamp",
+      "weight": 1.0220698191873805,
+      "weight_norm": 0.8419062686834358
+    },
+    {
+      "source": "Swamp",
+      "target": "Unforgiving Aim",
+      "weight": 1.021871647138768,
+      "weight_norm": 0.8417430290623528
+    },
+    {
+      "source": "Crossroads Watcher",
+      "target": "Plains",
+      "weight": 1.0218385543967454,
+      "weight_norm": 0.8417157696849269
+    },
+    {
+      "source": "Island",
+      "target": "Timid Shieldbearer",
+      "weight": 1.0218066541249338,
+      "weight_norm": 0.8416894925771337
+    },
+    {
+      "source": "Forest",
+      "target": "Keep Out",
+      "weight": 1.0217849000564367,
+      "weight_norm": 0.8416715731686029
+    },
+    {
+      "source": "Island",
+      "target": "Soulbright Seeker",
+      "weight": 0.9788174172541408,
+      "weight_norm": 0.8062781074369153
+    },
+    {
+      "source": "Mischievous Sneakling",
+      "target": "Plains",
+      "weight": 1.0215873621427842,
+      "weight_norm": 0.8415088559014606
+    },
+    {
+      "source": "Retched Wretch",
+      "target": "Swamp",
+      "weight": 1.0215733667726552,
+      "weight_norm": 0.8414973275404594
+    },
+    {
+      "source": "Island",
+      "target": "Liminal Hold",
+      "weight": 1.021305604013693,
+      "weight_norm": 0.8412767641884669
+    },
+    {
+      "source": "Lys Alana Informant",
+      "target": "Plains",
+      "weight": 0.9792688717991772,
+      "weight_norm": 0.8066499826301325
+    },
+    {
+      "source": "Mountain",
+      "target": "Unwelcome Sprite",
+      "weight": 0.9793346005758928,
+      "weight_norm": 0.8067041251829317
+    },
+    {
+      "source": "Boulder Dash",
+      "target": "Island",
+      "weight": 0.97940205675213,
+      "weight_norm": 0.8067596906409555
+    },
+    {
+      "source": "Blossoming Defense",
+      "target": "Plains",
+      "weight": 0.9794103180699516,
+      "weight_norm": 0.8067664957095829
+    },
+    {
+      "source": "Creakwood Safewright",
+      "target": "Forest",
+      "weight": 0.9794883618560338,
+      "weight_norm": 0.8068307824652438
+    },
+    {
+      "source": "Island",
+      "target": "Sizzling Changeling",
+      "weight": 1.0209112720660949,
+      "weight_norm": 0.8409519424078091
+    },
+    {
+      "source": "Cinder Strike",
+      "target": "Tweeze",
+      "weight": 0.9795985507852666,
+      "weight_norm": 0.8069215480357743
+    },
+    {
+      "source": "Mountain",
+      "target": "Warren Torchmaster",
+      "weight": 1.0208161584733586,
+      "weight_norm": 0.8408735947954852
+    },
+    {
+      "source": "Eclipsed Elf",
+      "target": "Lys Alana Informant",
+      "weight": 0.9796662489097556,
+      "weight_norm": 0.8069773127930496
+    },
+    {
+      "source": "Safewright Cavalry",
+      "target": "Scarblade Scout",
+      "weight": 1.0207041940311912,
+      "weight_norm": 0.8407813666874238
+    },
+    {
+      "source": "Forest",
+      "target": "Kinsbaile Aspirant",
+      "weight": 0.9798252308346544,
+      "weight_norm": 0.8071082704601942
+    },
+    {
+      "source": "Plains",
+      "target": "Silvergill Mentor",
+      "weight": 0.9798993007525504,
+      "weight_norm": 0.8071692838342581
+    },
+    {
+      "source": "Dawn-Blessed Pennant",
+      "target": "Swamp",
+      "weight": 1.020314362361309,
+      "weight_norm": 0.8404602519059833
+    },
+    {
+      "source": "Blight Rot",
+      "target": "Swamp",
+      "weight": 1.0202722478298891,
+      "weight_norm": 0.8404255610391371
+    },
+    {
+      "source": "Forest",
+      "target": "Pummeler for Hire",
+      "weight": 1.0202580372521255,
+      "weight_norm": 0.8404138554058465
+    },
+    {
+      "source": "Merrow Skyswimmer",
+      "target": "Silvergill Peddler",
+      "weight": 1.0200015611674211,
+      "weight_norm": 0.8402025891895603
+    },
+    {
+      "source": "Crossroads Watcher",
+      "target": "Forest",
+      "weight": 1.0199101483951092,
+      "weight_norm": 0.840127290042083
+    },
+    {
+      "source": "Feisty Spikeling",
+      "target": "Island",
+      "weight": 1.0197896570987213,
+      "weight_norm": 0.8400280381359544
+    },
+    {
+      "source": "Swamp",
+      "target": "Wary Farmer",
+      "weight": 0.9806665588137689,
+      "weight_norm": 0.8078012948371378
+    },
+    {
+      "source": "Eclipsed Elf",
+      "target": "Swamp",
+      "weight": 1.0196915330185237,
+      "weight_norm": 0.8399472107045243
+    },
+    {
+      "source": "Mountain",
+      "target": "Noggle Robber",
+      "weight": 0.980817780695469,
+      "weight_norm": 0.80792586034898
+    },
+    {
+      "source": "Crossroads Watcher",
+      "target": "Wary Farmer",
+      "weight": 1.0194207190265976,
+      "weight_norm": 0.8397241339702646
+    },
+    {
+      "source": "Nameless Inversion",
+      "target": "Swamp",
+      "weight": 0.9809580918983264,
+      "weight_norm": 0.8080414384426038
+    },
+    {
+      "source": "Blossombind",
+      "target": "Plains",
+      "weight": 1.019267634076087,
+      "weight_norm": 0.8395980337987728
+    },
+    {
+      "source": "Boneclub Berserker",
+      "target": "Swamp",
+      "weight": 1.019126247840454,
+      "weight_norm": 0.8394815701718754
+    },
+    {
+      "source": "Moon-Vigil Adherents",
+      "target": "Plains",
+      "weight": 1.0190572165753855,
+      "weight_norm": 0.8394247072710196
+    },
+    {
+      "source": "Blight Rot",
+      "target": "Bogslither's Embrace",
+      "weight": 0.981418739769544,
+      "weight_norm": 0.808420886424682
+    },
+    {
+      "source": "Island",
+      "target": "Sun-Dappled Celebrant",
+      "weight": 1.0188704556147186,
+      "weight_norm": 0.8392708672685275
+    },
+    {
+      "source": "Forest",
+      "target": "Liminal Hold",
+      "weight": 1.0188475193486357,
+      "weight_norm": 0.8392519740522003
+    },
+    {
+      "source": "Elder Auntie",
+      "target": "Mountain",
+      "weight": 1.0187624132485225,
+      "weight_norm": 0.8391818698794291
+    },
+    {
+      "source": "Pitiless Fists",
+      "target": "Plains",
+      "weight": 1.0186051872956428,
+      "weight_norm": 0.8390523586534403
+    },
+    {
+      "source": "Feed the Flames",
+      "target": "Plains",
+      "weight": 1.0185604699669073,
+      "weight_norm": 0.8390155237927739
+    },
+    {
+      "source": "Plains",
+      "target": "Thoughtweft Charge",
+      "weight": 1.018532354860889,
+      "weight_norm": 0.8389923646273655
+    },
+    {
+      "source": "Goliath Daydreamer",
+      "target": "Mountain",
+      "weight": 1.0184237567042849,
+      "weight_norm": 0.8389029094188307
+    },
+    {
+      "source": "Gristle Glutton",
+      "target": "Tweeze",
+      "weight": 0.9819684547144,
+      "weight_norm": 0.808873701339451
+    },
+    {
+      "source": "Blossombind",
+      "target": "Swamp",
+      "weight": 1.0183290356581842,
+      "weight_norm": 0.8388248851576782
+    },
+    {
+      "source": "Assert Perfection",
+      "target": "Stoic Grove-Guide",
+      "weight": 1.0182913935889155,
+      "weight_norm": 0.838793878377624
+    },
+    {
+      "source": "Eclipsed Kithkin",
+      "target": "Forest",
+      "weight": 0.9821399330559024,
+      "weight_norm": 0.8090149526394543
+    },
+    {
+      "source": "Silvergill Peddler",
+      "target": "Temporal Cleansing",
+      "weight": 1.0177759282597785,
+      "weight_norm": 0.8383692757881116
+    },
+    {
+      "source": "Explosive Prodigy",
+      "target": "Mountain",
+      "weight": 1.017774150217653,
+      "weight_norm": 0.8383678111672184
+    },
+    {
+      "source": "Swamp",
+      "target": "Unexpected Assistance",
+      "weight": 1.0177527381637477,
+      "weight_norm": 0.8383501734852619
+    },
+    {
+      "source": "Forest",
+      "target": "Scarblade Scout",
+      "weight": 1.0177318013334964,
+      "weight_norm": 0.8383329272577498
+    },
+    {
+      "source": "Dawnhand Eulogist",
+      "target": "Eclipsed Elf",
+      "weight": 0.9826087819465736,
+      "weight_norm": 0.8094011560207802
+    },
+    {
+      "source": "Flame-Chain Mauler",
+      "target": "Flamekin Gildweaver",
+      "weight": 0.9827177016220398,
+      "weight_norm": 0.809490876073008
+    },
+    {
+      "source": "Selfless Safewright",
+      "target": "Swamp",
+      "weight": 1.017378230614596,
+      "weight_norm": 0.8380416815922611
+    },
+    {
+      "source": "Plains",
+      "target": "Temporal Cleansing",
+      "weight": 1.0173291507561584,
+      "weight_norm": 0.8380012531991033
+    },
+    {
+      "source": "Eclipsed Merrow",
+      "target": "Plains",
+      "weight": 1.017120638008167,
+      "weight_norm": 0.8378294956671435
+    },
+    {
+      "source": "Island",
+      "target": "Keep Out",
+      "weight": 1.0169239258735483,
+      "weight_norm": 0.8376674586162958
+    },
+    {
+      "source": "Great Forest Druid",
+      "target": "Island",
+      "weight": 1.0169030197691804,
+      "weight_norm": 0.8376502376985163
+    },
+    {
+      "source": "Flame-Chain Mauler",
+      "target": "Mountain",
+      "weight": 1.016861315602976,
+      "weight_norm": 0.8376158848604826
+    },
+    {
+      "source": "Assert Perfection",
+      "target": "Midnight Tilling",
+      "weight": 1.016835976202652,
+      "weight_norm": 0.8375950121181542
+    },
+    {
+      "source": "Feed the Flames",
+      "target": "Tweeze",
+      "weight": 0.9836907505055184,
+      "weight_norm": 0.8102924024847628
+    },
+    {
+      "source": "Giantfall",
+      "target": "Island",
+      "weight": 1.016541145362955,
+      "weight_norm": 0.837352152063506
+    },
+    {
+      "source": "Flamekin Gildweaver",
+      "target": "Temporal Cleansing",
+      "weight": 0.9837418722432636,
+      "weight_norm": 0.8103345128285628
+    },
+    {
+      "source": "Dawnhand Eulogist",
+      "target": "Morcant's Loyalist",
+      "weight": 1.0163708505519995,
+      "weight_norm": 0.8372118756692949
+    },
+    {
+      "source": "Island",
+      "target": "Merrow Skyswimmer",
+      "weight": 1.0161730454416995,
+      "weight_norm": 0.8370489383051218
+    },
+    {
+      "source": "Blossombind",
+      "target": "Wanderbrine Preacher",
+      "weight": 1.0161124989981414,
+      "weight_norm": 0.8369990645788644
+    },
+    {
+      "source": "Dawn's Light Archer",
+      "target": "Lys Alana Informant",
+      "weight": 1.0160625948919106,
+      "weight_norm": 0.8369579572307362
+    },
+    {
+      "source": "Lys Alana Informant",
+      "target": "Midnight Tilling",
+      "weight": 0.984267479315802,
+      "weight_norm": 0.8107674694435877
+    },
+    {
+      "source": "Changeling Wayfinder",
+      "target": "Island",
+      "weight": 1.0159825901172914,
+      "weight_norm": 0.836892055156326
+    },
+    {
+      "source": "Evolving Wilds",
+      "target": "Mountain",
+      "weight": 0.9843867312188682,
+      "weight_norm": 0.8108657004282612
+    },
+    {
+      "source": "Island",
+      "target": "Squawkroaster",
+      "weight": 0.984470208124784,
+      "weight_norm": 0.810934462590162
+    },
+    {
+      "source": "Unexpected Assistance",
+      "target": "Wanderbrine Preacher",
+      "weight": 1.0157267588322694,
+      "weight_norm": 0.836681320078798
+    },
+    {
+      "source": "Forest",
+      "target": "Vinebred Brawler",
+      "weight": 1.0156838048620944,
+      "weight_norm": 0.8366459377437793
+    },
+    {
+      "source": "Island",
+      "target": "Lys Alana Informant",
+      "weight": 0.9846572996610484,
+      "weight_norm": 0.8110885748966224
+    },
+    {
+      "source": "Plains",
+      "target": "Stratosoarer",
+      "weight": 1.0154973561095035,
+      "weight_norm": 0.8364923549154366
+    },
+    {
+      "source": "Evolving Wilds",
+      "target": "Plains",
+      "weight": 0.9849371993110088,
+      "weight_norm": 0.8113191357306085
+    },
+    {
+      "source": "Evolving Wilds",
+      "target": "Foraging Wickermaw",
+      "weight": 1.0151680734966966,
+      "weight_norm": 0.8362211160130776
+    },
+    {
+      "source": "Eclipsed Merrow",
+      "target": "Merrow Skyswimmer",
+      "weight": 0.9850860791632404,
+      "weight_norm": 0.8114417720500864
+    },
+    {
+      "source": "Mountain",
+      "target": "Mudbutton Cursetosser",
+      "weight": 1.0148701249662695,
+      "weight_norm": 0.8359756878331212
+    },
+    {
+      "source": "Plains",
+      "target": "Wanderbrine Trapper",
+      "weight": 0.9853660994821924,
+      "weight_norm": 0.811672432282351
+    },
+    {
+      "source": "Bogslither's Embrace",
+      "target": "Swamp",
+      "weight": 1.0148171024064825,
+      "weight_norm": 0.8359320117313243
+    },
+    {
+      "source": "Gravelgill Scoundrel",
+      "target": "Unexpected Assistance",
+      "weight": 0.9855586781907008,
+      "weight_norm": 0.8118310645194686
+    },
+    {
+      "source": "Encumbered Reejerey",
+      "target": "Plains",
+      "weight": 0.9855956128270884,
+      "weight_norm": 0.8118614885681222
+    },
+    {
+      "source": "Mountain",
+      "target": "Prideful Feastling",
+      "weight": 1.0143489661590035,
+      "weight_norm": 0.8355463953732717
+    },
+    {
+      "source": "Eclipsed Flamekin",
+      "target": "Island",
+      "weight": 1.014085128335093,
+      "weight_norm": 0.8353290650953434
+    },
+    {
+      "source": "Cinder Strike",
+      "target": "Flamekin Gildweaver",
+      "weight": 0.9861336546623152,
+      "weight_norm": 0.8123046880300254
+    },
+    {
+      "source": "Omni-Changeling",
+      "target": "Plains",
+      "weight": 1.014049842056084,
+      "weight_norm": 0.8352999988427856
+    },
+    {
+      "source": "Blossombind",
+      "target": "Eclipsed Flamekin",
+      "weight": 1.0139853044888063,
+      "weight_norm": 0.8352468375210866
+    },
+    {
+      "source": "Blossombind",
+      "target": "Flamekin Gildweaver",
+      "weight": 1.0139267829481444,
+      "weight_norm": 0.8351986317615473
+    },
+    {
+      "source": "Bile-Vial Boggart",
+      "target": "Swamp",
+      "weight": 1.013725654278041,
+      "weight_norm": 0.8350329566921997
+    },
+    {
+      "source": "Gravelgill Scoundrel",
+      "target": "Silvergill Peddler",
+      "weight": 1.0137131070398135,
+      "weight_norm": 0.835022621196209
+    },
+    {
+      "source": "Changeling Wayfinder",
+      "target": "Swamp",
+      "weight": 1.0136812953361574,
+      "weight_norm": 0.8349964170443762
+    },
+    {
+      "source": "Assert Perfection",
+      "target": "Forest",
+      "weight": 1.013340281708739,
+      "weight_norm": 0.8347155149912676
+    },
+    {
+      "source": "Mountain",
+      "target": "Rimekin Recluse",
+      "weight": 0.9869166090792484,
+      "weight_norm": 0.8129496285412652
+    },
+    {
+      "source": "Spiral into Solitude",
+      "target": "Swamp",
+      "weight": 1.0131870392501217,
+      "weight_norm": 0.8345892850761324
+    },
+    {
+      "source": "Auntie's Sentence",
+      "target": "Forest",
+      "weight": 1.013038062434867,
+      "weight_norm": 0.834466568885617
+    },
+    {
+      "source": "Mountain",
+      "target": "Run Away Together",
+      "weight": 1.0128441527934446,
+      "weight_norm": 0.8343068403234318
+    },
+    {
+      "source": "Blossombind",
+      "target": "Tweeze",
+      "weight": 1.0126940161008038,
+      "weight_norm": 0.8341831687108661
+    },
+    {
+      "source": "Goliath Daydreamer",
+      "target": "Island",
+      "weight": 1.0126644401073697,
+      "weight_norm": 0.8341588061733884
+    },
+    {
+      "source": "Adept Watershaper",
+      "target": "Plains",
+      "weight": 0.9875742395852006,
+      "weight_norm": 0.8134913363923775
+    },
+    {
+      "source": "Boggart Prankster",
+      "target": "Mountain",
+      "weight": 1.012536996644407,
+      "weight_norm": 0.8340538275815578
+    },
+    {
+      "source": "Swamp",
+      "target": "Tweeze",
+      "weight": 1.0125242382720288,
+      "weight_norm": 0.8340433181687154
+    },
+    {
+      "source": "Glamer Gifter",
+      "target": "Plains",
+      "weight": 1.0124220033289448,
+      "weight_norm": 0.8339591045094868
+    },
+    {
+      "source": "Merrow Skyswimmer",
+      "target": "Temporal Cleansing",
+      "weight": 0.9877422868855396,
+      "weight_norm": 0.8136297614519327
+    },
+    {
+      "source": "Boulder Dash",
+      "target": "Swamp",
+      "weight": 0.9877781699025884,
+      "weight_norm": 0.8136593192535873
+    },
+    {
+      "source": "Feisty Spikeling",
+      "target": "Swamp",
+      "weight": 0.987807074857045,
+      "weight_norm": 0.8136831290382969
+    },
+    {
+      "source": "Evolving Wilds",
+      "target": "Island",
+      "weight": 0.9880692789466116,
+      "weight_norm": 0.8138991135655145
+    },
+    {
+      "source": "Forest",
+      "target": "Goldmeadow Nomad",
+      "weight": 1.0119925766666105,
+      "weight_norm": 0.8336053742728905
+    },
+    {
+      "source": "Glamermite",
+      "target": "Island",
+      "weight": 1.0118274017290474,
+      "weight_norm": 0.8334693152554407
+    },
+    {
+      "source": "Gravelgill Scoundrel",
+      "target": "Plains",
+      "weight": 1.0118266468469936,
+      "weight_norm": 0.8334686934388864
+    },
+    {
+      "source": "Feisty Spikeling",
+      "target": "Plains",
+      "weight": 1.0117768340159097,
+      "weight_norm": 0.8334276612765399
+    },
+    {
+      "source": "Eclipsed Boggart",
+      "target": "Mountain",
+      "weight": 1.0117091732629824,
+      "weight_norm": 0.8333719273032203
+    },
+    {
+      "source": "Assert Perfection",
+      "target": "Safewright Cavalry",
+      "weight": 0.9884279163478924,
+      "weight_norm": 0.8141945327929042
+    },
+    {
+      "source": "Cinder Strike",
+      "target": "Sizzling Changeling",
+      "weight": 1.011623281042837,
+      "weight_norm": 0.8333011755823359
+    },
+    {
+      "source": "Assert Perfection",
+      "target": "Lys Alana Informant",
+      "weight": 1.0115788406842374,
+      "weight_norm": 0.8332645688693843
+    },
+    {
+      "source": "Island",
+      "target": "Tweeze",
+      "weight": 1.011513396121884,
+      "weight_norm": 0.8332106604315631
+    },
+    {
+      "source": "Changeling Wayfinder",
+      "target": "Mountain",
+      "weight": 0.9886278012442574,
+      "weight_norm": 0.8143591833325303
+    },
+    {
+      "source": "Forest",
+      "target": "Kinbinding",
+      "weight": 1.011445259366038,
+      "weight_norm": 0.8331545343618977
+    },
+    {
+      "source": "Island",
+      "target": "Pyrrhic Strike",
+      "weight": 1.011436989811471,
+      "weight_norm": 0.8331477225084426
+    },
+    {
+      "source": "Iron-Shield Elf",
+      "target": "Swamp",
+      "weight": 0.988721438438824,
+      "weight_norm": 0.8144363147961619
+    },
+    {
+      "source": "Kulrath Zealot",
+      "target": "Twinflame Travelers",
+      "weight": 0.9888859946496742,
+      "weight_norm": 0.8145718641518563
+    },
+    {
+      "source": "Omni-Changeling",
+      "target": "Unexpected Assistance",
+      "weight": 1.0109942110007,
+      "weight_norm": 0.8327829937497706
+    },
+    {
+      "source": "Forest",
+      "target": "Wanderbrine Preacher",
+      "weight": 1.0109310372292593,
+      "weight_norm": 0.8327309558232084
+    },
+    {
+      "source": "Cinder Strike",
+      "target": "Swamp",
+      "weight": 0.989203353791154,
+      "weight_norm": 0.8148332813717174
+    },
+    {
+      "source": "Kulrath Zealot",
+      "target": "Unexpected Assistance",
+      "weight": 0.9894951358460016,
+      "weight_norm": 0.8150736300606757
+    },
+    {
+      "source": "Crossroads Watcher",
+      "target": "Swamp",
+      "weight": 0.9895741520162386,
+      "weight_norm": 0.8151387177951934
+    },
+    {
+      "source": "Mischievous Sneakling",
+      "target": "Swamp",
+      "weight": 1.0103542872935516,
+      "weight_norm": 0.8322558714628062
+    },
+    {
+      "source": "Plains",
+      "target": "Swat Away",
+      "weight": 1.0102207535573593,
+      "weight_norm": 0.8321458761498927
+    },
+    {
+      "source": "Plains",
+      "target": "Unwelcome Sprite",
+      "weight": 0.9900734038482076,
+      "weight_norm": 0.815549964893088
+    },
+    {
+      "source": "Auntie's Sentence",
+      "target": "Mountain",
+      "weight": 0.9901016855458546,
+      "weight_norm": 0.8155732612844803
+    },
+    {
+      "source": "Blossombind",
+      "target": "Silvergill Peddler",
+      "weight": 1.0099172935305452,
+      "weight_norm": 0.8318959080028313
+    },
+    {
+      "source": "Flamebraider",
+      "target": "Island",
+      "weight": 0.9905568951678632,
+      "weight_norm": 0.8159482296351147
+    },
+    {
+      "source": "Silvergill Peddler",
+      "target": "Unexpected Assistance",
+      "weight": 0.9905918612907608,
+      "weight_norm": 0.8159770321665137
+    },
+    {
+      "source": "Mountain",
+      "target": "Swat Away",
+      "weight": 1.0094117990577138,
+      "weight_norm": 0.8314795186745563
+    },
+    {
+      "source": "Swamp",
+      "target": "Warren Torchmaster",
+      "weight": 1.0093280186630202,
+      "weight_norm": 0.8314105065208256
+    },
+    {
+      "source": "Gravelgill Scoundrel",
+      "target": "Merrow Skyswimmer",
+      "weight": 1.0091452335219708,
+      "weight_norm": 0.8312599415073767
+    },
+    {
+      "source": "Cinder Strike",
+      "target": "Mountain",
+      "weight": 0.9909804147826112,
+      "weight_norm": 0.8162970940784953
+    },
+    {
+      "source": "Merrow Skyswimmer",
+      "target": "Wanderbrine Trapper",
+      "weight": 1.0090440502478255,
+      "weight_norm": 0.8311765941360038
+    },
+    {
+      "source": "Eclipsed Flamekin",
+      "target": "Mountain",
+      "weight": 1.008996109750934,
+      "weight_norm": 0.8311371042654497
+    },
+    {
+      "source": "Plains",
+      "target": "Wild Unraveling",
+      "weight": 0.9911731504271116,
+      "weight_norm": 0.8164558555879904
+    },
+    {
+      "source": "Mountain",
+      "target": "Soulbright Seeker",
+      "weight": 1.0088637543490504,
+      "weight_norm": 0.8310280795780478
+    },
+    {
+      "source": "Creakwood Safewright",
+      "target": "Swamp",
+      "weight": 0.9913473452095278,
+      "weight_norm": 0.8165993444930877
+    },
+    {
+      "source": "Island",
+      "target": "Temporal Cleansing",
+      "weight": 1.0086397525869748,
+      "weight_norm": 0.8308435633305791
+    },
+    {
+      "source": "Blossombind",
+      "target": "Mountain",
+      "weight": 1.0086304713274723,
+      "weight_norm": 0.8308359181086874
+    },
+    {
+      "source": "Mountain",
+      "target": "Sear",
+      "weight": 1.0085952465613306,
+      "weight_norm": 0.8308069025259249
+    },
+    {
+      "source": "Brigid, Clachan's Heart",
+      "target": "Forest",
+      "weight": 1.0085081867968049,
+      "weight_norm": 0.8307351890674818
+    },
+    {
+      "source": "Gnarlbark Elm",
+      "target": "Mountain",
+      "weight": 1.008496415590033,
+      "weight_norm": 0.8307254928093737
+    },
+    {
+      "source": "Plains",
+      "target": "Run Away Together",
+      "weight": 1.0083599246201207,
+      "weight_norm": 0.8306130615438863
+    },
+    {
+      "source": "Assert Perfection",
+      "target": "Pitiless Fists",
+      "weight": 0.9917421394181444,
+      "weight_norm": 0.81692454705052
+    },
+    {
+      "source": "Forest",
+      "target": "Tweeze",
+      "weight": 1.0080576925571896,
+      "weight_norm": 0.8303641049035453
+    },
+    {
+      "source": "Kulrath Zealot",
+      "target": "Tanufel Rimespeaker",
+      "weight": 1.0080195419630442,
+      "weight_norm": 0.8303326792379381
+    },
+    {
+      "source": "Bogslither's Embrace",
+      "target": "Forest",
+      "weight": 0.9920810199063096,
+      "weight_norm": 0.8172036919797262
+    },
+    {
+      "source": "Eclipsed Merrow",
+      "target": "Island",
+      "weight": 0.9920894876861152,
+      "weight_norm": 0.8172106671166164
+    },
+    {
+      "source": "Auntie's Sentence",
+      "target": "Swamp",
+      "weight": 1.0079268995472388,
+      "weight_norm": 0.8302563672002002
+    },
+    {
+      "source": "Tributary Vaulter",
+      "target": "Unexpected Assistance",
+      "weight": 1.0078755228008354,
+      "weight_norm": 0.8302140467989423
+    },
+    {
+      "source": "Cinder Strike",
+      "target": "Kulrath Zealot",
+      "weight": 1.0078593996404592,
+      "weight_norm": 0.8302007657201581
+    },
+    {
+      "source": "Bogslither's Embrace",
+      "target": "Island",
+      "weight": 1.0075601584825205,
+      "weight_norm": 0.8299542727683193
+    },
+    {
+      "source": "Dawn's Light Archer",
+      "target": "Safewright Cavalry",
+      "weight": 0.9926219620372272,
+      "weight_norm": 0.8176492804928246
+    },
+    {
+      "source": "Changeling Wayfinder",
+      "target": "Forest",
+      "weight": 1.0073570354579828,
+      "weight_norm": 0.8297869548958396
+    },
+    {
+      "source": "Flamekin Gildweaver",
+      "target": "Flaring Cinder",
+      "weight": 1.0071298144695282,
+      "weight_norm": 0.8295997868854307
+    },
+    {
+      "source": "Island",
+      "target": "Personify",
+      "weight": 1.0071221442661766,
+      "weight_norm": 0.8295934687336151
+    },
+    {
+      "source": "Foraging Wickermaw",
+      "target": "Island",
+      "weight": 1.0071176895703116,
+      "weight_norm": 0.8295897992813883
+    },
+    {
+      "source": "Gravelgill Scoundrel",
+      "target": "Temporal Cleansing",
+      "weight": 0.9930125134901746,
+      "weight_norm": 0.8179709881788428
+    },
+    {
+      "source": "Island",
+      "target": "Wanderbrine Trapper",
+      "weight": 0.9930929509255154,
+      "weight_norm": 0.8180372466474709
+    },
+    {
+      "source": "Spiral into Solitude",
+      "target": "Wary Farmer",
+      "weight": 0.9931807833131832,
+      "weight_norm": 0.8181095965362776
+    },
+    {
+      "source": "Deepchannel Duelist",
+      "target": "Wanderbrine Preacher",
+      "weight": 0.9932415367825456,
+      "weight_norm": 0.8181596407952315
+    },
+    {
+      "source": "Liminal Hold",
+      "target": "Unexpected Assistance",
+      "weight": 0.993276447000358,
+      "weight_norm": 0.8181883972761154
+    },
+    {
+      "source": "Island",
+      "target": "Riverguard's Reflexes",
+      "weight": 1.0067563887821254,
+      "weight_norm": 0.8292921861509115
+    },
+    {
+      "source": "Cinder Strike",
+      "target": "Island",
+      "weight": 0.9933693812580696,
+      "weight_norm": 0.8182649497118434
+    },
+    {
+      "source": "Island",
+      "target": "Sear",
+      "weight": 1.0066665282705127,
+      "weight_norm": 0.8292181656421228
+    },
+    {
+      "source": "Morcant's Loyalist",
+      "target": "Safewright Cavalry",
+      "weight": 0.993515034258562,
+      "weight_norm": 0.8183849279871677
+    },
+    {
+      "source": "Island",
+      "target": "Moonlit Lamenter",
+      "weight": 0.993581514864182,
+      "weight_norm": 0.8184396898415601
+    },
+    {
+      "source": "Great Forest Druid",
+      "target": "Swamp",
+      "weight": 0.9936117436707316,
+      "weight_norm": 0.8184645901186755
+    },
+    {
+      "source": "Assert Perfection",
+      "target": "Wary Farmer",
+      "weight": 1.0063885104527748,
+      "weight_norm": 0.8289891549237108
+    },
+    {
+      "source": "Glamer Gifter",
+      "target": "Island",
+      "weight": 0.9936867096611328,
+      "weight_norm": 0.8185263416116478
+    },
+    {
+      "source": "Island",
+      "target": "Meanders Guide",
+      "weight": 1.0063185516708946,
+      "weight_norm": 0.8289315280024295
+    },
+    {
+      "source": "Cinder Strike",
+      "target": "Flame-Chain Mauler",
+      "weight": 0.993769908808399,
+      "weight_norm": 0.8185948749763139
+    },
+    {
+      "source": "Elder Auntie",
+      "target": "Swamp",
+      "weight": 1.0061649848171683,
+      "weight_norm": 0.8288050308743596
+    },
+    {
+      "source": "Glamermite",
+      "target": "Plains",
+      "weight": 1.0061582899202568,
+      "weight_norm": 0.8287995161085655
+    },
+    {
+      "source": "Temporal Cleansing",
+      "target": "Wanderbrine Preacher",
+      "weight": 0.9938933494063912,
+      "weight_norm": 0.8186965563011204
+    },
+    {
+      "source": "Island",
+      "target": "Tributary Vaulter",
+      "weight": 1.0061330490305374,
+      "weight_norm": 0.8287787245120591
+    },
+    {
+      "source": "Feisty Spikeling",
+      "target": "Mountain",
+      "weight": 1.0060683852432637,
+      "weight_norm": 0.8287254592195707
+    },
+    {
+      "source": "Forest",
+      "target": "Noggle Robber",
+      "weight": 1.0060077348699965,
+      "weight_norm": 0.8286754998836301
+    },
+    {
+      "source": "Blossombind",
+      "target": "Island",
+      "weight": 1.0058544160359504,
+      "weight_norm": 0.8285492070560097
+    },
+    {
+      "source": "Tanufel Rimespeaker",
+      "target": "Unexpected Assistance",
+      "weight": 0.9943287021916372,
+      "weight_norm": 0.8190551680437885
+    },
+    {
+      "source": "Blossombind",
+      "target": "Kulrath Zealot",
+      "weight": 0.9943760147699208,
+      "weight_norm": 0.8190941406809771
+    },
+    {
+      "source": "Forest",
+      "target": "Requiting Hex",
+      "weight": 0.9944009889794606,
+      "weight_norm": 0.8191147126058811
+    },
+    {
+      "source": "Lys Alana Informant",
+      "target": "Swamp",
+      "weight": 1.005475988417094,
+      "weight_norm": 0.8282374860966613
+    },
+    {
+      "source": "Sizzling Changeling",
+      "target": "Swamp",
+      "weight": 1.0053535067324422,
+      "weight_norm": 0.8281365946544413
+    },
+    {
+      "source": "Plains",
+      "target": "Wanderbrine Preacher",
+      "weight": 1.0052198990387515,
+      "weight_norm": 0.8280265384207567
+    },
+    {
+      "source": "Noggle Robber",
+      "target": "Swamp",
+      "weight": 0.9948085858611212,
+      "weight_norm": 0.8194504610678
+    },
+    {
+      "source": "Dawn's Light Archer",
+      "target": "Midnight Tilling",
+      "weight": 1.0050999014484547,
+      "weight_norm": 0.8279276931935509
+    },
+    {
+      "source": "Glamer Gifter",
+      "target": "Mountain",
+      "weight": 0.9949940403488,
+      "weight_norm": 0.8196032248935202
+    },
+    {
+      "source": "Blossombind",
+      "target": "Gravelgill Scoundrel",
+      "weight": 1.004995820863691,
+      "weight_norm": 0.8278419592298669
+    },
+    {
+      "source": "Blossombind",
+      "target": "Forest",
+      "weight": 0.9951443011034952,
+      "weight_norm": 0.8197269986993211
+    },
+    {
+      "source": "Disruptor of Currents",
+      "target": "Plains",
+      "weight": 0.9952206028173096,
+      "weight_norm": 0.8197898504634233
+    },
+    {
+      "source": "Lys Alana Informant",
+      "target": "Morcant's Loyalist",
+      "weight": 0.9952807559878846,
+      "weight_norm": 0.8198394002401974
+    },
+    {
+      "source": "Bile-Vial Boggart",
+      "target": "Mountain",
+      "weight": 0.9953986386460744,
+      "weight_norm": 0.8199365033412145
+    },
+    {
+      "source": "Personify",
+      "target": "Plains",
+      "weight": 1.0045549636055888,
+      "weight_norm": 0.8274788133055639
+    },
+    {
+      "source": "Lys Alana Dignitary",
+      "target": "Swamp",
+      "weight": 0.995468372711047,
+      "weight_norm": 0.819993945157164
+    },
+    {
+      "source": "Mountain",
+      "target": "Retched Wretch",
+      "weight": 0.995562499117885,
+      "weight_norm": 0.8200714795980386
+    },
+    {
+      "source": "Bogslither's Embrace",
+      "target": "Stoic Grove-Guide",
+      "weight": 1.0044305431474214,
+      "weight_norm": 0.8273763248437024
+    },
+    {
+      "source": "Forest",
+      "target": "Lys Alana Informant",
+      "weight": 1.004399659464677,
+      "weight_norm": 0.8273508851275357
+    },
+    {
+      "source": "Encumbered Reejerey",
+      "target": "Island",
+      "weight": 0.9956726418727666,
+      "weight_norm": 0.8201622071335201
+    },
+    {
+      "source": "Flamekin Gildweaver",
+      "target": "Mountain",
+      "weight": 1.004306157181293,
+      "weight_norm": 0.8272738647938567
+    },
+    {
+      "source": "Dream Seizer",
+      "target": "Forest",
+      "weight": 1.004204182810556,
+      "weight_norm": 0.8271898657750452
+    },
+    {
+      "source": "Glamermite",
+      "target": "Mountain",
+      "weight": 1.004201068207716,
+      "weight_norm": 0.8271873001933148
+    },
+    {
+      "source": "Explosive Prodigy",
+      "target": "Flamekin Gildweaver",
+      "weight": 1.004150695947984,
+      "weight_norm": 0.8271458072146161
+    },
+    {
+      "source": "Forest",
+      "target": "Gnarlbark Elm",
+      "weight": 0.995947403990509,
+      "weight_norm": 0.8203885360446975
+    },
+    {
+      "source": "Rimekin Recluse",
+      "target": "Temporal Cleansing",
+      "weight": 0.9959618089404004,
+      "weight_norm": 0.8204004017875128
+    },
+    {
+      "source": "Mistmeadow Council",
+      "target": "Wary Farmer",
+      "weight": 0.9960077688313456,
+      "weight_norm": 0.8204382601799322
+    },
+    {
+      "source": "Evolving Wilds",
+      "target": "Forest",
+      "weight": 0.996008060321885,
+      "weight_norm": 0.8204385002884921
+    },
+    {
+      "source": "Eclipsed Kithkin",
+      "target": "Plains",
+      "weight": 1.0038986412464503,
+      "weight_norm": 0.8269381830099986
+    },
+    {
+      "source": "Bogslither's Embrace",
+      "target": "Plains",
+      "weight": 1.003546054478481,
+      "weight_norm": 0.8266477478512301
+    },
+    {
+      "source": "Flaring Cinder",
+      "target": "Tweeze",
+      "weight": 0.9965074601069782,
+      "weight_norm": 0.8208498692593353
+    },
+    {
+      "source": "Gristle Glutton",
+      "target": "Island",
+      "weight": 1.0034606857816355,
+      "weight_norm": 0.8265774273705013
+    },
+    {
+      "source": "Feed the Flames",
+      "target": "Flame-Chain Mauler",
+      "weight": 1.0034531207350037,
+      "weight_norm": 0.8265711958390906
+    },
+    {
+      "source": "Cinder Strike",
+      "target": "Forest",
+      "weight": 1.0032579493156106,
+      "weight_norm": 0.8264104279166159
+    },
+    {
+      "source": "Cinder Strike",
+      "target": "Evolving Wilds",
+      "weight": 1.0031946688714972,
+      "weight_norm": 0.8263583021209178
+    },
+    {
+      "source": "Sear",
+      "target": "Swamp",
+      "weight": 0.99718338821365,
+      "weight_norm": 0.8214066493339478
+    },
+    {
+      "source": "Mountain",
+      "target": "Wild Unraveling",
+      "weight": 0.9972584297474416,
+      "weight_norm": 0.821468463054033
+    },
+    {
+      "source": "Pitiless Fists",
+      "target": "Swamp",
+      "weight": 1.0027438299894598,
+      "weight_norm": 0.8259869340657928
+    },
+    {
+      "source": "Blight Rot",
+      "target": "Plains",
+      "weight": 1.0026596249535984,
+      "weight_norm": 0.8259175721237654
+    },
+    {
+      "source": "Island",
+      "target": "Spiral into Solitude",
+      "weight": 1.0025909293963124,
+      "weight_norm": 0.8258609857543961
+    },
+    {
+      "source": "Forest",
+      "target": "Shimmerwilds Growth",
+      "weight": 1.0025843699676853,
+      "weight_norm": 0.8258555825774541
+    },
+    {
+      "source": "Goldmeadow Nomad",
+      "target": "Plains",
+      "weight": 0.9974634764515576,
+      "weight_norm": 0.8216373655128743
+    },
+    {
+      "source": "Plains",
+      "target": "Wary Farmer",
+      "weight": 0.997544160882002,
+      "weight_norm": 0.8217038274379805
+    },
+    {
+      "source": "Great Forest Druid",
+      "target": "Plains",
+      "weight": 0.9975571186268176,
+      "weight_norm": 0.8217145010792363
+    },
+    {
+      "source": "Mountain",
+      "target": "Taster of Wares",
+      "weight": 1.0024314381099038,
+      "weight_norm": 0.8257296085125413
+    },
+    {
+      "source": "Forest",
+      "target": "Protective Response",
+      "weight": 0.9976037079976025,
+      "weight_norm": 0.8217528779910493
+    },
+    {
+      "source": "Forest",
+      "target": "Surly Farrier",
+      "weight": 1.0022549808359411,
+      "weight_norm": 0.8255842559325952
+    },
+    {
+      "source": "Boggart Prankster",
+      "target": "Swamp",
+      "weight": 0.9977790944549172,
+      "weight_norm": 0.8218973485106591
+    },
+    {
+      "source": "Flamebraider",
+      "target": "Mountain",
+      "weight": 0.9978233416451968,
+      "weight_norm": 0.8219337961056948
+    },
+    {
+      "source": "Foraging Wickermaw",
+      "target": "Swamp",
+      "weight": 1.0021227045604004,
+      "weight_norm": 0.8254752964236799
+    },
+    {
+      "source": "Assert Perfection",
+      "target": "Great Forest Druid",
+      "weight": 1.0021219227304865,
+      "weight_norm": 0.825474652409452
+    },
+    {
+      "source": "Flamekin Gildweaver",
+      "target": "Shinestriker",
+      "weight": 0.997938249209765,
+      "weight_norm": 0.8220284485424589
+    },
+    {
+      "source": "Abigale, Eloquent First-Year",
+      "target": "Forest",
+      "weight": 1.0020605166215784,
+      "weight_norm": 0.8254240705538343
+    },
+    {
+      "source": "Creakwood Safewright",
+      "target": "Dawnhand Eulogist",
+      "weight": 1.0019472413018815,
+      "weight_norm": 0.8253307626408625
+    },
+    {
+      "source": "Plains",
+      "target": "Summit Sentinel",
+      "weight": 1.0019350889033252,
+      "weight_norm": 0.8253207523848779
+    },
+    {
+      "source": "Island",
+      "target": "Unwelcome Sprite",
+      "weight": 1.0018871258199522,
+      "weight_norm": 0.8252812439092346
+    },
+    {
+      "source": "Scarblade's Malice",
+      "target": "Swamp",
+      "weight": 1.0016970152251234,
+      "weight_norm": 0.825124644723421
+    },
+    {
+      "source": "Timid Shieldbearer",
+      "target": "Wary Farmer",
+      "weight": 1.0015276692392536,
+      "weight_norm": 0.8249851499018309
+    },
+    {
+      "source": "Cinder Strike",
+      "target": "Gristle Glutton",
+      "weight": 0.998609284205891,
+      "weight_norm": 0.8225811980309368
+    },
+    {
+      "source": "Island",
+      "target": "Protective Response",
+      "weight": 1.0013273013718225,
+      "weight_norm": 0.8248201015260094
+    },
+    {
+      "source": "Cinder Strike",
+      "target": "Feed the Flames",
+      "weight": 0.998765414738834,
+      "weight_norm": 0.8227098069302017
+    },
+    {
+      "source": "Flamebraider",
+      "target": "Tweeze",
+      "weight": 0.9987701953820914,
+      "weight_norm": 0.8227137448740205
+    },
+    {
+      "source": "Temporal Cleansing",
+      "target": "Tributary Vaulter",
+      "weight": 1.0011445270265729,
+      "weight_norm": 0.8246695454053498
+    },
+    {
+      "source": "Swamp",
+      "target": "Taster of Wares",
+      "weight": 0.9989229692657532,
+      "weight_norm": 0.822839588811422
+    },
+    {
+      "source": "Merrow Skyswimmer",
+      "target": "Mountain",
+      "weight": 0.9990044632148708,
+      "weight_norm": 0.8229067175587287
+    },
+    {
+      "source": "Plains",
+      "target": "Virulent Emissary",
+      "weight": 0.9991239982003682,
+      "weight_norm": 0.8230051817259783
+    },
+    {
+      "source": "Forest",
+      "target": "Trystan, Callous Cultivator",
+      "weight": 1.0008738393748553,
+      "weight_norm": 0.8244465727409016
+    },
+    {
+      "source": "Aquitect's Defenses",
+      "target": "Island",
+      "weight": 1.000781497499096,
+      "weight_norm": 0.8243705082660446
+    },
+    {
+      "source": "Plains",
+      "target": "Surly Farrier",
+      "weight": 1.0005985322198454,
+      "weight_norm": 0.8242197948679374
+    },
+    {
+      "source": "Scarblade Scout",
+      "target": "Swamp",
+      "weight": 1.0005295078204477,
+      "weight_norm": 0.8241629376225182
+    },
+    {
+      "source": "Assert Perfection",
+      "target": "Mountain",
+      "weight": 1.0005061029916555,
+      "weight_norm": 0.8241436584385451
+    },
+    {
+      "source": "Surly Farrier",
+      "target": "Swamp",
+      "weight": 1.0005011691107135,
+      "weight_norm": 0.8241395942687437
+    },
+    {
+      "source": "Changeling Wayfinder",
+      "target": "Plains",
+      "weight": 1.0004457410669902,
+      "weight_norm": 0.824093936705439
+    },
+    {
+      "source": "Flamekin Gildweaver",
+      "target": "Forest",
+      "weight": 1.0002997518827557,
+      "weight_norm": 0.8239736815065672
+    },
+    {
+      "source": "Flaring Cinder",
+      "target": "Kulrath Zealot",
+      "weight": 1.00014723500411,
+      "weight_norm": 0.8238480492710769
+    },
+    {
+      "source": "Disruptor of Currents",
+      "target": "Mountain",
+      "weight": 0.9998664004710672,
+      "weight_norm": 0.8236167183488708
+    },
+    {
+      "source": "Scarblade Scout",
+      "target": "Stoic Grove-Guide",
+      "weight": 0.9999543271497272,
+      "weight_norm": 0.8236891459076918
+    },
+    {
+      "source": "Forest",
+      "target": "Gangly Stompling",
+      "weight": 1.000021211354079,
+      "weight_norm": 0.8237442402171632
+    },
+    {
+      "source": "Abigale, Eloquent First-Year",
+      "target": "Plains",
+      "weight": 1.0,
+      "weight_norm": 0.8237267678570259
+    },
+    {
+      "source": "Enraged Flamecaster",
+      "target": "Feed the Flames",
+      "weight": 1.0,
+      "weight_norm": 0.8237267678570259
+    },
+    {
+      "source": "Blossombind",
+      "target": "Evolving Wilds",
+      "weight": 1.0,
+      "weight_norm": 0.8237267678570259
+    },
+    {
+      "source": "Blossombind",
+      "target": "Omni-Changeling",
+      "weight": 1.0,
+      "weight_norm": 0.8237267678570259
+    },
+    {
+      "source": "Blossombind",
+      "target": "Summit Sentinel",
+      "weight": 1.0,
+      "weight_norm": 0.8237267678570259
+    },
+    {
+      "source": "Explosive Prodigy",
+      "target": "Feed the Flames",
+      "weight": 1.0,
+      "weight_norm": 0.8237267678570259
+    },
+    {
+      "source": "Flaring Cinder",
+      "target": "Twinflame Travelers",
+      "weight": 1.0,
+      "weight_norm": 0.8237267678570259
+    },
+    {
+      "source": "Evolving Wilds",
+      "target": "Swamp",
+      "weight": 1.0,
+      "weight_norm": 0.8237267678570259
+    },
+    {
+      "source": "Flamekin Gildweaver",
+      "target": "Plains",
+      "weight": 1.0,
+      "weight_norm": 0.8237267678570259
+    },
+    {
+      "source": "Assert Perfection",
+      "target": "Mistmeadow Council",
+      "weight": 1.0,
+      "weight_norm": 0.8237267678570259
+    },
+    {
+      "source": "Assert Perfection",
+      "target": "Swamp",
+      "weight": 1.0,
+      "weight_norm": 0.8237267678570259
+    },
+    {
+      "source": "Kulrath Mystic",
+      "target": "Mountain",
+      "weight": 1.0,
+      "weight_norm": 0.8237267678570259
+    },
+    {
+      "source": "Kulrath Zealot",
+      "target": "Sear",
+      "weight": 1.0,
+      "weight_norm": 0.8237267678570259
+    },
+    {
+      "source": "Flame-Chain Mauler",
+      "target": "Flaring Cinder",
+      "weight": 1.0,
+      "weight_norm": 0.8237267678570259
+    },
+    {
+      "source": "Evolving Wilds",
+      "target": "Kulrath Zealot",
+      "weight": 1.0,
+      "weight_norm": 0.8237267678570259
+    },
+    {
+      "source": "Champions of the Shoal",
+      "target": "Island",
+      "weight": 1.0,
+      "weight_norm": 0.8237267678570259
+    },
+    {
+      "source": "Merrow Skyswimmer",
+      "target": "Wanderbrine Preacher",
+      "weight": 1.0,
+      "weight_norm": 0.8237267678570259
+    },
+    {
+      "source": "Forest",
+      "target": "Merrow Skyswimmer",
+      "weight": 1.0,
+      "weight_norm": 0.8237267678570259
+    },
+    {
+      "source": "Mudbutton Cursetosser",
+      "target": "Swamp",
+      "weight": 1.0,
+      "weight_norm": 0.8237267678570259
+    },
+    {
+      "source": "Barbed Bloodletter",
+      "target": "Forest",
+      "weight": 1.0,
+      "weight_norm": 0.8237267678570259
+    },
+    {
+      "source": "Noggle the Mind",
+      "target": "Plains",
+      "weight": 1.0,
+      "weight_norm": 0.8237267678570259
+    },
+    {
+      "source": "Forest",
+      "target": "Iron-Shield Elf",
+      "weight": 1.0,
+      "weight_norm": 0.8237267678570259
+    },
+    {
+      "source": "Eclipsed Flamekin",
+      "target": "Flamekin Gildweaver",
+      "weight": 1.0,
+      "weight_norm": 0.8237267678570259
+    },
+    {
+      "source": "Morcant's Eyes",
+      "target": "Safewright Cavalry",
+      "weight": 1.0,
+      "weight_norm": 0.8237267678570259
+    },
+    {
+      "source": "End-Blaze Epiphany",
+      "target": "Island",
+      "weight": 1.0,
+      "weight_norm": 0.8237267678570259
+    },
+    {
+      "source": "Flaring Cinder",
+      "target": "Unexpected Assistance",
+      "weight": 1.0,
+      "weight_norm": 0.8237267678570259
+    },
+    {
+      "source": "Forest",
+      "target": "Gloom Ripper",
+      "weight": 1.0,
+      "weight_norm": 0.8237267678570259
+    },
+    {
+      "source": "Forest",
+      "target": "High Perfect Morcant",
+      "weight": 1.0,
+      "weight_norm": 0.8237267678570259
+    },
+    {
+      "source": "Mountain",
+      "target": "Noggle the Mind",
+      "weight": 1.0,
+      "weight_norm": 0.8237267678570259
+    },
+    {
+      "source": "Bogslither's Embrace",
+      "target": "Safewright Cavalry",
+      "weight": 1.0,
+      "weight_norm": 0.8237267678570259
+    },
+    {
+      "source": "Boulder Dash",
+      "target": "Cinder Strike",
+      "weight": 1.0,
+      "weight_norm": 0.8237267678570259
+    },
+    {
+      "source": "Plains",
+      "target": "Tributary Vaulter",
+      "weight": 1.0,
+      "weight_norm": 0.8237267678570259
+    },
+    {
+      "source": "Plains",
+      "target": "Thoughtweft Lieutenant",
+      "weight": 1.0,
+      "weight_norm": 0.8237267678570259
+    },
+    {
+      "source": "Cinder Strike",
+      "target": "Twinflame Travelers",
+      "weight": 1.0,
+      "weight_norm": 0.8237267678570259
+    },
+    {
+      "source": "Cinder Strike",
+      "target": "Plains",
+      "weight": 1.0,
+      "weight_norm": 0.8237267678570259
+    },
+    {
+      "source": "Plains",
+      "target": "Reluctant Dounguard",
+      "weight": 1.0,
+      "weight_norm": 0.8237267678570259
+    },
+    {
+      "source": "Plains",
+      "target": "Riverguard's Reflexes",
+      "weight": 1.0,
+      "weight_norm": 0.8237267678570259
+    },
+    {
+      "source": "Blight Rot",
+      "target": "Mountain",
+      "weight": 1.0,
+      "weight_norm": 0.8237267678570259
+    },
+    {
+      "source": "Blight Rot",
+      "target": "Lys Alana Informant",
+      "weight": 1.0,
+      "weight_norm": 0.8237267678570259
+    },
+    {
+      "source": "Boulder Dash",
+      "target": "Mountain",
+      "weight": 1.0,
+      "weight_norm": 0.8237267678570259
+    },
+    {
+      "source": "Forest",
+      "target": "Scarblade's Malice",
+      "weight": 1.0,
+      "weight_norm": 0.8237267678570259
+    },
+    {
+      "source": "Pummeler for Hire",
+      "target": "Swamp",
+      "weight": 1.0,
+      "weight_norm": 0.8237267678570259
+    },
+    {
+      "source": "Requiting Hex",
+      "target": "Swamp",
+      "weight": 1.0,
+      "weight_norm": 0.8237267678570259
+    },
+    {
+      "source": "Gangly Stompling",
+      "target": "Mountain",
+      "weight": 1.0,
+      "weight_norm": 0.8237267678570259
+    },
+    {
+      "source": "Gilt-Leaf's Embrace",
+      "target": "Swamp",
+      "weight": 1.0,
+      "weight_norm": 0.8237267678570259
+    },
+    {
+      "source": "Boggart Mischief",
+      "target": "Swamp",
+      "weight": 1.0,
+      "weight_norm": 0.8237267678570259
+    },
+    {
+      "source": "Forest",
+      "target": "Wanderbrine Trapper",
+      "weight": 1.0,
+      "weight_norm": 0.8237267678570259
+    }
+  ]
+}
