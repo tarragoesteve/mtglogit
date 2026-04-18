@@ -1,17 +1,14 @@
 import pandas as pd
 import json
+import requests
+import time
 
 # -----------------------------
 # LOAD CSV FILES
 # -----------------------------
 
-# Card-level data (individual performance)
 df_cards = pd.read_csv("../results/drawn_card_rankings.csv")
-
-# Pair data (card interactions)
 df_pairs = pd.read_csv("../results/drawn_pair_synergies.csv")
-
-# Self-performance data
 df_self = pd.read_csv("../results/drawn_squared_terms.csv")
 
 # -----------------------------
@@ -20,45 +17,90 @@ df_self = pd.read_csv("../results/drawn_squared_terms.csv")
 
 # Keep only relevant columns
 df_nodes = df_cards[["feature", "odds_multiplier"]].copy()
-
-# Rename for graph usage
 df_nodes.columns = ["id", "prob"]
 
-# Self probability per card
+# -----------------------------
+# SELF SCORE CLEANING
+# -----------------------------
 
-# Clean "(repeat)" suffix from self feature names
 df_self["id"] = df_self["feature"].str.replace(" (repeat)", "", regex=False)
 
-# Keep only needed columns
 df_self = df_self[["id", "odds_multiplier"]].copy()
-
-# Rename for graph usage
 df_self.columns = ["id", "self_prob"]
 
-# Merge node + self data
 df_nodes = df_nodes.merge(df_self, on="id", how="left")
 
-# Optional: attach image path for D3 rendering
-df_nodes["image"] = df_nodes["id"].apply(lambda x: f"https://cards.scryfall.io/art_crop/front/4/0/40bafd2b-acd4-46f0-abb2-139e2918ae99.jpg")
+# -----------------------------
+# SCRYFALL IMAGE ENRICHMENT (BATCHED)
+# -----------------------------
+
+MAX_BATCH = 50
+card_names = df_nodes["id"].dropna().unique().tolist()
+
+lookup = {}
+
+for i in range(0, len(card_names), MAX_BATCH):
+
+    batch = card_names[i:i + MAX_BATCH]
+
+    query = " OR ".join([f'"{name}"' for name in batch])
+
+    url = (
+        "https://api.scryfall.com/cards/search"
+        f"?q={requests.utils.quote(query)}"
+        "&unique=cards"
+    )
+
+    print(f"🔎 Fetching Scryfall {i} → {i+len(batch)}")
+
+    res = requests.get(url).json()
+
+    if "data" not in res:
+        continue
+
+    for card in res["data"]:
+
+        name = card.get("name")
+        image_uris = card.get("image_uris", {})
+
+        # fallback for double-faced cards
+        if not image_uris and "card_faces" in card:
+            image_uris = card["card_faces"][0].get("image_uris", {})
+
+        lookup[name] = {
+            "art": image_uris.get("art_crop"),
+            "image": image_uris.get("normal")
+        }
+
+    time.sleep(0.1)
 
 # -----------------------------
-# BUILD LINKS FROM PAIR STRING
+# APPLY IMAGES TO NODES
+# -----------------------------
+
+df_nodes["card_image"] = df_nodes["id"].map(lambda x: lookup.get(x, {}).get("image"))
+df_nodes["image"] = df_nodes["id"].map(lambda x: lookup.get(x, {}).get("art"))
+
+# fallback placeholder if missing
+df_nodes["image"] = df_nodes["image"].fillna("")
+df_nodes["card_image"] = df_nodes["card_image"].fillna("")
+
+# -----------------------------
+# BUILD LINKS
 # -----------------------------
 
 links = []
 
 for _, row in df_pairs.iterrows():
+
     feature = row["feature"]
     weight = row["odds_multiplier"]
 
-    # Skip invalid rows
     if "×" not in feature:
         continue
 
-    # Split "Card A × Card B"
     source, target = [x.strip() for x in feature.split("×")]
 
-    # Ignore self-loops
     if source == target:
         continue
 
@@ -82,7 +124,13 @@ df_links["pair"] = df_links.apply(
 df_links = df_links.drop_duplicates("pair")
 
 # -----------------------------
-# NORMALIZE VALUES (IMPORTANT FOR VISUALIZATION)
+# FILTER WEAK LINKS
+# -----------------------------
+
+df_links = df_links[df_links["weight"] >= 1.05]
+
+# -----------------------------
+# NORMALIZATION
 # -----------------------------
 
 df_nodes["prob_norm"] = df_nodes["prob"] / df_nodes["prob"].max()
@@ -90,7 +138,7 @@ df_nodes["self_prob_norm"] = df_nodes["self_prob"] / df_nodes["self_prob"].max()
 df_links["weight_norm"] = df_links["weight"] / df_links["weight"].max()
 
 # -----------------------------
-# BUILD FINAL GRAPH STRUCTURE
+# FINAL GRAPH STRUCTURE
 # -----------------------------
 
 graph = {
@@ -99,10 +147,10 @@ graph = {
 }
 
 # -----------------------------
-# EXPORT TO JSON FILE
+# EXPORT JSON
 # -----------------------------
 
 with open("data.json", "w", encoding="utf-8") as f:
     json.dump(graph, f, ensure_ascii=False, indent=2)
 
-print("✅ data.json successfully generated")
+print("✅ data.json generated with Scryfall images")
