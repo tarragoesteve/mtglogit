@@ -2,8 +2,14 @@ const CONFIG = {
   // -----------------------------
   // THRESHOLDS
   // -----------------------------
-  LINK_VISIBLE_THRESHOLD: 1.1,
-  LINK_HOVER_THRESHOLD: 1.02,
+  LINK_VISIBLE_THRESHOLD: 1.3,
+  LINK_HOVER_THRESHOLD: 1.15,
+
+  // -----------------------------
+  // SELF_PROB THRESHOLDS
+  // -----------------------------
+  SELF_PROB_HIGH: 1.05,
+  SELF_PROB_LOW: 0.95,
 
   // -----------------------------
   // NODE SIZE
@@ -32,6 +38,11 @@ const CONFIG = {
   GRAVITY_STRENGTH: 0.07,
 
   // -----------------------------
+  // MAX LINKS
+  // -----------------------------
+  MAX_LINKS: 500,
+
+  // -----------------------------
   // COLLISION
   // -----------------------------
   COLLISION_BASE: 26,
@@ -46,37 +57,266 @@ const CONFIG = {
   LINK_STRENGTH_SCALE: 0.9,
 };
 
-const width = window.innerWidth;
-const height = window.innerHeight;
+// =============================
+// DATASET CONFIGURATION
+// =============================
+const DEFAULT_DATASET = "Cube_Powered_Premier";
 
-const svg = d3.select("svg")
-  .attr("width", width)
-  .attr("height", height);
+// Current dataset being displayed
+let currentDataset = `data/${DEFAULT_DATASET}/data.json`;
+let currentGraph = null;
+let width, height, svg, container;
+let availableDatasets = [];
 
-// -----------------------------
-// ZOOM
-// -----------------------------
-const container = svg.append("g");
+// Get default dataset from URL parameter
+function getDefaultDataset() {
+  const params = new URLSearchParams(window.location.search);
+  const paramDataset = params.get('dataset');
+  
+  if (paramDataset) {
+    return paramDataset;
+  }
+  
+  return `data/${DEFAULT_DATASET}/data.json`;
+}
 
-svg.call(
-  d3.zoom()
-    .scaleExtent([0.2, 5])
-    .on("zoom", (event) => {
-      container.attr("transform", event.transform);
-    })
-);
+// Auto-detect all available datasets from datasets.json
+async function autoDetectDatasets() {
+  const baseFolder = "data/";
+  availableDatasets = [];
+  
+  try {
+    // Cargar datasets.json que contiene la lista de carpetas disponibles
+    const response = await fetch('datasets.json');
+    if (!response.ok) {
+      throw new Error('datasets.json no encontrado');
+    }
+    
+    const data = await response.json();
+    
+    // Validar que cada dataset tiene data.json
+    for (const folder of data.datasets) {
+      if (await checkDatasetExists(`${baseFolder}${folder}/data.json`)) {
+        availableDatasets.push(folder);
+      }
+    }
+    
+    if (availableDatasets.length === 0) {
+      console.warn('⚠️ No se encontraron datasets válidos en datasets.json');
+    }
+  } catch (error) {
+    console.error('❌ Error cargando datasets.json:', error);
+    console.log('Genere datasets.json ejecutando: python3 generate_datasets.py');
+  }
+  
+  return availableDatasets;
+}
 
-// -----------------------------
-// DATA
-// -----------------------------
-d3.json("data.json").then(data => {
-  initGraph(data.nodes, data.links);
+// =============================
+// CONFIG PANEL SETUP
+// =============================
+document.addEventListener("DOMContentLoaded", async () => {
+
+  // Initialize SVG
+  width = window.innerWidth;
+  height = window.innerHeight;
+
+  svg = d3.select("svg")
+    .attr("width", width)
+    .attr("height", height);
+
+  // Zoom setup
+  container = svg.append("g");
+
+  svg.call(
+    d3.zoom()
+      .scaleExtent([0.2, 5])
+      .on("zoom", (event) => {
+        container.attr("transform", event.transform);
+      })
+  );
+
+  const configBtn = document.getElementById("configBtn");
+  const closeConfigBtn = document.getElementById("closeConfigBtn");
+  const configPanel = document.getElementById("configPanel");
+  const configOverlay = document.getElementById("configOverlay");
+  const applyConfigBtn = document.getElementById("applyConfigBtn");
+  const thresholdSlider = document.getElementById("thresholdSlider");
+  const thresholdValue = document.getElementById("thresholdValue");
+  const hoverThresholdSlider = document.getElementById("hoverThresholdSlider");
+  const hoverThresholdValue = document.getElementById("hoverThresholdValue");
+  const selfProbHighSlider = document.getElementById("selfProbHighSlider");
+  const selfProbHighValue = document.getElementById("selfProbHighValue");
+  const selfProbLowSlider = document.getElementById("selfProbLowSlider");
+  const selfProbLowValue = document.getElementById("selfProbLowValue");
+  const maxLinksInput = document.getElementById("maxLinksInput");
+  const maxLinksValue = document.getElementById("maxLinksValue");
+  const datasetSelect = document.getElementById("datasetSelect");
+
+  // Initialize slider values from CONFIG (single source of truth)
+  thresholdSlider.value = CONFIG.LINK_VISIBLE_THRESHOLD;
+  thresholdValue.textContent = CONFIG.LINK_VISIBLE_THRESHOLD.toFixed(2);
+  hoverThresholdSlider.value = CONFIG.LINK_HOVER_THRESHOLD;
+  hoverThresholdValue.textContent = CONFIG.LINK_HOVER_THRESHOLD.toFixed(2);
+  selfProbHighSlider.value = CONFIG.SELF_PROB_HIGH;
+  selfProbHighValue.textContent = CONFIG.SELF_PROB_HIGH.toFixed(2);
+  selfProbLowSlider.value = CONFIG.SELF_PROB_LOW;
+  selfProbLowValue.textContent = CONFIG.SELF_PROB_LOW.toFixed(2);
+  maxLinksInput.value = CONFIG.MAX_LINKS;
+  maxLinksValue.textContent = CONFIG.MAX_LINKS;
+
+  // Set default dataset from URL parameter
+  currentDataset = getDefaultDataset();
+
+  // Load available datasets (WAIT for this to complete)
+  await loadAvailableDatasets();
+
+  // Load initial graph
+  loadAndInitGraph(currentDataset);
+
+  // Toggle config panel
+  configBtn.addEventListener("click", () => {
+    const isOpen = configPanel.style.display === "block";
+    if (isOpen) {
+      configPanel.style.display = "none";
+      configOverlay.style.display = "none";
+    } else {
+      configPanel.style.display = "block";
+      configOverlay.style.display = "block";
+    }
+  });
+
+  closeConfigBtn.addEventListener("click", () => {
+    configPanel.style.display = "none";
+    configOverlay.style.display = "none";
+  });
+
+  configOverlay.addEventListener("click", () => {
+    configPanel.style.display = "none";
+    configOverlay.style.display = "none";
+  });
+
+  // Update threshold value display
+  thresholdSlider.addEventListener("input", (e) => {
+    thresholdValue.textContent = parseFloat(e.target.value).toFixed(2);
+  });
+
+  // Update LINK HOVER THRESHOLD value display
+  hoverThresholdSlider.addEventListener("input", (e) => {
+    hoverThresholdValue.textContent = parseFloat(e.target.value).toFixed(2);
+  });
+
+  // Update SELF_PROB HIGH value display
+  selfProbHighSlider.addEventListener("input", (e) => {
+    selfProbHighValue.textContent = parseFloat(e.target.value).toFixed(2);
+  });
+
+  // Update SELF_PROB LOW value display
+  selfProbLowSlider.addEventListener("input", (e) => {
+    selfProbLowValue.textContent = parseFloat(e.target.value).toFixed(2);
+  });
+
+  // Update MAX LINKS value display
+  maxLinksInput.addEventListener("input", (e) => {
+    maxLinksValue.textContent = parseInt(e.target.value);
+  });
+
+  // Apply configuration
+  applyConfigBtn.addEventListener("click", () => {
+    const newDataset = datasetSelect.value;
+    const newThreshold = parseFloat(thresholdSlider.value);
+    const newHoverThreshold = parseFloat(hoverThresholdSlider.value);
+    const newSelfProbHigh = parseFloat(selfProbHighSlider.value);
+    const newSelfProbLow = parseFloat(selfProbLowSlider.value);
+    const newMaxLinks = parseInt(maxLinksInput.value);
+
+    // Update config
+    CONFIG.MAX_LINKS = newMaxLinks;
+    CONFIG.LINK_VISIBLE_THRESHOLD = newThreshold;
+    CONFIG.LINK_HOVER_THRESHOLD = newHoverThreshold;
+    CONFIG.SELF_PROB_HIGH = newSelfProbHigh;
+    CONFIG.SELF_PROB_LOW = newSelfProbLow;
+    currentDataset = newDataset;
+
+    // Reload graph
+    loadAndInitGraph(newDataset);
+
+    // Close panel
+    configPanel.style.display = "none";
+    configOverlay.style.display = "none";
+  });
 });
+
+// Load available datasets from data/ folder
+async function loadAvailableDatasets() {
+  const datasetSelect = document.getElementById("datasetSelect");
+
+  try {
+    // Auto-detect all available datasets
+    await autoDetectDatasets();
+    
+    // Clear existing options and add new ones
+    datasetSelect.innerHTML = '';
+    
+    if (availableDatasets.length === 0) {
+      const option = document.createElement("option");
+      option.textContent = "No datasets found";
+      option.disabled = true;
+      datasetSelect.appendChild(option);
+      return;
+    }
+    
+    for (const folder of availableDatasets) {
+      const option = document.createElement("option");
+      option.value = `data/${folder}/data.json`;
+      option.textContent = folder.charAt(0).toUpperCase() + folder.slice(1);
+      datasetSelect.appendChild(option);
+    }
+    
+    // Set the default value
+    datasetSelect.value = getDefaultDataset();
+  } catch (error) {
+    console.error("Error loading datasets:", error);
+  }
+}
+
+// Check if a dataset file exists
+async function checkDatasetExists(path) {
+  try {
+    const response = await fetch(path, { method: "HEAD" });
+    return response.ok;
+  } catch {
+    return false;
+  }
+}
+
+// Load and initialize graph with specified dataset
+async function loadAndInitGraph(datasetPath) {
+  try {
+    const response = await fetch(datasetPath);
+    if (!response.ok) {
+      throw new Error(`Dataset not found: ${datasetPath}`);
+    }
+    const data = await response.json();
+    // Sort links by weight descending and keep only top N
+    const sortedLinks = data.links
+      .slice()
+      .sort((a, b) => b.weight - a.weight)
+      .slice(0, CONFIG.MAX_LINKS);
+    initGraph(data.nodes, sortedLinks);
+  } catch (error) {
+    console.error("Error loading dataset:", error);
+    alert(`Error loading dataset: ${error.message}`);
+  }
+}
 
 // -----------------------------
 // GRAPH
 // -----------------------------
 function initGraph(nodes, links) {
+
+  // Clear previous graph
+  container.selectAll("*").remove();
 
   const simulation = d3.forceSimulation(nodes)
 
@@ -175,9 +415,9 @@ function initGraph(nodes, links) {
     .attr("r", d => CONFIG.NODE_SIZE_MULT * d.prob)
 
     .attr("fill", d => d3.interpolateRgbBasis([
-      "#ff3b3b",
-      "#ffcc33",
-      "#2bff88"
+      "rgb(255, 0, 0)",
+      "#ffff00",
+      "#00ff00"
     ])(d.prob_norm))
 
     .attr("stroke", "#111")
@@ -189,8 +429,8 @@ function initGraph(nodes, links) {
     .style("filter", d => {
       const s = d.self_prob;
 
-      if (s > 1.05) return "drop-shadow(0 0 10px #2bff88)";
-      if (s < 0.95) return "drop-shadow(0 0 10px #ff3b3b)";
+      if (s > CONFIG.SELF_PROB_HIGH) return "drop-shadow(0 0 10px #2bff88)";
+      if (s < CONFIG.SELF_PROB_LOW) return "drop-shadow(0 0 10px #ff3b3b)";
       return "drop-shadow(0 0 0px #000000)";
     });
 
@@ -321,6 +561,8 @@ function initGraph(nodes, links) {
             ? 0
             : CONFIG.LINK_WIDTH_BASE + Math.pow(d.weight_norm, 2.0) * CONFIG.LINK_WIDTH_SCALE
         );
+
+      linkLabels.style("opacity", 0);
 
       linkLabels.style("opacity", 0);
 
