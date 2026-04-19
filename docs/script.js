@@ -138,6 +138,8 @@ document.addEventListener("DOMContentLoaded", async () => {
   const applyConfigBtn = document.getElementById("applyConfigBtn");
   const thresholdSlider = document.getElementById("thresholdSlider");
   const thresholdValue = document.getElementById("thresholdValue");
+  const hoverThresholdSlider = document.getElementById("hoverThresholdSlider");
+  const hoverThresholdValue = document.getElementById("hoverThresholdValue");
   const selfProbHighSlider = document.getElementById("selfProbHighSlider");
   const selfProbHighValue = document.getElementById("selfProbHighValue");
   const selfProbLowSlider = document.getElementById("selfProbLowSlider");
@@ -180,6 +182,11 @@ document.addEventListener("DOMContentLoaded", async () => {
     thresholdValue.textContent = parseFloat(e.target.value).toFixed(2);
   });
 
+  // Update LINK HOVER THRESHOLD value display
+  hoverThresholdSlider.addEventListener("input", (e) => {
+    hoverThresholdValue.textContent = parseFloat(e.target.value).toFixed(2);
+  });
+
   // Update SELF_PROB HIGH value display
   selfProbHighSlider.addEventListener("input", (e) => {
     selfProbHighValue.textContent = parseFloat(e.target.value).toFixed(2);
@@ -194,11 +201,13 @@ document.addEventListener("DOMContentLoaded", async () => {
   applyConfigBtn.addEventListener("click", () => {
     const newDataset = datasetSelect.value;
     const newThreshold = parseFloat(thresholdSlider.value);
+    const newHoverThreshold = parseFloat(hoverThresholdSlider.value);
     const newSelfProbHigh = parseFloat(selfProbHighSlider.value);
     const newSelfProbLow = parseFloat(selfProbLowSlider.value);
 
     // Update config
     CONFIG.LINK_VISIBLE_THRESHOLD = newThreshold;
+    CONFIG.LINK_HOVER_THRESHOLD = newHoverThreshold;
     CONFIG.SELF_PROB_HIGH = newSelfProbHigh;
     CONFIG.SELF_PROB_LOW = newSelfProbLow;
     currentDataset = newDataset;
