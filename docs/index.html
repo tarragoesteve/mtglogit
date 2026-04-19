@@ -32,6 +32,197 @@
       height: auto;
       border-radius: 6px;
     }
+
+    /* CONFIG BUTTON */
+    .config-btn {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background: #222;
+      border: 2px solid #555;
+      cursor: pointer;
+      font-size: 24px;
+      z-index: 10000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+    }
+
+    .config-btn:hover {
+      background: #333;
+      border-color: #777;
+      transform: rotate(90deg);
+    }
+
+    /* CONFIG PANEL */
+    .config-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      display: none;
+      z-index: 10001;
+    }
+
+    .config-panel {
+      position: fixed;
+      top: 80px;
+      right: 20px;
+      width: 300px;
+      background: #1a1a1a;
+      border: 2px solid #444;
+      border-radius: 12px;
+      z-index: 10002;
+      display: none;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.8);
+      animation: slideIn 0.3s ease;
+    }
+
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .config-panel-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px;
+      border-bottom: 1px solid #333;
+    }
+
+    .config-panel-header h3 {
+      margin: 0;
+      color: #fff;
+      font-size: 18px;
+    }
+
+    .close-btn {
+      background: none;
+      border: none;
+      color: #888;
+      font-size: 24px;
+      cursor: pointer;
+      transition: color 0.2s;
+    }
+
+    .close-btn:hover {
+      color: #fff;
+    }
+
+    .config-panel-body {
+      padding: 20px;
+    }
+
+    .config-section {
+      margin-bottom: 20px;
+    }
+
+    .config-section label {
+      display: block;
+      color: #ccc;
+      font-size: 14px;
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+
+    .config-section select {
+      width: 100%;
+      padding: 8px;
+      background: #222;
+      color: #fff;
+      border: 1px solid #444;
+      border-radius: 6px;
+      font-size: 13px;
+      cursor: pointer;
+      transition: border-color 0.2s;
+    }
+
+    .config-section select:hover,
+    .config-section select:focus {
+      border-color: #666;
+      outline: none;
+    }
+
+    .threshold-slider {
+      width: 100%;
+      height: 6px;
+      border-radius: 3px;
+      background: #333;
+      outline: none;
+      -webkit-appearance: none;
+      appearance: none;
+    }
+
+    .threshold-slider::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: #F200FF;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    .threshold-slider::-webkit-slider-thumb:hover {
+      background: #ff66ff;
+    }
+
+    .threshold-slider::-moz-range-thumb {
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: #F200FF;
+      cursor: pointer;
+      border: none;
+      transition: background 0.2s;
+    }
+
+    .threshold-slider::-moz-range-thumb:hover {
+      background: #ff66ff;
+    }
+
+    .threshold-info {
+      font-size: 11px;
+      color: #666;
+      margin-top: 5px;
+      text-align: center;
+    }
+
+    .apply-btn {
+      width: 100%;
+      padding: 10px;
+      background: #F200FF;
+      color: #000;
+      border: none;
+      border-radius: 6px;
+      font-weight: bold;
+      font-size: 14px;
+      cursor: pointer;
+      transition: background 0.3s;
+      margin-top: 10px;
+    }
+
+    .apply-btn:hover {
+      background: #ff66ff;
+    }
+
+    .apply-btn:active {
+      transform: scale(0.98);
+    }
   </style>
 </head>
 
@@ -39,6 +230,83 @@
 
 <svg></svg>
 <div id="tooltip"></div>
+
+<!-- GEAR ICON -->
+<button id="configBtn" class="config-btn" title="Configuración">⚙️</button>
+
+<!-- CONFIG PANEL -->
+<div id="configPanel" class="config-panel">
+  <div class="config-panel-header">
+    <h3>Configuración</h3>
+    <button id="closeConfigBtn" class="close-btn">✕</button>
+  </div>
+
+  <div class="config-panel-body">
+    <!-- DATASET SELECTOR -->
+    <div class="config-section">
+      <label for="datasetSelect">Dataset:</label>
+      <select id="datasetSelect">
+      </select>
+    </div>
+
+    <!-- LINK VISIBLE THRESHOLD -->
+    <div class="config-section">
+      <label for="thresholdSlider">
+        Link Visible Threshold: <span id="thresholdValue">1.10</span>
+      </label>
+      <input 
+        type="range" 
+        id="thresholdSlider" 
+        min="1.0" 
+        max="2.0" 
+        step="0.01" 
+        value="1.1"
+        class="threshold-slider"
+      />
+      <div class="threshold-info">Min: 1.0 | Max: 2.0</div>
+    </div>
+
+    <!-- SELF_PROB HIGH (Green) -->
+    <div class="config-section">
+      <label for="selfProbHighSlider">
+        SELF_PROB High (Green): <span id="selfProbHighValue">1.05</span>
+      </label>
+      <input 
+        type="range" 
+        id="selfProbHighSlider" 
+        min="1.0" 
+        max="1.5" 
+        step="0.01" 
+        value="1.05"
+        class="threshold-slider"
+      />
+      <div class="threshold-info">Min: 1.0 | Max: 1.5</div>
+    </div>
+
+    <!-- SELF_PROB LOW (Red) -->
+    <div class="config-section">
+      <label for="selfProbLowSlider">
+        SELF_PROB Low (Red): <span id="selfProbLowValue">0.95</span>
+      </label>
+      <input 
+        type="range" 
+        id="selfProbLowSlider" 
+        min="0.5" 
+        max="1.0" 
+        step="0.01" 
+        value="0.95"
+        class="threshold-slider"
+      />
+      <div class="threshold-info">Min: 0.5 | Max: 1.0</div>
+    </div>
+
+    <!-- APPLY BUTTON -->
+    <button id="applyConfigBtn" class="apply-btn">Aplicar</button>
+  </div>
+</div>
+
+<!-- OVERLAY -->
+<div id="configOverlay" class="config-overlay"></div>
 
 <script src="https://d3js.org/d3.v7.min.js"></script>
 <script src="script.js"></script>
