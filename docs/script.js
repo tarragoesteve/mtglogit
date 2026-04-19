@@ -145,13 +145,9 @@ function initGraph(nodes, links) {
     .selectAll("text")
     .data(links)
     .join("text")
-    .text(d =>
-      d.weight >= CONFIG.LINK_HOVER_THRESHOLD ? d.weight.toFixed(2) : ""
-    )
+    .text(d => d.weight.toFixed(2))
     .attr("fill", "#fff")
-    .attr("font-size", d =>
-      CONFIG.LABEL_FONT_BASE + d.weight_norm * CONFIG.LABEL_FONT_SCALE
-    )
+    .attr("font-size", d => 10 + d.weight_norm * 18)
     .attr("stroke", "#000")
     .attr("stroke-width", 3)
     .attr("paint-order", "stroke")
@@ -236,38 +232,15 @@ function initGraph(nodes, links) {
       });
 
       link
-        .attr("stroke-opacity", l => {
-          const isConnected =
-            l.source.id === d.id || l.target.id === d.id;
-
-          if (isConnected && l.weight >= CONFIG.LINK_HOVER_THRESHOLD) return 1;
-          if (!isConnected) return 0.05;
-
-          return 0;
-        })
-        .attr("stroke-width", l => {
-          const isConnected =
-            l.source.id === d.id || l.target.id === d.id;
-
-          if (isConnected && l.weight >= CONFIG.LINK_HOVER_THRESHOLD) {
-            return CONFIG.LINK_WIDTH_HOVER_BASE + l.weight_norm * CONFIG.LINK_WIDTH_HOVER_SCALE;
-          }
-
-          if (l.weight < CONFIG.LINK_VISIBLE_THRESHOLD) return 0;
-
-          return isConnected
-            ? CONFIG.LINK_WIDTH_HOVER_BASE + l.weight_norm * CONFIG.LINK_WIDTH_HOVER_SCALE
-            : CONFIG.LINK_WIDTH_BASE + Math.pow(l.weight_norm, 2.0) * CONFIG.LINK_WIDTH_SCALE;
-        });
+        .attr("stroke-opacity", l =>
+          l.source.id === d.id || l.target.id === d.id ? 1 : 0.05
+        );
 
       // 🔥 SHOW LINK LABELS
       linkLabels
-        .style("opacity", l => {
-          const isConnected =
-            l.source.id === d.id || l.target.id === d.id;
-
-          return (isConnected && l.weight >= CONFIG.LINK_HOVER_THRESHOLD) ? 1 : 0;
-        });
+        .style("opacity", l =>
+          l.source.id === d.id || l.target.id === d.id ? 1 : 0
+        );
 
       node.style("opacity", n =>
         n.id === d.id || connected.has(n.id) ? 1 : 0.3
@@ -297,6 +270,7 @@ function initGraph(nodes, links) {
       let x = event.pageX + 15;
       let y = event.pageY + 15;
 
+      // 🔥 KEEP INSIDE SCREEN
       if (x + w > window.innerWidth) {
         x = event.pageX - w - 15;
       }
@@ -312,15 +286,9 @@ function initGraph(nodes, links) {
 
     .on("mouseout", () => {
 
-      link
-        .attr("stroke-opacity", d =>
-          d.weight >= CONFIG.LINK_VISIBLE_THRESHOLD ? 1 : 0
-        )
-        .attr("stroke-width", d =>
-          d.weight < CONFIG.LINK_VISIBLE_THRESHOLD
-            ? 0
-            : CONFIG.LINK_WIDTH_BASE + Math.pow(d.weight_norm, 2.0) * CONFIG.LINK_WIDTH_SCALE
-        );
+      link.attr("stroke-opacity", 1);
+
+      linkLabels.style("opacity", 0);
 
       linkLabels.style("opacity", 0);
 
