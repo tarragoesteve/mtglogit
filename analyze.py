@@ -41,10 +41,25 @@ def save_results(results_df, prefix, output_dir):
     cards.to_csv(path, index=False)
     print(f"  Saved {len(cards)} card rankings to {path}")
 
-    # Repeat terms
-    repeat = results_df[results_df["type"] == "repeat"].sort_values("abs_coef", ascending=False)
-    repeat = repeat.drop(columns=["abs_coef"])
-    path = os.path.join(output_dir, f"{prefix}_repeat_terms.csv")
+    # Repeat terms — fill in missing cards with coefficient=0 (odds_multiplier=1)
+    repeat = results_df[results_df["type"] == "repeat"].copy()
+    repeat["card_name"] = repeat["feature"].str.replace(r" \(repeat\)$", "", regex=True)
+    card_names_set = set(cards["feature"])
+    repeat_names_set = set(repeat["card_name"])
+    missing = card_names_set - repeat_names_set
+    if missing:
+        missing_rows = pd.DataFrame({
+            "feature": [f"{name} (repeat)" for name in missing],
+            "type": "repeat",
+            "coefficient": 0.0,
+            "odds_multiplier": 1.0,
+            "count": 0,
+        })
+        repeat = pd.concat([repeat, missing_rows], ignore_index=True)
+    repeat = repeat.drop(columns=["card_name"], errors="ignore")
+    repeat["abs_coef"] = repeat["coefficient"].abs()
+    repeat = repeat.sort_values("abs_coef", ascending=False).drop(columns=["abs_coef"])
+    path = os.path.join(output_dir, f"{prefix}_squared_terms.csv")
     repeat.to_csv(path, index=False)
     print(f"  Saved {len(repeat)} repeat terms to {path}")
 
