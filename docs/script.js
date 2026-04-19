@@ -55,7 +55,7 @@ const CONFIG = {
 // =============================
 // DATASET CONFIGURATION
 // =============================
-const DEFAULT_DATASET = "set1";
+const DEFAULT_DATASET = "Cube_Powered_Premier";
 
 // Current dataset being displayed
 let currentDataset = `data/${DEFAULT_DATASET}/data.json`;

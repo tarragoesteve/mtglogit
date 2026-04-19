@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Script para generar datasets.json con todas las carpetas encontradas en data/
-Ejecutar: python3 generate_datasets.py
+Generates datasets.json with all folders found in data/
+Run: python3 generate_datasets.py
 """
 
 import json
@@ -12,20 +12,20 @@ def generate_datasets_json():
     data_dir = Path("data")
     
     if not data_dir.exists():
-        print(f"Error: La carpeta 'data' no existe")
+        print(f"Error: 'data' folder does not exist")
         return
     
-    # Buscar todas las carpetas en data/
+    # Find all folders in data/
     datasets = []
     
     for item in sorted(data_dir.iterdir()):
         if item.is_dir():
-            # Verificar que tenga data.json dentro
+            # Verify it has data.json inside
             data_json = item / "data.json"
             if data_json.exists():
                 datasets.append(item.name)
     
-    # Crear el archivo datasets.json
+    # Create datasets.json file
     output = {
         "datasets": datasets
     }
@@ -33,7 +33,7 @@ def generate_datasets_json():
     with open("datasets.json", "w") as f:
         json.dump(output, f, indent=2)
     
-    print(f"✅ datasets.json generado con {len(datasets)} dataset(s):")
+    print(f"✅ datasets.json generated with {len(datasets)} dataset(s):")
     for ds in datasets:
         print(f"   - {ds}")
 
