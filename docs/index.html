@@ -232,12 +232,12 @@
 <div id="tooltip"></div>
 
 <!-- GEAR ICON -->
-<button id="configBtn" class="config-btn" title="Configuración">⚙️</button>
+<button id="configBtn" class="config-btn" title="Settings">⚙️</button>
 
 <!-- CONFIG PANEL -->
 <div id="configPanel" class="config-panel">
   <div class="config-panel-header">
-    <h3>Configuración</h3>
+    <h3>Settings</h3>
     <button id="closeConfigBtn" class="close-btn">✕</button>
   </div>
 
@@ -317,8 +317,25 @@
       <div class="threshold-info">Min: 0.5 | Max: 1.0</div>
     </div>
 
+    <!-- MAX LINKS -->
+    <div class="config-section">
+      <label for="maxLinksInput">
+        Max Links: <span id="maxLinksValue">1000</span>
+      </label>
+      <input 
+        type="range" 
+        id="maxLinksInput" 
+        min="50" 
+        max="5000" 
+        step="50" 
+        value="1000"
+        class="threshold-slider"
+      />
+      <div class="threshold-info">Min: 50 | Max: 5000</div>
+    </div>
+
     <!-- APPLY BUTTON -->
-    <button id="applyConfigBtn" class="apply-btn">Aplicar</button>
+    <button id="applyConfigBtn" class="apply-btn">Apply</button>
   </div>
 </div>
 

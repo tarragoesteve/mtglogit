@@ -13,7 +13,7 @@ import sys
 # =============================
 CONFIG = {
     # Link weight filter
-    "MIN_LINK_WEIGHT": 1.02,
+    "MIN_LINK_WEIGHT": 1.01,
 
     # Scryfall API settings
     "SCRYFALL_BATCH_SIZE": 20,
@@ -76,10 +76,10 @@ def fetch_scryfall_bulk_data():
         bulk_list_url = "https://api.scryfall.com/bulk-data"
         bulk_list = requests.get(bulk_list_url).json()
         
-        # Find the default_cards file (includes printed names and multiple printings)
+        # Find the oracle_cards file (one entry per card name)
         bulk_data = None
         for item in bulk_list.get("data", []):
-            if item.get("type") == "default_cards":
+            if item.get("type") == "oracle_cards":
                 bulk_data = item
                 break
         
@@ -92,7 +92,7 @@ def fetch_scryfall_bulk_data():
             print("⚠️  Download URL not found")
             return {}
         
-        print(f"📥 Downloading default cards (~{bulk_data.get('size', 0) // (1024*1024)} MB)...")
+        print(f"📥 Downloading oracle cards (~{bulk_data.get('size', 0) // (1024*1024)} MB)...")
         
         # Download the file
         response = requests.get(download_url, stream=True)
@@ -197,6 +197,40 @@ def fetch_scryfall_bulk_data():
         print(f"❌ Error fetching bulk data: {e}")
         return {}
 
+
+def fetch_card_individually(card_name, lookup):
+    """
+    Fetch a single card from the Scryfall API by fuzzy name search.
+    Used as a fallback for cards missing from oracle_cards bulk data.
+    """
+    try:
+        url = "https://api.scryfall.com/cards/named"
+        resp = requests.get(url, params={"fuzzy": card_name})
+        if resp.status_code != 200:
+            return None
+        
+        card = resp.json()
+        image_uris = {}
+        
+        if "card_faces" in card and len(card["card_faces"]) > 0:
+            image_uris = card["card_faces"][0].get("image_uris", {})
+        if not image_uris.get("normal"):
+            image_uris = card.get("image_uris", {})
+        
+        card_data = {
+            "art": image_uris.get("art_crop"),
+            "image": image_uris.get("normal"),
+            "image_status": card.get("image_status"),
+            "highres": card.get("highres_image", False),
+        }
+        
+        lookup[card_name] = card_data
+        return card_data
+        
+    except Exception as e:
+        print(f"⚠️  Failed to fetch '{card_name}' individually: {e}")
+        return None
+
 def process_results_folder(results_folder_path):
     """
     Process a single results folder and generate data.json in data/
@@ -248,6 +282,19 @@ def process_results_folder(results_folder_path):
     
     # -------- FETCH CARD IMAGES FROM SCRYFALL (single bulk request) --------
     lookup = fetch_scryfall_bulk_data()
+    
+    # -------- FETCH MISSING CARDS INDIVIDUALLY --------
+    all_card_names = df_nodes["id"].tolist()
+    missing = [n for n in all_card_names if n not in lookup]
+    if missing:
+        print(f"🔎 Fetching {len(missing)} card(s) not in oracle_cards individually...")
+        for card_name in missing:
+            result = fetch_card_individually(card_name, lookup)
+            if result and result.get("image"):
+                print(f"   ✓ Found: {card_name}")
+            else:
+                print(f"   ✗ Not found: {card_name}")
+            time.sleep(CONFIG["SCRYFALL_SLEEP"])
     
     # -------- APPLY CARD IMAGES WITH NAME FALLBACK --------
     def get_card_image(card_name):

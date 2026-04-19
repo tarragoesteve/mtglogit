@@ -2,8 +2,8 @@ const CONFIG = {
   // -----------------------------
   // THRESHOLDS
   // -----------------------------
-  LINK_VISIBLE_THRESHOLD: 1.1,
-  LINK_HOVER_THRESHOLD: 1.02,
+  LINK_VISIBLE_THRESHOLD: 1.3,
+  LINK_HOVER_THRESHOLD: 1.15,
 
   // -----------------------------
   // SELF_PROB THRESHOLDS
@@ -36,6 +36,11 @@ const CONFIG = {
   CHARGE_STRENGTH: -1450,
   CENTER_STRENGTH: 0.95,
   GRAVITY_STRENGTH: 0.07,
+
+  // -----------------------------
+  // MAX LINKS
+  // -----------------------------
+  MAX_LINKS: 500,
 
   // -----------------------------
   // COLLISION
@@ -144,7 +149,21 @@ document.addEventListener("DOMContentLoaded", async () => {
   const selfProbHighValue = document.getElementById("selfProbHighValue");
   const selfProbLowSlider = document.getElementById("selfProbLowSlider");
   const selfProbLowValue = document.getElementById("selfProbLowValue");
+  const maxLinksInput = document.getElementById("maxLinksInput");
+  const maxLinksValue = document.getElementById("maxLinksValue");
   const datasetSelect = document.getElementById("datasetSelect");
+
+  // Initialize slider values from CONFIG (single source of truth)
+  thresholdSlider.value = CONFIG.LINK_VISIBLE_THRESHOLD;
+  thresholdValue.textContent = CONFIG.LINK_VISIBLE_THRESHOLD.toFixed(2);
+  hoverThresholdSlider.value = CONFIG.LINK_HOVER_THRESHOLD;
+  hoverThresholdValue.textContent = CONFIG.LINK_HOVER_THRESHOLD.toFixed(2);
+  selfProbHighSlider.value = CONFIG.SELF_PROB_HIGH;
+  selfProbHighValue.textContent = CONFIG.SELF_PROB_HIGH.toFixed(2);
+  selfProbLowSlider.value = CONFIG.SELF_PROB_LOW;
+  selfProbLowValue.textContent = CONFIG.SELF_PROB_LOW.toFixed(2);
+  maxLinksInput.value = CONFIG.MAX_LINKS;
+  maxLinksValue.textContent = CONFIG.MAX_LINKS;
 
   // Set default dataset from URL parameter
   currentDataset = getDefaultDataset();
@@ -197,6 +216,11 @@ document.addEventListener("DOMContentLoaded", async () => {
     selfProbLowValue.textContent = parseFloat(e.target.value).toFixed(2);
   });
 
+  // Update MAX LINKS value display
+  maxLinksInput.addEventListener("input", (e) => {
+    maxLinksValue.textContent = parseInt(e.target.value);
+  });
+
   // Apply configuration
   applyConfigBtn.addEventListener("click", () => {
     const newDataset = datasetSelect.value;
@@ -204,8 +228,10 @@ document.addEventListener("DOMContentLoaded", async () => {
     const newHoverThreshold = parseFloat(hoverThresholdSlider.value);
     const newSelfProbHigh = parseFloat(selfProbHighSlider.value);
     const newSelfProbLow = parseFloat(selfProbLowSlider.value);
+    const newMaxLinks = parseInt(maxLinksInput.value);
 
     // Update config
+    CONFIG.MAX_LINKS = newMaxLinks;
     CONFIG.LINK_VISIBLE_THRESHOLD = newThreshold;
     CONFIG.LINK_HOVER_THRESHOLD = newHoverThreshold;
     CONFIG.SELF_PROB_HIGH = newSelfProbHigh;
@@ -272,7 +298,12 @@ async function loadAndInitGraph(datasetPath) {
       throw new Error(`Dataset not found: ${datasetPath}`);
     }
     const data = await response.json();
-    initGraph(data.nodes, data.links);
+    // Sort links by weight descending and keep only top N
+    const sortedLinks = data.links
+      .slice()
+      .sort((a, b) => b.weight - a.weight)
+      .slice(0, CONFIG.MAX_LINKS);
+    initGraph(data.nodes, sortedLinks);
   } catch (error) {
     console.error("Error loading dataset:", error);
     alert(`Error loading dataset: ${error.message}`);
@@ -384,9 +415,9 @@ function initGraph(nodes, links) {
     .attr("r", d => CONFIG.NODE_SIZE_MULT * d.prob)
 
     .attr("fill", d => d3.interpolateRgbBasis([
-      "#ff3b3b",
-      "#ffcc33",
-      "#2bff88"
+      "rgb(255, 0, 0)",
+      "#ffff00",
+      "#00ff00"
     ])(d.prob_norm))
 
     .attr("stroke", "#111")
