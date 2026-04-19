@@ -7,4 +7,4 @@ Run analysis of mtg limited decks using logistic regression
 # Postprocessing 
 cd docs && python3 wrinfo.py
 
-cd docs && python -m http.server
+cd docs && python3 -m http.server

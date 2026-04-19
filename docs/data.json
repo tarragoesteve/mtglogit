@@ -2820,1818 +2820,2826 @@
       "source": "Retrofitter Foundry",
       "target": "Ugin, Eye of the Storms",
       "weight": 1.623109823075568,
-      "weight_norm": 0.703021005213456
+      "weight_norm": 0.7243491490224209
     },
     {
       "source": "Animate Dead",
       "target": "Entomb",
       "weight": 1.5304392218373986,
-      "weight_norm": 0.5830624902238641
+      "weight_norm": 0.6130056960531137
     },
     {
       "source": "Fractured Identity",
       "target": "Memory Lapse",
       "weight": 1.5231682748310484,
-      "weight_norm": 0.5736505300790482
+      "weight_norm": 0.6042696747558824
     },
     {
       "source": "Time Spiral",
       "target": "Upheaval",
       "weight": 1.5207921208005002,
-      "weight_norm": 0.5705746904375364
+      "weight_norm": 0.6014147327245017
     },
     {
       "source": "Talisman of Creativity",
       "target": "Urza, Lord High Artificer",
       "weight": 1.4959073586433886,
-      "weight_norm": 0.5383623267067315
+      "weight_norm": 0.5715157646820723
     },
     {
       "source": "Third Path Iconoclast",
       "target": "Volcanic Island",
       "weight": 1.4952052006538816,
-      "weight_norm": 0.5374534103019176
+      "weight_norm": 0.5706721239369263
     },
     {
       "source": "Ocelot Pride",
       "target": "Showdown of the Skalds",
       "weight": 1.473129500655321,
-      "weight_norm": 0.5088772690683335
+      "weight_norm": 0.5441482357597351
     },
     {
       "source": "Malcolm, Alluring Scoundrel",
       "target": "Spell Pierce",
       "weight": 1.4704908539332382,
-      "weight_norm": 0.5054616427733266
+      "weight_norm": 0.5409779095367753
     },
     {
       "source": "Mox Opal",
       "target": "Ugin, Eye of the Storms",
       "weight": 1.463301524398315,
-      "weight_norm": 0.49615533329375683
+      "weight_norm": 0.5323399513897759
     },
     {
       "source": "Inspiring Vantage",
       "target": "Plateau",
       "weight": 1.4515597708567003,
-      "weight_norm": 0.4809560867214175
+      "weight_norm": 0.5182322692794813
     },
     {
       "source": "Lion's Eye Diamond",
       "target": "Narset, Parter of Veils",
       "weight": 1.445838981495181,
-      "weight_norm": 0.4735507457912084
+      "weight_norm": 0.5113587578021513
     },
     {
       "source": "Brain Freeze",
       "target": "Lion's Eye Diamond",
       "weight": 1.4436351225055943,
-      "weight_norm": 0.47069793542734945
+      "weight_norm": 0.5087108277522816
     },
     {
       "source": "Mox Opal",
       "target": "Saheeli, Sublime Artificer",
       "weight": 1.4176307910648656,
-      "weight_norm": 0.4370363324891122
+      "weight_norm": 0.47746670053088097
     },
     {
       "source": "Parallax Wave",
       "target": "Sage of the Skies",
       "weight": 1.4120269583685392,
-      "weight_norm": 0.4297823874459182
+      "weight_norm": 0.4707337121404454
     },
     {
       "source": "Saheeli, Sublime Artificer",
       "target": "Urza, Lord High Artificer",
       "weight": 1.4069839154083852,
-      "weight_norm": 0.4232543630622842
+      "weight_norm": 0.4646745109573972
     },
     {
       "source": "Barrowgoyf",
       "target": "Psychic Frog",
       "weight": 1.404831384775005,
-      "weight_norm": 0.42046799527357986
+      "weight_norm": 0.4620882517755149
     },
     {
       "source": "Echo of Eons",
       "target": "Frantic Search",
       "weight": 1.403291890019364,
-      "weight_norm": 0.4184751787573007
+      "weight_norm": 0.4602385533854003
     },
     {
       "source": "Chromatic Star",
       "target": "Urza's Bauble",
       "weight": 1.402980598714502,
-      "weight_norm": 0.4180722241831263
+      "weight_norm": 0.4598645378044118
     },
     {
       "source": "Raffine's Tower",
       "target": "Teferi, Time Raveler",
       "weight": 1.40197237727166,
-      "weight_norm": 0.4167671204560751
+      "weight_norm": 0.4586531627264058
     },
     {
       "source": "Meticulous Archive",
       "target": "Teferi, Time Raveler",
       "weight": 1.40081285774316,
-      "weight_norm": 0.41526616719925097
+      "weight_norm": 0.4572600034465095
     },
     {
       "source": "Celestial Colonnade",
       "target": "Time Walk",
       "weight": 1.3966657948729355,
-      "weight_norm": 0.40989795444532634
+      "weight_norm": 0.45227731968831447
     },
     {
       "source": "Baleful Strix",
       "target": "Gloomlake Verge",
       "weight": 1.3893896923239848,
-      "weight_norm": 0.4004793206496862
+      "weight_norm": 0.4435351040219153
     },
     {
       "source": "Badlands",
       "target": "Fire Covenant",
       "weight": 1.377362551760408,
-      "weight_norm": 0.3849106515971377
+      "weight_norm": 0.42908453024982796
     },
     {
       "source": "Jace, Vryn's Prodigy",
       "target": "Time Walk",
       "weight": 1.3769235437869285,
-      "weight_norm": 0.3843423727269937
+      "weight_norm": 0.428557063469693
     },
     {
       "source": "Subtlety",
       "target": "Teferi, Time Raveler",
       "weight": 1.370805218304916,
-      "weight_norm": 0.3764224366389682
+      "weight_norm": 0.4212059135207836
     },
     {
       "source": "Remand",
       "target": "Stock Up",
       "weight": 1.3639572638948274,
-      "weight_norm": 0.3675580240768934
+      "weight_norm": 0.4129781165753851
     },
     {
       "source": "Enduring Innocence",
       "target": "Giver of Runes",
       "weight": 1.363748050934793,
-      "weight_norm": 0.3672872059785215
+      "weight_norm": 0.4127267478234301
     },
     {
       "source": "Phlage, Titan of Fire's Fury",
       "target": "Sunbillow Verge",
       "weight": 1.362386426051381,
-      "weight_norm": 0.3655246351437084
+      "weight_norm": 0.41109075955808594
     },
     {
       "source": "Mother of Runes",
       "target": "Skyclave Apparition",
       "weight": 1.3557768441970734,
-      "weight_norm": 0.3569687866507529
+      "weight_norm": 0.403149366532584
     },
     {
       "source": "Ugin, Eye of the Storms",
       "target": "Urza, Lord High Artificer",
       "weight": 1.3556908451234957,
-      "weight_norm": 0.3568574641707103
+      "weight_norm": 0.4030460389003428
     },
     {
       "source": "Brain Freeze",
       "target": "Frantic Search",
       "weight": 1.3463455924603396,
-      "weight_norm": 0.34476039544884474
+      "weight_norm": 0.39181774549894166
     },
     {
       "source": "Balance",
       "target": "Floodfarm Verge",
       "weight": 1.3388052911205048,
-      "weight_norm": 0.3349997665199796
+      "weight_norm": 0.382758095767647
     },
     {
       "source": "Guide of Souls",
       "target": "Luminarch Aspirant",
       "weight": 1.327758735321985,
-      "weight_norm": 0.32070042658223136
+      "weight_norm": 0.36948569168704515
     },
     {
       "source": "Brain Freeze",
       "target": "Lotus Petal",
       "weight": 1.323394797690083,
-      "weight_norm": 0.31505147782355486
+      "weight_norm": 0.3642424335449091
     },
     {
       "source": "Celestial Colonnade",
       "target": "Swords to Plowshares",
       "weight": 1.3232331517975688,
-      "weight_norm": 0.3148422334573687
+      "weight_norm": 0.3640482164837229
     },
     {
       "source": "Flooded Strand",
       "target": "Fractured Identity",
       "weight": 1.3191074295476195,
-      "weight_norm": 0.3095016453123595
+      "weight_norm": 0.35909117341759406
     },
     {
       "source": "Blood Crypt",
       "target": "Fire Covenant",
       "weight": 1.3191046774761312,
-      "weight_norm": 0.3094980828620844
+      "weight_norm": 0.3590878668118504
     },
     {
       "source": "Kappa Cannoneer",
       "target": "Tezzeret, Cruel Captain",
       "weight": 1.3166148312079804,
-      "weight_norm": 0.3062750730090229
+      "weight_norm": 0.3560963238936582
     },
     {
       "source": "Mystic Confluence",
       "target": "No More Lies",
       "weight": 1.3014135810291256,
-      "weight_norm": 0.2865976416221894
+      "weight_norm": 0.33783206681806205
     },
     {
       "source": "Counterspell",
       "target": "Mana Leak",
       "weight": 1.296482546948605,
-      "weight_norm": 0.28021460840821383
+      "weight_norm": 0.33190744397221006
     },
     {
       "source": "Dack Fayden",
       "target": "Spirebluff Canal",
       "weight": 1.2942480174630755,
-      "weight_norm": 0.2773220962716446
+      "weight_norm": 0.32922266341228734
     },
     {
       "source": "Chromatic Star",
       "target": "Retrofitter Foundry",
       "weight": 1.2921835364264769,
-      "weight_norm": 0.27464970528609284
+      "weight_norm": 0.3267421955602037
     },
     {
       "source": "Time Spiral",
       "target": "Timetwister",
       "weight": 1.290052909632343,
-      "weight_norm": 0.27189169117151446
+      "weight_norm": 0.32418225377631377
     },
     {
       "source": "Glimmer Lens",
       "target": "Plateau",
       "weight": 1.2888812091312063,
-      "weight_norm": 0.270374970115959
+      "weight_norm": 0.322774459093865
     },
     {
       "source": "Laelia, the Blade Reforged",
       "target": "Pyrogoyf",
       "weight": 1.2820511934073209,
-      "weight_norm": 0.2615337784905032
+      "weight_norm": 0.31456821542681906
     },
     {
       "source": "Mox Opal",
       "target": "Tolarian Academy",
       "weight": 1.2804858311458749,
-      "weight_norm": 0.2595074774867878
+      "weight_norm": 0.3126874373050791
     },
     {
       "source": "Dack Fayden",
       "target": "Underworld Breach",
       "weight": 1.2799486989832731,
-      "weight_norm": 0.25881218064271905
+      "weight_norm": 0.3120420746022814
     },
     {
       "source": "Hullbreacher",
       "target": "Timetwister",
       "weight": 1.279927646011643,
-      "weight_norm": 0.2587849283838677
+      "weight_norm": 0.3120167795192105
     },
     {
       "source": "Mystic Confluence",
       "target": "Teferi, Hero of Dominaria",
       "weight": 1.27873339963252,
-      "weight_norm": 0.25723902255982856
+      "weight_norm": 0.3105818960311245
     },
     {
       "source": "Ancestral Recall",
       "target": "Mana Leak",
       "weight": 1.2767185349285466,
-      "weight_norm": 0.2546308580010121
+      "weight_norm": 0.3081610420557649
     },
     {
       "source": "Talisman of Creativity",
       "target": "Tolarian Academy",
       "weight": 1.2756868585078602,
-      "weight_norm": 0.2532953927108146
+      "weight_norm": 0.30692148589133456
     },
     {
       "source": "Echo of Eons",
       "target": "Hullbreacher",
       "weight": 1.2752543624009132,
-      "weight_norm": 0.2527355432004525
+      "weight_norm": 0.30640184309955526
     },
     {
       "source": "Brain Freeze",
       "target": "Timetwister",
       "weight": 1.274718605081087,
-      "weight_norm": 0.2520420260372696
+      "weight_norm": 0.3057581322662813
     },
     {
       "source": "Mishra's Bauble",
       "target": "Urza's Bauble",
       "weight": 1.2741370083319024,
-      "weight_norm": 0.2512891715027915
+      "weight_norm": 0.3050593454943738
     },
     {
       "source": "Collective Brutality",
       "target": "Necromancy",
       "weight": 1.2708190307636893,
-      "weight_norm": 0.2469941776586415
+      "weight_norm": 0.30107280527143865
     },
     {
       "source": "Cryptic Command",
       "target": "Subtlety",
       "weight": 1.2705847067607032,
-      "weight_norm": 0.24669085428478768
+      "weight_norm": 0.3007912656757366
     },
     {
       "source": "Hullbreacher",
       "target": "Mana Drain",
       "weight": 1.2704140537632485,
-      "weight_norm": 0.24646995056904955
+      "weight_norm": 0.30058622660463635
     },
     {
       "source": "Aether Spellbomb",
       "target": "Urza, Lord High Artificer",
       "weight": 1.269178565461237,
-      "weight_norm": 0.24487065866831617
+      "weight_norm": 0.2991017910683266
     },
     {
       "source": "Tamiyo, Collector of Tales",
       "target": "Time Walk",
       "weight": 1.268906211944058,
-      "weight_norm": 0.2445181075567826
+      "weight_norm": 0.29877455912393547
     },
     {
       "source": "Solitude",
       "target": "Voice of Victory",
       "weight": 1.2657218248704,
-      "weight_norm": 0.24039604144947097
+      "weight_norm": 0.2949485274846171
     },
     {
       "source": "Baleful Strix",
       "target": "Psychic Frog",
       "weight": 1.2614614360287486,
-      "weight_norm": 0.23488113260141835
+      "weight_norm": 0.28982968290733596
     },
     {
       "source": "Animate Dead",
       "target": "Archon of Cruelty",
       "weight": 1.2583904740320682,
-      "weight_norm": 0.23090589087654298
+      "weight_norm": 0.286139931162129
     },
     {
       "source": "Hallowed Fountain",
       "target": "Remand",
       "weight": 1.25837887317245,
-      "weight_norm": 0.23089087401171404
+      "weight_norm": 0.28612599276365036
     },
     {
       "source": "Miscalculation",
       "target": "Quantum Riddler",
       "weight": 1.2580357146844283,
-      "weight_norm": 0.23044666859943505
+      "weight_norm": 0.28571368885646137
     },
     {
       "source": "Tolarian Academy",
       "target": "Upheaval",
       "weight": 1.257312823677276,
-      "weight_norm": 0.22951091410384844
+      "weight_norm": 0.28484513745200957
     },
     {
       "source": "Glimmer Lens",
       "target": "Phlage, Titan of Fire's Fury",
       "weight": 1.253028651676677,
-      "weight_norm": 0.22396521887488355
+      "weight_norm": 0.2796977174796805
     },
     {
       "source": "Talisman of Progress",
       "target": "Tolarian Academy",
       "weight": 1.2522113608207943,
-      "weight_norm": 0.22290726742020053
+      "weight_norm": 0.27871574493651813
     },
     {
       "source": "Balance",
       "target": "Teferi, Hero of Dominaria",
       "weight": 1.251663326526672,
-      "weight_norm": 0.22219785818784502
+      "weight_norm": 0.278057283354982
     },
     {
       "source": "Animate Dead",
       "target": "Thoughtseize",
       "weight": 1.2514020545601228,
-      "weight_norm": 0.2218596517157073
+      "weight_norm": 0.2777433658608579
     },
     {
       "source": "Hallowed Fountain",
       "target": "Oust",
       "weight": 1.250968678577486,
-      "weight_norm": 0.2212986632402398
+      "weight_norm": 0.277222665901043
     },
     {
       "source": "Tezzeret, Cruel Captain",
       "target": "Tolarian Academy",
       "weight": 1.2491627881864793,
-      "weight_norm": 0.21896100786038114
+      "weight_norm": 0.27505289394389326
     },
     {
       "source": "Force of Will",
       "target": "Time Spiral",
       "weight": 1.24856015038501,
-      "weight_norm": 0.2181809164961839
+      "weight_norm": 0.2743288264099729
     },
     {
       "source": "Preordain",
       "target": "Tamiyo, Inquisitive Student",
       "weight": 1.248168824215891,
-      "weight_norm": 0.21767435988063527
+      "weight_norm": 0.2738586491765808
     },
     {
       "source": "Celestial Colonnade",
       "target": "Seachrome Coast",
       "weight": 1.247915809122784,
-      "weight_norm": 0.21734684161234358
+      "weight_norm": 0.27355465229144693
     },
     {
       "source": "Retrofitter Foundry",
       "target": "Talisman of Creativity",
       "weight": 1.247488834255249,
-      "weight_norm": 0.21679413913320747
+      "weight_norm": 0.27304164325247166
     },
     {
       "source": "Fiery Confluence",
       "target": "Fury",
       "weight": 1.244676668372063,
-      "weight_norm": 0.21315389898429113
+      "weight_norm": 0.26966283427127496
     },
     {
       "source": "Karakas",
       "target": "Ocelot Pride",
       "weight": 1.2430393705284453,
-      "weight_norm": 0.21103448014712126
+      "weight_norm": 0.26769562576057304
     },
     {
       "source": "Sacred Foundry",
       "target": "Showdown of the Skalds",
       "weight": 1.2429308591856174,
-      "weight_norm": 0.21089401640380634
+      "weight_norm": 0.2675652497034917
     },
     {
       "source": "Snapcaster Mage",
       "target": "Teferi, Hero of Dominaria",
       "weight": 1.2426167856877606,
-      "weight_norm": 0.2104874603882296
+      "weight_norm": 0.2671878913258585
     },
     {
       "source": "Hullbreacher",
       "target": "Steam Vents",
       "weight": 1.242406622532704,
-      "weight_norm": 0.21021541229909152
+      "weight_norm": 0.26693538091739805
     },
     {
       "source": "Emperor of Bones",
       "target": "Snuff Out",
       "weight": 1.2419128887825974,
-      "weight_norm": 0.20957629302424402
+      "weight_norm": 0.266342161278701
     },
     {
       "source": "Lightning Helix",
       "target": "Sanguine Evangelist",
       "weight": 1.2417243862482017,
-      "weight_norm": 0.20933228377216448
+      "weight_norm": 0.2661156760418226
     },
     {
       "source": "Force of Will",
       "target": "Teferi, Hero of Dominaria",
       "weight": 1.2415263868866666,
-      "weight_norm": 0.20907598124405644
+      "weight_norm": 0.2658777803952586
     },
     {
       "source": "Mystic Confluence",
       "target": "Quantum Riddler",
       "weight": 1.2403689418577597,
-      "weight_norm": 0.20757771334685227
+      "weight_norm": 0.2644871136204802
     },
     {
       "source": "Snapcaster Mage",
       "target": "Tamiyo, Inquisitive Student",
       "weight": 1.240357222480895,
-      "weight_norm": 0.20756254306602412
+      "weight_norm": 0.26447303282388096
     },
     {
       "source": "Animate Dead",
       "target": "Bitter Triumph",
       "weight": 1.2399165706220825,
-      "weight_norm": 0.20699213624979235
+      "weight_norm": 0.2639435909203864
     },
     {
       "source": "Mana Drain",
       "target": "Tamiyo, Inquisitive Student",
       "weight": 1.2391325120723826,
-      "weight_norm": 0.20597720273225573
+      "weight_norm": 0.2630015468946945
     },
     {
       "source": "Teferi, Time Raveler",
       "target": "Tundra",
       "weight": 1.231977662875389,
-      "weight_norm": 0.1967155267187378
+      "weight_norm": 0.2544050167716135
     },
     {
       "source": "Baleful Strix",
       "target": "Underground Sea",
       "weight": 1.2316217386609885,
-      "weight_norm": 0.19625479656658756
+      "weight_norm": 0.25397737488198247
     },
     {
       "source": "Mystical Tutor",
       "target": "Narset, Parter of Veils",
       "weight": 1.2300037540741864,
-      "weight_norm": 0.1941603779946178
+      "weight_norm": 0.2520333711921536
     },
     {
       "source": "Tinker",
       "target": "Tolarian Academy",
       "weight": 1.2294704610162084,
-      "weight_norm": 0.1934700507232442
+      "weight_norm": 0.2513926211621929
     },
     {
       "source": "Spirebluff Canal",
       "target": "Third Path Iconoclast",
       "weight": 1.2291360530881408,
-      "weight_norm": 0.19303717257293804
+      "weight_norm": 0.25099083102687625
     },
     {
       "source": "Death-Greeter's Champion",
       "target": "Fury",
       "weight": 1.227930752330991,
-      "weight_norm": 0.1914769572833888
+      "weight_norm": 0.24954266573632564
     },
     {
       "source": "Creeping Tar Pit",
       "target": "Toxic Deluge",
       "weight": 1.2279198643151603,
-      "weight_norm": 0.19146286316731762
+      "weight_norm": 0.2495295838175469
     },
     {
       "source": "Duress",
       "target": "Psychic Frog",
       "weight": 1.2277923714518946,
-      "weight_norm": 0.1912978285787341
+      "weight_norm": 0.24937640151986795
     },
     {
       "source": "Comet, Stellar Pup",
       "target": "Oust",
       "weight": 1.2276296753237184,
-      "weight_norm": 0.19108722472303646
+      "weight_norm": 0.24918092260364383
     },
     {
       "source": "Ocelot Pride",
       "target": "Swords to Plowshares",
       "weight": 1.2225615442958784,
-      "weight_norm": 0.18452672480451487
+      "weight_norm": 0.2430915781815623
     },
     {
       "source": "Entomb",
       "target": "Life // Death",
       "weight": 1.2217863434954137,
-      "weight_norm": 0.18352325730133673
+      "weight_norm": 0.24216017671534676
     },
     {
       "source": "Echo of Eons",
       "target": "Lion's Eye Diamond",
       "weight": 1.2210099766592424,
-      "weight_norm": 0.18251828040996074
+      "weight_norm": 0.24122737426068255
     },
     {
       "source": "Fractured Identity",
       "target": "Tundra",
       "weight": 1.2209934653227317,
-      "weight_norm": 0.18249690712240402
+      "weight_norm": 0.2412075359387587
     },
     {
       "source": "The Mightstone and Weakstone",
       "target": "Urza, Lord High Artificer",
       "weight": 1.220575254255062,
-      "weight_norm": 0.1819555490437948
+      "weight_norm": 0.24070505657937008
     },
     {
       "source": "Time Spiral",
       "target": "Tolarian Academy",
       "weight": 1.2194400984561091,
-      "weight_norm": 0.18048613369410638
+      "weight_norm": 0.23934117024837803
     },
     {
       "source": "Remand",
       "target": "Snapcaster Mage",
       "weight": 1.218254620676814,
-      "weight_norm": 0.17895157848396018
+      "weight_norm": 0.23791682220701937
     },
     {
       "source": "Force of Negation",
       "target": "Snapcaster Mage",
       "weight": 1.2179149883983789,
-      "weight_norm": 0.17851193761383255
+      "weight_norm": 0.23750875503020671
     },
     {
       "source": "Dack Fayden",
       "target": "Volcanic Island",
       "weight": 1.2177903559101415,
-      "weight_norm": 0.1783506056702749
+      "weight_norm": 0.23735900946465419
     },
     {
       "source": "Mystic Confluence",
       "target": "Time Spiral",
       "weight": 1.2166967752818807,
-      "weight_norm": 0.17693500777369495
+      "weight_norm": 0.23604507557813537
     },
     {
       "source": "Time Spiral",
       "target": "Urza, Lord High Artificer",
       "weight": 1.2152676713195596,
-      "weight_norm": 0.17508508787682078
+      "weight_norm": 0.23432801139930268
     },
     {
       "source": "Grim Monolith",
       "target": "Tinker",
       "weight": 1.2150373657195876,
-      "weight_norm": 0.17478696617050513
+      "weight_norm": 0.2340512999029227
     },
     {
       "source": "Consult the Star Charts",
       "target": "Narset, Parter of Veils",
       "weight": 1.2148016079873267,
-      "weight_norm": 0.17448178688946592
+      "weight_norm": 0.23376803768574253
     },
     {
       "source": "Fractured Identity",
       "target": "Tamiyo, Inquisitive Student",
       "weight": 1.2144690523936357,
-      "weight_norm": 0.17405130651448558
+      "weight_norm": 0.23336847312469414
     },
     {
       "source": "Lion's Eye Diamond",
       "target": "Wheel of Fortune",
       "weight": 1.2123128693532557,
-      "weight_norm": 0.17126021082595136
+      "weight_norm": 0.23077782558661725
     },
     {
       "source": "Riverpyre Verge",
       "target": "Wheel of Fortune",
       "weight": 1.2114811714892857,
-      "weight_norm": 0.1701836100556009
+      "weight_norm": 0.2297785430659005
     },
     {
       "source": "Ancestral Recall",
       "target": "Memory Lapse",
       "weight": 1.208038591332706,
-      "weight_norm": 0.16572732297212148
+      "weight_norm": 0.22564229320201903
     },
     {
       "source": "Nadu, Winged Wisdom",
       "target": "Oko, Thief of Crowns",
       "weight": 1.20744825700816,
-      "weight_norm": 0.16496315798372416
+      "weight_norm": 0.2249330082591887
     },
     {
       "source": "Retrofitter Foundry",
       "target": "Tolarian Academy",
       "weight": 1.2063265218563886,
-      "weight_norm": 0.16351111514359748
+      "weight_norm": 0.22358524679604375
     },
     {
       "source": "Floodfarm Verge",
       "target": "Teferi, Time Raveler",
       "weight": 1.204292767365136,
-      "weight_norm": 0.1608784984845444
+      "weight_norm": 0.22114169679720522
     },
     {
       "source": "Narset, Parter of Veils",
       "target": "Remand",
       "weight": 1.2034712812427262,
-      "weight_norm": 0.15981511641933502
+      "weight_norm": 0.22015468365373372
     },
     {
       "source": "Ponder",
       "target": "Remand",
       "weight": 1.203175920577284,
-      "weight_norm": 0.1594327834427558
+      "weight_norm": 0.21979980868883395
     },
     {
       "source": "Retrofitter Foundry",
       "target": "The Mightstone and Weakstone",
       "weight": 1.2028957484253036,
-      "weight_norm": 0.15907011141037478
+      "weight_norm": 0.2194631826778817
     },
     {
       "source": "Brain Freeze",
       "target": "Narset, Parter of Veils",
       "weight": 1.2005660259754398,
-      "weight_norm": 0.1560543756571847
+      "weight_norm": 0.21666402805319906
     },
     {
       "source": "Celestial Colonnade",
       "target": "Teferi, Hero of Dominaria",
       "weight": 1.200414695538111,
-      "weight_norm": 0.15585848424942272
+      "weight_norm": 0.2164822049808717
     },
     {
       "source": "Upheaval",
       "target": "Urza's Saga",
       "weight": 1.1993524563607942,
-      "weight_norm": 0.15448345665089455
+      "weight_norm": 0.21520592775485314
     },
     {
       "source": "Time Spiral",
       "target": "Wheel of Fortune",
       "weight": 1.198457815498999,
-      "weight_norm": 0.15332537860029322
+      "weight_norm": 0.21413101940863777
     },
     {
       "source": "Celestial Colonnade",
       "target": "No More Lies",
       "weight": 1.197681392168083,
-      "weight_norm": 0.1523203285786514
+      "weight_norm": 0.21319814907570486
     },
     {
       "source": "Phlage, Titan of Fire's Fury",
       "target": "Sunbaked Canyon",
       "weight": 1.1960010638865368,
-      "weight_norm": 0.1501452085011283
+      "weight_norm": 0.2111792396212547
     },
     {
       "source": "Creeping Tar Pit",
       "target": "Psychic Frog",
       "weight": 1.195927367174467,
-      "weight_norm": 0.1500498109530236
+      "weight_norm": 0.21109069323993526
     },
     {
       "source": "Hullbreacher",
       "target": "Snapcaster Mage",
       "weight": 1.1936710359054687,
-      "weight_norm": 0.1471290772495918
+      "weight_norm": 0.20837971790173482
     },
     {
       "source": "Psychic Frog",
       "target": "Spell Pierce",
       "weight": 1.1911465447870555,
-      "weight_norm": 0.14386122097561593
+      "weight_norm": 0.20534654929854348
     },
     {
       "source": "Entomb",
       "target": "Necromancy",
       "weight": 1.1887158551131372,
-      "weight_norm": 0.14071478704955998
+      "weight_norm": 0.20242608285314576
     },
     {
       "source": "Sanguine Evangelist",
       "target": "Sunbaked Canyon",
       "weight": 1.1866873509183065,
-      "weight_norm": 0.13808896669649398
+      "weight_norm": 0.19998884106991077
     },
     {
       "source": "Retrofitter Foundry",
       "target": "Third Path Iconoclast",
       "weight": 1.185106278882058,
-      "weight_norm": 0.13604232999590243
+      "weight_norm": 0.1980891877002659
     },
     {
       "source": "Hullbreacher",
       "target": "Time Spiral",
       "weight": 1.1841561045800668,
-      "weight_norm": 0.13481236605129385
+      "weight_norm": 0.19694755609010176
     },
     {
       "source": "Malcolm, Alluring Scoundrel",
       "target": "Mana Leak",
       "weight": 1.1822041355097326,
-      "weight_norm": 0.13228561746161852
+      "weight_norm": 0.19460227103231165
     },
     {
       "source": "Retrofitter Foundry",
       "target": "Saheeli, Sublime Artificer",
       "weight": 1.1816845867464767,
-      "weight_norm": 0.13161308164905078
+      "weight_norm": 0.19397803473175967
     },
     {
       "source": "Balance",
       "target": "Flooded Strand",
       "weight": 1.180214752010614,
-      "weight_norm": 0.12971043733857474
+      "weight_norm": 0.19221203264912978
     },
     {
       "source": "Animate Dead",
       "target": "Emperor of Bones",
       "weight": 1.1782444703644797,
-      "weight_norm": 0.12715998382663415
+      "weight_norm": 0.1898447450857434
     },
     {
       "source": "Kytheon, Hero of Akros",
       "target": "Parallax Wave",
       "weight": 1.177933294372439,
-      "weight_norm": 0.1267571785204543
+      "weight_norm": 0.18947086805276817
     },
     {
       "source": "Echo of Eons",
       "target": "Wheel of Fortune",
       "weight": 1.1774938430048631,
-      "weight_norm": 0.12618832569377347
+      "weight_norm": 0.18894286853593945
     },
     {
       "source": "Memory Lapse",
       "target": "Otawara, Soaring City",
       "weight": 1.1770960858393045,
-      "weight_norm": 0.12567344440165518
+      "weight_norm": 0.18846496447936853
     },
     {
       "source": "Reprieve",
       "target": "Witch Enchanter",
       "weight": 1.176538385008987,
-      "weight_norm": 0.12495152221145156
+      "weight_norm": 0.18779488858321886
     },
     {
       "source": "Counterspell",
       "target": "Narset, Parter of Veils",
       "weight": 1.175973045555324,
-      "weight_norm": 0.12421971211827909
+      "weight_norm": 0.18711563490373906
     },
     {
       "source": "Brazen Borrower",
       "target": "Spell Pierce",
       "weight": 1.1754198836886394,
-      "weight_norm": 0.12350366544123417
+      "weight_norm": 0.18645101255895347
     },
     {
       "source": "Mana Leak",
       "target": "Preordain",
       "weight": 1.1747645084636922,
-      "weight_norm": 0.12265530751870833
+      "weight_norm": 0.18566358116689186
     },
     {
       "source": "Miscalculation",
       "target": "Stock Up",
       "weight": 1.174300060355211,
-      "weight_norm": 0.12205409737613093
+      "weight_norm": 0.18510554813988628
     },
     {
       "source": "Glimmer Lens",
       "target": "Thraben Inspector",
       "weight": 1.174041110682151,
-      "weight_norm": 0.1217188970232435
+      "weight_norm": 0.18479442087451245
     },
     {
       "source": "Daze",
       "target": "Subtlety",
       "weight": 1.173376018879137,
-      "weight_norm": 0.12085796136559884
+      "weight_norm": 0.18399531504267655
     },
     {
       "source": "Mother of Runes",
       "target": "Showdown of the Skalds",
       "weight": 1.172442637008613,
-      "weight_norm": 0.11964973457511437
+      "weight_norm": 0.18287385948919427
     },
     {
       "source": "Frantic Search",
       "target": "Underworld Breach",
       "weight": 1.1720571812851075,
-      "weight_norm": 0.1191507770247353
+      "weight_norm": 0.18241073557882298
     },
     {
       "source": "Tezzeret, Cruel Captain",
       "target": "The Mightstone and Weakstone",
       "weight": 1.1707179796781335,
-      "weight_norm": 0.11741723225543572
+      "weight_norm": 0.18080168881371889
     },
     {
       "source": "Daze",
       "target": "Stock Up",
       "weight": 1.170645493513395,
-      "weight_norm": 0.1173234017141082
+      "weight_norm": 0.18071459690143327
     },
     {
       "source": "Grim Monolith",
       "target": "Tolarian Academy",
       "weight": 1.1702160721964865,
-      "weight_norm": 0.1167675324007234
+      "weight_norm": 0.18019864846078018
     },
     {
       "source": "Baleful Strix",
       "target": "Toxic Deluge",
       "weight": 1.1691709026133998,
-      "weight_norm": 0.11541460073281355
+      "weight_norm": 0.1789428803016822
     },
     {
       "source": "Force of Negation",
       "target": "Teferi, Time Raveler",
       "weight": 1.1691589737849095,
-      "weight_norm": 0.11539915932494368
+      "weight_norm": 0.178928547849575
     },
     {
       "source": "Stock Up",
       "target": "Teferi, Time Raveler",
       "weight": 1.1686291491310994,
-      "weight_norm": 0.114713321768839
+      "weight_norm": 0.17829196509695128
     },
     {
       "source": "Miscalculation",
       "target": "Teferi, Hero of Dominaria",
       "weight": 1.165297457349422,
-      "weight_norm": 0.1104005754049097
+      "weight_norm": 0.1742889472871495
     },
     {
       "source": "Remand",
       "target": "Time Spiral",
       "weight": 1.1650788387891529,
-      "weight_norm": 0.11011758212021483
+      "weight_norm": 0.17402627773436463
     },
     {
       "source": "Mana Drain",
       "target": "Time Spiral",
       "weight": 1.16505327541051,
-      "weight_norm": 0.1100844913136469
+      "weight_norm": 0.1739955634106242
     },
     {
       "source": "Counterspell",
       "target": "Stock Up",
       "weight": 1.1638823667658271,
-      "weight_norm": 0.10856879528569464
+      "weight_norm": 0.1725887201413597
     },
     {
       "source": "Mystic Confluence",
       "target": "Snapcaster Mage",
       "weight": 1.1631326388817735,
-      "weight_norm": 0.1075983014892185
+      "weight_norm": 0.17168792430878108
     },
     {
       "source": "Oust",
       "target": "Staff of the Storyteller",
       "weight": 1.162727468712204,
-      "weight_norm": 0.10707382434964834
+      "weight_norm": 0.1712011135498427
     },
     {
       "source": "Glimmer Lens",
       "target": "Solitude",
       "weight": 1.1610643682834254,
-      "weight_norm": 0.10492100506230932
+      "weight_norm": 0.16920290330947713
     },
     {
       "source": "Deep-Cavern Bat",
       "target": "Thoughtseize",
       "weight": 1.1609464962430498,
-      "weight_norm": 0.10476842425746583
+      "weight_norm": 0.16906128040201127
     },
     {
       "source": "Force of Will",
       "target": "Mana Drain",
       "weight": 1.1598313447390085,
-      "weight_norm": 0.10332490369510969
+      "weight_norm": 0.16772142917211838
     },
     {
       "source": "Counterspell",
       "target": "Spell Pierce",
       "weight": 1.158992602636527,
-      "weight_norm": 0.1022391844300069
+      "weight_norm": 0.1667136830196895
     },
     {
       "source": "Counterspell",
       "target": "Tamiyo, Inquisitive Student",
       "weight": 1.158378111893071,
-      "weight_norm": 0.10144374989008867
+      "weight_norm": 0.16597537421107153
     },
     {
       "source": "Force of Will",
       "target": "Hullbreacher",
       "weight": 1.1574461454385576,
-      "weight_norm": 0.10023735530097613
+      "weight_norm": 0.16485561927573464
     },
     {
       "source": "Urza's Bauble",
       "target": "Urza, Lord High Artificer",
       "weight": 1.157309472430481,
-      "weight_norm": 0.1000604373694103
+      "weight_norm": 0.16469140706125002
     },
     {
       "source": "Mystical Tutor",
       "target": "Tinker",
       "weight": 1.157153744275618,
-      "weight_norm": 0.09985885328611027
+      "weight_norm": 0.16450430014432774
     },
     {
       "source": "Barrowgoyf",
       "target": "Thoughtseize",
       "weight": 1.1570575962566003,
-      "weight_norm": 0.09973439338807963
+      "weight_norm": 0.16438877858419387
     },
     {
       "source": "Consult the Star Charts",
       "target": "Remand",
       "weight": 1.1562712431007809,
-      "weight_norm": 0.09871648959152343
+      "weight_norm": 0.1634439775960442
     },
     {
       "source": "Phlage, Titan of Fire's Fury",
       "target": "Staff of the Storyteller",
       "weight": 1.155966102079407,
-      "weight_norm": 0.09832149632184187
+      "weight_norm": 0.16307735156245418
     },
     {
       "source": "Brain Freeze",
       "target": "Dack Fayden",
       "weight": 1.1553022038255245,
-      "weight_norm": 0.09746210566746116
+      "weight_norm": 0.16227967977636545
     },
     {
       "source": "Mox Opal",
       "target": "Upheaval",
       "weight": 1.1551252805403431,
-      "weight_norm": 0.09723308530637716
+      "weight_norm": 0.1620671069731294
     },
     {
       "source": "Giver of Runes",
       "target": "Sanguine Evangelist",
       "weight": 1.1542819950565566,
-      "weight_norm": 0.09614148480960982
+      "weight_norm": 0.1610539019615166
     },
     {
       "source": "Flash",
       "target": "Mystical Tutor",
       "weight": 1.1542648162541571,
-      "weight_norm": 0.0961192475132331
+      "weight_norm": 0.16103326168130389
     },
     {
       "source": "Baleful Strix",
       "target": "Thoughtseize",
       "weight": 1.1528872662613736,
-      "weight_norm": 0.09433606223925899
+      "weight_norm": 0.15937813944420778
     },
     {
       "source": "Saheeli, Sublime Artificer",
       "target": "Tinker",
       "weight": 1.1521324536794662,
-      "weight_norm": 0.09335898649774772
+      "weight_norm": 0.15847123436221466
     },
     {
       "source": "Mystic Confluence",
       "target": "Ponder",
       "weight": 1.1516553731428285,
-      "weight_norm": 0.09274142416470098
+      "weight_norm": 0.15789802351018659
     },
     {
       "source": "Daze",
       "target": "Ponder",
       "weight": 1.1515335600998875,
-      "weight_norm": 0.09258374188421148
+      "weight_norm": 0.1577516654998086
     },
     {
       "source": "Ancestral Recall",
       "target": "Narset, Parter of Veils",
       "weight": 1.1513636904427216,
-      "weight_norm": 0.09236385217222996
+      "weight_norm": 0.15754756760974575
     },
     {
       "source": "Fractured Identity",
       "target": "Hallowed Fountain",
       "weight": 1.1487737900333148,
-      "weight_norm": 0.08901132609672839
+      "weight_norm": 0.15443580993711722
     },
     {
       "source": "Containment Priest",
       "target": "Mother of Runes",
       "weight": 1.1485435868927691,
-      "weight_norm": 0.08871333702018375
+      "weight_norm": 0.15415922154543454
     },
     {
       "source": "Fire Covenant",
       "target": "Psychic Frog",
       "weight": 1.14834390476725,
-      "weight_norm": 0.0884548562190752
+      "weight_norm": 0.15391930406292656
     },
     {
       "source": "Hullbreacher",
       "target": "Memory Lapse",
       "weight": 1.148126608909607,
-      "weight_norm": 0.08817357512185596
+      "weight_norm": 0.1536582237334301
     },
     {
       "source": "Luminarch Aspirant",
       "target": "Sunbaked Canyon",
       "weight": 1.14761716498063,
-      "weight_norm": 0.0875141196270817
+      "weight_norm": 0.15304612836134152
     },
     {
       "source": "Counterspell",
       "target": "Force of Will",
       "weight": 1.1469391121976038,
-      "weight_norm": 0.08663640648127692
+      "weight_norm": 0.15223144995040142
     },
     {
       "source": "Tolarian Academy",
       "target": "Urza's Saga",
       "weight": 1.1458078263237983,
-      "weight_norm": 0.08517200060026148
+      "weight_norm": 0.1508722133230143
     },
     {
       "source": "Miscalculation",
       "target": "Time Walk",
       "weight": 1.1452702652004574,
-      "weight_norm": 0.08447614848307944
+      "weight_norm": 0.15022633522515877
     },
     {
       "source": "Barrowgoyf",
       "target": "Deep-Cavern Bat",
       "weight": 1.143367549999304,
-      "weight_norm": 0.08201315712520657
+      "weight_norm": 0.14794022854533764
     },
     {
       "source": "Psychic Frog",
       "target": "Underground Sea",
       "weight": 1.1422207192967408,
-      "weight_norm": 0.08052862906360088
+      "weight_norm": 0.14656231485223006
     },
     {
       "source": "Third Path Iconoclast",
       "target": "Thundering Falls",
       "weight": 1.1415097014550035,
-      "weight_norm": 0.07960824392218255
+      "weight_norm": 0.14570802902086535
     },
     {
       "source": "No More Lies",
       "target": "Teferi, Hero of Dominaria",
       "weight": 1.140948671084941,
-      "weight_norm": 0.07888201177134334
+      "weight_norm": 0.14503395269257152
     },
     {
       "source": "Mana Drain",
       "target": "Memory Lapse",
       "weight": 1.1407888422256245,
-      "weight_norm": 0.07867511948447001
+      "weight_norm": 0.14484191879139166
     },
     {
       "source": "Mana Leak",
       "target": "Stock Up",
       "weight": 1.1389990103080248,
-      "weight_norm": 0.07635825117836685
+      "weight_norm": 0.14269144104248774
     },
     {
       "source": "Bitter Triumph",
       "target": "Snuff Out",
       "weight": 1.1386240684158666,
-      "weight_norm": 0.07587290337669367
+      "weight_norm": 0.14224094946934643
     },
     {
       "source": "Guide of Souls",
       "target": "Showdown of the Skalds",
       "weight": 1.1383710459538705,
-      "weight_norm": 0.07554537556965964
+      "weight_norm": 0.14193694373051416
     },
     {
       "source": "The Mightstone and Weakstone",
       "target": "Tolarian Academy",
       "weight": 1.138285202894569,
-      "weight_norm": 0.07543425504407335
+      "weight_norm": 0.14183380354896377
     },
     {
       "source": "Subtlety",
       "target": "Tamiyo, Inquisitive Student",
       "weight": 1.138024841982442,
-      "weight_norm": 0.0750972278967063
+      "weight_norm": 0.14152098068403002
     },
     {
       "source": "Psychic Frog",
       "target": "Tamiyo, Inquisitive Student",
       "weight": 1.1379412593221965,
-      "weight_norm": 0.07498903337041683
+      "weight_norm": 0.14142055636525205
     },
     {
       "source": "Force of Negation",
       "target": "Force of Will",
       "weight": 1.1379353651543482,
-      "weight_norm": 0.07498140359773027
+      "weight_norm": 0.14141347454003633
     },
     {
       "source": "Remand",
       "target": "Scalding Tarn",
       "weight": 1.137781405704347,
-      "weight_norm": 0.07478210903457853
+      "weight_norm": 0.1412284927167681
     },
     {
       "source": "Polluted Delta",
       "target": "Tamiyo, Inquisitive Student",
       "weight": 1.1373221332031476,
-      "weight_norm": 0.07418759851578048
+      "weight_norm": 0.14067667816658552
     },
     {
       "source": "Celestial Colonnade",
       "target": "Hallowed Fountain",
       "weight": 1.1367374862973798,
-      "weight_norm": 0.07343079567138204
+      "weight_norm": 0.13997422664057568
     },
     {
       "source": "Balance",
       "target": "Teferi, Time Raveler",
       "weight": 1.1357551031887858,
-      "weight_norm": 0.072159138670313
+      "weight_norm": 0.13879389624465585
     },
     {
       "source": "Force of Will",
       "target": "Polluted Delta",
       "weight": 1.1347771972858025,
-      "weight_norm": 0.07089327723902755
+      "weight_norm": 0.13761894519801926
     },
     {
       "source": "Seachrome Coast",
       "target": "Teferi, Hero of Dominaria",
       "weight": 1.1346038204003457,
-      "weight_norm": 0.07066884755544896
+      "weight_norm": 0.13741063338355058
     },
     {
       "source": "Force of Negation",
       "target": "Narset, Parter of Veils",
       "weight": 1.131665176225768,
-      "weight_norm": 0.06686488614206415
+      "weight_norm": 0.1338798611097773
     },
     {
       "source": "Balance",
       "target": "Mystic Confluence",
       "weight": 1.130489874621021,
-      "weight_norm": 0.0653435035969356
+      "weight_norm": 0.1324677397120045
     },
     {
       "source": "Hallowed Fountain",
       "target": "Mana Leak",
       "weight": 1.1296226412753505,
-      "weight_norm": 0.06422090351766427
+      "weight_norm": 0.13142576141525308
     },
     {
       "source": "Fractured Identity",
       "target": "Seachrome Coast",
       "weight": 1.1289358765254387,
-      "weight_norm": 0.06333191306712335
+      "weight_norm": 0.1306006156018979
     },
     {
       "source": "Solitude",
       "target": "Witch Enchanter",
       "weight": 1.1271570508666182,
-      "weight_norm": 0.061029291938022506
+      "weight_norm": 0.12846336184032525
     },
     {
       "source": "Force of Negation",
       "target": "Stock Up",
       "weight": 1.126992120833401,
-      "weight_norm": 0.060815796378507724
+      "weight_norm": 0.12826519889380952
     },
     {
       "source": "Force of Negation",
       "target": "Sink into Stupor",
       "weight": 1.126077750814135,
-      "weight_norm": 0.0596321796953673
+      "weight_norm": 0.12716658602331535
     },
     {
       "source": "Ancestral Recall",
       "target": "Counterspell",
       "weight": 1.1257642908562844,
-      "weight_norm": 0.05922641788363771
+      "weight_norm": 0.1267899648121827
     },
     {
       "source": "Fury",
       "target": "Laelia, the Blade Reforged",
       "weight": 1.125752134616551,
-      "weight_norm": 0.059210682100694925
+      "weight_norm": 0.12677535912614052
     },
     {
       "source": "Toxic Deluge",
       "target": "Undercity Sewers",
       "weight": 1.1257353878269545,
-      "weight_norm": 0.05918900402821009
+      "weight_norm": 0.12675523790803114
     },
     {
       "source": "Ajani, Nacatl Pariah",
       "target": "Reprieve",
       "weight": 1.1249632821494409,
-      "weight_norm": 0.058189543042179305
+      "weight_norm": 0.12582755522287595
     },
     {
       "source": "Phlage, Titan of Fire's Fury",
       "target": "Plateau",
       "weight": 1.1245461395120775,
-      "weight_norm": 0.05764956800534593
+      "weight_norm": 0.1253263595793364
     },
     {
       "source": "Dack Fayden",
       "target": "Hullbreacher",
       "weight": 1.124289395800714,
-      "weight_norm": 0.05731722318469545
+      "weight_norm": 0.12501788277040873
     },
     {
       "source": "Duress",
       "target": "Toxic Deluge",
       "weight": 1.122860147574157,
-      "weight_norm": 0.05546711654333844
+      "weight_norm": 0.12330064525852383
     },
     {
       "source": "Mana Leak",
       "target": "Miscalculation",
       "weight": 1.1222513010582331,
-      "weight_norm": 0.05467898823801842
+      "weight_norm": 0.12256911797257174
     },
     {
       "source": "Echo of Eons",
       "target": "Stock Up",
       "weight": 1.1216496349513414,
-      "weight_norm": 0.05390015469493171
+      "weight_norm": 0.1218462179268091
     },
     {
       "source": "Lion's Eye Diamond",
       "target": "Underworld Breach",
       "weight": 1.121111806953415,
-      "weight_norm": 0.053203957118903585
+      "weight_norm": 0.12120001917992931
     },
     {
       "source": "Mox Opal",
       "target": "Tinker",
       "weight": 1.1204052966680635,
-      "weight_norm": 0.052289406835175425
+      "weight_norm": 0.1203511491642144
     },
     {
       "source": "Elite Spellbinder",
       "target": "Mother of Runes",
       "weight": 1.120329187590319,
-      "weight_norm": 0.05219088657285401
+      "weight_norm": 0.12025970433268027
     },
     {
       "source": "Echo of Eons",
       "target": "Force of Negation",
       "weight": 1.1202711982518294,
-      "weight_norm": 0.052115821613336194
+      "weight_norm": 0.12019003031420446
     },
     {
       "source": "Celestial Colonnade",
       "target": "Floodfarm Verge",
       "weight": 1.1187620138120506,
-      "weight_norm": 0.05016224063056069
+      "weight_norm": 0.11837674967884255
     },
     {
       "source": "Adeline, Resplendent Cathar",
       "target": "Ocelot Pride",
       "weight": 1.1176545791986026,
-      "weight_norm": 0.04872870928510323
+      "weight_norm": 0.11704617027014598
     },
     {
       "source": "Cryptic Command",
       "target": "Memory Lapse",
       "weight": 1.1176067164468633,
-      "weight_norm": 0.048666752801113176
+      "weight_norm": 0.11698866331566352
     },
     {
       "source": "Ajani, Nacatl Pariah",
       "target": "Luminarch Aspirant",
       "weight": 1.1174464279217309,
-      "weight_norm": 0.048459265494590405
+      "weight_norm": 0.11679607712736709
     },
     {
       "source": "Sage of the Skies",
       "target": "Voice of Victory",
       "weight": 1.116968707273949,
-      "weight_norm": 0.04784087456238412
+      "weight_norm": 0.11622209718369463
     },
     {
       "source": "Fractured Identity",
       "target": "Teferi, Hero of Dominaria",
       "weight": 1.1154708492377792,
-      "weight_norm": 0.045901955171731214
+      "weight_norm": 0.11442242518872896
     },
     {
       "source": "Baleful Strix",
       "target": "Booster Tutor",
       "weight": 1.1153675807340744,
-      "weight_norm": 0.045768278081218056
+      "weight_norm": 0.11429834838732876
     },
     {
       "source": "Soul-Guide Lantern",
       "target": "Urza, Lord High Artificer",
       "weight": 1.115355096592819,
-      "weight_norm": 0.04575211784241618
+      "weight_norm": 0.11428334872857869
     },
     {
       "source": "Bloodstained Mire",
       "target": "Psychic Frog",
       "weight": 1.1151850806583796,
-      "weight_norm": 0.04553203878015248
+      "weight_norm": 0.114079075086805
     },
     {
       "source": "Timetwister",
       "target": "Upheaval",
       "weight": 1.114768128391017,
-      "weight_norm": 0.04499231016993415
+      "weight_norm": 0.11357810817225751
     },
     {
       "source": "Guide of Souls",
       "target": "Mother of Runes",
       "weight": 1.1147423122364577,
-      "weight_norm": 0.04495889215470292
+      "weight_norm": 0.11354709013900202
     },
     {
       "source": "Narset, Parter of Veils",
       "target": "Time Spiral",
       "weight": 1.114689174792916,
-      "weight_norm": 0.0448901077858476
+      "weight_norm": 0.11348324565793846
     },
     {
       "source": "Polluted Delta",
       "target": "Thoughtseize",
       "weight": 1.1140757997256598,
-      "weight_norm": 0.044096117445690204
+      "weight_norm": 0.11274627733097084
     },
     {
       "source": "Gitaxian Probe",
       "target": "Spell Pierce",
       "weight": 1.113905517044632,
-      "weight_norm": 0.04387569309026752
+      "weight_norm": 0.11254168319396086
     },
     {
       "source": "Mystic Confluence",
       "target": "Shelldock Isle",
       "weight": 1.1138870027963306,
-      "weight_norm": 0.043851727110736746
+      "weight_norm": 0.11251943837945161
     },
     {
       "source": "Time Spiral",
       "target": "Time Walk",
       "weight": 1.1137115725108482,
-      "weight_norm": 0.043624639380113496
+      "weight_norm": 0.11230865941093279
     },
     {
       "source": "Brazen Borrower",
       "target": "Daze",
       "weight": 1.1125136527836292,
-      "weight_norm": 0.042073978548804104
+      "weight_norm": 0.11086936240598716
     },
     {
       "source": "Currency Converter",
       "target": "Urza, Lord High Artificer",
       "weight": 1.1120922346594553,
-      "weight_norm": 0.04152846905938487
+      "weight_norm": 0.11036302977770537
     },
     {
       "source": "Underworld Breach",
       "target": "Wheel of Fortune",
       "weight": 1.1119946645465546,
-      "weight_norm": 0.041402168315734234
+      "weight_norm": 0.1102457995759821
     },
     {
       "source": "Mystic Confluence",
       "target": "Sink into Stupor",
       "weight": 1.1115670181374389,
-      "weight_norm": 0.040848596551952186
+      "weight_norm": 0.10973198368178609
     },
     {
       "source": "Floodfarm Verge",
       "target": "Oust",
       "weight": 1.1114802840054134,
-      "weight_norm": 0.04073632256713212
+      "weight_norm": 0.1096277728789967
     },
     {
       "source": "Fire Covenant",
       "target": "Thoughtseize",
       "weight": 1.1110974117764034,
-      "weight_norm": 0.040240709250620274
+      "weight_norm": 0.10916775302961136
     },
     {
       "source": "Psychic Frog",
       "target": "Thoughtseize",
       "weight": 1.1101307038345365,
-      "weight_norm": 0.038989343147610274
+      "weight_norm": 0.10800625630009643
     },
     {
       "source": "Echo of Eons",
       "target": "Memory Lapse",
       "weight": 1.1091768607911232,
-      "weight_norm": 0.037754630158892966
+      "weight_norm": 0.10686021670797773
     },
     {
       "source": "Thoughtseize",
       "target": "Toxic Deluge",
       "weight": 1.1087495207516476,
-      "weight_norm": 0.03720145497878011
+      "weight_norm": 0.10634676891599706
     },
     {
       "source": "Oust",
       "target": "Teferi, Time Raveler",
       "weight": 1.1087066487052002,
-      "weight_norm": 0.03714595877008309
+      "weight_norm": 0.10629525827914425
     },
     {
       "source": "Dismember",
       "target": "Psychic Frog",
       "weight": 1.108085517095034,
-      "weight_norm": 0.03634192788463379
+      "weight_norm": 0.1055489704888389
     },
     {
       "source": "Cryptic Command",
       "target": "Teferi, Hero of Dominaria",
       "weight": 1.1072146130587526,
-      "weight_norm": 0.03521457623810408
+      "weight_norm": 0.10450258186818831
     },
     {
       "source": "Counterspell",
       "target": "Teferi, Hero of Dominaria",
       "weight": 1.1071024384504164,
-      "weight_norm": 0.035069370539039316
+      "weight_norm": 0.10436780440844654
     },
     {
       "source": "Atraxa, Grand Unifier",
       "target": "Necromancy",
       "weight": 1.1070768311783037,
-      "weight_norm": 0.03503622291406938
+      "weight_norm": 0.10433703734683192
     },
     {
       "source": "Daze",
       "target": "Snapcaster Mage",
       "weight": 1.1064633994794804,
-      "weight_norm": 0.034242159266534955
+      "weight_norm": 0.10360000097720398
     },
     {
       "source": "Kappa Cannoneer",
       "target": "Tinker",
       "weight": 1.1063397242451507,
-      "weight_norm": 0.03408206645119813
+      "weight_norm": 0.10345140554938691
     },
     {
       "source": "Mox Opal",
       "target": "Retrofitter Foundry",
       "weight": 1.106189798062447,
-      "weight_norm": 0.033887992796825694
+      "weight_norm": 0.10327126968483345
     },
     {
       "source": "Fractured Identity",
       "target": "Karakas",
       "weight": 1.1061101345428348,
-      "weight_norm": 0.03378487144675507
+      "weight_norm": 0.10317555420192075
     },
     {
       "source": "Counterspell",
       "target": "Malcolm, Alluring Scoundrel",
       "weight": 1.1061033520001562,
-      "weight_norm": 0.03377609170715364
+      "weight_norm": 0.10316740499697702
     },
     {
       "source": "Brazen Borrower",
       "target": "Tamiyo, Inquisitive Student",
       "weight": 1.1028113637700008,
-      "weight_norm": 0.029514740057586433
+      "weight_norm": 0.09921209088675789
     },
     {
       "source": "Deep-Cavern Bat",
       "target": "Fire Covenant",
       "weight": 1.1027909779087113,
-      "weight_norm": 0.029488351347311568
+      "weight_norm": 0.09918759733478565
     },
     {
       "source": "Fatal Push",
       "target": "Thoughtseize",
       "weight": 1.1022426444417632,
-      "weight_norm": 0.028778554847285302
+      "weight_norm": 0.09852877629798547
     },
     {
       "source": "Baleful Strix",
       "target": "Darkslick Shores",
       "weight": 1.101289925694407,
-      "weight_norm": 0.027545297216401237
+      "weight_norm": 0.09738408754425013
     },
     {
       "source": "Echo of Eons",
       "target": "Mystical Tutor",
       "weight": 1.1007447848343883,
-      "weight_norm": 0.026839633422767982
+      "weight_norm": 0.09672910241522144
     },
     {
       "source": "Fatal Push",
       "target": "Inquisition of Kozilek",
       "weight": 1.098830647942132,
-      "weight_norm": 0.024361857126791026
+      "weight_norm": 0.09442927260736235
     },
     {
       "source": "Parallax Wave",
       "target": "Sunbillow Verge",
       "weight": 1.098797323826084,
-      "weight_norm": 0.024318720345319424
+      "weight_norm": 0.09438923378061088
     },
     {
       "source": "Tamiyo, Inquisitive Student",
       "target": "Time Spiral",
       "weight": 1.0983516642597309,
-      "weight_norm": 0.023741831245040167
+      "weight_norm": 0.09385377513133515
     },
     {
       "source": "Counterspell",
       "target": "Jace, Vryn's Prodigy",
       "weight": 1.0969116597742798,
-      "weight_norm": 0.02187780104187898
+      "weight_norm": 0.09212361400624076
     },
     {
       "source": "Brainstorm",
       "target": "Preordain",
       "weight": 1.0969070192863852,
-      "weight_norm": 0.021871794109483728
+      "weight_norm": 0.0921180384737769
     },
     {
       "source": "Snapcaster Mage",
       "target": "Spell Pierce",
       "weight": 1.0962752220532153,
-      "weight_norm": 0.021053956986890568
+      "weight_norm": 0.09135893596901594
     },
     {
       "source": "Remand",
       "target": "Teferi, Time Raveler",
       "weight": 1.0957714185487628,
-      "weight_norm": 0.020401802803868222
+      "weight_norm": 0.09075361755029104
     },
     {
       "source": "Emperor of Bones",
       "target": "Fatal Push",
       "weight": 1.0955435974746617,
-      "weight_norm": 0.020106897220356704
+      "weight_norm": 0.09047989120438764
     },
     {
       "source": "Dack Fayden",
       "target": "Third Path Iconoclast",
       "weight": 1.0947880176765004,
-      "weight_norm": 0.019128828347029538
+      "weight_norm": 0.0895720643143374
     },
     {
       "source": "Staff of the Storyteller",
       "target": "Sunbaked Canyon",
       "weight": 1.0946304997789476,
-      "weight_norm": 0.0189249275109256
+      "weight_norm": 0.08938280702687337
     },
     {
       "source": "Force of Negation",
       "target": "Hullbreacher",
       "weight": 1.0940874508421177,
-      "weight_norm": 0.018221971631084414
+      "weight_norm": 0.0887303353373615
     },
     {
       "source": "Ajani, Nacatl Pariah",
       "target": "Sage of the Skies",
       "weight": 1.092979486416132,
-      "weight_norm": 0.016787754463754783
+      "weight_norm": 0.08739911936046986
     },
     {
       "source": "Comet, Stellar Pup",
       "target": "Karakas",
       "weight": 1.0929568542398225,
-      "weight_norm": 0.016758457985424063
+      "weight_norm": 0.08737192686765294
     },
     {
       "source": "Mystical Tutor",
       "target": "Wheel of Fortune",
       "weight": 1.0928365943410794,
-      "weight_norm": 0.01660278619012683
+      "weight_norm": 0.08722743495542955
     },
     {
       "source": "Mishra's Bauble",
       "target": "Timetwister",
       "weight": 1.0927667771992664,
-      "weight_norm": 0.016512410595916772
+      "weight_norm": 0.0871435498662854
     },
     {
       "source": "Baleful Strix",
       "target": "Fallen Shinobi",
       "weight": 1.092208019416736,
-      "weight_norm": 0.01578912022188595
+      "weight_norm": 0.08647220404518183
     },
     {
       "source": "Inspiring Vantage",
       "target": "Sacred Foundry",
       "weight": 1.0912586144497094,
-      "weight_norm": 0.014560152151682557
+      "weight_norm": 0.0853314967886995
     },
     {
       "source": "No More Lies",
       "target": "Seachrome Coast",
       "weight": 1.090956521812007,
-      "weight_norm": 0.014169104896955722
+      "weight_norm": 0.08496853337906382
     },
     {
       "source": "Force of Negation",
       "target": "Mystic Confluence",
       "weight": 1.0907436834235045,
-      "weight_norm": 0.013893593821421427
+      "weight_norm": 0.08471280868554008
     },
     {
       "source": "Tolarian Academy",
       "target": "Trinket Mage",
       "weight": 1.090636311262461,
-      "weight_norm": 0.013754604704938994
+      "weight_norm": 0.0845838013519994
     },
     {
       "source": "Mother of Runes",
       "target": "Parallax Wave",
       "weight": 1.090093773040405,
-      "weight_norm": 0.01305230992565214
+      "weight_norm": 0.0839319432847759
     },
     {
       "source": "Retrofitter Foundry",
       "target": "Time Spiral",
       "weight": 1.0892554442587654,
-      "weight_norm": 0.011967125688419657
+      "weight_norm": 0.08292469373611476
     },
     {
       "source": "Hallowed Fountain",
       "target": "Teferi, Hero of Dominaria",
       "weight": 1.0867925612943072,
-      "weight_norm": 0.008779018790847502
+      "weight_norm": 0.07996554714746494
     },
     {
       "source": "Memory Lapse",
       "target": "Stock Up",
       "weight": 1.086447086739529,
-      "weight_norm": 0.008331815319582965
+      "weight_norm": 0.0795504604929263
     },
     {
       "source": "Psychic Frog",
       "target": "Sheoldred's Edict",
       "weight": 1.0863112337546403,
-      "weight_norm": 0.008155958876369973
+      "weight_norm": 0.07938723353387354
     },
     {
       "source": "Ajani, Nacatl Pariah",
       "target": "Mother of Runes",
       "weight": 1.0848365593245732,
-      "weight_norm": 0.00624704976862254
+      "weight_norm": 0.07761541657298836
     },
     {
       "source": "Ponder",
       "target": "Time Spiral",
       "weight": 1.084562793972909,
-      "weight_norm": 0.005892671091863524
+      "weight_norm": 0.07728648831364414
     },
     {
       "source": "Jace, Vryn's Prodigy",
       "target": "Mystic Confluence",
       "weight": 1.0839442098097811,
-      "weight_norm": 0.005091937778240259
+      "weight_norm": 0.0765432612734119
     },
     {
       "source": "Balance",
       "target": "Tundra",
       "weight": 1.0834118429605073,
-      "weight_norm": 0.004402809448270257
+      "weight_norm": 0.07590362408046658
     },
     {
       "source": "Chromatic Star",
       "target": "Urza, Lord High Artificer",
       "weight": 1.082400004060572,
-      "weight_norm": 0.0030930230626936635
+      "weight_norm": 0.07468790263847525
     },
     {
       "source": "Quantum Riddler",
       "target": "Tamiyo, Inquisitive Student",
       "weight": 1.0822872198407472,
-      "weight_norm": 0.0029470282450959583
+      "weight_norm": 0.07455239273233508
     },
     {
       "source": "Floodfarm Verge",
       "target": "Hallowed Fountain",
       "weight": 1.0818378083923674,
-      "weight_norm": 0.0023652824784056105
+      "weight_norm": 0.07401242620791453
     },
     {
       "source": "Daze",
       "target": "Mystic Confluence",
       "weight": 1.0812259748422388,
-      "weight_norm": 0.0015732875726467749
+      "weight_norm": 0.07327731000921082
     },
     {
       "source": "Force of Will",
       "target": "Stock Up",
       "weight": 1.0808758842625716,
-      "weight_norm": 0.0011201088354031684
+      "weight_norm": 0.07285667721443714
     },
     {
       "source": "Counterspell",
       "target": "Snapcaster Mage",
       "weight": 1.0808452922838172,
-      "weight_norm": 0.0010805087001613172
+      "weight_norm": 0.07281992104255337
     },
     {
       "source": "Glimmer Lens",
       "target": "Skyclave Apparition",
       "weight": 1.0803131899131015,
-      "weight_norm": 0.00039172272747248194
+      "weight_norm": 0.0721806016198125
     },
     {
       "source": "Third Path Iconoclast",
       "target": "Tolarian Academy",
       "weight": 1.0800105754577902,
+      "weight_norm": 0.07181701124786495
+    },
+    {
+      "source": "Memory Lapse",
+      "target": "Time Walk",
+      "weight": 1.0785670851978686,
+      "weight_norm": 0.07008266197506625
+    },
+    {
+      "source": "Adeline, Resplendent Cathar",
+      "target": "Showdown of the Skalds",
+      "weight": 1.0785640212737784,
+      "weight_norm": 0.07007898067934483
+    },
+    {
+      "source": "Death-Greeter's Champion",
+      "target": "Screaming Nemesis",
+      "weight": 1.078369767942139,
+      "weight_norm": 0.06984558587660751
+    },
+    {
+      "source": "Inquisition of Kozilek",
+      "target": "Psychic Frog",
+      "weight": 1.0780357431290255,
+      "weight_norm": 0.06944425605277385
+    },
+    {
+      "source": "Ocelot Pride",
+      "target": "Sunbaked Canyon",
+      "weight": 1.0778507358030802,
+      "weight_norm": 0.06922197029849862
+    },
+    {
+      "source": "Mox Opal",
+      "target": "Urza, Lord High Artificer",
+      "weight": 1.0775620733764228,
+      "weight_norm": 0.06887514324766372
+    },
+    {
+      "source": "Phelia, Exuberant Shepherd",
+      "target": "Sacred Foundry",
+      "weight": 1.0763066394301697,
+      "weight_norm": 0.06736674307886094
+    },
+    {
+      "source": "Miscalculation",
+      "target": "Remand",
+      "weight": 1.075889294220333,
+      "weight_norm": 0.06686530404509466
+    },
+    {
+      "source": "Flash",
+      "target": "Torsten, Founder of Benalia",
+      "weight": 1.0758007449069409,
+      "weight_norm": 0.06675891230726824
+    },
+    {
+      "source": "Psychic Frog",
+      "target": "Remand",
+      "weight": 1.0756570087450164,
+      "weight_norm": 0.0665862137343508
+    },
+    {
+      "source": "Death-Greeter's Champion",
+      "target": "Mother of Runes",
+      "weight": 1.0751021109226062,
+      "weight_norm": 0.06591950564390144
+    },
+    {
+      "source": "Snapcaster Mage",
+      "target": "Time Walk",
+      "weight": 1.074989403556483,
+      "weight_norm": 0.06578408807725619
+    },
+    {
+      "source": "Karakas",
+      "target": "Reprieve",
+      "weight": 1.074346437001802,
+      "weight_norm": 0.0650115656657746
+    },
+    {
+      "source": "Ancestral Recall",
+      "target": "Scalding Tarn",
+      "weight": 1.0742623328515182,
+      "weight_norm": 0.06491051477825964
+    },
+    {
+      "source": "Stock Up",
+      "target": "Timetwister",
+      "weight": 1.0736919765357165,
+      "weight_norm": 0.06422523335377636
+    },
+    {
+      "source": "Kappa Cannoneer",
+      "target": "Mox Opal",
+      "weight": 1.0735152715128722,
+      "weight_norm": 0.064012922792092
+    },
+    {
+      "source": "Memory Lapse",
+      "target": "No More Lies",
+      "weight": 1.0733852365119665,
+      "weight_norm": 0.0638566861235665
+    },
+    {
+      "source": "Hullbreacher",
+      "target": "Remand",
+      "weight": 1.072977917998902,
+      "weight_norm": 0.06336729413628073
+    },
+    {
+      "source": "Arid Mesa",
+      "target": "Oust",
+      "weight": 1.0724251662154995,
+      "weight_norm": 0.0627031645053441
+    },
+    {
+      "source": "Broadside Bombardiers",
+      "target": "Laelia, the Blade Reforged",
+      "weight": 1.0717467491680213,
+      "weight_norm": 0.061888048431743385
+    },
+    {
+      "source": "Balance",
+      "target": "Celestial Colonnade",
+      "weight": 1.071670942257885,
+      "weight_norm": 0.0617969666536958
+    },
+    {
+      "source": "Kappa Cannoneer",
+      "target": "Urza, Lord High Artificer",
+      "weight": 1.0714111405694124,
+      "weight_norm": 0.06148481569432693
+    },
+    {
+      "source": "Quantum Riddler",
+      "target": "Remand",
+      "weight": 1.071324630354458,
+      "weight_norm": 0.061380873927235124
+    },
+    {
+      "source": "Cryptic Command",
+      "target": "Force of Will",
+      "weight": 1.0712210186239364,
+      "weight_norm": 0.06125638473983098
+    },
+    {
+      "source": "Expressive Iteration",
+      "target": "Wheel of Fortune",
+      "weight": 1.0709488927403177,
+      "weight_norm": 0.06092942629648866
+    },
+    {
+      "source": "Dack Fayden",
+      "target": "Talisman of Creativity",
+      "weight": 1.0707001576521529,
+      "weight_norm": 0.060630571824618805
+    },
+    {
+      "source": "Guide of Souls",
+      "target": "Sunbillow Verge",
+      "weight": 1.0698379123423891,
+      "weight_norm": 0.05959458663823865
+    },
+    {
+      "source": "Kappa Cannoneer",
+      "target": "Upheaval",
+      "weight": 1.0691627692577688,
+      "weight_norm": 0.058783404221316796
+    },
+    {
+      "source": "Ajani, Nacatl Pariah",
+      "target": "Sunbillow Verge",
+      "weight": 1.0690083775680967,
+      "weight_norm": 0.058597903063364154
+    },
+    {
+      "source": "Parallax Wave",
+      "target": "Reprieve",
+      "weight": 1.0689802011576417,
+      "weight_norm": 0.05856404918963906
+    },
+    {
+      "source": "Echo of Eons",
+      "target": "Narset, Parter of Veils",
+      "weight": 1.0685715250164167,
+      "weight_norm": 0.05807302601613861
+    },
+    {
+      "source": "Floodfarm Verge",
+      "target": "Teferi, Hero of Dominaria",
+      "weight": 1.068086595461733,
+      "weight_norm": 0.05749038459217074
+    },
+    {
+      "source": "Gut, True Soul Zealot",
+      "target": "Mother of Runes",
+      "weight": 1.0673482958412486,
+      "weight_norm": 0.056603319784428945
+    },
+    {
+      "source": "Oust",
+      "target": "Skyclave Apparition",
+      "weight": 1.066792181034793,
+      "weight_norm": 0.055935149491252625
+    },
+    {
+      "source": "Phelia, Exuberant Shepherd",
+      "target": "Witch Enchanter",
+      "weight": 1.066334677967508,
+      "weight_norm": 0.05538546091067865
+    },
+    {
+      "source": "Malcolm, Alluring Scoundrel",
+      "target": "Mana Drain",
+      "weight": 1.065411099108622,
+      "weight_norm": 0.054275783646650526
+    },
+    {
+      "source": "Creeping Tar Pit",
+      "target": "Fatal Push",
+      "weight": 1.064936728190877,
+      "weight_norm": 0.05370582839369811
+    },
+    {
+      "source": "Dack Fayden",
+      "target": "Scalding Tarn",
+      "weight": 1.0648856579512047,
+      "weight_norm": 0.0536444676519622
+    },
+    {
+      "source": "Ancestral Recall",
+      "target": "Jace, Vryn's Prodigy",
+      "weight": 1.0647205639882595,
+      "weight_norm": 0.05344610774436369
+    },
+    {
+      "source": "Guide of Souls",
+      "target": "Voice of Victory",
+      "weight": 1.0643567244173808,
+      "weight_norm": 0.05300895557736317
+    },
+    {
+      "source": "Kappa Cannoneer",
+      "target": "Tolarian Academy",
+      "weight": 1.0634797831126717,
+      "weight_norm": 0.051955313196574225
+    },
+    {
+      "source": "Brain Freeze",
+      "target": "Stock Up",
+      "weight": 1.0629192710804969,
+      "weight_norm": 0.05128185964971758
+    },
+    {
+      "source": "Staff of the Storyteller",
+      "target": "Voice of Victory",
+      "weight": 1.0624745046582156,
+      "weight_norm": 0.05074747411039933
+    },
+    {
+      "source": "Brainstorm",
+      "target": "Echo of Eons",
+      "weight": 1.062432721743522,
+      "weight_norm": 0.05069727206212366
+    },
+    {
+      "source": "Aether Spellbomb",
+      "target": "Tolarian Academy",
+      "weight": 1.0616097125930155,
+      "weight_norm": 0.04970842900490395
+    },
+    {
+      "source": "Death-Greeter's Champion",
+      "target": "Sunbaked Canyon",
+      "weight": 1.061415009568473,
+      "weight_norm": 0.04947449389747516
+    },
+    {
+      "source": "Fractured Identity",
+      "target": "No More Lies",
+      "weight": 1.0613583483966544,
+      "weight_norm": 0.049406415667321665
+    },
+    {
+      "source": "Malcolm, Alluring Scoundrel",
+      "target": "Stock Up",
+      "weight": 1.060933776026407,
+      "weight_norm": 0.04889629322172306
+    },
+    {
+      "source": "Miscalculation",
+      "target": "Teferi, Time Raveler",
+      "weight": 1.0608352360511448,
+      "weight_norm": 0.04877789773324439
+    },
+    {
+      "source": "Remand",
+      "target": "Subtlety",
+      "weight": 1.060390699093705,
+      "weight_norm": 0.04824378789525379
+    },
+    {
+      "source": "Flooded Strand",
+      "target": "Memory Lapse",
+      "weight": 1.0603264317955696,
+      "weight_norm": 0.048166570926853856
+    },
+    {
+      "source": "Counterspell",
+      "target": "Timetwister",
+      "weight": 1.0600908823108055,
+      "weight_norm": 0.04788355891842441
+    },
+    {
+      "source": "Counterspell",
+      "target": "Miscalculation",
+      "weight": 1.0599925898099718,
+      "weight_norm": 0.04776546076973877
+    },
+    {
+      "source": "Gut, True Soul Zealot",
+      "target": "Ivora, Insatiable Heir",
+      "weight": 1.059719143749549,
+      "weight_norm": 0.04743691613787566
+    },
+    {
+      "source": "Hullbreacher",
+      "target": "Ponder",
+      "weight": 1.0590095000071242,
+      "weight_norm": 0.04658428128276596
+    },
+    {
+      "source": "Broadside Bombardiers",
+      "target": "Comet, Stellar Pup",
+      "weight": 1.0582382317228158,
+      "weight_norm": 0.04565760472306711
+    },
+    {
+      "source": "Comet, Stellar Pup",
+      "target": "Lightning Helix",
+      "weight": 1.0579452704317316,
+      "weight_norm": 0.04530561259935322
+    },
+    {
+      "source": "Kappa Cannoneer",
+      "target": "Saheeli, Sublime Artificer",
+      "weight": 1.0577149835366642,
+      "weight_norm": 0.04502892357686064
+    },
+    {
+      "source": "Malcolm, Alluring Scoundrel",
+      "target": "Miscalculation",
+      "weight": 1.0572383437796478,
+      "weight_norm": 0.04445624232024225
+    },
+    {
+      "source": "Ocelot Pride",
+      "target": "Solitude",
+      "weight": 1.0569167389163048,
+      "weight_norm": 0.044069835029279504
+    },
+    {
+      "source": "Jace, Vryn's Prodigy",
+      "target": "Tamiyo, Inquisitive Student",
+      "weight": 1.0567430701912657,
+      "weight_norm": 0.04386117257041692
+    },
+    {
+      "source": "The Mightstone and Weakstone",
+      "target": "Upheaval",
+      "weight": 1.0566036809757102,
+      "weight_norm": 0.043693696840689654
+    },
+    {
+      "source": "Tolarian Academy",
+      "target": "Urza, Lord High Artificer",
+      "weight": 1.0550065865403782,
+      "weight_norm": 0.041774792605991595
+    },
+    {
+      "source": "Force of Will",
+      "target": "Tamiyo, Inquisitive Student",
+      "weight": 1.0549522954907258,
+      "weight_norm": 0.04170956207060219
+    },
+    {
+      "source": "Fable of the Mirror-Breaker",
+      "target": "Flame Slash",
+      "weight": 1.0549041990950974,
+      "weight_norm": 0.04165177439367882
+    },
+    {
+      "source": "Echo of Eons",
+      "target": "Time Spiral",
+      "weight": 1.054742683250142,
+      "weight_norm": 0.04145771358424956
+    },
+    {
+      "source": "Comet, Stellar Pup",
+      "target": "Parallax Wave",
+      "weight": 1.054728899910398,
+      "weight_norm": 0.04144115294236269
+    },
+    {
+      "source": "Fable of the Mirror-Breaker",
+      "target": "Pyrogoyf",
+      "weight": 1.0546077400738714,
+      "weight_norm": 0.04129557975755718
+    },
+    {
+      "source": "Thoughtseize",
+      "target": "Watery Grave",
+      "weight": 1.053678670707279,
+      "weight_norm": 0.040179305664778335
+    },
+    {
+      "source": "Comet, Stellar Pup",
+      "target": "Ocelot Pride",
+      "weight": 1.053314553836295,
+      "weight_norm": 0.03974182032252242
+    },
+    {
+      "source": "Emperor of Bones",
+      "target": "Reanimate",
+      "weight": 1.0528403868317455,
+      "weight_norm": 0.039172110070670764
+    },
+    {
+      "source": "Ancestral Recall",
+      "target": "Mystical Tutor",
+      "weight": 1.0524993261343405,
+      "weight_norm": 0.03876232665269555
+    },
+    {
+      "source": "Balance",
+      "target": "Upheaval",
+      "weight": 1.052075537093955,
+      "weight_norm": 0.038253145375606354
+    },
+    {
+      "source": "Mishra's Bauble",
+      "target": "Tolarian Academy",
+      "weight": 1.0507583224944244,
+      "weight_norm": 0.036670515934837035
+    },
+    {
+      "source": "Displacer Kitten",
+      "target": "Teferi, Time Raveler",
+      "weight": 1.050466316271245,
+      "weight_norm": 0.03631967132238281
+    },
+    {
+      "source": "Tezzeret, Cruel Captain",
+      "target": "Urza, Lord High Artificer",
+      "weight": 1.0503055996415038,
+      "weight_norm": 0.03612657076766653
+    },
+    {
+      "source": "Tamiyo, Inquisitive Student",
+      "target": "Teferi, Time Raveler",
+      "weight": 1.050174549756172,
+      "weight_norm": 0.03596911471850842
+    },
+    {
+      "source": "Jace, Vryn's Prodigy",
+      "target": "Snapcaster Mage",
+      "weight": 1.0501140523245558,
+      "weight_norm": 0.03589642723356786
+    },
+    {
+      "source": "Ocelot Pride",
+      "target": "Thraben Inspector",
+      "weight": 1.049604401221291,
+      "weight_norm": 0.03528408294218607
+    },
+    {
+      "source": "Floodfarm Verge",
+      "target": "Fractured Identity",
+      "weight": 1.049323388614568,
+      "weight_norm": 0.03494644712734952
+    },
+    {
+      "source": "Malcolm, Alluring Scoundrel",
+      "target": "Ponder",
+      "weight": 1.0486414100131525,
+      "weight_norm": 0.03412705185723966
+    },
+    {
+      "source": "Narset, Parter of Veils",
+      "target": "Shelldock Isle",
+      "weight": 1.0483317695335943,
+      "weight_norm": 0.03375501973796515
+    },
+    {
+      "source": "Memory Lapse",
+      "target": "Timetwister",
+      "weight": 1.0479802248738603,
+      "weight_norm": 0.03333263987029706
+    },
+    {
+      "source": "Counterspell",
+      "target": "Fractured Identity",
+      "weight": 1.0479441898776232,
+      "weight_norm": 0.03328934392902578
+    },
+    {
+      "source": "Snapcaster Mage",
+      "target": "Stock Up",
+      "weight": 1.0476110472463926,
+      "weight_norm": 0.032889074044112065
+    },
+    {
+      "source": "Mox Opal",
+      "target": "Urza's Saga",
+      "weight": 1.0475196962556554,
+      "weight_norm": 0.032779316099252005
+    },
+    {
+      "source": "Retrofitter Foundry",
+      "target": "Trinket Mage",
+      "weight": 1.0474687745175408,
+      "weight_norm": 0.03271813378169795
+    },
+    {
+      "source": "Balance",
+      "target": "Fractured Identity",
+      "weight": 1.0468155871167648,
+      "weight_norm": 0.03193333105389938
+    },
+    {
+      "source": "Mother of Runes",
+      "target": "Phelia, Exuberant Shepherd",
+      "weight": 1.046510346165619,
+      "weight_norm": 0.03156658495498447
+    },
+    {
+      "source": "Fatal Push",
+      "target": "Snuff Out",
+      "weight": 1.0440399070578472,
+      "weight_norm": 0.028598359682518646
+    },
+    {
+      "source": "Narset, Parter of Veils",
+      "target": "Spell Pierce",
+      "weight": 1.044010280348046,
+      "weight_norm": 0.028562763278423785
+    },
+    {
+      "source": "Fractured Identity",
+      "target": "Mana Leak",
+      "weight": 1.0438891859609392,
+      "weight_norm": 0.028417268730902456
+    },
+    {
+      "source": "Mana Leak",
+      "target": "Remand",
+      "weight": 1.043786179590703,
+      "weight_norm": 0.02829350688208868
+    },
+    {
+      "source": "Fable of the Mirror-Breaker",
+      "target": "Fury",
+      "weight": 1.0437762625520797,
+      "weight_norm": 0.028281591589549224
+    },
+    {
+      "source": "No More Lies",
+      "target": "Remand",
+      "weight": 1.0436592661871695,
+      "weight_norm": 0.028141020803562067
+    },
+    {
+      "source": "Counterspell",
+      "target": "Hullbreacher",
+      "weight": 1.043655056416328,
+      "weight_norm": 0.0281359627763621
+    },
+    {
+      "source": "Fractured Identity",
+      "target": "Stock Up",
+      "weight": 1.043506968211308,
+      "weight_norm": 0.02795803523655284
+    },
+    {
+      "source": "Remand",
+      "target": "Tamiyo, Inquisitive Student",
+      "weight": 1.043297218289285,
+      "weight_norm": 0.027706021326358524
+    },
+    {
+      "source": "Pyrogoyf",
+      "target": "Sacred Foundry",
+      "weight": 1.0426664110822443,
+      "weight_norm": 0.02694810833506022
+    },
+    {
+      "source": "Daze",
+      "target": "Force of Negation",
+      "weight": 1.0422965107188764,
+      "weight_norm": 0.02650367414383127
+    },
+    {
+      "source": "Hullbreacher",
+      "target": "Wheel of Fortune",
+      "weight": 1.0420592295852054,
+      "weight_norm": 0.02621858156436795
+    },
+    {
+      "source": "The Mightstone and Weakstone",
+      "target": "Tinker",
+      "weight": 1.0419611666536668,
+      "weight_norm": 0.026100759242510596
+    },
+    {
+      "source": "Frantic Search",
+      "target": "Narset, Parter of Veils",
+      "weight": 1.0417518672942112,
+      "weight_norm": 0.025849286681906888
+    },
+    {
+      "source": "Lion's Eye Diamond",
+      "target": "Mystical Tutor",
+      "weight": 1.041561273602037,
+      "weight_norm": 0.025620288925150062
+    },
+    {
+      "source": "Death-Greeter's Champion",
+      "target": "Laelia, the Blade Reforged",
+      "weight": 1.0414418590468102,
+      "weight_norm": 0.025476812690658244
+    },
+    {
+      "source": "Parallax Wave",
+      "target": "Plateau",
+      "weight": 1.0406187776547515,
+      "weight_norm": 0.02448788283542764
+    },
+    {
+      "source": "Memory Lapse",
+      "target": "Psychic Frog",
+      "weight": 1.0404899242713277,
+      "weight_norm": 0.02433306587680756
+    },
+    {
+      "source": "Memory Lapse",
+      "target": "Teferi, Hero of Dominaria",
+      "weight": 1.0402385373996077,
+      "weight_norm": 0.024031025294848678
+    },
+    {
+      "source": "Narset, Parter of Veils",
+      "target": "Stock Up",
+      "weight": 1.0401153609695477,
+      "weight_norm": 0.023883029178884525
+    },
+    {
+      "source": "Sacred Foundry",
+      "target": "Sanguine Evangelist",
+      "weight": 1.0395754359691611,
+      "weight_norm": 0.023234310889758605
+    },
+    {
+      "source": "Ajani, Nacatl Pariah",
+      "target": "Solitude",
+      "weight": 1.039547772380612,
+      "weight_norm": 0.02320107317003478
+    },
+    {
+      "source": "Floodfarm Verge",
+      "target": "Tundra",
+      "weight": 1.0386336235594449,
+      "weight_norm": 0.022102726068401485
+    },
+    {
+      "source": "Timetwister",
+      "target": "Tolarian Academy",
+      "weight": 1.0382578090042265,
+      "weight_norm": 0.021651185993177433
+    },
+    {
+      "source": "Flooded Strand",
+      "target": "No More Lies",
+      "weight": 1.038246362456095,
+      "weight_norm": 0.021637432999493143
+    },
+    {
+      "source": "Parallax Wave",
+      "target": "Showdown of the Skalds",
+      "weight": 1.0381220244207483,
+      "weight_norm": 0.021488041218216885
+    },
+    {
+      "source": "Talisman of Progress",
+      "target": "Upheaval",
+      "weight": 1.0364666168938643,
+      "weight_norm": 0.0194990739766973
+    },
+    {
+      "source": "Mana Drain",
+      "target": "Stock Up",
+      "weight": 1.035724119640037,
+      "weight_norm": 0.018606965724924113
+    },
+    {
+      "source": "Mana Leak",
+      "target": "Memory Lapse",
+      "weight": 1.035565057775644,
+      "weight_norm": 0.018415853365873418
+    },
+    {
+      "source": "Booster Tutor",
+      "target": "Duress",
+      "weight": 1.035293690774394,
+      "weight_norm": 0.018089806717449898
+    },
+    {
+      "source": "Mana Drain",
+      "target": "Subtlety",
+      "weight": 1.0347435298891925,
+      "weight_norm": 0.017428790043029666
+    },
+    {
+      "source": "Ponder",
+      "target": "Tamiyo, Inquisitive Student",
+      "weight": 1.033595053143038,
+      "weight_norm": 0.01604889863342128
+    },
+    {
+      "source": "The Mightstone and Weakstone",
+      "target": "Ugin, Eye of the Storms",
+      "weight": 1.0335102202480697,
+      "weight_norm": 0.01594697216132602
+    },
+    {
+      "source": "Broadside Bombardiers",
+      "target": "Pyrogoyf",
+      "weight": 1.033288814153855,
+      "weight_norm": 0.015680953394759934
+    },
+    {
+      "source": "Duress",
+      "target": "Inquisition of Kozilek",
+      "weight": 1.0329011735047522,
+      "weight_norm": 0.015215204302753492
+    },
+    {
+      "source": "Hullbreacher",
+      "target": "Mystic Confluence",
+      "weight": 1.0324049343147834,
+      "weight_norm": 0.014618974385481116
+    },
+    {
+      "source": "Oust",
+      "target": "Reprieve",
+      "weight": 1.0313922367826456,
+      "weight_norm": 0.013402221299441137
+    },
+    {
+      "source": "Third Path Iconoclast",
+      "target": "Urza, Lord High Artificer",
+      "weight": 1.031280723373052,
+      "weight_norm": 0.013268238268030691
+    },
+    {
+      "source": "Currency Converter",
+      "target": "Mana Leak",
+      "weight": 1.0312591082586475,
+      "weight_norm": 0.013242267772080782
+    },
+    {
+      "source": "Parallax Wave",
+      "target": "Skyclave Apparition",
+      "weight": 1.0311118280503673,
+      "weight_norm": 0.013065311037961656
+    },
+    {
+      "source": "Consult the Star Charts",
+      "target": "Mystic Confluence",
+      "weight": 1.031053289545666,
+      "weight_norm": 0.012994977197908795
+    },
+    {
+      "source": "Gut, True Soul Zealot",
+      "target": "Inspiring Vantage",
+      "weight": 1.0308508832620469,
+      "weight_norm": 0.012751786647510518
+    },
+    {
+      "source": "Fable of the Mirror-Breaker",
+      "target": "Galvanic Discharge",
+      "weight": 1.0305138925328476,
+      "weight_norm": 0.012346893284282469
+    },
+    {
+      "source": "Guide of Souls",
+      "target": "Parallax Wave",
+      "weight": 1.0302115606316142,
+      "weight_norm": 0.011983642400222828
+    },
+    {
+      "source": "Mana Leak",
+      "target": "Shelldock Isle",
+      "weight": 1.0296211823966923,
+      "weight_norm": 0.011274304699205992
+    },
+    {
+      "source": "Luminarch Aspirant",
+      "target": "Thraben Inspector",
+      "weight": 1.02884261304385,
+      "weight_norm": 0.010338855927283673
+    },
+    {
+      "source": "Cryptic Command",
+      "target": "Mystic Confluence",
+      "weight": 1.0281479681584196,
+      "weight_norm": 0.009504242154437787
+    },
+    {
+      "source": "Snapcaster Mage",
+      "target": "Subtlety",
+      "weight": 1.0280623417101336,
+      "weight_norm": 0.00940136223038117
+    },
+    {
+      "source": "Ancestral Recall",
+      "target": "Tundra",
+      "weight": 1.0268777409300371,
+      "weight_norm": 0.00797806790096289
+    },
+    {
+      "source": "Force of Will",
+      "target": "Narset, Parter of Veils",
+      "weight": 1.02673938291807,
+      "weight_norm": 0.007811831159293336
+    },
+    {
+      "source": "Hullbreacher",
+      "target": "Malcolm, Alluring Scoundrel",
+      "weight": 1.0265757414862628,
+      "weight_norm": 0.007615216463555899
+    },
+    {
+      "source": "Guide of Souls",
+      "target": "Solitude",
+      "weight": 1.0263698686186402,
+      "weight_norm": 0.007367860822742855
+    },
+    {
+      "source": "Polluted Delta",
+      "target": "Psychic Frog",
+      "weight": 1.025955748420028,
+      "weight_norm": 0.006870296630412589
+    },
+    {
+      "source": "Hallowed Fountain",
+      "target": "Teferi, Time Raveler",
+      "weight": 1.0255651906838197,
+      "weight_norm": 0.006401042666887124
+    },
+    {
+      "source": "Booster Tutor",
+      "target": "Psychic Frog",
+      "weight": 1.0253545643327917,
+      "weight_norm": 0.006147975729838691
+    },
+    {
+      "source": "Miscalculation",
+      "target": "Mystic Confluence",
+      "weight": 1.0253505869277466,
+      "weight_norm": 0.006143196889454992
+    },
+    {
+      "source": "Guide of Souls",
+      "target": "Lightstall Inquisitor",
+      "weight": 1.0243266180852302,
+      "weight_norm": 0.004912901357372004
+    },
+    {
+      "source": "Memory Lapse",
+      "target": "Quantum Riddler",
+      "weight": 1.023705602671611,
+      "weight_norm": 0.004166753176873851
+    },
+    {
+      "source": "Psychic Frog",
+      "target": "Watery Grave",
+      "weight": 1.023612373754676,
+      "weight_norm": 0.004054738909248265
+    },
+    {
+      "source": "Gut, True Soul Zealot",
+      "target": "Laelia, the Blade Reforged",
+      "weight": 1.0234499340540988,
+      "weight_norm": 0.00385956809002491
+    },
+    {
+      "source": "Animate Dead",
+      "target": "Atraxa, Grand Unifier",
+      "weight": 1.023027017436423,
+      "weight_norm": 0.0033514350262381634
+    },
+    {
+      "source": "Ponder",
+      "target": "Spell Pierce",
+      "weight": 1.0229782693634828,
+      "weight_norm": 0.003292864360954318
+    },
+    {
+      "source": "Ancestral Recall",
+      "target": "Hullbreacher",
+      "weight": 1.0228068812934874,
+      "weight_norm": 0.003086942102373218
+    },
+    {
+      "source": "Sanguine Evangelist",
+      "target": "Staff of the Storyteller",
+      "weight": 1.0225916953544547,
+      "weight_norm": 0.0028283968338390785
+    },
+    {
+      "source": "Bitter Triumph",
+      "target": "Reanimate",
+      "weight": 1.0225347627597066,
+      "weight_norm": 0.0027599924898393095
+    },
+    {
+      "source": "Teferi, Hero of Dominaria",
+      "target": "Tundra",
+      "weight": 1.0223290786249606,
+      "weight_norm": 0.0025128636110186937
+    },
+    {
+      "source": "Counterspell",
+      "target": "Force of Negation",
+      "weight": 1.022106729148887,
+      "weight_norm": 0.00224571137394276
+    },
+    {
+      "source": "Upheaval",
+      "target": "Urza's Bauble",
+      "weight": 1.0220243195411784,
+      "weight_norm": 0.00214669647431419
+    },
+    {
+      "source": "Gloomlake Verge",
+      "target": "Snuff Out",
+      "weight": 1.0219184710160047,
+      "weight_norm": 0.0020195197847591175
+    },
+    {
+      "source": "Ajani, Nacatl Pariah",
+      "target": "Guide of Souls",
+      "weight": 1.0216770698866489,
+      "weight_norm": 0.001729477042680691
+    },
+    {
+      "source": "Oko, Thief of Crowns",
+      "target": "Tropical Island",
+      "weight": 1.0214224038265631,
+      "weight_norm": 0.001423496525610786
+    },
+    {
+      "source": "Expressive Iteration",
+      "target": "Thundering Falls",
+      "weight": 1.0211195107754238,
+      "weight_norm": 0.001059571421600927
+    },
+    {
+      "source": "Parallax Wave",
+      "target": "Staff of the Storyteller",
+      "weight": 1.0210787991334775,
+      "weight_norm": 0.0010106565043587138
+    },
+    {
+      "source": "Narset, Parter of Veils",
+      "target": "Thundertrap Trainer",
+      "weight": 1.020809164523971,
+      "weight_norm": 0.000686691319484881
+    },
+    {
+      "source": "Ancestral Recall",
+      "target": "Malcolm, Alluring Scoundrel",
+      "weight": 1.020640591647853,
+      "weight_norm": 0.0004841515080109965
+    },
+    {
+      "source": "Oust",
+      "target": "Phelia, Exuberant Shepherd",
+      "weight": 1.0205650041786192,
+      "weight_norm": 0.00039333338755802777
+    },
+    {
+      "source": "Dack Fayden",
+      "target": "Remand",
+      "weight": 1.0203815004388366,
+      "weight_norm": 0.0001728541876048059
+    },
+    {
+      "source": "Malcolm, Alluring Scoundrel",
+      "target": "Subtlety",
+      "weight": 1.0203369951424988,
+      "weight_norm": 0.00011938120584504567
+    },
+    {
+      "source": "Necromancy",
+      "target": "Reanimate",
+      "weight": 1.020237634759583,
       "weight_norm": 0.0
     }
   ]
