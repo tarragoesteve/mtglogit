@@ -2,6 +2,9 @@ import pandas as pd
 import json
 import requests
 import time
+import gzip
+import io
+import unicodedata
 from pathlib import Path
 import sys
 
@@ -27,6 +30,172 @@ CSV_FILES = {
     "pair_synergies": "_pair_synergies.csv",
     "squared_terms": "_squared_terms.csv",
 }
+
+# Global variable to cache bulk data across folders
+_SCRYFALL_CACHE = None
+
+def normalize_name(name):
+    """Remove diacritics and special characters for fuzzy matching"""
+    # Remove diacritics first
+    nfkd_form = unicodedata.normalize('NFKD', name)
+    name_without_diacritics = ''.join([c for c in nfkd_form if not unicodedata.combining(c)])
+    
+    # Common special character mappings
+    replacements = {
+        'ō': 'o', 'Ō': 'O',
+        'ă': 'a', 'Ă': 'A',
+        'ç': 'c', 'Ç': 'C',
+        'é': 'e', 'É': 'E',
+        'á': 'a', 'Á': 'A',
+        'ñ': 'n', 'Ñ': 'N',
+        '?': '',  # Remove ?
+    }
+    
+    for old, new in replacements.items():
+        name_without_diacritics = name_without_diacritics.replace(old, new)
+    
+    # Remove any remaining non-ASCII characters
+    name_without_diacritics = name_without_diacritics.encode('ascii', errors='ignore').decode('ascii')
+    
+    return name_without_diacritics
+
+def fetch_scryfall_bulk_data():
+    """
+    Download and parse Scryfall bulk data (Oracle Cards).
+    Returns a dictionary indexed by card name.
+    """
+    global _SCRYFALL_CACHE
+    
+    if _SCRYFALL_CACHE is not None:
+        return _SCRYFALL_CACHE
+    
+    print("🌐 Fetching Scryfall bulk data index...")
+    
+    try:
+        # Get the list of bulk data files
+        bulk_list_url = "https://api.scryfall.com/bulk-data"
+        bulk_list = requests.get(bulk_list_url).json()
+        
+        # Find the default_cards file (includes printed names and multiple printings)
+        bulk_data = None
+        for item in bulk_list.get("data", []):
+            if item.get("type") == "default_cards":
+                bulk_data = item
+                break
+        
+        if not bulk_data:
+            print("⚠️  Oracle cards bulk data not found")
+            return {}
+        
+        download_url = bulk_data.get("download_uri")
+        if not download_url:
+            print("⚠️  Download URL not found")
+            return {}
+        
+        print(f"📥 Downloading default cards (~{bulk_data.get('size', 0) // (1024*1024)} MB)...")
+        
+        # Download the file
+        response = requests.get(download_url, stream=True)
+        response.raise_for_status()
+        
+        # Try to decompress as gzip, if it fails, parse as JSON directly
+        try:
+            with gzip.GzipFile(fileobj=io.BytesIO(response.content)) as gz:
+                cards_data = json.load(gz)
+        except (OSError, gzip.BadGzipFile):
+            # File is already decompressed, parse directly
+            cards_data = json.loads(response.content.decode('utf-8'))
+        
+        # Build lookup by card name, prioritizing versions with images
+        lookup = {}
+        for card in cards_data:
+            name = card.get("name")
+            printed_name = card.get("printed_name")
+            image_uris = {}
+            
+            # Try front face first (double-faced cards)
+            if "card_faces" in card and len(card["card_faces"]) > 0:
+                image_uris = card["card_faces"][0].get("image_uris", {})
+            
+            # If no image yet, try default image_uris
+            if not image_uris.get("normal"):
+                image_uris = card.get("image_uris", {})
+            
+            image_url = image_uris.get("normal")
+            image_status = card.get("image_status")
+            highres = card.get("highres_image", False)
+            
+            card_data = {
+                "art": image_uris.get("art_crop"),
+                "image": image_url,
+                "image_status": image_status,
+                "highres": highres
+            }
+            
+            # Store if:
+            # 1. We have an image and it's the first time seeing this name
+            # 2. Or if we have a better image (highres, highres_scan status, etc)
+            should_update = False
+            if name not in lookup:
+                should_update = True
+            elif image_url and not lookup[name].get("image"):
+                # Previous was empty, new one has image
+                should_update = True
+            elif highres and not lookup[name].get("highres"):
+                # New one is highres, previous wasn't
+                should_update = True
+            elif image_status == "highres_scan" and lookup[name].get("image_status") != "highres_scan":
+                # New one has highres_scan status
+                should_update = True
+            
+            if should_update:
+                lookup[name] = card_data
+            
+            # Also store by printed_name if it's different
+            if printed_name and printed_name != name:
+                should_update_printed = False
+                if printed_name not in lookup:
+                    should_update_printed = True
+                elif image_url and not lookup[printed_name].get("image"):
+                    should_update_printed = True
+                elif highres and not lookup[printed_name].get("highres"):
+                    should_update_printed = True
+                elif image_status == "highres_scan" and lookup[printed_name].get("image_status") != "highres_scan":
+                    should_update_printed = True
+                
+                if should_update_printed:
+                    lookup[printed_name] = card_data
+            
+            # Also check card_faces for printed names (important for modal DFCs)
+            if "card_faces" in card:
+                for face in card["card_faces"]:
+                    face_printed_name = face.get("printed_name")
+                    face_image_uris = face.get("image_uris", {})
+                    
+                    if face_printed_name and face_image_uris.get("normal"):
+                        should_update_face = False
+                        if face_printed_name not in lookup:
+                            should_update_face = True
+                        elif not lookup[face_printed_name].get("image"):
+                            should_update_face = True
+                        elif face.get("image_uris", {}).get("normal") and not lookup[face_printed_name].get("image"):
+                            should_update_face = True
+                        
+                        if should_update_face:
+                            lookup[face_printed_name] = {
+                                "art": face_image_uris.get("art_crop"),
+                                "image": face_image_uris.get("normal"),
+                                "image_status": card.get("image_status"),
+                                "highres": card.get("highres_image", False)
+                            }
+        
+        _SCRYFALL_CACHE = lookup
+        print(f"✅ Loaded {len(lookup)} cards from Scryfall")
+        return lookup
+        
+    except Exception as e:
+        print(f"❌ Error fetching bulk data: {e}")
+        return {}
 
 def process_results_folder(results_folder_path):
     """
@@ -77,52 +246,122 @@ def process_results_folder(results_folder_path):
     
     df_nodes = df_nodes.merge(df_self, on="id", how="left")
     
-    # -------- FETCH CARD IMAGES FROM SCRYFALL --------
-    card_names = df_nodes["id"].dropna().unique().tolist()
-    lookup = {}
+    # -------- FETCH CARD IMAGES FROM SCRYFALL (single bulk request) --------
+    lookup = fetch_scryfall_bulk_data()
     
-    for i in range(0, len(card_names), CONFIG["SCRYFALL_BATCH_SIZE"]):
+    # -------- APPLY CARD IMAGES WITH NAME FALLBACK --------
+    def get_card_image(card_name):
+        """Try to find card image, with multiple fallback strategies"""
+        # Strategy 1: Exact match
+        if card_name in lookup:
+            return lookup[card_name].get("image")
         
-        batch = card_names[i:i + CONFIG["SCRYFALL_BATCH_SIZE"]]
-        query = " OR ".join([f'"{name}"' for name in batch])
+        # Strategy 2: Remove special characters
+        clean_name = card_name.replace("'", "'").replace("'", "'")
+        if clean_name in lookup and clean_name != card_name:
+            return lookup[clean_name].get("image")
         
-        url = (
-            "https://api.scryfall.com/cards/search"
-            f"?q={requests.utils.quote(query)}"
-            "&unique=cards"
-        )
+        # Strategy 3: Replace em-dash with hyphen
+        dash_name = card_name.replace("—", "-")
+        if dash_name in lookup and dash_name != card_name:
+            return lookup[dash_name].get("image")
         
-        print(f"🔎 Fetching {i} → {i+len(batch)}")
+        # Strategy 4: Normalize diacritics (remove accents, handle special chars)
+        normalized_card = normalize_name(card_name)
+        if normalized_card:  # Only if normalization resulted in something
+            for scryfall_name, data in lookup.items():
+                if normalize_name(scryfall_name) == normalized_card and data.get("image"):
+                    return data.get("image")
         
-        try:
-            res = requests.get(url).json()
-        except Exception as e:
-            print(f"⚠️  Error fetching from Scryfall: {e}")
-            continue
+        # Strategy 5: Fuzzy match for names with ? (corrupted character)
+        # Try to match with the normalized prefix
+        if '?' in card_name:
+            prefix = card_name.split('?')[0].strip()
+            for scryfall_name, data in lookup.items():
+                if scryfall_name.startswith(prefix) and data.get("image"):
+                    return data.get("image")
         
-        if "data" not in res:
-            continue
+        # Strategy 6: Partial match (exact substring)
+        for scryfall_name, data in lookup.items():
+            if card_name in scryfall_name and data.get("image"):
+                return data.get("image")
         
-        for card in res["data"]:
-            name = card.get("name")
-            image_uris = card.get("image_uris", {})
-            
-            if not image_uris and "card_faces" in card:
-                image_uris = card["card_faces"][0].get("image_uris", {})
-            
-            lookup[name] = {
-                "art": image_uris.get("art_crop"),
-                "image": image_uris.get("normal")
-            }
+        # Strategy 7: Substring match from scryfall side (reverse)
+        for scryfall_name, data in lookup.items():
+            if scryfall_name in card_name and data.get("image"):
+                return data.get("image")
         
-        time.sleep(CONFIG["SCRYFALL_SLEEP"])
+        # Strategy 8: Case-insensitive partial match
+        card_name_lower = card_name.lower()
+        for scryfall_name, data in lookup.items():
+            if card_name_lower in scryfall_name.lower() and data.get("image"):
+                return data.get("image")
+        
+        return None
     
-    # -------- APPLY CARD IMAGES --------
-    df_nodes["card_image"] = df_nodes["id"].map(lambda x: lookup.get(x, {}).get("image"))
-    df_nodes["image"] = df_nodes["id"].map(lambda x: lookup.get(x, {}).get("art"))
+    def get_card_art(card_name):
+        """Try to find card art, with multiple fallback strategies"""
+        # Strategy 1: Exact match
+        if card_name in lookup:
+            return lookup[card_name].get("art")
+        
+        # Strategy 2: Remove special characters
+        clean_name = card_name.replace("'", "'").replace("'", "'")
+        if clean_name in lookup and clean_name != card_name:
+            return lookup[clean_name].get("art")
+        
+        # Strategy 3: Replace em-dash with hyphen
+        dash_name = card_name.replace("—", "-")
+        if dash_name in lookup and dash_name != card_name:
+            return lookup[dash_name].get("art")
+        
+        # Strategy 4: Normalize diacritics (remove accents, handle special chars)
+        normalized_card = normalize_name(card_name)
+        if normalized_card:  # Only if normalization resulted in something
+            for scryfall_name, data in lookup.items():
+                if normalize_name(scryfall_name) == normalized_card and data.get("art"):
+                    return data.get("art")
+        
+        # Strategy 5: Fuzzy match for names with ? (corrupted character)
+        # Try to match with the normalized prefix
+        if '?' in card_name:
+            prefix = card_name.split('?')[0].strip()
+            for scryfall_name, data in lookup.items():
+                if scryfall_name.startswith(prefix) and data.get("art"):
+                    return data.get("art")
+        
+        # Strategy 6: Partial match (exact substring)
+        for scryfall_name, data in lookup.items():
+            if card_name in scryfall_name and data.get("art"):
+                return data.get("art")
+        
+        # Strategy 7: Substring match from scryfall side (reverse)
+        for scryfall_name, data in lookup.items():
+            if scryfall_name in card_name and data.get("art"):
+                return data.get("art")
+        
+        # Strategy 8: Case-insensitive partial match
+        card_name_lower = card_name.lower()
+        for scryfall_name, data in lookup.items():
+            if card_name_lower in scryfall_name.lower() and data.get("art"):
+                return data.get("art")
+        
+        return None
+    
+    df_nodes["card_image"] = df_nodes["id"].map(get_card_image)
+    df_nodes["image"] = df_nodes["id"].map(get_card_art)
     
     df_nodes["image"] = df_nodes["image"].fillna("")
     df_nodes["card_image"] = df_nodes["card_image"].fillna("")
+    
+    # -------- REPORT MISSING IMAGES AND MISSING CARDS --------
+    missing_cards = df_nodes[df_nodes["card_image"] == ""]
+    if len(missing_cards) > 0:
+        print(f"⚠️  {len(missing_cards)} card(s) without images:")
+        for idx, row in missing_cards.iterrows():
+            in_lookup = row['id'] in lookup
+            lookup_status = "(in Scryfall but no image)" if in_lookup else "(not in Scryfall)"
+            print(f"     - {row['id']} {lookup_status}")
     
     # -------- BUILD LINKS --------
     links = []
