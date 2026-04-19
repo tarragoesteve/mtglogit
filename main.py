@@ -30,6 +30,7 @@ def run_pipeline(prefix, X_raw, y, card_names, args, output_dir):
         X_raw, card_names,
         min_card_freq=args.min_card_freq,
         min_pair_freq=args.min_pair_freq,
+        min_repeat_freq=args.min_repeat_freq,
     )
 
     print(f"\n[2/3] Training model...")
@@ -55,6 +56,8 @@ def main():
                         help="Minimum card frequency threshold (default: 0.01)")
     parser.add_argument("--min-pair-freq", type=float, default=0.005,
                         help="Minimum pair co-occurrence frequency (default: 0.005)")
+    parser.add_argument("--min-repeat-freq", type=float, default=0.005,
+                        help="Minimum repeat (2+ copies) frequency (default: 0.005)")
     parser.add_argument("--l1-ratio", type=float, default=0.5,
                         help="Elastic net L1 ratio (default: 0.5)")
     parser.add_argument("--C", type=float, default=1.0,

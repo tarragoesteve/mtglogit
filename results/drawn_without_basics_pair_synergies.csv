@@ -1,285 +1,1229 @@
 feature,type,coefficient,odds_multiplier,count
-Brain Freeze × Underworld Breach,pair,0.6231747657355337,1.8648390810158797,814
-Animate Dead × Entomb,pair,0.42488651686285583,1.5294168467929927,296
-Brain Freeze × Lion's Eye Diamond,pair,0.388549702914976,1.4748402855043574,552
-Elite Spellbinder × Parallax Wave,pair,-0.3854281773060088,0.6801593450508866,293
-"Meticulous Archive × Teferi, Time Raveler",pair,0.3526543012219666,1.422839184636257,290
-"Saheeli, Sublime Artificer × Urza, Lord High Artificer",pair,0.3445530427383099,1.4113589615357938,301
-Sanguine Evangelist × Voice of Victory,pair,-0.33460170679299156,0.7156230574003176,273
-"Jace, Vryn's Prodigy × Time Walk",pair,0.33395962154468184,1.396486754458043,267
-"Phelia, Exuberant Shepherd × Staff of the Storyteller",pair,-0.3235200622157357,0.7235974408087967,297
-Brain Freeze × Frantic Search,pair,0.32350675296909465,1.3819654886067556,334
-Baleful Strix × Gloomlake Verge,pair,0.3227606963388181,1.380934848596878,269
-Remand × Stock Up,pair,0.31891099371032977,1.375628879834372,303
-Dack Fayden × Spirebluff Canal,pair,0.30769448134006544,1.3602853328930105,288
-Luminarch Aspirant × Mother of Runes,pair,-0.30565298847869465,0.7366421984390477,298
-Guide of Souls × Inspiring Vantage,pair,-0.3039745509492045,0.7378796445482029,290
-Glimmer Lens × Staff of the Storyteller,pair,-0.2980593798020365,0.7422572633498056,305
-"Phlage, Titan of Fire's Fury × Sunbillow Verge",pair,0.2964690749951773,1.3451009621003074,286
-Mox Opal × Tolarian Academy,pair,0.2853294932445641,1.3302002479178843,347
-Parallax Wave × Sage of the Skies,pair,0.2834581365589985,1.3277132965031506,279
-Blood Crypt × Fire Covenant,pair,0.2827063004087613,1.3267154488056783,305
-Entomb × Reanimate,pair,-0.27613404029051336,0.7587112260719722,293
-Balance × Floodfarm Verge,pair,0.26984293315031915,1.3097587149013392,272
-Tolarian Academy × Upheaval,pair,0.268370924321307,1.307832156812261,339
-Ocelot Pride × Sanguine Evangelist,pair,-0.26431319309242307,0.767733053310219,293
-Mother of Runes × Ocelot Pride,pair,-0.25755628755788856,0.7729381182899371,267
-Retrofitter Foundry × Tolarian Academy,pair,0.2520453173299832,1.286654343703153,374
-"Aether Spellbomb × Urza, Lord High Artificer",pair,0.25102891224249996,1.285347246065253,266
-Tinker × Tolarian Academy,pair,0.24762833292788936,1.2809837442301701,291
-Remand × Snapcaster Mage,pair,0.24752105544566527,1.2808463308901297,275
-"Balance × Teferi, Hero of Dominaria",pair,0.24512663124866058,1.2777831102311565,335
-Echo of Eons × Hullbreacher,pair,0.24381214067855286,1.2761045798299993,476
-Hullbreacher × Mana Drain,pair,0.23771043620919327,1.2683418737653214,269
-Giver of Runes × Parallax Wave,pair,-0.2366855415969972,0.7892394319714537,302
-"Phelia, Exuberant Shepherd × Reprieve",pair,-0.23636047227964507,0.7894960311988404,267
-Guide of Souls × Luminarch Aspirant,pair,0.23586118932462843,1.2659985638537619,330
-Baleful Strix × Psychic Frog,pair,0.23568723693233348,1.2657783595280274,337
-"Tamiyo, Collector of Tales × Time Walk",pair,0.2339365860006932,1.2635643619975403,393
-Animate Dead × Archon of Cruelty,pair,0.22970831822954751,1.2582329527848315,274
-"The Mightstone and Weakstone × Urza, Lord High Artificer",pair,0.2296317507994246,1.258136616809287,301
-Hullbreacher × Timetwister,pair,0.22853904372834952,1.2567625928712736,469
-Death-Greeter's Champion × Parallax Wave,pair,-0.22802282168632423,0.7961060911446415,272
-Time Spiral × Timetwister,pair,0.22408320185339367,1.2511751151863257,381
-"Celestial Colonnade × Teferi, Hero of Dominaria",pair,0.2218609116003235,1.248397728146065,290
-"Ajani, Nacatl Pariah × Parallax Wave",pair,-0.2176814150093005,0.8043816647751654,330
-"Teferi, Time Raveler × Tundra",pair,0.2157423879454032,1.2407826972455571,328
-"Adeline, Resplendent Cathar × Guide of Souls",pair,-0.2142220141035846,0.8071691621904346,322
-Creeping Tar Pit × Psychic Frog,pair,0.21335239481384383,1.23782077601697,327
-Echo of Eons × Lion's Eye Diamond,pair,0.21308293612644513,1.237487279389229,452
-"Tezzeret, Cruel Captain × Tolarian Academy",pair,0.21265636751537956,1.236959518730317,271
-Luminarch Aspirant × Ocelot Pride,pair,-0.210134031058133,0.8104756097864677,280
-Glimmer Lens × Mother of Runes,pair,-0.2083944535320564,0.8118867219563435,298
-Duress × Psychic Frog,pair,0.20579335996510448,1.2284993206224983,266
-"Broadside Bombardiers × Gut, True Soul Zealot",pair,-0.20542981205860558,0.8142972464088537,268
-"Adeline, Resplendent Cathar × Phelia, Exuberant Shepherd",pair,-0.20432946659797688,0.8151937478277215,272
-Spirebluff Canal × Third Path Iconoclast,pair,0.20366867570874472,1.2258919183911379,268
-Lion's Eye Diamond × Wheel of Fortune,pair,0.19984722705594954,1.2212161751177175,269
-Inspiring Vantage × Ocelot Pride,pair,-0.19827186751975404,0.8201468515353972,281
-"Comet, Stellar Pup × Sunbaked Canyon",pair,-0.19811756532702252,0.8202734117569598,287
-Celestial Colonnade × No More Lies,pair,0.19711634540404327,1.217885727870511,332
-Fractured Identity × Tundra,pair,0.19249180791169151,1.2122665726719493,330
-Reprieve × Staff of the Storyteller,pair,-0.18632431437002323,0.8300043689833191,272
-"Ajani, Nacatl Pariah × Phelia, Exuberant Shepherd",pair,-0.18625102702299343,0.8300652000305908,278
-Entomb × Necromancy,pair,0.1847491932149789,1.2029167026195378,292
-Counterspell × Spell Pierce,pair,0.1838679808225345,1.2018571444305797,273
-Ponder × Remand,pair,0.17715681016332285,1.193818281289919,266
-Force of Negation × Force of Will,pair,0.1760189493052979,1.1924606547375811,342
-Frantic Search × Underworld Breach,pair,0.17564109627238095,1.1920101649773753,287
-Hullbreacher × Time Spiral,pair,0.17519959173164507,1.19148400323688,405
-"Floodfarm Verge × Teferi, Time Raveler",pair,0.1739166436524957,1.189956371269374,346
-Guide of Souls × Ocelot Pride,pair,-0.17381788005253615,0.8404499464214803,375
-Mox Opal × Upheaval,pair,0.17359338786380052,1.1895717731491997,291
-Echo of Eons × Wheel of Fortune,pair,0.172802223515109,1.1886309985747985,321
-"Adeline, Resplendent Cathar × Luminarch Aspirant",pair,-0.17144443085506467,0.8424470807832719,275
-"Death-Greeter's Champion × Gut, True Soul Zealot",pair,-0.16883834058027686,0.8446454372410013,284
-"Ajani, Nacatl Pariah × Ocelot Pride",pair,-0.16882974428593248,0.8446526980930046,314
-"Narset, Parter of Veils × Time Spiral",pair,0.1682226698761074,1.1832000443246302,402
-"Guide of Souls × Phelia, Exuberant Shepherd",pair,-0.16304339603146148,0.8495543203286186,345
-The Mightstone and Weakstone × Tolarian Academy,pair,0.15782902548545547,1.1709659722530346,294
-Celestial Colonnade × Hallowed Fountain,pair,0.15769728921133871,1.1708117237190192,270
-"No More Lies × Teferi, Hero of Dominaria",pair,0.15677728964354815,1.1697350727743752,391
-Animate Dead × Reanimate,pair,-0.15657534333929227,0.8550670916658989,266
-"Seachrome Coast × Teferi, Hero of Dominaria",pair,0.15447316447822834,1.1670429594305243,295
-Force of Negation × Mystic Confluence,pair,0.15282363044751943,1.165119469221069,297
-Deep-Cavern Bat × Thoughtseize,pair,0.15278755275535874,1.1650774351577784,292
-Counterspell × Force of Will,pair,0.1521567626349116,1.164342747563324,273
-"Adeline, Resplendent Cathar × Sanguine Evangelist",pair,-0.14771575604757292,0.8626762906140529,308
-Daze × Mystic Confluence,pair,0.14646721880489755,1.157736978194634,267
-Mox Opal × Retrofitter Foundry,pair,0.14598375452145776,1.1571773889976542,281
-"Inspiring Vantage × Phlage, Titan of Fire's Fury",pair,-0.14596611129433945,0.8641869888669144,319
-Mana Leak × Stock Up,pair,0.14533995478646475,1.1564326382621644,296
-"Lightning Helix × Phlage, Titan of Fire's Fury",pair,-0.14420562330634115,0.86570971966155,292
-Hullbreacher × Memory Lapse,pair,0.14270804157907568,1.15339300970196,279
-"Miscalculation × Tamiyo, Inquisitive Student",pair,-0.14209609391462502,0.867537887368663,276
-Glimmer Lens × Guide of Souls,pair,-0.1419085525257421,0.867700601886345,327
-Fractured Identity × Hallowed Fountain,pair,0.1397571613834183,1.1499945018726418,336
-Psychic Frog × Underground Sea,pair,0.1386494741934994,1.14872137293892,273
-"Balance × Teferi, Time Raveler",pair,0.13768242858646249,1.1476110439374314,368
-Dack Fayden × Hullbreacher,pair,0.13606618584422278,1.145757724027623,266
-"Phelia, Exuberant Shepherd × Solitude",pair,-0.13484061400697442,0.8738551808647242,287
-Force of Will × Hullbreacher,pair,0.1332511618452695,1.1425369239791134,280
-"Echo of Eons × Narset, Parter of Veils",pair,0.1315821419626619,1.1406315975924841,442
-"Force of Will × Tamiyo, Inquisitive Student",pair,0.13133511657747862,1.14034986743142,274
-Karakas × Parallax Wave,pair,-0.12958465047213827,0.878460223196117,315
-"Elite Spellbinder × Phelia, Exuberant Shepherd",pair,-0.1273134433961362,0.8804576557038226,271
-"Fractured Identity × Teferi, Hero of Dominaria",pair,0.12641324918539457,1.1347510063318742,372
-"Mox Opal × Urza, Lord High Artificer",pair,0.12496942354410662,1.1331138059328265,306
-Guide of Souls × Staff of the Storyteller,pair,-0.12483371865268718,0.8826436575595259,281
-Parallax Wave × Thraben Inspector,pair,-0.12471947514149266,0.8827444996302655,281
-Fractured Identity × Seachrome Coast,pair,0.12331326191282323,1.131238739458727,285
-Luminarch Aspirant × Parallax Wave,pair,-0.12177698520334289,0.8853457916993689,289
-Giver of Runes × Guide of Souls,pair,-0.1216879410483218,0.8854246300772886,297
-Dack Fayden × Third Path Iconoclast,pair,0.12150185015378466,1.1291914551010693,290
-"Inspiring Vantage × Phelia, Exuberant Shepherd",pair,-0.11960868385737204,0.8872675709164498,272
-"Oust × Teferi, Time Raveler",pair,0.11790621482972785,1.1251385851052365,279
-Psychic Frog × Thoughtseize,pair,0.11785494385208901,1.125080899628807,283
-Guide of Souls × Sanguine Evangelist,pair,-0.11760169893229731,0.88905009170363,316
-"Parallax Wave × Phelia, Exuberant Shepherd",pair,-0.11747060574840823,0.889166647750473,370
-Balance × Celestial Colonnade,pair,0.1172307243182019,1.1243788213023553,266
-"Ocelot Pride × Phelia, Exuberant Shepherd",pair,-0.11708628827926991,0.8895084356995117,316
-"Hallowed Fountain × Teferi, Hero of Dominaria",pair,0.11607983865075826,1.123085534187694,326
-Ocelot Pride × Parallax Wave,pair,-0.11531235761876488,0.8910877623802318,322
-"Floodfarm Verge × Teferi, Hero of Dominaria",pair,0.11468660331557995,1.1215219012443014,279
-"Mystic Confluence × Teferi, Time Raveler",pair,-0.11353805382727468,0.8926702262462389,273
-Parallax Wave × Solitude,pair,-0.11066070034054014,0.895242452862187,329
-"Kappa Cannoneer × Urza, Lord High Artificer",pair,0.10710950765955443,1.1130561359781286,309
-Lion's Eye Diamond × Underworld Breach,pair,0.10577480306317821,1.1115715258158125,524
-"Comet, Stellar Pup × Sacred Foundry",pair,-0.10544749592315844,0.8999217211656073,283
-Force of Negation × Spell Pierce,pair,-0.10543535806281783,0.8999326443560682,279
-Parallax Wave × Swords to Plowshares,pair,-0.10449704061395602,0.9007774631511919,273
-Force of Will × Mana Leak,pair,-0.10303077939790992,0.9020992069837547,282
-Hullbreacher × Remand,pair,0.1025182066975029,1.1079574739727456,294
-Kappa Cannoneer × Tolarian Academy,pair,0.09949833922557534,1.1046166362193712,340
-Miscalculation × Mystic Confluence,pair,0.0987744495091494,1.1038173049445692,268
-"Narset, Parter of Veils × Stock Up",pair,0.09674038538115279,1.101574351689434,272
-"Flash × Torsten, Founder of Benalia",pair,0.09400717204919946,1.098567624869974,335
-"Phelia, Exuberant Shepherd × Phlage, Titan of Fire's Fury",pair,-0.09318065537214006,0.9110289031633787,271
-Inquisition of Kozilek × Thoughtseize,pair,-0.09136620070382538,0.912683424382644,269
-"Remand × Tamiyo, Inquisitive Student",pair,0.09111347912694803,1.0953933024813922,302
-"Spell Pierce × Tamiyo, Inquisitive Student",pair,-0.09108151464990559,0.9129432896134579,273
-"Fractured Identity × Teferi, Time Raveler",pair,-0.09028751231798099,0.9136684565683547,342
-Memory Lapse × Remand,pair,-0.08990936751440784,0.9140140208799513,328
-Cryptic Command × Force of Will,pair,0.08962346514324011,1.0937623665034841,279
-Underworld Breach × Wheel of Fortune,pair,0.0860112590432736,1.0898185985508144,315
-The Mightstone and Weakstone × Upheaval,pair,0.08528539042796818,1.0890278204689665,272
-"Adeline, Resplendent Cathar × Ocelot Pride",pair,0.08250539201657606,1.0860045291776925,271
-Aether Spellbomb × Tolarian Academy,pair,0.08175225716942928,1.0851869292427565,275
-"Minsc & Boo, Timeless Heroes × Stomping Ground",pair,-0.08054353346744281,0.9226147380908284,276
-Ocelot Pride × Voice of Victory,pair,-0.07986045834711458,0.9232451685552363,272
-Mana Drain × Remand,pair,-0.07922586200445511,0.9238312425031031,298
-Tolarian Academy × Urza's Bauble,pair,0.07831772806281519,1.0814662162541406,277
-Giver of Runes × Glimmer Lens,pair,-0.07758724254399824,0.9253462913104749,269
-Force of Will × Snapcaster Mage,pair,-0.07657740571609664,0.9262812120532506,270
-"Hallowed Fountain × Teferi, Time Raveler",pair,0.07657510477177563,1.0795832691474667,374
-Fractured Identity × No More Lies,pair,0.07465826035597377,1.0775158580723183,352
-"Narset, Parter of Veils × Wheel of Fortune",pair,-0.07323310258704846,0.9293841629212037,293
-"Tolarian Academy × Urza, Lord High Artificer",pair,0.073187606880577,1.075932370297149,376
-Inquisition of Kozilek × Psychic Frog,pair,0.07277271896918587,1.0754860715516175,267
-Ancestral Recall × Mystical Tutor,pair,0.07243541152934602,1.0751233632737782,308
-"Teferi, Hero of Dominaria × Teferi, Time Raveler",pair,-0.07166860690503103,0.9308393184264727,435
-Staff of the Storyteller × Voice of Victory,pair,0.07051518807481923,1.073060867035682,305
-Echo of Eons × Time Spiral,pair,0.0684464668281434,1.070843297778249,369
-Balance × No More Lies,pair,-0.06804349793126215,0.9342198360631833,299
-"Luminarch Aspirant × Phelia, Exuberant Shepherd",pair,-0.06775401636334738,0.9344903146334954,278
-Balance × Fractured Identity,pair,0.0670932070743409,1.0693951487226547,298
-Mana Leak × Memory Lapse,pair,0.06649200040342086,1.0687524144528182,267
-"No More Lies × Teferi, Time Raveler",pair,0.06621323231598612,1.0684545219096964,409
-Cryptic Command × Mystic Confluence,pair,0.06525028246727752,1.067426149004703,274
-Glimmer Lens × Parallax Wave,pair,-0.06444246714090768,0.9375900549468715,302
-Reprieve × Solitude,pair,-0.06332740906939761,0.9386361054005241,266
-Snapcaster Mage × Time Walk,pair,0.06331169554498953,1.0653588550936326,353
-Hullbreacher × Wheel of Fortune,pair,0.06323720277915217,1.0652794965217638,370
-Hullbreacher × Mystic Confluence,pair,0.06190049340222558,1.06385647872222,266
-Brain Freeze × Wheel of Fortune,pair,0.06048108477115319,1.0623475028341465,322
-Miscalculation × Spell Pierce,pair,-0.06026630533383145,0.9415137700570563,266
-Floodfarm Verge × Fractured Identity,pair,0.05771595186229924,1.0594140283858902,280
-"Ajani, Nacatl Pariah × Luminarch Aspirant",pair,0.0563172850531902,1.0579332969136563,280
-Guide of Souls × Mother of Runes,pair,0.05541673487256379,1.0569810037502785,369
-Daze × Force of Will,pair,-0.05475540228488509,0.9467166843735488,286
-Oust × Solitude,pair,-0.054679846654344826,0.9467882168518863,270
-"Phelia, Exuberant Shepherd × Sanguine Evangelist",pair,-0.05384672717592502,0.9475773332257519,328
-Emperor of Bones × Psychic Frog,pair,0.05322008558122715,1.0546617354195926,267
-Glimmer Lens × Ocelot Pride,pair,-0.05193562081517539,0.9493899858288415,281
-Mana Leak × Remand,pair,0.05132709646419243,1.0526671606820406,311
-Oust × Parallax Wave,pair,-0.04975303292573938,0.9514643758600643,284
-Fatal Push × Psychic Frog,pair,-0.048763857938108536,0.952406006264129,303
-Parallax Wave × Reprieve,pair,0.04819561021319883,1.0493759038937442,310
-"Retrofitter Foundry × Urza, Lord High Artificer",pair,0.04789794772154581,1.0490635905318033,356
-Psychic Frog × Undercity Sewers,pair,0.047563126005075944,1.0487124000561152,280
-"Upheaval × Urza, Lord High Artificer",pair,0.0449698116373937,1.045996282517023,276
-Dack Fayden × Riverpyre Verge,pair,-0.044813722475015715,0.9561755792651664,276
-Glimmer Lens × Sanguine Evangelist,pair,-0.04449919762959168,0.9564763675416464,297
-Mother of Runes × Parallax Wave,pair,0.04442665271455662,1.045428294570744,397
-Parallax Wave × Sunbillow Verge,pair,0.043057039527788436,1.0439974422734377,296
-"Memory Lapse × Tamiyo, Inquisitive Student",pair,0.043040668879689666,1.0439803514985881,283
-"Urza's Saga × Urza, Lord High Artificer",pair,0.04267549952522322,1.0435991914657727,267
-Memory Lapse × Spell Pierce,pair,0.04164286141039752,1.042522087389139,267
-Parallax Wave × Sanguine Evangelist,pair,-0.04113744281623595,0.9596972173944976,338
-Mother of Runes × Sanguine Evangelist,pair,-0.04046832182111269,0.9603395858387571,322
-Ocelot Pride × Staff of the Storyteller,pair,-0.03968109083502678,0.9610958925728833,285
-Luminarch Aspirant × Sanguine Evangelist,pair,-0.03891131119892169,0.9618360094462319,297
-Polluted Delta × Psychic Frog,pair,0.037711226988826584,1.0384313186382328,292
-Guide of Souls × Sunbillow Verge,pair,0.03725703503259711,1.0379597785791677,278
-"Teferi, Hero of Dominaria × Tundra",pair,0.03585562487700753,1.0365061899791843,292
-Memory Lapse × Mystic Confluence,pair,-0.03316579672916706,0.9673781581578929,322
-Brain Freeze × Mystical Tutor,pair,0.03251521249383533,1.0330496082852367,298
-Giver of Runes × Mother of Runes,pair,-0.0316510115757479,0.9688446386506392,272
-Archon of Cruelty × Necromancy,pair,-0.030889626285522807,0.9695825836015872,299
-No More Lies × Tundra,pair,-0.03035436517895688,0.9701017023678413,288
-Force of Negation × Memory Lapse,pair,-0.0299419163698364,0.9705019021850044,279
-"Mother of Runes × Phelia, Exuberant Shepherd",pair,0.026473270418792546,1.0268268002445171,332
-Echo of Eons × Timetwister,pair,-0.026399196913004463,0.9739462156725472,386
-Baleful Strix × Creeping Tar Pit,pair,0.02618481694543472,1.026530651202113,304
-Force of Will × Ponder,pair,0.025617704506776067,1.025948657944558,273
-Mystic Confluence × Subtlety,pair,-0.024275262388933693,0.9760170120040489,270
-"Narset, Parter of Veils × Timetwister",pair,0.024014485734177853,1.0243051555953546,478
-Psychic Frog × Watery Grave,pair,0.022871484905966025,1.0231350428015051,324
-"Ajani, Nacatl Pariah × Mother of Runes",pair,0.022525016417980204,1.0227806201519054,292
-Mana Leak × Spell Pierce,pair,0.02238116855926143,1.022633505931044,275
-Guide of Souls × Voice of Victory,pair,0.020237827362524802,1.0204440006752258,323
-Solitude × Staff of the Storyteller,pair,-0.019652848786218795,0.9805390095365901,281
-Force of Will × Memory Lapse,pair,0.019318016553599344,1.0195058167954845,288
-Hallowed Fountain × No More Lies,pair,0.018541227707190654,1.018714183553891,314
-Remand × Timetwister,pair,-0.018526305036117127,0.981644252064657,301
-Solitude × Swords to Plowshares,pair,-0.018329131939699768,0.9818378249844757,272
-"Containment Priest × Phelia, Exuberant Shepherd",pair,-0.016805792775262878,0.9833346367829636,280
-Force of Negation × Remand,pair,-0.016623719457965473,0.9835136920823977,280
-"Mana Leak × Tamiyo, Inquisitive Student",pair,0.015784840224573198,1.0159100789048443,270
-"Glimmer Lens × Phelia, Exuberant Shepherd",pair,-0.015397398537317265,0.9847205353360633,300
-"Narset, Parter of Veils × Ponder",pair,0.015048539257121287,1.0151623386456223,269
-"Seachrome Coast × Teferi, Time Raveler",pair,-0.014539187226026484,0.9855659963781718,286
-Ancestral Recall × Snapcaster Mage,pair,-0.013792546629018264,0.9863021347432948,310
-Balance × Hallowed Fountain,pair,0.011034083293192895,1.011095183311025,297
-Fractured Identity × Meticulous Archive,pair,-0.010985688739489425,0.9890744335759651,283
-Floodfarm Verge × No More Lies,pair,0.010062897797849846,1.0101136990133839,355
-Mystical Tutor × Timetwister,pair,-0.008851295802631177,0.9911877615949197,310
-"Ajani, Nacatl Pariah × Guide of Souls",pair,-0.00861046335556763,0.9914265005159294,333
-Inspiring Vantage × Parallax Wave,pair,-0.008575754977900344,0.9914609119185173,316
-Balance × Talisman of Progress,pair,0.007878603993380742,1.0079097218619282,267
-Brain Freeze × Echo of Eons,pair,0.006840406346967391,1.006863855362904,316
-Broadside Bombardiers × Pyrogoyf,pair,0.005714824031252412,1.0057311847895432,275
-Sanguine Evangelist × Staff of the Storyteller,pair,-0.005038807498974832,0.9949738659961618,314
-Parallax Wave × Staff of the Storyteller,pair,-0.00468967846716627,0.9953213009049494,329
-Mystic Confluence × Stock Up,pair,0.0043096261365860224,1.0043189259300496,271
-Oust × Reprieve,pair,0.004263811400659664,1.0042729143776838,278
-Mana Leak × Mystic Confluence,pair,-0.004120592314686593,0.9958878856770453,291
-Remand × Spell Pierce,pair,0.000395235169449439,1.00039531328516,301
-Lion's Eye Diamond × Timetwister,pair,0.00013803352825080554,1.0001380430553166,278
-"Ajani, Nacatl Pariah × Glimmer Lens",pair,0.0,1.0,274
-Spell Pierce × Subtlety,pair,0.0,1.0,272
-Guide of Souls × Parallax Wave,pair,0.0,1.0,362
-Giver of Runes × Ocelot Pride,pair,0.0,1.0,282
-"Giver of Runes × Phelia, Exuberant Shepherd",pair,0.0,1.0,305
-Deep-Cavern Bat × Snuff Out,pair,0.0,1.0,271
-Force of Will × Subtlety,pair,0.0,1.0,289
-Force of Will × Remand,pair,0.0,1.0,327
-"Mystic Confluence × Tamiyo, Inquisitive Student",pair,0.0,1.0,331
-Mystic Confluence × Remand,pair,0.0,1.0,303
-Mana Leak × Snapcaster Mage,pair,0.0,1.0,285
-Mystic Confluence × Spell Pierce,pair,0.0,1.0,300
-"Gut, True Soul Zealot × Laelia, the Blade Reforged",pair,0.0,1.0,285
-Glimmer Lens × Luminarch Aspirant,pair,0.0,1.0,274
-"Hullbreacher × Narset, Parter of Veils",pair,0.0,1.0,347
-Timetwister × Wheel of Fortune,pair,0.0,1.0,298
-Gloomlake Verge × Psychic Frog,pair,0.0,1.0,280
-Guide of Souls × Solitude,pair,0.0,1.0,276
-Oust × Swords to Plowshares,pair,0.0,1.0,276
-Mystical Tutor × Time Walk,pair,0.0,1.0,379
-Dack Fayden × Expressive Iteration,pair,0.0,1.0,280
-"Celestial Colonnade × Teferi, Time Raveler",pair,0.0,1.0,373
-Celestial Colonnade × Fractured Identity,pair,0.0,1.0,311
-Darkslick Shores × Psychic Frog,pair,0.0,1.0,335
-Dack Fayden × Steam Vents,pair,0.0,1.0,282
-Parallax Wave × Voice of Victory,pair,0.0,1.0,294
-Parallax Wave × Skyclave Apparition,pair,0.0,1.0,292
-Counterspell × Remand,pair,0.0,1.0,313
+Brain Freeze × Underworld Breach,pair,0.6165537045713938,1.8525326531628203,814
+Mother of Runes × Witch Enchanter,pair,-0.5494527637162419,0.577265624655268,221
+Parallax Wave × Sunbaked Canyon,pair,-0.4914942584462556,0.611711655618624,264
+Lightning Helix × Parallax Wave,pair,-0.48919907755868486,0.6131172569569256,214
+"Retrofitter Foundry × Ugin, Eye of the Storms",pair,0.4843439529563928,1.623109823075568,228
+Animate Dead × Entomb,pair,0.425554767303086,1.5304392218373986,296
+Fractured Identity × Memory Lapse,pair,0.4207925568647448,1.5231682748310484,222
+"Ajani, Nacatl Pariah × Sanguine Evangelist",pair,-0.4199879388271889,0.6570547446180867,261
+Time Spiral × Upheaval,pair,0.41923133122159917,1.5207921208005002,263
+"Talisman of Creativity × Urza, Lord High Artificer",pair,0.4027329515942735,1.4959073586433886,247
+Third Path Iconoclast × Volcanic Island,pair,0.4022634553861002,1.4952052006538816,238
+Death-Greeter's Champion × Sanguine Evangelist,pair,-0.4013881992981322,0.6693901538054121,230
+"Ajani, Nacatl Pariah × Gut, True Soul Zealot",pair,-0.3971854715809549,0.6722093383413253,217
+Giver of Runes × Voice of Victory,pair,-0.39665356350762443,0.672566987025036,247
+Ocelot Pride × Showdown of the Skalds,pair,0.387389049879032,1.473129500655321,216
+"Malcolm, Alluring Scoundrel × Spell Pierce",pair,0.3855962592939904,1.4704908539332382,243
+Guide of Souls × Karakas,pair,-0.38445752278035583,0.6808198653139566,228
+"Adeline, Resplendent Cathar × Death-Greeter's Champion",pair,-0.38353794663243734,0.6814462189689309,216
+"Mox Opal × Ugin, Eye of the Storms",pair,0.3806952008694871,1.463301524398315,213
+"Kytheon, Hero of Akros × Mother of Runes",pair,-0.37814649956202295,0.6851301220505291,224
+Inspiring Vantage × Plateau,pair,0.3726386823165756,1.4515597708567005,229
+"Lion's Eye Diamond × Narset, Parter of Veils",pair,0.36868976310687285,1.445838981495181,215
+Elite Spellbinder × Parallax Wave,pair,-0.3680994600525624,0.692048347100663,293
+Brain Freeze × Lion's Eye Diamond,pair,0.36716432329490556,1.4436351225055943,552
+"Ajani, Nacatl Pariah × Lightning Helix",pair,-0.3663735307528691,0.6932438049608464,213
+Giver of Runes × Inspiring Vantage,pair,-0.3650808388589062,0.6941405350810644,214
+"Phelia, Exuberant Shepherd × Sunbillow Verge",pair,-0.36404624538254904,0.6948590599768277,243
+"Comet, Stellar Pup × Phlage, Titan of Fire's Fury",pair,-0.3637299360238873,0.6950788851649987,249
+"Phelia, Exuberant Shepherd × Skyclave Apparition",pair,-0.36215067647123644,0.6961774623751916,251
+"Gut, True Soul Zealot × Inti, Seneschal of the Sun",pair,-0.3546955471195016,0.7013869499828133,223
+"Mox Opal × Saheeli, Sublime Artificer",pair,0.3489870211920928,1.4176307910648656,220
+Parallax Wave × Sage of the Skies,pair,0.3450262312177879,1.4120269583685392,279
+"Saheeli, Sublime Artificer × Urza, Lord High Artificer",pair,0.3414483462320717,1.4069839154083852,301
+Barrowgoyf × Psychic Frog,pair,0.3399172847475371,1.404831384775005,239
+Echo of Eons × Frantic Search,pair,0.33882082653739093,1.403291890019364,225
+Chromatic Star × Urza's Bauble,pair,0.33859897259598765,1.402980598714502,231
+"Raffine's Tower × Teferi, Time Raveler",pair,0.33788008604430975,1.40197237727166,235
+Death-Greeter's Champion × Figure of Destiny,pair,-0.33762060307757047,0.7134659233314811,217
+"Meticulous Archive × Teferi, Time Raveler",pair,0.33705268080457546,1.40081285774316,290
+Celestial Colonnade × Time Walk,pair,0.33408782106975304,1.3966657948729355,212
+"Adeline, Resplendent Cathar × Sunbaked Canyon",pair,-0.3317027022660937,0.7177006619206735,220
+Baleful Strix × Gloomlake Verge,pair,0.3288645804525102,1.3893896923239848,269
+"Comet, Stellar Pup × Plateau",pair,-0.3250958666499952,0.7224580906852055,239
+Broadside Bombardiers × Fable of the Mirror-Breaker,pair,-0.32230748964721023,0.7244753873955778,228
+Badlands × Fire Covenant,pair,0.32017047613030075,1.377362551760408,243
+Sanguine Evangelist × Swords to Plowshares,pair,-0.3200231326803049,0.7261322394944498,226
+"Jace, Vryn's Prodigy × Time Walk",pair,0.3198516944482474,1.3769235437869283,267
+Luminarch Aspirant × Sunbillow Verge,pair,-0.3186363203761399,0.7271399472078536,229
+"Subtlety × Teferi, Time Raveler",pair,0.3153983177698366,1.370805218304916,225
+"Comet, Stellar Pup × Sanguine Evangelist",pair,-0.31222603822713113,0.731816091119639,217
+Remand × Stock Up,pair,0.3103902274750249,1.3639572638948274,303
+Enduring Innocence × Giver of Runes,pair,0.3102368289687367,1.363748050934793,214
+Plateau × Sacred Foundry,pair,-0.3100512618292957,0.7334093593552722,212
+"Phlage, Titan of Fire's Fury × Sunbillow Verge",pair,0.30923788705436267,1.362386426051381,286
+Guide of Souls × Reprieve,pair,-0.3086639038067508,0.734427566859641,253
+Mother of Runes × Skyclave Apparition,pair,0.3043746067990115,1.3557768441970734,257
+"Ugin, Eye of the Storms × Urza, Lord High Artificer",pair,0.3043111732025535,1.3556908451234957,243
+"Ajani, Nacatl Pariah × Witch Enchanter",pair,-0.30210120857672895,0.73926324132272,234
+"Guide of Souls × Laelia, the Blade Reforged",pair,-0.29855593463422275,0.741888783411782,213
+Broadside Bombardiers × Flame Slash,pair,-0.29821215206137935,0.7421438756921348,233
+Brain Freeze × Frantic Search,pair,0.2973939534376971,1.3463455924603396,334
+Inspiring Vantage × Mother of Runes,pair,-0.2932232402744249,0.7458556170978837,258
+Balance × Floodfarm Verge,pair,0.29177764248384325,1.3388052911205048,272
+Fiery Confluence × Lightning Bolt,pair,-0.2902206227119225,0.7480985018503471,217
+Death-Greeter's Champion × Glimmer Lens,pair,-0.28467321543580837,0.7522600411272264,247
+Ademi of the Silkchutes × Glimmer Lens,pair,-0.2836744751273142,0.7530117288607062,221
+Guide of Souls × Luminarch Aspirant,pair,0.28349235933995354,1.327758735321985,330
+"Ajani, Nacatl Pariah × Inspiring Vantage",pair,-0.28325276647122166,0.7533293473914408,239
+"Comet, Stellar Pup × Staff of the Storyteller",pair,-0.28209221068885293,0.7542041356436793,229
+"Phelia, Exuberant Shepherd × Staff of the Storyteller",pair,-0.2809944758113692,0.7550325064106753,297
+Brain Freeze × Lotus Petal,pair,0.28020025156956985,1.323394797690083,240
+Celestial Colonnade × Swords to Plowshares,pair,0.28007809923399396,1.3232331517975688,223
+"Phlage, Titan of Fire's Fury × Showdown of the Skalds",pair,-0.2770277046859269,0.7580334957396699,235
+Flooded Strand × Fractured Identity,pair,0.2769553181422369,1.3191074295476197,218
+Blood Crypt × Fire Covenant,pair,0.27695323182667403,1.3191046774761312,305
+"Teferi, Time Raveler × Timetwister",pair,-0.2761774355776448,0.7586783022948406,217
+"Kappa Cannoneer × Tezzeret, Cruel Captain",pair,0.27506392076715347,1.3166148312079804,225
+"Adeline, Resplendent Cathar × Thalia, Guardian of Thraben",pair,-0.27492720692839034,0.7596274168253981,221
+Elite Spellbinder × Staff of the Storyteller,pair,-0.2733466415762193,0.7608290069466985,220
+Ocelot Pride × Sunbillow Verge,pair,-0.272244988018824,0.7616676387848283,232
+Glimmer Lens × Showdown of the Skalds,pair,-0.2702296743327297,0.7632041857935788,229
+Sanguine Evangelist × Thraben Inspector,pair,-0.26985794011900116,0.7634879476402249,245
+Ancestral Recall × Spell Pierce,pair,-0.2690974956302049,0.7640687586515476,249
+Glimmer Lens × Staff of the Storyteller,pair,-0.26792133446175526,0.7649679553519608,305
+Entomb × Reanimate,pair,-0.26691541056622625,0.7657378420563602,293
+Broadside Bombardiers × Chain Lightning,pair,-0.2664650800602404,0.7660827548227673,233
+Mystic Confluence × No More Lies,pair,0.26345104373132255,1.3014135810291256,246
+Luminarch Aspirant × Mother of Runes,pair,-0.2628378602272415,0.7688665510530919,298
+Ocelot Pride × Sanguine Evangelist,pair,-0.2621613447258897,0.7693868771778498,293
+Ademi of the Silkchutes × Sanguine Evangelist,pair,-0.26156117628541464,0.7698487774951794,249
+"Fable of the Mirror-Breaker × Laelia, the Blade Reforged",pair,-0.259706532329713,0.7712778977221146,251
+Counterspell × Mana Leak,pair,0.259654864238873,1.296482546948605,251
+Guide of Souls × Inspiring Vantage,pair,-0.2591770732009064,0.7716863659699897,290
+Dack Fayden × Spirebluff Canal,pair,0.2579298449950116,1.2942480174630757,288
+Chromatic Star × Retrofitter Foundry,pair,0.2563334513290482,1.2921835364264767,213
+Figure of Destiny × Guide of Souls,pair,-0.2563260694821189,0.7738895858708181,212
+"Adeline, Resplendent Cathar × Voice of Victory",pair,-0.25618303344634896,0.7740002878863047,256
+Sanguine Evangelist × Voice of Victory,pair,-0.25554402467136916,0.7744950389203918,273
+"Phelia, Exuberant Shepherd × Sage of the Skies",pair,-0.25512887867315176,0.774816634186314,253
+Time Spiral × Timetwister,pair,0.25468323275135013,1.290052909632343,381
+Glimmer Lens × Plateau,pair,0.25377456232566326,1.2888812091312063,231
+"Gut, True Soul Zealot × Parallax Wave",pair,-0.25360659196256163,0.7759970254707137,233
+Barrowgoyf × Emperor of Bones,pair,-0.2534152764054579,0.7761454999762409,254
+Ocelot Pride × Sage of the Skies,pair,-0.24861719017674178,0.7798784613849516,243
+"Laelia, the Blade Reforged × Pyrogoyf",pair,0.24846129015620733,1.2820511934073207,228
+Karakas × Luminarch Aspirant,pair,-0.24804819926142402,0.7803223314115627,216
+Mox Opal × Tolarian Academy,pair,0.24723956150124154,1.2804858311458747,347
+Dack Fayden × Underworld Breach,pair,0.24681999820902667,1.2799486989832733,222
+Hullbreacher × Timetwister,pair,0.24680354978043614,1.279927646011643,469
+"Mystic Confluence × Teferi, Hero of Dominaria",pair,0.24587005648488652,1.2787333996325199,240
+Ancestral Recall × Mana Leak,pair,0.24429314158052295,1.2767185349285466,251
+"Makdee and Itla, Skysnarers × Sanguine Evangelist",pair,-0.24394542430418784,0.7835303948124954,222
+Talisman of Creativity × Tolarian Academy,pair,0.24348474611205775,1.2756868585078602,257
+Echo of Eons × Hullbreacher,pair,0.24314565863521112,1.2752543624009132,476
+Brain Freeze × Timetwister,pair,0.24272545235495507,1.274718605081087,241
+Mishra's Bauble × Urza's Bauble,pair,0.24226909322953594,1.2741370083319024,260
+"Gut, True Soul Zealot × Sanguine Evangelist",pair,-0.2415261348877083,0.7854282764409385,223
+Mother of Runes × Reprieve,pair,-0.24144878566139225,0.7854890310600791,239
+Collective Brutality × Necromancy,pair,0.23966159872105675,1.2708190307636893,223
+Cryptic Command × Subtlety,pair,0.23947719354356356,1.2705847067607032,236
+Hullbreacher × Mana Drain,pair,0.23934287392061648,1.2704140537632485,269
+Sage of the Skies × Solitude,pair,-0.23870174931609064,0.7876497644250012,225
+"Aether Spellbomb × Urza, Lord High Artificer",pair,0.23836989235646489,1.269178565461237,266
+"Tamiyo, Collector of Tales × Time Walk",pair,0.23815527894350944,1.268906211944058,393
+Solitude × Voice of Victory,pair,0.2356425719878195,1.2657218248704,242
+Baleful Strix × Psychic Frog,pair,0.2322709186980935,1.2614614360287486,337
+Parallax Wave × Sacred Foundry,pair,-0.23224712617179408,0.7927501897779405,249
+"Adeline, Resplendent Cathar × Sunbillow Verge",pair,-0.23123963673126516,0.7935492796928527,249
+Animate Dead × Archon of Cruelty,pair,0.22983350282869255,1.2583904740320682,274
+Hallowed Fountain × Remand,pair,0.22982428397863688,1.2583788731724501,213
+Miscalculation × Quantum Riddler,pair,0.22955154792647386,1.2580357146844283,234
+Tolarian Academy × Upheaval,pair,0.22897676394244182,1.2573128236772761,339
+Ademi of the Silkchutes × Guide of Souls,pair,-0.22883722352571512,0.795458004816832,245
+Death-Greeter's Champion × Generous Plunderer,pair,-0.22821791155173637,0.7959507940634022,253
+"Glimmer Lens × Phlage, Titan of Fire's Fury",pair,0.2255635421143309,1.253028651676677,220
+Talisman of Progress × Tolarian Academy,pair,0.22491107697661983,1.2522113608207943,258
+"Balance × Teferi, Hero of Dominaria",pair,0.22447332799050404,1.2516633265266721,335
+Animate Dead × Thoughtseize,pair,0.22426456639005013,1.2514020545601228,215
+Hallowed Fountain × Oust,pair,0.2239181940630159,1.250968678577486,240
+"Tezzeret, Cruel Captain × Tolarian Academy",pair,0.22247355746763345,1.2491627881864793,271
+Mother of Runes × Ocelot Pride,pair,-0.22218599434903047,0.8007664124553746,267
+Force of Will × Time Spiral,pair,0.22199100769891655,1.2485601503850101,237
+"Preordain × Tamiyo, Inquisitive Student",pair,0.22167753661230327,1.248168824215891,221
+Celestial Colonnade × Seachrome Coast,pair,0.22147480703286984,1.247915809122784,225
+Retrofitter Foundry × Talisman of Creativity,pair,0.22113259810668642,1.247488834255249,224
+"Broadside Bombardiers × Gut, True Soul Zealot",pair,-0.22053600353495326,0.8020887603110506,268
+Ancestral Recall × Fractured Identity,pair,-0.22022748994582866,0.8023362537688751,223
+"Adeline, Resplendent Cathar × Guide of Souls",pair,-0.21897960396680224,0.8033381028971498,322
+Fiery Confluence × Fury,pair,0.2188757920688915,1.244676668372063,244
+Fury × Pyrogoyf,pair,-0.21762175952686075,0.804429651982779,243
+Karakas × Ocelot Pride,pair,0.2175594858229838,1.2430393705284453,231
+Sacred Foundry × Showdown of the Skalds,pair,0.21747218683476613,1.2429308591856174,230
+Karakas × Voice of Victory,pair,-0.21730377373322143,0.804685489858341,213
+"Snapcaster Mage × Teferi, Hero of Dominaria",pair,0.2172194670768679,1.2426167856877606,212
+Hullbreacher × Steam Vents,pair,0.21705032327334275,1.242406622532704,212
+Emperor of Bones × Snuff Out,pair,0.2166528431953109,1.2419128887825974,235
+Lightning Helix × Sanguine Evangelist,pair,0.21650104765201408,1.2417243862482017,214
+"Force of Will × Teferi, Hero of Dominaria",pair,0.21634157977700375,1.2415263868866666,229
+Mystic Confluence × Quantum Riddler,pair,0.21540886911881313,1.2403689418577597,243
+"Snapcaster Mage × Tamiyo, Inquisitive Student",pair,0.21539942077499083,1.240357222480895,237
+Animate Dead × Bitter Triumph,pair,0.21504409559704138,1.2399165706220823,215
+Elite Spellbinder × Sanguine Evangelist,pair,-0.21477344088679862,0.8067241901918325,229
+"Phelia, Exuberant Shepherd × Thraben Inspector",pair,-0.214589170741066,0.8068728590731228,262
+"Mana Drain × Tamiyo, Inquisitive Student",pair,0.21441154775334118,1.2391325120723826,251
+Death-Greeter's Champion × Pyrogoyf,pair,-0.21088210112999725,0.8098695439569282,244
+"Inspiring Vantage × Laelia, the Blade Reforged",pair,-0.21068198478895941,0.8100316283041051,222
+Reanimate × Thoughtseize,pair,-0.21034080775905054,0.8103080396391001,215
+Ocelot Pride × Reprieve,pair,-0.2101638991047914,0.8104514028246482,246
+Mana Drain × Ponder,pair,-0.20938520264620955,0.8110827442416412,233
+"Teferi, Time Raveler × Tundra",pair,0.20862073416399987,1.231977662875389,328
+Baleful Strix × Underground Sea,pair,0.20833178766023405,1.2316217386609885,214
+Ocelot Pride × Skyclave Apparition,pair,-0.20790488564530665,0.8122842929341428,220
+Karakas × Mother of Runes,pair,-0.20703905553822263,0.8129878976876108,233
+"Mystical Tutor × Narset, Parter of Veils",pair,0.20701722147250287,1.2300037540741864,217
+Tinker × Tolarian Academy,pair,0.20658355718518198,1.2294704610162084,291
+Spirebluff Canal × Third Path Iconoclast,pair,0.2063115267254793,1.2291360530881408,268
+Death-Greeter's Champion × Fury,pair,0.20533043752499833,1.227930752330991,251
+Creeping Tar Pit × Toxic Deluge,pair,0.2053215705232703,1.2279198643151603,219
+Duress × Psychic Frog,pair,0.20521773680731348,1.2277923714518946,266
+"Comet, Stellar Pup × Oust",pair,0.20508521691841863,1.2276296753237184,235
+Luminarch Aspirant × Solitude,pair,-0.20466990970839344,0.8149162679683521,235
+Guide of Souls × Skyclave Apparition,pair,-0.2033081498806728,0.8160267441343391,241
+"Fable of the Mirror-Breaker × Inti, Seneschal of the Sun",pair,-0.20321099720241176,0.8161060271692816,227
+Ocelot Pride × Swords to Plowshares,pair,0.20094828408203824,1.2225615442958784,215
+Mother of Runes × Voice of Victory,pair,-0.20045036115959852,0.8183621115637674,257
+Death-Greeter's Champion × Ocelot Pride,pair,-0.20040730469869722,0.8183973480986019,216
+Entomb × Life // Death,pair,0.2003140038060382,1.2217863434954135,245
+Misty Rainforest × Time Walk,pair,-0.200034109299181,0.8187028272220448,212
+Echo of Eons × Lion's Eye Diamond,pair,0.1996783659872765,1.2210099766592424,452
+Fractured Identity × Tundra,pair,0.1996648432082113,1.2209934653227315,330
+"The Mightstone and Weakstone × Urza, Lord High Artificer",pair,0.19932226749579635,1.2205752542550619,301
+Fractured Identity × Reprieve,pair,-0.19929461048925975,0.8193084809009415,221
+Staff of the Storyteller × Thraben Inspector,pair,-0.19906063403213228,0.8195002022248606,243
+Time Spiral × Tolarian Academy,pair,0.19839181771023506,1.2194400984561091,249
+Remand × Snapcaster Mage,pair,0.1974191956149046,1.2182546206768141,275
+"Elspeth, Storm Slayer × Parallax Wave",pair,-0.1972474621425889,0.8209874448608262,250
+Force of Negation × Snapcaster Mage,pair,0.1971403707914026,1.2179149883983789,232
+Dack Fayden × Volcanic Island,pair,0.19703803288863672,1.2177903559101415,262
+Death-Greeter's Champion × Sacred Foundry,pair,-0.19626350919142047,0.8217956554354525,229
+Mystic Confluence × Time Spiral,pair,0.19613962542711844,1.2166967752818807,265
+Glimmer Lens × Mother of Runes,pair,-0.19602774052691335,0.8219894319419487,298
+"Snapcaster Mage × Teferi, Time Raveler",pair,-0.19502182320921743,0.8228167013590614,232
+"Time Spiral × Urza, Lord High Artificer",pair,0.1949643581416001,1.2152676713195596,239
+Grim Monolith × Tinker,pair,0.19477482999830006,1.2150373657195876,217
+"Consult the Star Charts × Narset, Parter of Veils",pair,0.19458077785282712,1.2148016079873267,246
+"Fractured Identity × Tamiyo, Inquisitive Student",pair,0.1943069873681422,1.2144690523936357,245
+Mother of Runes × Sage of the Skies,pair,-0.1936674717733662,0.8239318393138794,235
+Lightning Helix × Plateau,pair,-0.1933981142325255,0.8241538014601842,219
+Lion's Eye Diamond × Wheel of Fortune,pair,0.19252999736468246,1.2123128693532557,269
+Baleful Strix × Snuff Out,pair,-0.19215375600902312,0.8251799823563666,214
+Giver of Runes × Parallax Wave,pair,-0.1919149158877304,0.8253770919813472,302
+Riverpyre Verge × Wheel of Fortune,pair,0.19184371966732205,1.2114811714892855,231
+"Miscalculation × Tamiyo, Inquisitive Student",pair,-0.19178925781285783,0.8254808137943748,276
+Preordain × Stock Up,pair,-0.18940251785819498,0.8274533748932636,243
+Ancestral Recall × Memory Lapse,pair,0.18899804546981733,1.2080385913327059,263
+"Nadu, Winged Wisdom × Oko, Thief of Crowns",pair,0.18850925428744794,1.20744825700816,248
+"Phelia, Exuberant Shepherd × Reprieve",pair,-0.18843150887147736,0.8282572297683686,267
+Retrofitter Foundry × Upheaval,pair,-0.18820423420765714,0.8284454930447469,231
+Steam Vents × Wheel of Fortune,pair,-0.18808612944639774,0.82854334218003,220
+Retrofitter Foundry × Tolarian Academy,pair,0.187579809467371,1.2063265218563886,374
+Broadside Bombardiers × Fiery Confluence,pair,-0.18744497607155602,0.8290747358742979,221
+"Floodfarm Verge × Teferi, Time Raveler",pair,0.1858924795908799,1.204292767365136,346
+Luminarch Aspirant × Sacred Foundry,pair,-0.18578293695827058,0.8304538362550788,224
+"Narset, Parter of Veils × Remand",pair,0.18521011525807915,1.2034712812427262,244
+Ponder × Remand,pair,0.1849646611950975,1.203175920577284,266
+Retrofitter Foundry × The Mightstone and Weakstone,pair,0.1847317735742869,1.2028957484253036,229
+Force of Negation × Mana Leak,pair,-0.18331107159226367,0.8325091455083501,265
+"Brain Freeze × Narset, Parter of Veils",pair,0.18279313389685842,1.2005660259754398,231
+"Celestial Colonnade × Teferi, Hero of Dominaria",pair,0.18266707671016538,1.200414695538111,290
+Elite Spellbinder × Guide of Souls,pair,-0.1817899728059212,0.8337764377532008,250
+Upheaval × Urza's Saga,pair,0.18178179144750806,1.1993524563607942,215
+Luminarch Aspirant × Ocelot Pride,pair,-0.18153854079058632,0.8339861022003565,280
+Time Spiral × Wheel of Fortune,pair,0.18103557652482782,1.1984578154989993,258
+Celestial Colonnade × No More Lies,pair,0.18038751454611993,1.197681392168083,332
+Guide of Souls × Oust,pair,-0.1802171352035141,0.8350888645330361,232
+"Phlage, Titan of Fire's Fury × Sunbaked Canyon",pair,0.17898354506528247,1.1960010638865368,265
+Ancestral Recall × Echo of Eons,pair,-0.17893112024077673,0.8361634921535359,217
+Creeping Tar Pit × Psychic Frog,pair,0.17892192389707687,1.195927367174467,327
+Luminarch Aspirant × Voice of Victory,pair,-0.1783815040621141,0.8366231874532456,262
+Glimmer Lens × Sage of the Skies,pair,-0.17779500102959173,0.8371140134111521,220
+"Comet, Stellar Pup × Sunbaked Canyon",pair,-0.17751857072956317,0.8373454490754787,287
+Hullbreacher × Snapcaster Mage,pair,0.1770334626923404,1.1936710359054687,234
+Miscalculation × Ponder,pair,-0.17661077995034866,0.8381059286791278,239
+"Adeline, Resplendent Cathar × Sage of the Skies",pair,-0.17520041253098176,0.8392887999203706,228
+Psychic Frog × Spell Pierce,pair,0.1749163262859292,1.1911465447870555,229
+Generous Plunderer × Inspiring Vantage,pair,-0.17486884555856372,0.8395671265061465,218
+Fractured Identity × Mystic Confluence,pair,-0.17344120932612608,0.8407665789426675,263
+Brazen Borrower × Mana Drain,pair,-0.17325158458155263,0.8409260242073514,213
+"Kytheon, Hero of Akros × Sanguine Evangelist",pair,-0.1731286360930459,0.8410294211470921,217
+Entomb × Necromancy,pair,0.17287361111111182,1.1887158551131372,292
+Ancestral Recall × Stock Up,pair,-0.1716080347450276,0.8423092644377205,234
+Sanguine Evangelist × Sunbaked Canyon,pair,0.1711656865930538,1.1866873509183065,249
+Fable of the Mirror-Breaker × Lightning Bolt,pair,-0.1707622763952551,0.8430219558710919,247
+Retrofitter Foundry × Third Path Iconoclast,pair,0.16983245738577424,1.185106278882058,231
+Hullbreacher × Time Spiral,pair,0.16903037285553055,1.1841561045800668,405
+"Inspiring Vantage × Phlage, Titan of Fire's Fury",pair,-0.16745188250139859,0.8458173149231699,319
+"Malcolm, Alluring Scoundrel × Mana Leak",pair,0.16738060754930892,1.1822041355097326,229
+"Retrofitter Foundry × Saheeli, Sublime Artificer",pair,0.1669410362896892,1.1816845867464767,242
+"Fury × Gut, True Soul Zealot",pair,-0.16668012388880493,0.8464703336746535,239
+Balance × Flooded Strand,pair,0.16569641514814837,1.1802147520106139,230
+Animate Dead × Reanimate,pair,-0.16508949872103626,0.8478178220815472,266
+"Death-Greeter's Champion × Inti, Seneschal of the Sun",pair,-0.16496404171853934,0.8479241934365451,262
+Animate Dead × Emperor of Bones,pair,0.16402559371879982,1.1782444703644797,220
+"Kytheon, Hero of Akros × Parallax Wave",pair,0.16376145745666634,1.177933294372439,220
+Echo of Eons × Wheel of Fortune,pair,0.1633883180241607,1.1774938430048631,321
+Echo of Eons × Underworld Breach,pair,-0.16332848649399037,0.8493121550156434,255
+"Memory Lapse × Otawara, Soaring City",pair,0.16305046117319055,1.1770960858393043,221
+Fury × Lightning Bolt,pair,-0.16276345828947397,0.8497921759375748,241
+Reprieve × Witch Enchanter,pair,0.16257655509502725,1.176538385008987,222
+"Counterspell × Narset, Parter of Veils",pair,0.16209592876760456,1.175973045555324,238
+Brazen Borrower × Spell Pierce,pair,0.16162543158271542,1.1754198836886394,223
+"Ajani, Nacatl Pariah × Phelia, Exuberant Shepherd",pair,-0.16141821678512677,0.8509361209113302,278
+Mana Leak × Preordain,pair,0.16106770918091254,1.1747645084636922,239
+Miscalculation × Stock Up,pair,0.16067227678565338,1.174300060355211,227
+Baleful Strix × Fatal Push,pair,-0.1605397097244967,0.8516840027633401,225
+Glimmer Lens × Thraben Inspector,pair,0.16045173840962562,1.1740411106821507,246
+Daze × Subtlety,pair,0.15988508000670695,1.173376018879137,228
+No More Lies × Reprieve,pair,-0.15983010087135002,0.8522885797530072,220
+Guide of Souls × Sunbaked Canyon,pair,-0.1597918132752637,0.8523212124586077,251
+Mother of Runes × Showdown of the Skalds,pair,0.15908929648146453,1.172442637008613,221
+"Mana Leak × Narset, Parter of Veils",pair,-0.15893311285189635,0.8530534153710745,231
+Frantic Search × Underworld Breach,pair,0.15876047945706492,1.1720571812851075,287
+"Spell Pierce × Tamiyo, Inquisitive Student",pair,-0.1585710651568501,0.8533623173091041,273
+Parallax Wave × Unexpectedly Absent,pair,-0.15831632871561135,0.8535797274788735,236
+Emperor of Bones × Necromancy,pair,-0.15789473870193993,0.8539396640353486,213
+"Tezzeret, Cruel Captain × The Mightstone and Weakstone",pair,0.15761721844324234,1.1707179796781335,218
+Daze × Stock Up,pair,0.1575553005346462,1.170645493513395,234
+"Gut, True Soul Zealot × Lightning Bolt",pair,-0.15737155285879176,0.8543865500705046,236
+Grim Monolith × Tolarian Academy,pair,0.15718840884996396,1.1702160721964863,220
+Baleful Strix × Toxic Deluge,pair,0.15629486736761772,1.1691709026133998,236
+"Force of Negation × Teferi, Time Raveler",pair,0.15628466450564302,1.1691589737849097,226
+"Stock Up × Teferi, Time Raveler",pair,0.15583139446146063,1.1686291491310994,228
+"Adeline, Resplendent Cathar × Staff of the Storyteller",pair,-0.15401941620576914,0.8572553762030873,265
+"Giver of Runes × Phlage, Titan of Fire's Fury",pair,-0.15351610899071405,0.8576869476164678,212
+"Miscalculation × Teferi, Hero of Dominaria",pair,0.15297638262389618,1.1652974573494221,230
+Remand × Time Spiral,pair,0.15278875750835336,1.1650788387891529,227
+Mana Drain × Time Spiral,pair,0.152766815938184,1.16505327541051,219
+Reprieve × Staff of the Storyteller,pair,-0.1523886810778724,0.8586544731268394,272
+Karakas × Swords to Plowshares,pair,-0.1518317812808261,0.8591327908038032,248
+Counterspell × Stock Up,pair,0.15176128472286277,1.1638823667658271,236
+Mystic Confluence × Snapcaster Mage,pair,0.1511169159429664,1.1631326388817735,252
+Oust × Staff of the Storyteller,pair,0.1507685113486015,1.162727468712204,243
+Retrofitter Foundry × Urza's Saga,pair,-0.15075686019937176,0.8600567872750803,250
+Daze × Memory Lapse,pair,-0.150154862187771,0.8605746956251412,257
+"Mystic Confluence × Teferi, Time Raveler",pair,-0.14991432289070203,0.8607817225555602,273
+Glimmer Lens × Solitude,pair,0.14933714328348469,1.1610643682834254,213
+Deep-Cavern Bat × Thoughtseize,pair,0.14923561745319897,1.1609464962430498,292
+Snuff Out × Thoughtseize,pair,-0.14875953842992898,0.8617763140717724,246
+Force of Will × Mana Drain,pair,0.1482746020813921,1.1598313447390085,240
+Counterspell × Spell Pierce,pair,0.14755118179758006,1.158992602636527,273
+Arid Mesa × Parallax Wave,pair,-0.1471620325975264,0.8631541069828206,212
+"Counterspell × Tamiyo, Inquisitive Student",pair,0.14702084735086807,1.158378111893071,261
+Ponder × Stock Up,pair,-0.1469546304878949,0.8633331455313905,247
+"Adeline, Resplendent Cathar × Sanguine Evangelist",pair,-0.14688106998107164,0.8633966550910022,308
+Force of Will × Hullbreacher,pair,0.14621597927689858,1.1574461454385576,280
+"Urza's Bauble × Urza, Lord High Artificer",pair,0.14609789077789684,1.1573094724304813,259
+Mana Leak × No More Lies,pair,-0.1459783081943552,0.8641764485288962,224
+Mystical Tutor × Tinker,pair,0.14596332121206904,1.1571537442756181,261
+Barrowgoyf × Thoughtseize,pair,0.14588022766102748,1.1570575962566005,222
+Guide of Souls × Lightning Helix,pair,-0.14541622197989912,0.864662326737401,212
+Consult the Star Charts × Remand,pair,0.1452003820872132,1.1562712431007807,219
+"Phlage, Titan of Fire's Fury × Staff of the Storyteller",pair,0.1449364463595241,1.155966102079407,224
+Brain Freeze × Dack Fayden,pair,0.14436195808358862,1.1553022038255245,215
+Cryptic Command × Hullbreacher,pair,-0.14423363291153513,0.8656854718136775,213
+Mox Opal × Upheaval,pair,0.1442088060918257,1.1551252805403431,291
+Giver of Runes × Sanguine Evangelist,pair,0.14347850136803145,1.1542819950565566,249
+Flash × Mystical Tutor,pair,0.14346361858348886,1.1542648162541573,241
+Inspiring Vantage × Reprieve,pair,-0.1432222053704585,0.8665614928830181,213
+Brazen Borrower × Hullbreacher,pair,-0.14228213505129678,0.8673765046463692,216
+Baleful Strix × Thoughtseize,pair,0.14226946223209505,1.1528872662613736,232
+"Ajani, Nacatl Pariah × Parallax Wave",pair,-0.14222160802600864,0.8674290059548582,330
+"Ajani, Nacatl Pariah × Skyclave Apparition",pair,-0.14168584594593428,0.8678938660394888,243
+"Saheeli, Sublime Artificer × Tinker",pair,0.1416145328166478,1.1521324536794662,212
+Mystic Confluence × Ponder,pair,0.14120036225987764,1.1516553731428283,234
+Daze × Ponder,pair,0.14109458453465834,1.1515335600998877,226
+"Ancestral Recall × Narset, Parter of Veils",pair,0.1409470576248632,1.1513636904427216,215
+Inspiring Vantage × Ocelot Pride,pair,-0.1403179821832244,0.8690818389160171,281
+Elite Spellbinder × Solitude,pair,-0.13903758840275285,0.8701953185913908,217
+"Generous Plunderer × Gut, True Soul Zealot",pair,-0.138749357027176,0.8704461723353121,246
+Fractured Identity × Hallowed Fountain,pair,0.1386951039691337,1.1487737900333148,336
+Containment Priest × Mother of Runes,pair,0.13849469357427202,1.1485435868927691,240
+Fire Covenant × Psychic Frog,pair,0.13832082164824414,1.14834390476725,233
+Polluted Delta × Snuff Out,pair,-0.1382430354067206,0.8708870096451208,228
+"Phelia, Exuberant Shepherd × Solitude",pair,-0.13820632690816806,0.8709189791864271,287
+Hullbreacher × Memory Lapse,pair,0.13813157832289133,1.148126608909607,279
+Luminarch Aspirant × Sunbaked Canyon,pair,0.13768776229853072,1.14761716498063,212
+"Lightning Helix × Phlage, Titan of Fire's Fury",pair,-0.13753456969545244,0.8715042218408657,292
+Counterspell × Force of Will,pair,0.13709675234204655,1.1469391121976038,273
+"Ajani, Nacatl Pariah × Plateau",pair,-0.13702158330840103,0.8719514063328998,232
+"Ajani, Nacatl Pariah × Goblin Bombardment",pair,-0.13651785313941808,0.8723907452069894,264
+Tolarian Academy × Urza's Saga,pair,0.13610991341394085,1.1458078263237983,241
+Oust × Sanguine Evangelist,pair,-0.13605275712402462,0.8727965850363794,244
+Miscalculation × Time Walk,pair,0.13564064862965067,1.1452702652004574,213
+"Adeline, Resplendent Cathar × Phelia, Exuberant Shepherd",pair,-0.13538897066823732,0.8733761279132606,272
+"Adeline, Resplendent Cathar × Solitude",pair,-0.13518864614130732,0.8735511040983424,234
+Cryptic Command × Timetwister,pair,-0.13489728832850648,0.8738056571186071,217
+Hullbreacher × Shelldock Isle,pair,-0.13433022662181987,0.8743012993624321,218
+Barrowgoyf × Deep-Cavern Bat,pair,0.1339778991750257,1.1433675499993041,233
+Death-Greeter's Champion × Parallax Wave,pair,-0.1335679702853511,0.8749679951321102,272
+Guide of Souls × Ocelot Pride,pair,-0.13304484849346987,0.8754258296987412,375
+Psychic Frog × Underground Sea,pair,0.132974366899143,1.1422207192967408,273
+"Hullbreacher × Tamiyo, Inquisitive Student",pair,-0.13290042602777355,0.8755522699857897,241
+Soul-Guide Lantern × Tolarian Academy,pair,-0.13281047509100666,0.8756310302748911,239
+"Adeline, Resplendent Cathar × Giver of Runes",pair,-0.1327813869076454,0.8756565011613057,243
+Third Path Iconoclast × Thundering Falls,pair,0.13235168581712908,1.1415097014550037,229
+"No More Lies × Teferi, Hero of Dominaria",pair,0.13186008396527393,1.140948671084941,391
+Mana Drain × Memory Lapse,pair,0.13171998997230094,1.1407888422256245,264
+Fable of the Mirror-Breaker × Pyrokinesis,pair,-0.13127855033260283,0.876973459116852,216
+"Makdee and Itla, Skysnarers × Phelia, Exuberant Shepherd",pair,-0.1302625524600581,0.8778649150675837,228
+Mana Leak × Stock Up,pair,0.13014981555160773,1.1389990103080248,296
+Bitter Triumph × Snuff Out,pair,0.1298205759166148,1.1386240684158666,232
+Guide of Souls × Showdown of the Skalds,pair,0.12959833348715954,1.1383710459538703,237
+The Mightstone and Weakstone × Tolarian Academy,pair,0.12952292196257345,1.138285202894569,294
+"Subtlety × Tamiyo, Inquisitive Student",pair,0.1292941649759334,1.1380248419824421,219
+"Psychic Frog × Tamiyo, Inquisitive Student",pair,0.12922071690459744,1.1379412593221963,216
+Force of Negation × Force of Will,pair,0.12921553721446438,1.1379353651543482,342
+Remand × Scalding Tarn,pair,0.1290802308773949,1.137781405704347,237
+"Polluted Delta × Tamiyo, Inquisitive Student",pair,0.12867649320165062,1.1373221332031476,230
+Celestial Colonnade × Hallowed Fountain,pair,0.12816230534691234,1.1367374862973798,270
+"Balance × Teferi, Time Raveler",pair,0.12729771887975808,1.1357551031887858,368
+"Gut, True Soul Zealot × Ragavan, Nimble Pilferer",pair,-0.1272512332100801,0.8805124308421666,229
+Mother of Runes × Sacred Foundry,pair,-0.12706761896632518,0.8806741203100629,263
+Force of Will × Polluted Delta,pair,0.12643632971278118,1.1347771972858023,219
+Glimmer Lens × Guide of Souls,pair,-0.1263116570681486,0.8813401280962652,327
+"Seachrome Coast × Teferi, Hero of Dominaria",pair,0.12628353308282525,1.1346038204003455,295
+"Swords to Plowshares × Teferi, Time Raveler",pair,-0.1256532124125123,0.8819206328875736,264
+"Ajani, Nacatl Pariah × Voice of Victory",pair,-0.12557133461263695,0.8819928455649263,259
+Hallowed Fountain × Swords to Plowshares,pair,-0.12471182671260984,0.8827512512646123,241
+"Guide of Souls × Phelia, Exuberant Shepherd",pair,-0.12369580704077407,0.883648599685865,345
+"Force of Negation × Narset, Parter of Veils",pair,0.1236901553099604,1.131665176225768,229
+Balance × Mystic Confluence,pair,0.12265105614648146,1.130489874621021,249
+Hallowed Fountain × Mana Leak,pair,0.12188363117791588,1.1296226412753503,229
+Mother of Runes × Swords to Plowshares,pair,-0.12178026543349421,0.8853428875661717,217
+Fractured Identity × Seachrome Coast,pair,0.12127548685429987,1.1289358765254387,285
+"Counterspell × Teferi, Time Raveler",pair,-0.12070560469341313,0.8862948422314844,261
+Creeping Tar Pit × Gloomlake Verge,pair,-0.12028735427373406,0.886665612953307,217
+Preordain × Remand,pair,-0.11995650178412504,0.8869590170128587,258
+Solitude × Witch Enchanter,pair,0.11969857838051189,1.1271570508666182,254
+Force of Negation × Stock Up,pair,0.11955224375848951,1.126992120833401,264
+Library of Alexandria × Remand,pair,-0.11944806425589592,0.8874100949258615,226
+Force of Negation × Sink into Stupor,pair,0.11874057779022866,1.126077750814135,231
+Ancestral Recall × Counterspell,pair,0.11846217463931963,1.1257642908562844,243
+"Fury × Laelia, the Blade Reforged",pair,0.11845137637056538,1.125752134616551,216
+Toxic Deluge × Undercity Sewers,pair,0.11843650017033747,1.1257353878269543,217
+Fable of the Mirror-Breaker × Fiery Confluence,pair,-0.11786391944713996,0.8888169950935547,240
+"Ajani, Nacatl Pariah × Reprieve",pair,0.11775039703436348,1.1249632821494409,213
+"Phlage, Titan of Fire's Fury × Plateau",pair,0.11737952271116395,1.1245461395120775,261
+Dack Fayden × Hullbreacher,pair,0.11715118790548575,1.1242893958007139,266
+Mana Drain × Mana Leak,pair,-0.11651242467075006,0.8900190387144628,254
+Duress × Toxic Deluge,pair,0.11587913333885001,1.122860147574157,243
+Mystic Confluence × Psychic Frog,pair,-0.1158592530867923,0.8906005637568741,226
+Mana Leak × Psychic Frog,pair,-0.11556012235982843,0.8908670096000277,249
+Mana Leak × Miscalculation,pair,0.11533675800935776,1.1222513010582331,245
+"Phelia, Exuberant Shepherd × Phlage, Titan of Fire's Fury",pair,-0.11516070478784124,0.8912229086093932,271
+Echo of Eons × Stock Up,pair,0.11480049002028968,1.1216496349513414,250
+Sage of the Skies × Sanguine Evangelist,pair,-0.11475239350588214,0.8915868792793276,239
+Lion's Eye Diamond × Underworld Breach,pair,0.11432087770113082,1.121111806953415,524
+Elite Spellbinder × Glimmer Lens,pair,-0.11404047401027467,0.8922218433555485,221
+Force of Negation × Spell Pierce,pair,-0.1139998626379053,0.8922580784448386,279
+"Adeline, Resplendent Cathar × Thraben Inspector",pair,-0.11380825604778162,0.8924290573525794,212
+Mox Opal × Tinker,pair,0.11369049187217016,1.1204052966680635,213
+Elite Spellbinder × Mother of Runes,pair,0.11362255961307524,1.120329187590319,235
+Echo of Eons × Force of Negation,pair,0.11357079729180733,1.1202711982518294,235
+"Ajani, Nacatl Pariah × Ocelot Pride",pair,-0.11288685959112507,0.8932517172636036,314
+"Karn, Scion of Urza × Tolarian Academy",pair,-0.11239651545734916,0.8936898254062499,236
+Celestial Colonnade × Floodfarm Verge,pair,0.11222272915222005,1.1187620138120506,256
+"Comet, Stellar Pup × Guide of Souls",pair,-0.11213841918802012,0.8939205131846715,225
+Spell Pierce × Stock Up,pair,-0.11201090877811089,0.894034504623127,256
+Sanguine Evangelist × Sunbillow Verge,pair,-0.11146897112595004,0.8945191468945991,240
+"Adeline, Resplendent Cathar × Ocelot Pride",pair,0.1112323638442308,1.1176545791986026,271
+Cryptic Command × Memory Lapse,pair,0.1111895386480537,1.1176067164468633,236
+"Ajani, Nacatl Pariah × Luminarch Aspirant",pair,0.11104610713653786,1.1174464279217307,280
+Balance × Timetwister,pair,-0.11091221501645816,0.8950173145607676,240
+"Ocelot Pride × Phelia, Exuberant Shepherd",pair,-0.11086418196282902,0.8950603060079338,316
+Booster Tutor × Thoughtseize,pair,-0.11084273237219644,0.8950795048909925,249
+Mother of Runes × Solitude,pair,-0.11081582727467272,0.895103587416333,261
+Arena of Glory × Death-Greeter's Champion,pair,-0.11076716707747783,0.8951471443931435,225
+Sage of the Skies × Voice of Victory,pair,0.1106185047205537,1.116968707273949,214
+"Death-Greeter's Champion × Phlage, Titan of Fire's Fury",pair,-0.11046833922669506,0.8954146792618809,223
+"Death-Greeter's Champion × Gut, True Soul Zealot",pair,-0.11046416913476675,0.8954184132311929,284
+"Fractured Identity × Teferi, Hero of Dominaria",pair,0.10927660208622055,1.1154708492377792,372
+Baleful Strix × Booster Tutor,pair,0.10918401940305446,1.1153675807340744,219
+"Soul-Guide Lantern × Urza, Lord High Artificer",pair,0.10917282649110478,1.115355096592819,235
+Bloodstained Mire × Psychic Frog,pair,0.10902038275886225,1.1151850806583796,222
+Timetwister × Upheaval,pair,0.10864642668612512,1.1147681283910167,225
+Guide of Souls × Mother of Runes,pair,0.10862326810019526,1.1147423122364575,369
+"Narset, Parter of Veils × Time Spiral",pair,0.10857559904746981,1.114689174792916,402
+Polluted Delta × Thoughtseize,pair,0.10802518203198855,1.1140757997256598,231
+Gitaxian Probe × Spell Pierce,pair,0.10787232376511033,1.1139055170446321,229
+Mystic Confluence × Shelldock Isle,pair,0.1078557026048029,1.1138870027963306,222
+Baleful Strix × Duress,pair,-0.10777150801819102,0.8978327205725881,225
+Ancestral Recall × Force of Will,pair,-0.10770645048306587,0.8978911332564153,225
+Time Spiral × Time Walk,pair,0.10769819641155098,1.1137115725108482,226
+Brazen Borrower × Daze,pair,0.10662200714801591,1.1125136527836292,219
+"Ajani, Nacatl Pariah × Showdown of the Skalds",pair,-0.1063457048084016,0.8991137663900323,235
+"Currency Converter × Urza, Lord High Artificer",pair,0.10624313722629736,1.1120922346594553,238
+Underworld Breach × Wheel of Fortune,pair,0.10615539774723472,1.1119946645465546,315
+Mystic Confluence × Sink into Stupor,pair,0.10577074782479824,1.1115670181374389,242
+Floodfarm Verge × Oust,pair,0.10569271607802826,1.1114802840054134,238
+Fire Covenant × Thoughtseize,pair,0.10534818618058174,1.1110974117764034,228
+Ocelot Pride × Parallax Wave,pair,-0.10515502211805448,0.900184963189514,322
+Psychic Frog × Thoughtseize,pair,0.10447775959439913,1.1101307038345363,283
+Memory Lapse × Remand,pair,-0.10413888679244696,0.9011001378220828,328
+Death-Greeter's Champion × Plateau,pair,-0.10393062308866818,0.901287823817673,216
+Staff of the Storyteller × Witch Enchanter,pair,-0.1037202748548448,0.9014774280603393,214
+Echo of Eons × Memory Lapse,pair,0.10361817337268853,1.1091768607911232,237
+Thoughtseize × Toxic Deluge,pair,0.10323282239952719,1.1087495207516476,248
+"Oust × Teferi, Time Raveler",pair,0.10319415462602778,1.1087066487052002,279
+Dismember × Psychic Frog,pair,0.10263376684046692,1.1080855170950341,217
+Time Walk × Timetwister,pair,-0.10240115382922584,0.9026673705563478,252
+"Cryptic Command × Teferi, Hero of Dominaria",pair,0.10184750400475108,1.1072146130587526,220
+"Counterspell × Teferi, Hero of Dominaria",pair,0.1017461864374626,1.1071024384504164,215
+"Atraxa, Grand Unifier × Necromancy",pair,0.10172305617654355,1.1070768311783035,212
+"Teferi, Hero of Dominaria × Teferi, Time Raveler",pair,-0.1017181237859922,0.9032841300981547,435
+Force of Will × Mana Leak,pair,-0.1012396928760282,0.9037163925420856,282
+Daze × Snapcaster Mage,pair,0.1011688022207936,1.1064633994794804,226
+Kappa Cannoneer × Tinker,pair,0.10105702071331775,1.1063397242451507,234
+Mox Opal × Retrofitter Foundry,pair,0.10092149602863319,1.106189798062447,281
+Celestial Colonnade × Mana Leak,pair,-0.10085282796040179,0.9040660763438725,220
+Fractured Identity × Karakas,pair,0.10084947729512189,1.1061101345428348,232
+"Counterspell × Malcolm, Alluring Scoundrel",pair,0.1008433453890289,1.1061033520001562,243
+Force of Will × Snapcaster Mage,pair,-0.1008152078895997,0.904100088013431,270
+Fatal Push × Toxic Deluge,pair,-0.10028618625813811,0.9045785030517909,219
+Fractured Identity × Mana Drain,pair,-0.1000220532654225,0.904817463636246,249
+"Trinket Mage × Urza, Lord High Artificer",pair,-0.09972416431360988,0.9050870389118251,258
+Parallax Wave × Solitude,pair,-0.09897355512474126,0.9057666605931887,329
+"Phlage, Titan of Fire's Fury × Sanguine Evangelist",pair,-0.09868729162839314,0.9060259856402021,265
+"Brazen Borrower × Tamiyo, Inquisitive Student",pair,0.09786270458485356,1.1028113637700008,221
+Lightning Bolt × Pyrogoyf,pair,-0.0978501637097144,0.9067847628403075,221
+Deep-Cavern Bat × Fire Covenant,pair,0.09784421905742643,1.1027909779087113,220
+Fatal Push × Thoughtseize,pair,0.09734687201229059,1.1022426444417632,250
+"Inti, Seneschal of the Sun × Pyrogoyf",pair,-0.09652069723879399,0.9079911044965553,214
+Baleful Strix × Darkslick Shores,pair,0.09648215249814907,1.101289925694407,247
+"Adeline, Resplendent Cathar × Luminarch Aspirant",pair,-0.09642889568617057,0.9080744633158923,275
+Echo of Eons × Mystical Tutor,pair,0.09598702781319403,1.1007447848343885,265
+Preordain × Time Walk,pair,-0.09575964651515055,0.9086823948038223,226
+"Elite Spellbinder × Phelia, Exuberant Shepherd",pair,-0.09548362713729526,0.9089332433710442,271
+Broadside Bombardiers × Death-Greeter's Champion,pair,-0.09522637544606775,0.9091670980635822,228
+"Inspiring Vantage × Phelia, Exuberant Shepherd",pair,-0.09521872263106904,0.9091740557778096,272
+"Broadside Bombardiers × Ragavan, Nimble Pilferer",pair,-0.09519294985912986,0.9091974880153577,216
+Dack Fayden × Thundering Falls,pair,-0.09489219495423444,0.909470974743573,241
+Fatal Push × Inquisition of Kozilek,pair,0.09424656704342381,1.0988306479421321,230
+"Gut, True Soul Zealot × Pyrogoyf",pair,-0.09421988255043941,0.9100826289491001,261
+Parallax Wave × Sunbillow Verge,pair,0.09421623969368241,1.098797323826084,296
+Memory Lapse × Polluted Delta,pair,-0.0941365630238956,0.9101584597619097,216
+Mystical Tutor × Time Spiral,pair,-0.09404963372329743,0.9102375826392487,259
+"Tamiyo, Inquisitive Student × Time Spiral",pair,0.09381056891315587,1.0983516642597309,213
+Balance × No More Lies,pair,-0.09351032682984288,0.9107286124382238,299
+Inquisition of Kozilek × Thoughtseize,pair,-0.09350989727147432,0.9107290036494047,269
+Deep-Cavern Bat × Inquisition of Kozilek,pair,-0.09332734080829236,0.9108952782920218,263
+"Memory Lapse × Teferi, Time Raveler",pair,-0.09300182166481598,0.9111918404085124,249
+Miscalculation × Subtlety,pair,-0.09287619038053002,0.9113063218007253,247
+"Ajani, Nacatl Pariah × Giver of Runes",pair,-0.09253771009210854,0.9116148332369433,265
+"Counterspell × Jace, Vryn's Prodigy",pair,0.09249864913002787,1.0969116597742798,222
+Brainstorm × Preordain,pair,0.09249441861823691,1.0969070192863852,213
+"Laelia, the Blade Reforged × Lightning Bolt",pair,-0.09223532126643864,0.9118905370586057,256
+"Comet, Stellar Pup × Sunbillow Verge",pair,-0.09213413542420408,0.9119828121390108,258
+Inspiring Vantage × Lightning Helix,pair,-0.09204240369253748,0.9120664737387716,235
+Snapcaster Mage × Spell Pierce,pair,0.09191827201378426,1.0962752220532153,253
+"Remand × Teferi, Time Raveler",pair,0.09145860705593921,1.0957714185487628,258
+Emperor of Bones × Fatal Push,pair,0.0912506761347745,1.0955435974746617,218
+Giver of Runes × Luminarch Aspirant,pair,-0.09114488203441483,0.912885440617879,264
+Dack Fayden × Third Path Iconoclast,pair,0.09056075336426278,1.0947880176765004,290
+Staff of the Storyteller × Sunbaked Canyon,pair,0.09041686319747316,1.0946304997789476,219
+Karakas × Parallax Wave,pair,-0.09017164358550929,0.9137743283078104,315
+Force of Negation × Hullbreacher,pair,0.08992063758940032,1.0940874508421177,228
+Guide of Souls × Thraben Inspector,pair,-0.08964843063419,0.9142525519664605,212
+Dack Fayden × Riverpyre Verge,pair,-0.08947127876422872,0.9144145278624011,276
+Luminarch Aspirant × Staff of the Storyteller,pair,-0.08909408013357015,0.914759508829249,241
+"Ajani, Nacatl Pariah × Sage of the Skies",pair,0.08890744087201229,1.092979486416132,216
+"Comet, Stellar Pup × Karakas",pair,0.08888673379478458,1.0929568542398225,236
+"Jace, the Mind Sculptor × Mystic Confluence",pair,-0.08884801476082385,0.9149846271645399,236
+Mystical Tutor × Wheel of Fortune,pair,0.08877669604264256,1.0928365943410794,218
+Mishra's Bauble × Timetwister,pair,0.08871280783424576,1.0927667771992664,227
+Inquisition of Kozilek × Toxic Deluge,pair,-0.08863277067314464,0.915181593393002,238
+"Phelia, Exuberant Shepherd × Sunbaked Canyon",pair,-0.08848912440751372,0.9153130652537619,245
+Baleful Strix × Fallen Shinobi,pair,0.08820135315241069,1.092208019416736,241
+Parallax Wave × Swords to Plowshares,pair,-0.08818873907566296,0.9155880531717163,273
+Lion's Eye Diamond × Time Spiral,pair,-0.08741612329078548,0.9162957242977804,218
+Inspiring Vantage × Sacred Foundry,pair,0.08733172225250689,1.0912586144497094,246
+Force of Negation × Memory Lapse,pair,-0.08706955047045854,0.9166133425269474,279
+No More Lies × Seachrome Coast,pair,0.08705485437214766,1.090956521812007,244
+Force of Negation × Mystic Confluence,pair,0.08685974196516623,1.0907436834235045,297
+Inspiring Vantage × Staff of the Storyteller,pair,-0.08676593627626387,0.9168916816000353,219
+Tolarian Academy × Trinket Mage,pair,0.08676129771300327,1.090636311262461,259
+Steam Vents × Third Path Iconoclast,pair,-0.08660003665516458,0.9170438062009598,241
+Mother of Runes × Parallax Wave,pair,0.08626372285295544,1.090093773040405,397
+"Comet, Stellar Pup × Glimmer Lens",pair,-0.08615987028870295,0.9174475468910391,216
+Retrofitter Foundry × Time Spiral,pair,0.08549438417484495,1.0892554442587654,217
+Giver of Runes × Guide of Souls,pair,-0.08529730550446227,0.9182392462332749,297
+Flooded Strand × Force of Will,pair,-0.08443031914391015,0.91903569233955,224
+Bitter Triumph × Thoughtseize,pair,-0.08402762369574197,0.9194058583566419,223
+Fiery Confluence × Pyrogoyf,pair,-0.08373596791850137,0.9196740474944152,237
+"Narset, Parter of Veils × Wheel of Fortune",pair,-0.08357976304164157,0.919817716286346,293
+"Hallowed Fountain × Teferi, Hero of Dominaria",pair,0.08323075395177224,1.0867925612943072,326
+Memory Lapse × Stock Up,pair,0.08291281887452412,1.086447086739529,254
+"Mother of Runes × Thalia, Guardian of Thraben",pair,-0.08286610797772777,0.9204743831463962,234
+Psychic Frog × Sheoldred's Edict,pair,0.08278776770451189,1.0863112337546403,212
+"Echo of Eons × Urza, Lord High Artificer",pair,-0.08189858161508773,0.9213653973485831,214
+Mother of Runes × Sunbaked Canyon,pair,-0.08185685187826172,0.9214038464863656,248
+"Ajani, Nacatl Pariah × Mother of Runes",pair,0.08142933907838215,1.0848365593245732,292
+Ponder × Time Spiral,pair,0.08117695092061725,1.084562793972909,214
+"Ajani, Nacatl Pariah × Death-Greeter's Champion",pair,-0.08070990071970885,0.9224612579793383,233
+"Jace, Vryn's Prodigy × Mystic Confluence",pair,0.08060643472783828,1.0839442098097811,227
+"Phlage, Titan of Fire's Fury × Voice of Victory",pair,-0.08029942952055989,0.9228399794798863,220
+Balance × Tundra,pair,0.08011517547276567,1.0834118429605073,224
+"Makdee and Itla, Skysnarers × Mother of Runes",pair,-0.0800374692204445,0.9230817585847502,215
+"Chromatic Star × Urza, Lord High Artificer",pair,0.07918080162589342,1.082400004060572,232
+"Quantum Riddler × Tamiyo, Inquisitive Student",pair,0.07907659791583188,1.0822872198407472,225
+Psychic Frog × Stock Up,pair,-0.0788437255297484,0.9241843395786762,227
+Darkslick Shores × Snuff Out,pair,-0.07869398073915104,0.9243227417313218,212
+Floodfarm Verge × Hallowed Fountain,pair,0.07866126936597735,1.0818378083923674,263
+Daze × Mystic Confluence,pair,0.07809555921800321,1.0812259748422388,267
+Daze × Hullbreacher,pair,-0.07806865833292331,0.9249009222080753,252
+Memory Lapse × Ponder,pair,-0.07789956096501915,0.9250573337436095,236
+Force of Will × Stock Up,pair,0.07777171639695137,1.0808758842625716,258
+Counterspell × Snapcaster Mage,pair,0.07774341304396747,1.0808452922838172,262
+Force of Will × Gitaxian Probe,pair,-0.07771065976970724,0.9252320946854415,214
+Glimmer Lens × Skyclave Apparition,pair,0.07725098975724312,1.0803131899131015,225
+"Comet, Stellar Pup × Sacred Foundry",pair,-0.07701356764051477,0.9258772915510243,283
+Third Path Iconoclast × Tolarian Academy,pair,0.07697083317873257,1.0800105754577902,217
+Miscalculation × Spell Pierce,pair,-0.0768695433714836,0.9260106499543452,266
+"Karn, Scion of Urza × Retrofitter Foundry",pair,-0.07662878134533589,0.9262336249955468,249
+Chromatic Star × Tinker,pair,-0.07635357147282384,0.9264885687133032,235
+"Fractured Identity × Teferi, Time Raveler",pair,-0.07612404534924759,0.9267012464496321,342
+"Minsc & Boo, Timeless Heroes × Stomping Ground",pair,-0.07590531315620204,0.9269039680156242,276
+Memory Lapse × Time Walk,pair,0.07563338722864811,1.0785670851978686,259
+"Adeline, Resplendent Cathar × Showdown of the Skalds",pair,0.0756305464888517,1.0785640212737784,215
+Death-Greeter's Champion × Screaming Nemesis,pair,0.07545042660465695,1.078369767942139,214
+Inquisition of Kozilek × Psychic Frog,pair,0.07514062882861715,1.0780357431290255,267
+Inspiring Vantage × Luminarch Aspirant,pair,-0.07505374180392298,0.9276936290597416,255
+Ocelot Pride × Sunbaked Canyon,pair,0.07496899889521644,1.0778507358030802,242
+"Mox Opal × Urza, Lord High Artificer",pair,0.07470115003846489,1.0775620733764228,306
+Mana Drain × Remand,pair,-0.07362055734391375,0.9290241383574435,298
+"Phelia, Exuberant Shepherd × Sacred Foundry",pair,0.07353540202331119,1.0763066394301695,248
+Miscalculation × Remand,pair,0.07314757003409288,1.075889294220333,263
+"Flash × Torsten, Founder of Benalia",pair,0.07306526327816422,1.0758007449069409,335
+Psychic Frog × Remand,pair,0.07293164581633459,1.0756570087450164,254
+"Phelia, Exuberant Shepherd × Swords to Plowshares",pair,-0.0726890451986526,0.9298899388147792,260
+Brainstorm × Remand,pair,-0.07254937026345107,0.9300198302028022,215
+Death-Greeter's Champion × Mother of Runes,pair,0.07241564397340566,1.0751021109226062,227
+Snapcaster Mage × Time Walk,pair,0.07231080437428442,1.0749894035564833,353
+Kappa Cannoneer × Urza's Saga,pair,-0.0718214873856489,0.930697022141533,216
+Karakas × Reprieve,pair,0.07171251111389411,1.074346437001802,252
+Ancestral Recall × Scalding Tarn,pair,0.07163422403668684,1.0742623328515182,215
+Reprieve × Solitude,pair,-0.07133130302464963,0.9311533470991572,266
+Stock Up × Time Spiral,pair,-0.07112480377340492,0.9313456494225867,216
+Stock Up × Timetwister,pair,0.07110315470554308,1.0736919765357165,239
+Guide of Souls × Sanguine Evangelist,pair,-0.0709592908005616,0.931499811967366,316
+Kappa Cannoneer × Mox Opal,pair,0.07093856414410209,1.0735152715128722,265
+Memory Lapse × No More Lies,pair,0.07081742671777175,1.0733852365119665,225
+Giver of Runes × Staff of the Storyteller,pair,-0.07060351985630915,0.9318312714933786,221
+Hullbreacher × Remand,pair,0.07043788375264207,1.0729779179989019,294
+"Parallax Wave × Phelia, Exuberant Shepherd",pair,-0.07041793502153566,0.9320042212938692,370
+Inspiring Vantage × Sanguine Evangelist,pair,-0.07024437233299642,0.9321659964909098,248
+Arid Mesa × Oust,pair,0.06992259429519689,1.0724251662154995,220
+"Saheeli, Sublime Artificer × Tolarian Academy",pair,-0.06976014079240699,0.9326174899723456,314
+"Broadside Bombardiers × Laelia, the Blade Reforged",pair,0.06928979329146238,1.0717467491680213,243
+Balance × Celestial Colonnade,pair,0.0692190586787257,1.071670942257885,266
+"Kappa Cannoneer × Urza, Lord High Artificer",pair,0.06897660255273139,1.0714111405694124,309
+Quantum Riddler × Remand,pair,0.06889585511184274,1.0713246303544581,228
+Cryptic Command × Force of Will,pair,0.06879913677060033,1.0712210186239364,279
+"Ajani, Nacatl Pariah × Sunbaked Canyon",pair,-0.06868060131750395,0.9336248310021288,254
+Expressive Iteration × Wheel of Fortune,pair,0.0685450711302992,1.0709488927403177,255
+Gitaxian Probe × Remand,pair,-0.0683457582477327,0.9339375011513511,227
+Dack Fayden × Talisman of Creativity,pair,0.06831278742421056,1.0707001576521529,247
+Chromatic Star × Mox Opal,pair,-0.06792274679557687,0.9343326509804952,231
+Guide of Souls × Sunbillow Verge,pair,0.06750715320682685,1.0698379123423893,278
+Flooded Strand × Swords to Plowshares,pair,-0.06729736587243357,0.9349171475437387,220
+"Talisman of Progress × Teferi, Time Raveler",pair,-0.06718174985439286,0.9350252451903249,245
+Kappa Cannoneer × Upheaval,pair,0.06687588355567738,1.0691627692577688,215
+"Ajani, Nacatl Pariah × Sunbillow Verge",pair,0.06673146883923207,1.0690083775680967,249
+Parallax Wave × Reprieve,pair,0.06670511097115249,1.0689802011576417,310
+"Echo of Eons × Narset, Parter of Veils",pair,0.06632273318707337,1.0685715250164167,442
+"Floodfarm Verge × Teferi, Hero of Dominaria",pair,0.06586881914405247,1.068086595461733,279
+"Luminarch Aspirant × Phelia, Exuberant Shepherd",pair,-0.06555390355389179,0.9365485621030992,278
+"Gut, True Soul Zealot × Mother of Runes",pair,0.06517734439770581,1.0673482958412486,216
+Luminarch Aspirant × Parallax Wave,pair,-0.06506859682872622,0.9370031857257599,289
+Oust × Skyclave Apparition,pair,0.06465618393515085,1.0667921810347927,221
+Force of Will × Preordain,pair,-0.06456396130160384,0.9374761501495927,233
+Glimmer Lens × Voice of Victory,pair,-0.06440166989824883,0.9376283068161378,251
+Guide of Souls × Plateau,pair,-0.06439669363389569,0.9376329727140669,263
+"Minsc & Boo, Timeless Heroes × Wooded Foothills",pair,-0.06433829654718734,0.9376877293468735,246
+"Phelia, Exuberant Shepherd × Witch Enchanter",pair,0.06422723328707393,1.066334677967508,264
+Riverpyre Verge × Third Path Iconoclast,pair,-0.06361108151013184,0.938369877968022,234
+Echo of Eons × Remand,pair,-0.06350457029148929,0.9384698302101848,219
+"Malcolm, Alluring Scoundrel × Mana Drain",pair,0.06336073323195031,1.065411099108622,221
+Creeping Tar Pit × Fatal Push,pair,0.0629153872471243,1.064936728190877,212
+Dack Fayden × Scalding Tarn,pair,0.06286742997142442,1.0648856579512047,229
+"Ancestral Recall × Jace, Vryn's Prodigy",pair,0.06271238350172968,1.0647205639882595,217
+Guide of Souls × Voice of Victory,pair,0.062370602039495376,1.0643567244173808,323
+Parallax Wave × Thraben Inspector,pair,-0.06213946212394382,0.9397518178672263,281
+Kappa Cannoneer × Tolarian Academy,pair,0.061546345710350475,1.0634797831126717,340
+Glimmer Lens × Sunbillow Verge,pair,-0.06135789554225049,0.9404865835799177,217
+Brain Freeze × Stock Up,pair,0.061019152054905795,1.0629192710804967,251
+"Reprieve × Teferi, Time Raveler",pair,-0.06099844698931408,0.9408247008856893,233
+Mother of Runes × Plateau,pair,-0.060944178469436706,0.9408757594350938,214
+Staff of the Storyteller × Voice of Victory,pair,0.060600625912738404,1.0624745046582156,305
+Brainstorm × Echo of Eons,pair,0.060561299099614774,1.062432721743522,218
+Sink into Stupor × Spell Pierce,pair,-0.060338305615114524,0.9414459832411445,214
+"Ajani, Nacatl Pariah × Elite Spellbinder",pair,-0.06024049306660551,0.9415380729757413,233
+Aether Spellbomb × Tolarian Academy,pair,0.059786353007776336,1.0616097125930157,275
+Memory Lapse × Mystic Confluence,pair,-0.059734503336690364,0.9420146021202507,322
+Death-Greeter's Champion × Sunbaked Canyon,pair,0.05960293260474836,1.061415009568473,230
+Fractured Identity × No More Lies,pair,0.05954954850548099,1.0613583483966544,352
+"Malcolm, Alluring Scoundrel × Stock Up",pair,0.05914944112061577,1.060933776026407,212
+"Miscalculation × Teferi, Time Raveler",pair,0.059056556386441424,1.0608352360511448,220
+"Guide of Souls × Phlage, Titan of Fire's Fury",pair,-0.05880266803964484,0.9428928136875598,260
+Remand × Subtlety,pair,0.058637424264226475,1.060390699093705,248
+Memory Lapse × Sink into Stupor,pair,-0.058611682769059884,0.9430729095239931,240
+Flooded Strand × Memory Lapse,pair,0.05857681523983638,1.0603264317955696,221
+Counterspell × Timetwister,pair,0.058354642477742885,1.0600908823108055,237
+Counterspell × Miscalculation,pair,0.05826191735423069,1.0599925898099718,225
+"Gut, True Soul Zealot × Ivora, Insatiable Heir",pair,0.058003914289370156,1.059719143749549,224
+Hullbreacher × Ponder,pair,0.057334037312861,1.0590095000071242,264
+"Ajani, Nacatl Pariah × Comet, Stellar Pup",pair,-0.056651176362734895,0.944923623580347,236
+Mystic Confluence × Subtlety,pair,-0.05664375819147924,0.9449306332116095,270
+"Broadside Bombardiers × Comet, Stellar Pup",pair,0.056605479849447096,1.0582382317228158,225
+"Comet, Stellar Pup × Lightning Helix",pair,0.05632860282752767,1.0579452704317316,223
+"Kappa Cannoneer × Saheeli, Sublime Artificer",pair,0.05611090540135084,1.0577149835366642,260
+Ancestral Recall × Subtlety,pair,-0.055964832762549425,0.9455723884744043,220
+"Malcolm, Alluring Scoundrel × Miscalculation",pair,0.055660172272699794,1.0572383437796478,216
+"Saheeli, Sublime Artificer × Third Path Iconoclast",pair,-0.05560908416966583,0.945908834362601,263
+Counterspell × Cryptic Command,pair,-0.05554355472141949,0.94597082127757,255
+Life // Death × Necromancy,pair,-0.055371998701907316,0.9461331221876941,242
+Ocelot Pride × Solitude,pair,0.05535593265616854,1.0569167389163048,256
+"Jace, Vryn's Prodigy × Tamiyo, Inquisitive Student",pair,0.05519160278181329,1.0567430701912655,233
+Chromatic Star × Timetwister,pair,-0.055141018742382475,0.9463516852188304,212
+The Mightstone and Weakstone × Upheaval,pair,0.05505968953503493,1.0566036809757102,272
+Reanimate × Snuff Out,pair,-0.054162903320516445,0.9472777792362386,213
+"Death-Greeter's Champion × Phelia, Exuberant Shepherd",pair,-0.053843814163126925,0.9475800935346712,229
+"Tolarian Academy × Urza, Lord High Artificer",pair,0.053547010074776594,1.0550065865403782,376
+Death-Greeter's Champion × Galvanic Discharge,pair,-0.05353434200731583,0.9478733885700036,213
+"Force of Will × Tamiyo, Inquisitive Student",pair,0.05349554836135004,1.0549522954907258,274
+Fable of the Mirror-Breaker × Flame Slash,pair,0.053449956259934504,1.0549041990950974,226
+Echo of Eons × Time Spiral,pair,0.05329683504650071,1.054742683250142,369
+"Comet, Stellar Pup × Parallax Wave",pair,0.053283766996801145,1.054728899910398,249
+Fable of the Mirror-Breaker × Pyrogoyf,pair,0.05316888743290107,1.0546077400738714,262
+"Malcolm, Alluring Scoundrel × Tamiyo, Inquisitive Student",pair,-0.05306831281852651,0.9483152281834355,254
+Death-Greeter's Champion × Luminarch Aspirant,pair,-0.05272876351873421,0.948637282628734,233
+Thoughtseize × Watery Grave,pair,0.0522875371362985,1.053678670707279,236
+"Comet, Stellar Pup × Ocelot Pride",pair,0.05194191013535001,1.0533145538362947,230
+Inspiring Vantage × Sunbaked Canyon,pair,-0.051715386863205925,0.9495990967631994,233
+Emperor of Bones × Reanimate,pair,0.05149164220547969,1.0528403868317455,219
+Giver of Runes × Mother of Runes,pair,-0.05131652658039482,0.94997792967317,272
+Ancestral Recall × Mystical Tutor,pair,0.05116764632178648,1.0524993261343405,308
+Descendant of Storms × Sanguine Evangelist,pair,-0.050992179603464756,0.9502861021175084,217
+Balance × Upheaval,pair,0.05076491505903301,1.052075537093955,242
+Force of Negation × No More Lies,pair,-0.05075730385748949,0.9505093274887197,235
+Daze × Time Walk,pair,-0.050277337742148535,0.9509656492589634,214
+Expressive Iteration × Steam Vents,pair,-0.05020273143018614,0.9510365999455092,240
+Mishra's Bauble × Tolarian Academy,pair,0.049512115399368097,1.0507583224944244,254
+"Ajani, Nacatl Pariah × Staff of the Storyteller",pair,-0.04950039842217807,0.9517047789560957,260
+"Stock Up × Tamiyo, Inquisitive Student",pair,-0.049446089284685114,0.9517564666253324,258
+"Displacer Kitten × Teferi, Time Raveler",pair,0.0492341763159673,1.0504663162712453,229
+"Tezzeret, Cruel Captain × Urza, Lord High Artificer",pair,0.049081169101012144,1.0503055996415038,257
+"Tamiyo, Inquisitive Student × Teferi, Time Raveler",pair,0.04895638821647033,1.0501745497561719,237
+"Ocelot Pride × Thalia, Guardian of Thraben",pair,-0.04895398351184013,0.9522249467383311,219
+"Jace, Vryn's Prodigy × Snapcaster Mage",pair,0.048898779532051635,1.0501140523245558,218
+Daze × Force of Will,pair,-0.048827489064336156,0.9523454055253915,286
+Ocelot Pride × Thraben Inspector,pair,0.04841333243564437,1.049604401221291,238
+Floodfarm Verge × Fractured Identity,pair,0.0481455646641534,1.0493233886145679,280
+Ocelot Pride × Staff of the Storyteller,pair,-0.04797367217182476,0.9531588813504164,285
+Animate Dead × Necromancy,pair,-0.04796485315868338,0.9531672873081829,257
+Staff of the Storyteller × Sunbillow Verge,pair,-0.04778622253615939,0.9533375673822493,230
+Cryptic Command × Remand,pair,-0.047525370817457516,0.9535862795622935,221
+"Malcolm, Alluring Scoundrel × Ponder",pair,0.04749543113866945,1.0486414100131525,219
+Dack Fayden × Memory Lapse,pair,-0.04734693185467289,0.9537564516911619,215
+"Narset, Parter of Veils × Shelldock Isle",pair,0.04720010978231757,1.0483317695335943,217
+Elite Spellbinder × Inspiring Vantage,pair,-0.047134447932368796,0.953959131135239,213
+Ocelot Pride × Voice of Victory,pair,-0.0471238165474677,0.9539692730958536,272
+Mana Leak × Mystic Confluence,pair,-0.047043164893103194,0.9540462153986619,291
+Memory Lapse × Timetwister,pair,0.04686471632564964,1.0479802248738603,254
+Counterspell × Fractured Identity,pair,0.04683033054724369,1.0479441898776232,227
+Balance × Seachrome Coast,pair,-0.04663135052425364,0.9544391862486772,234
+Force of Negation × Ponder,pair,-0.046571596707117094,0.9544962193372356,238
+Snapcaster Mage × Stock Up,pair,0.04651237888638049,1.0476110472463926,238
+Glimmer Lens × Ocelot Pride,pair,-0.0464737982742445,0.954589572136474,281
+Mox Opal × Urza's Saga,pair,0.04642517574540385,1.0475196962556554,245
+Parallax Wave × Witch Enchanter,pair,-0.046409611760303435,0.9546508458798069,258
+Retrofitter Foundry × Trinket Mage,pair,0.046376562840049006,1.0474687745175408,218
+Balance × Fractured Identity,pair,0.04575278181592272,1.0468155871167648,298
+"Mother of Runes × Phelia, Exuberant Shepherd",pair,0.0454611493009323,1.046510346165619,332
+Fatal Push × Psychic Frog,pair,-0.04502733295420774,0.9559713519548113,303
+Guide of Souls × Staff of the Storyteller,pair,-0.0449188032775124,0.956075108846818,281
+Flooded Strand × Remand,pair,-0.044892521641767186,0.9561002363947689,226
+"Enduring Innocence × Phelia, Exuberant Shepherd",pair,-0.0448369244877517,0.9561533943245671,220
+Chain Lightning × Lightning Bolt,pair,-0.04434128917749668,0.9566274151698452,215
+"Tinker × Urza, Lord High Artificer",pair,-0.043803702945112585,0.9571418231546983,258
+Echo of Eons × Miscalculation,pair,-0.04360762513037098,0.9573295158323639,227
+Force of Will × Subtlety,pair,-0.04325362531441703,0.9576684702961451,289
+Counterspell × Mana Drain,pair,-0.04317179192812277,0.9577468427567148,237
+Fatal Push × Snuff Out,pair,0.04309771388107921,1.0440399070578472,259
+"Narset, Parter of Veils × Spell Pierce",pair,0.04306933648863729,1.044010280348046,220
+Duress × Thoughtseize,pair,-0.04301113114966386,0.9579007274713267,241
+Fractured Identity × Mana Leak,pair,0.042953340111228706,1.0438891859609392,245
+Mana Leak × Remand,pair,0.042854659663090613,1.043786179590703,311
+Fable of the Mirror-Breaker × Fury,pair,0.04284515859292074,1.0437762625520797,246
+Archon of Cruelty × Necromancy,pair,-0.04283875404454221,0.958065861858007,299
+No More Lies × Remand,pair,0.0427330628051256,1.0436592661871695,238
+Counterspell × Hullbreacher,pair,0.042729029132960415,1.043655056416328,257
+"Inti, Seneschal of the Sun × Lightning Bolt",pair,-0.04261273107569445,0.9582824312223592,221
+Fractured Identity × Stock Up,pair,0.0425871252428732,1.043506968211308,220
+Force of Negation × Miscalculation,pair,-0.042537145724102846,0.9583548660743196,235
+"Remand × Tamiyo, Inquisitive Student",pair,0.04238610022664395,1.043297218289285,302
+Pyrogoyf × Sacred Foundry,pair,0.04178128888920008,1.0426664110822443,216
+Oust × Solitude,pair,-0.04170322965481977,0.9591543869175208,270
+Daze × Force of Negation,pair,0.04142646208304349,1.0422965107188764,249
+Hullbreacher × Wheel of Fortune,pair,0.04119878392800702,1.0420592295852054,370
+The Mightstone and Weakstone × Tinker,pair,0.04110467455001067,1.0419611666536668,220
+"Frantic Search × Narset, Parter of Veils",pair,0.04090378377786532,1.0417518672942112,221
+Lion's Eye Diamond × Mystical Tutor,pair,0.04072081205943816,1.041561273602037,221
+Broadside Bombardiers × Plateau,pair,-0.040644572313953,0.9601703404286905,222
+"Death-Greeter's Champion × Laelia, the Blade Reforged",pair,0.04060615591371661,1.0414418590468102,265
+Lightning Helix × Sunbaked Canyon,pair,-0.04015465024658023,0.9606408643175102,214
+Parallax Wave × Plateau,pair,0.039815514737925266,1.0406187776547515,243
+Memory Lapse × Psychic Frog,pair,0.03969168325957014,1.0404899242713275,222
+"Memory Lapse × Teferi, Hero of Dominaria",pair,0.03945004973787453,1.0402385373996077,229
+"Narset, Parter of Veils × Stock Up",pair,0.039331631010848474,1.0401153609695475,272
+Sacred Foundry × Sanguine Evangelist,pair,0.03881239515779612,1.0395754359691611,258
+"Ajani, Nacatl Pariah × Solitude",pair,0.03878578433604241,1.0395477723806121,235
+"Currency Converter × Tamiyo, Inquisitive Student",pair,-0.03821139133432492,0.9625094532265749,220
+Floodfarm Verge × Tundra,pair,0.03790602582996201,1.0386336235594447,223
+Expressive Iteration × Fiery Islet,pair,-0.037855300237181755,0.9628522553045468,217
+Elite Spellbinder × Ocelot Pride,pair,-0.03780541985470635,0.962900283941142,247
+Baleful Strix × Watery Grave,pair,-0.03768985755515261,0.9630115653420387,259
+Mother of Runes × Staff of the Storyteller,pair,-0.03759718862257905,0.9631008107309286,246
+Timetwister × Tolarian Academy,pair,0.037544124814407956,1.0382578090042263,223
+Flooded Strand × No More Lies,pair,0.037533099988848996,1.038246362456095,212
+Parallax Wave × Path to Exile,pair,-0.03751804277152865,0.9631770391807841,218
+Parallax Wave × Showdown of the Skalds,pair,0.03741333507980792,1.0381220244207485,231
+Ancestral Recall × Snapcaster Mage,pair,-0.03685602267536144,0.9638148928495662,310
+Chain Lightning × Galvanic Discharge,pair,-0.03685544705635727,0.9638154476398947,213
+Sanguine Evangelist × Solitude,pair,-0.03676350484672397,0.9639040670356985,234
+"Laelia, the Blade Reforged × Sunbaked Canyon",pair,-0.036682315395888516,0.9639823290545414,220
+"Flooded Strand × Teferi, Time Raveler",pair,-0.03662948408148753,0.9640332588533769,252
+Talisman of Progress × Upheaval,pair,0.03581744484377834,1.0364666168938643,214
+Enduring Innocence × Guide of Souls,pair,-0.035368410958219604,0.9652497421620411,233
+Chromatic Star × Tolarian Academy,pair,-0.03513020049389854,0.9654797021396564,262
+Mana Drain × Stock Up,pair,0.03510081459105782,1.035724119640037,224
+"Force of Negation × Tamiyo, Inquisitive Student",pair,-0.035040572821009086,0.965566239716604,251
+Mana Leak × Memory Lapse,pair,0.03494722728278607,1.035565057775644,267
+Fable of the Mirror-Breaker × Fear of Missing Out,pair,-0.03477808525857987,0.9658197221117638,212
+Booster Tutor × Duress,pair,0.03468514566761755,1.0352936907743941,235
+Mana Drain × Subtlety,pair,0.03415359880202153,1.0347435298891923,235
+Giver of Runes × Solitude,pair,-0.03402873600378452,0.9665437296341646,224
+"Adeline, Resplendent Cathar × Ademi of the Silkchutes",pair,-0.03325252247070946,0.9672942652076665,212
+"Ponder × Tamiyo, Inquisitive Student",pair,0.03304306798892484,1.033595053143038,250
+"The Mightstone and Weakstone × Ugin, Eye of the Storms",pair,0.03296098905844353,1.0335102202480695,218
+Broadside Bombardiers × Pyrogoyf,pair,0.03274673881797382,1.033288814153855,275
+"Guide of Souls × Makdee and Itla, Skysnarers",pair,-0.03247194678966384,0.9680496063496132,264
+Duress × Inquisition of Kozilek,pair,0.032371516156005455,1.0329011735047522,246
+"Karn, Scion of Urza × Urza, Lord High Artificer",pair,-0.032128456046377596,0.968382179543073,259
+Hullbreacher × Mystic Confluence,pair,0.03189096831117076,1.0324049343147834,266
+Echo of Eons × Timetwister,pair,-0.031615025976522985,0.9688795037328336,386
+Oust × Reprieve,pair,0.03090957573286876,1.0313922367826456,278
+"Third Path Iconoclast × Urza, Lord High Artificer",pair,0.030801450584717456,1.0312807233730519,254
+Currency Converter × Mana Leak,pair,0.03078049087855961,1.0312591082586477,237
+Parallax Wave × Skyclave Apparition,pair,0.03063766476911632,1.0311118280503673,292
+Consult the Star Charts × Mystic Confluence,pair,0.030580890940272686,1.031053289545666,223
+Mana Drain × Snapcaster Mage,pair,-0.030517246853547588,0.9699437034459502,243
+"Gut, True Soul Zealot × Inspiring Vantage",pair,0.030384561462949145,1.0308508832620469,238
+"Narset, Parter of Veils × Preordain",pair,-0.030331916527870668,0.9701234800869152,213
+Fable of the Mirror-Breaker × Galvanic Discharge,pair,0.030057602609127227,1.0305138925328476,216
+Guide of Souls × Parallax Wave,pair,0.02976417982159546,1.0302115606316142,362
+Mother of Runes × Oust,pair,-0.02955570978279134,0.9708767887995483,214
+Mana Leak × Shelldock Isle,pair,0.029190950511510994,1.0296211823966925,213
+"Inti, Seneschal of the Sun × Laelia, the Blade Reforged",pair,-0.02869948645990675,0.9717084321351681,264
+No More Lies × Oust,pair,-0.028693740247240872,0.9717140157945109,255
+Echo of Eons × Mana Drain,pair,-0.028632949451233836,0.9717730888585533,240
+Luminarch Aspirant × Thraben Inspector,pair,0.028434493787138516,1.02884261304385,235
+Cryptic Command × Mana Leak,pair,-0.028264916943893544,0.9721307987654111,226
+Frantic Search × Lion's Eye Diamond,pair,-0.02786999601096282,0.9725147893853665,236
+Cryptic Command × Mystic Confluence,pair,0.027759094572203373,1.0281479681584196,274
+No More Lies × Tundra,pair,-0.027713492389094756,0.9726670033829358,288
+Snapcaster Mage × Subtlety,pair,0.027675808881119663,1.0280623417101336,230
+Dack Fayden × Echo of Eons,pair,-0.027666030638951022,0.9727131689567642,247
+"Ajani, Nacatl Pariah × Phlage, Titan of Fire's Fury",pair,-0.027220607428087525,0.9731465344880983,238
+Guide of Souls × Sage of the Skies,pair,-0.027063442429836392,0.9732994910808858,236
+Ancestral Recall × Tundra,pair,0.02652287900124371,1.0268777409300371,213
+"Force of Will × Narset, Parter of Veils",pair,0.026388133326823854,1.02673938291807,258
+"Elspeth, Storm Slayer × Staff of the Storyteller",pair,-0.026232135518302575,0.9741089380776397,260
+"Hullbreacher × Malcolm, Alluring Scoundrel",pair,0.02622874090798981,1.0265757414862628,241
+"Elspeth, Storm Slayer × Sanguine Evangelist",pair,-0.026214155488460317,0.9741264527428725,217
+Death-Greeter's Champion × Guide of Souls,pair,-0.026095713914754258,0.9742418366459147,247
+Guide of Souls × Solitude,pair,0.026028177515273147,1.0263698686186402,276
+"Comet, Stellar Pup × Phelia, Exuberant Shepherd",pair,-0.026010934810221556,0.9743244354977026,231
+Kappa Cannoneer × Retrofitter Foundry,pair,-0.025628287781226153,0.9746973291870048,252
+Polluted Delta × Psychic Frog,pair,0.025624615623539616,1.025955748420028,292
+"Hallowed Fountain × Teferi, Time Raveler",pair,0.02524386616738498,1.0255651906838195,374
+Booster Tutor × Psychic Frog,pair,0.02503846919731542,1.0253545643327917,237
+Miscalculation × Mystic Confluence,pair,0.025034590136454107,1.0253505869277466,268
+Death-Greeter's Champion × Showdown of the Skalds,pair,-0.02419702817957135,0.9760933729102859,218
+Guide of Souls × Lightstall Inquisitor,pair,0.02403543873329853,1.0243266180852302,216
+Broadside Bombardiers × Sunbillow Verge,pair,-0.023805232449670078,0.9764758770526288,226
+"Luminarch Aspirant × Phlage, Titan of Fire's Fury",pair,-0.023699916211100014,0.9765787212345406,228
+Memory Lapse × Quantum Riddler,pair,0.02342898789101335,1.023705602671611,230
+Psychic Frog × Watery Grave,pair,0.02333791369729001,1.023612373754676,324
+"Gut, True Soul Zealot × Laelia, the Blade Reforged",pair,0.02317920851250042,1.0234499340540988,285
+"Animate Dead × Atraxa, Grand Unifier",pair,0.022765896627030154,1.023027017436423,215
+Ponder × Spell Pierce,pair,0.02271824467494163,1.0229782693634828,236
+Death-Greeter's Champion × Fable of the Mirror-Breaker,pair,-0.02256429880147674,0.9776883709817751,224
+Ancestral Recall × Hullbreacher,pair,0.022550692309688345,1.0228068812934874,225
+Sanguine Evangelist × Staff of the Storyteller,pair,0.02234028252229202,1.0225916953544547,314
+Bitter Triumph × Reanimate,pair,0.022284606165911373,1.0225347627597066,228
+"Teferi, Hero of Dominaria × Tundra",pair,0.022083434692997662,1.0223290786249606,292
+Counterspell × Force of Negation,pair,0.0218659179814386,1.022106729148887,247
+Upheaval × Urza's Bauble,pair,0.02178528752694212,1.0220243195411784,223
+Gloomlake Verge × Snuff Out,pair,0.021681714642458758,1.0219184710160047,214
+Cryptic Command × Mana Drain,pair,-0.021628880803512357,0.9786033461557972,227
+"Ajani, Nacatl Pariah × Guide of Souls",pair,0.021445463265268916,1.0216770698866489,333
+Animate Dead × Barrowgoyf,pair,-0.021361227216978185,0.9788653079071274,214
+"Oko, Thief of Crowns × Tropical Island",pair,0.02119616942061662,1.0214224038265631,222
+"Adeline, Resplendent Cathar × Phlage, Titan of Fire's Fury",pair,-0.020909775920320756,0.9793073176850716,223
+Expressive Iteration × Thundering Falls,pair,0.020899585001766495,1.0211195107754238,241
+Parallax Wave × Staff of the Storyteller,pair,0.020859714591773274,1.0210787991334775,329
+"Narset, Parter of Veils × Thundertrap Trainer",pair,0.02059561135411011,1.020809164523971,221
+"Ancestral Recall × Malcolm, Alluring Scoundrel",pair,0.020430461194531877,1.020640591647853,243
+"Oust × Phelia, Exuberant Shepherd",pair,0.020356399601302075,1.0205650041786192,244
+"Dack Fayden × Narset, Parter of Veils",pair,-0.02029847917640455,0.9799061480725512,237
+Dack Fayden × Remand,pair,0.020176577406196203,1.0203815004388366,226
+Creeping Tar Pit × Snuff Out,pair,-0.0201625972690909,0.9800393086357904,212
+"Malcolm, Alluring Scoundrel × Subtlety",pair,0.02013296012488941,1.0203369951424988,213
+Necromancy × Reanimate,pair,0.020035575416152605,1.020237634759583,245
+Ancestral Recall × Remand,pair,-0.020029523090020835,0.9801697352402576,265
+Marsh Flats × Oust,pair,-0.01972678962341313,0.980466510341682,214
+Marsh Flats × Psychic Frog,pair,0.019686526600513034,1.0198815841646334,226
+Daze × Spell Pierce,pair,-0.019635253801573275,0.9805562622571875,247
+Karakas × Solitude,pair,-0.01943777459423731,0.98074992085175,241
+Deep-Cavern Bat × Toxic Deluge,pair,-0.019428721765449318,0.9807587994530554,227
+Dack Fayden × Wheel of Fortune,pair,-0.019331966702390343,0.9808536974233977,251
+Spirebluff Canal × Wheel of Fortune,pair,0.019031169801859506,1.0192134168025557,251
+Polluted Delta × Remand,pair,0.01900195622201548,1.019183642364937,250
+Consult the Star Charts × Force of Negation,pair,-0.01895466378240075,0.9812238462122364,220
+Mana Drain × Timetwister,pair,0.018888969720389504,1.0190684948758502,238
+Consult the Star Charts × Timetwister,pair,0.018882606098414828,1.0190620099298164,219
+Memory Lapse × Subtlety,pair,0.01862140648595983,1.0187958660876024,233
+"Adeline, Resplendent Cathar × Ajani, Nacatl Pariah",pair,-0.018146247907315245,0.982017403865611,264
+Reprieve × Sanguine Evangelist,pair,0.017941866062929225,1.0181037882878319,225
+"Fable of the Mirror-Breaker × Gut, True Soul Zealot",pair,-0.017008784181263305,0.9831350485605064,226
+Enduring Innocence × Mother of Runes,pair,0.016872258302992937,1.0170153987541695,215
+"Tolarian Academy × Ugin, Eye of the Storms",pair,0.01682302661216101,1.0169653305989668,254
+Daze × Timetwister,pair,-0.01675682176053782,0.9833827928570574,248
+Fractured Identity × Remand,pair,0.01656670620947471,1.0167046950404424,251
+Brain Freeze × Mystical Tutor,pair,0.01648670667287634,1.0166233623893124,298
+Emperor of Bones × Psychic Frog,pair,0.01634956288991673,1.0164839483756503,267
+"Adeline, Resplendent Cathar × Glimmer Lens",pair,0.01613911454605506,1.016270053519851,253
+Deep-Cavern Bat × Fatal Push,pair,-0.015848227081262673,0.9842766952663282,223
+Grim Monolith × Upheaval,pair,-0.015825504234017563,0.9842990610894283,226
+No More Lies × Swords to Plowshares,pair,-0.015685728410015507,0.9844366519174682,238
+Mana Leak × Subtlety,pair,0.015483525469417656,1.015604016321061,221
+Force of Negation × Remand,pair,-0.015463626258746083,0.984655321698263,280
+Lion's Eye Diamond × Timetwister,pair,0.015404368105496252,1.0155236269660877,278
+"Narset, Parter of Veils × Teferi, Time Raveler",pair,-0.015267619868903775,0.9848483393488365,242
+Tolarian Academy × Urza's Bauble,pair,0.015054000007300585,1.015167882208681,277
+"Elspeth, Storm Slayer × Phelia, Exuberant Shepherd",pair,-0.014731292152326875,0.9853766824797219,220
+Parallax Wave × Voice of Victory,pair,0.01458042114227924,1.0146872339766237,294
+Barrowgoyf × Snuff Out,pair,0.01440059555043376,1.0145047836493466,226
+"No More Lies × Teferi, Time Raveler",pair,0.014355556617488864,1.0144590924653725,409
+Deep-Cavern Bat × Duress,pair,0.014105894745461471,1.0142058523227717,234
+Remand × Timetwister,pair,-0.013871143835484838,0.986224617197143,301
+Retrofitter Foundry × Tinker,pair,0.013842290479339601,1.0139385385674446,260
+"Ocelot Pride × Phlage, Titan of Fire's Fury",pair,-0.013743259452083881,0.9863507479891156,237
+Expressive Iteration × Third Path Iconoclast,pair,0.013724127167160064,1.0138187353096955,256
+"Elspeth, Storm Slayer × Guide of Souls",pair,-0.013491091826378284,0.986599505078273,221
+Remand × Shelldock Isle,pair,0.013407359037562204,1.0134976407041139,242
+Bitter Triumph × Psychic Frog,pair,0.013371475208279396,1.0134612731803032,234
+Hallowed Fountain × Seachrome Coast,pair,0.012973114067122371,1.0130576299942187,214
+"Miscalculation × Narset, Parter of Veils",pair,0.012788570622952418,1.0128706940994643,212
+Force of Will × Miscalculation,pair,-0.012607499493064995,0.9874716420870557,257
+"Karakas × Phelia, Exuberant Shepherd",pair,-0.012539656158984516,0.987538637728143,218
+"Ancestral Recall × Tamiyo, Inquisitive Student",pair,0.01248502288212889,1.0125632861473792,241
+Ponder × Scalding Tarn,pair,0.01233655223031779,1.0124129613759694,217
+Balance × Talisman of Progress,pair,0.01232751558909752,1.0124038126046078,267
+"Mother of Runes × Phlage, Titan of Fire's Fury",pair,-0.012093956872122526,0.9879788810955168,236
+"Ajani, Nacatl Pariah × Oust",pair,-0.012093565487797628,0.9879792677750399,221
+Reprieve × Voice of Victory,pair,-0.011745901744169661,0.9883228120613873,224
+"Giver of Runes × Phelia, Exuberant Shepherd",pair,0.011642438373781398,1.011710475341791,305
+Sunbillow Verge × Voice of Victory,pair,-0.011201326398327886,0.9888611748748218,226
+Dack Fayden × Steam Vents,pair,-0.011045184291047717,0.9890155897974963,282
+"Minsc & Boo, Timeless Heroes × Taiga",pair,0.01092059804586471,1.010980445434726,248
+"Ancestral Recall × Otawara, Soaring City",pair,0.01078878070657487,1.0108471894652513,222
+Ocelot Pride × Witch Enchanter,pair,-0.010718130615431575,0.9893391038817327,219
+Booster Tutor × Fatal Push,pair,-0.01053629535191191,0.989519016975174,212
+"Phlage, Titan of Fire's Fury × Sacred Foundry",pair,0.010493491951828476,1.0105487417237349,263
+Balance × Urza's Saga,pair,-0.01047475911307274,0.9895799101272871,216
+"Ajani, Nacatl Pariah × Sacred Foundry",pair,0.010346163043558407,1.0103998696477123,248
+"No More Lies × Tamiyo, Inquisitive Student",pair,-0.0101783129283092,0.9898733108027696,212
+Force of Will × Psychic Frog,pair,-0.010056999120382116,0.9899934033877656,256
+"Comet, Stellar Pup × Elegant Parlor",pair,0.009937489389164255,1.0099870302046319,228
+Fiery Confluence × Pyrokinesis,pair,-0.009904481991418041,0.9901444058542823,219
+Chain Lightning × Pyrogoyf,pair,-0.009718081781870693,0.9903289861813871,228
+Deep-Cavern Bat × Emperor of Bones,pair,0.009355364060298726,1.0093992622664243,223
+Karakas × Staff of the Storyteller,pair,-0.009010273935176002,0.9910301969405791,232
+Giver of Runes × Glimmer Lens,pair,-0.008847242882672234,0.9911917788077225,269
+Karakas × Oust,pair,-0.008411137103379353,0.9916241375410668,262
+"Retrofitter Foundry × Tezzeret, Cruel Captain",pair,0.008407523543913116,1.0084429660281935,242
+Deep-Cavern Bat × Psychic Frog,pair,0.008277440412841607,1.0083117931415404,263
+Glimmer Lens × Parallax Wave,pair,-0.008197669072653279,0.9918358401879978,302
+Baleful Strix × Creeping Tar Pit,pair,0.008150512198105715,1.0081838180477367,304
+Solitude × Swords to Plowshares,pair,-0.008096401738803074,0.9919362858449968,272
+Mox Opal × The Mightstone and Weakstone,pair,0.00808653034536025,1.0081193146426957,247
+Containment Priest × Parallax Wave,pair,0.00797408560115973,1.008005963297238,314
+"Urza's Saga × Urza, Lord High Artificer",pair,0.007701300316129202,1.0077310316035926,267
+Glimmer Lens × Sanguine Evangelist,pair,-0.0074884212624484435,0.9925395471075307,297
+Ancestral Recall × Quantum Riddler,pair,0.007206834316766107,1.007232866045077,227
+Oust × Parallax Wave,pair,-0.006785690673524496,0.9932372801384582,284
+Glimmer Lens × Reprieve,pair,0.006754395520133198,1.0067772578944079,217
+Cryptic Command × Force of Negation,pair,0.006651235915047604,1.0066734045069037,231
+Sunbaked Canyon × Voice of Victory,pair,-0.0065906073088175835,0.9934310631103226,225
+Solitude × Staff of the Storyteller,pair,-0.006536230373749847,0.993485084315476,281
+Balance × Remand,pair,-0.0062105203375043255,0.9938087250819595,256
+"Adeline, Resplendent Cathar × Mother of Runes",pair,0.005964586965717658,1.005982410533673,300
+Cryptic Command × Ponder,pair,0.005827298313519878,1.005844310044428,216
+Counterspell × Subtlety,pair,-0.005805213207754068,0.994211604483275,245
+"Saheeli, Sublime Artificer × Urza's Saga",pair,-0.005718481647475561,0.9942978377464975,251
+Balance × Force of Will,pair,0.005666877529011416,1.0056829646530405,217
+"Spell Pierce × Teferi, Time Raveler",pair,-0.005502148097016213,0.9945129609963004,229
+Counterspell × Ponder,pair,0.00540082026379813,1.0054154309850096,244
+Showdown of the Skalds × Sunbillow Verge,pair,0.00533528340882663,1.0053495413788454,239
+Meticulous Archive × No More Lies,pair,0.005322647812018742,1.0053368382676453,247
+Force of Negation × Preordain,pair,0.005296475591534176,1.0053105267145703,263
+"Comet, Stellar Pup × Luminarch Aspirant",pair,-0.004966218682311164,0.9950460925930955,229
+"Narset, Parter of Veils × Tamiyo, Inquisitive Student",pair,0.004823956586524163,1.004835610597043,240
+Floodfarm Verge × Swords to Plowshares,pair,-0.004680619917693841,0.9953303171130314,214
+Glimmer Lens × Sunbaked Canyon,pair,0.004316840557912835,1.0043261715360643,214
+Fractured Identity × Miscalculation,pair,-0.004297015650512493,0.9957122033118356,213
+Archon of Cruelty × Reanimate,pair,-0.004176447614791945,0.9958322616137834,236
+"Narset, Parter of Veils × Ponder",pair,0.0041530072715171345,1.0041616429567652,269
+"Narset, Parter of Veils × Timetwister",pair,0.003975228907729334,1.0039831406102995,478
+Hallowed Fountain × No More Lies,pair,0.0038593992532873736,1.0038668563247715,314
+Mishra's Bauble × Retrofitter Foundry,pair,0.003779039383794193,1.0037861889564617,224
+Force of Will × Sink into Stupor,pair,-0.0037592280402091722,0.9962478290117279,227
+Baleful Strix × Polluted Delta,pair,0.0035112609148372554,1.0035174326128098,222
+Memory Lapse × Miscalculation,pair,0.0034384156990360025,1.0034443338313515,243
+Mishra's Bauble × Urza's Saga,pair,0.003067023542221134,1.003071731671009,227
+Deep-Cavern Bat × Snuff Out,pair,0.003031078714628481,1.003035677078543,271
+Daze × Mana Drain,pair,0.003015166228655881,1.0030197164143886,234
+"Mox Opal × Tezzeret, Cruel Captain",pair,0.002925679253755845,1.0029299632301318,225
+"Elspeth, Storm Slayer × Solitude",pair,0.00285143870944003,1.0028555079275863,231
+"Glimmer Lens × Phelia, Exuberant Shepherd",pair,0.002646426867956504,1.00264993174666,300
+Mana Leak × Ponder,pair,0.002083197562812631,1.0020853689263869,265
+Darkslick Shores × Psychic Frog,pair,-0.0017919910525108123,0.9982096136048016,335
+Ademi of the Silkchutes × Voice of Victory,pair,-0.0017787557987756794,0.9982228252497481,227
+Broadside Bombardiers × Lightning Bolt,pair,-0.0017318085489668297,0.998269690166171,251
+Inspiring Vantage × Parallax Wave,pair,0.0016919396271345428,1.0016933717645682,316
+Animate Dead × Collective Brutality,pair,0.001687637695899742,1.0016890625578336,224
+Preordain × Timetwister,pair,0.0013716750030907437,1.001372616179528,214
+"Adeline, Resplendent Cathar × Parallax Wave",pair,0.0013000265596961702,1.0013008719605323,297
+Counterspell × Psychic Frog,pair,0.0012949650308729942,1.0012958038601343,220
+Inspiring Vantage × Showdown of the Skalds,pair,-0.0012916390938979233,0.9987091947128455,245
+Ponder × Preordain,pair,0.0012507709921810068,1.001251553532444,274
+Force of Negation × Subtlety,pair,0.0011684258556300911,1.0011691087310572,239
+Ponder × Timetwister,pair,0.0009338430499669954,1.000934279217148,260
+Ancestral Recall × Mystic Confluence,pair,-0.0009124640672243813,0.9990879521015233,238
+"Retrofitter Foundry × Urza, Lord High Artificer",pair,0.0008781019964598261,1.000878487640888,356
+Brazen Borrower × Force of Will,pair,-0.0008467839615967341,0.9991535744587667,228
+Luminarch Aspirant × Plateau,pair,0.0008438806260715612,1.0008442367935075,217
+Duress × Snuff Out,pair,-0.0007116614126389735,0.9992885917582832,250
+Booster Tutor × Inquisition of Kozilek,pair,0.0005927496062992599,1.000592925317063,222
+Emperor of Bones × Thoughtseize,pair,0.000292754914321899,1.000292797771224,219
+Mystic Confluence × Spell Pierce,pair,-0.0001902757556327972,0.9998097423456507,300
+"Containment Priest × Phelia, Exuberant Shepherd",pair,0.0,1.0,280
+Lightning Helix × Sunbillow Verge,pair,0.0,1.0,217
+"Laelia, the Blade Reforged × Phlage, Titan of Fire's Fury",pair,0.0,1.0,230
+Force of Will × Spell Pierce,pair,0.0,1.0,255
+"Force of Will × Teferi, Time Raveler",pair,0.0,1.0,227
+"Ademi of the Silkchutes × Phelia, Exuberant Shepherd",pair,0.0,1.0,224
 Counterspell × Mystic Confluence,pair,0.0,1.0,323
-"Atraxa, Grand Unifier × Flash",pair,0.0,1.0,267
-Containment Priest × Parallax Wave,pair,0.0,1.0,314
-Ponder × Preordain,pair,0.0,1.0,274
+Counterspell × Memory Lapse,pair,0.0,1.0,258
+"Talisman of Progress × Teferi, Hero of Dominaria",pair,0.0,1.0,212
+"Force of Negation × Jace, Vryn's Prodigy",pair,0.0,1.0,220
+Ancestral Recall × Mana Drain,pair,0.0,1.0,217
+Force of Negation × Mana Drain,pair,0.0,1.0,230
+"Force of Negation × Malcolm, Alluring Scoundrel",pair,0.0,1.0,221
+Timetwister × Wheel of Fortune,pair,0.0,1.0,298
+"Daze × Narset, Parter of Veils",pair,0.0,1.0,249
+Daze × Miscalculation,pair,0.0,1.0,222
+Daze × Mana Leak,pair,0.0,1.0,256
+Daze × Echo of Eons,pair,0.0,1.0,224
+Memory Lapse × Spell Pierce,pair,0.0,1.0,267
+"Memory Lapse × Tamiyo, Inquisitive Student",pair,0.0,1.0,283
+"Parallax Wave × Phlage, Titan of Fire's Fury",pair,0.0,1.0,250
+"Comet, Stellar Pup × Inspiring Vantage",pair,0.0,1.0,256
+Oust × Swords to Plowshares,pair,0.0,1.0,276
+Elite Spellbinder × Skyclave Apparition,pair,0.0,1.0,239
+Echo of Eons × Urza's Saga,pair,0.0,1.0,215
+Mana Drain × Mystic Confluence,pair,0.0,1.0,265
+"Malcolm, Alluring Scoundrel × Mystic Confluence",pair,0.0,1.0,263
+"Malcolm, Alluring Scoundrel × Psychic Frog",pair,0.0,1.0,222
+"Makdee and Itla, Skysnarers × Parallax Wave",pair,0.0,1.0,252
+"Meticulous Archive × Teferi, Hero of Dominaria",pair,0.0,1.0,254
+Miscalculation × Timetwister,pair,0.0,1.0,212
+Miscalculation × Sink into Stupor,pair,0.0,1.0,236
+Parallax Wave × Sanguine Evangelist,pair,0.0,1.0,338
+"Phelia, Exuberant Shepherd × Sanguine Evangelist",pair,0.0,1.0,328
+"Phelia, Exuberant Shepherd × Voice of Victory",pair,0.0,1.0,253
+Hullbreacher × Mana Leak,pair,0.0,1.0,256
+Hullbreacher × Miscalculation,pair,0.0,1.0,251
+"Hullbreacher × Narset, Parter of Veils",pair,0.0,1.0,347
+Hullbreacher × Polluted Delta,pair,0.0,1.0,213
+"Mana Drain × Narset, Parter of Veils",pair,0.0,1.0,247
+"Mana Drain × Otawara, Soaring City",pair,0.0,1.0,251
+Mana Drain × No More Lies,pair,0.0,1.0,227
+Miscalculation × Preordain,pair,0.0,1.0,239
+Miscalculation × Psychic Frog,pair,0.0,1.0,222
+"Malcolm, Alluring Scoundrel × Snapcaster Mage",pair,0.0,1.0,226
+"Malcolm, Alluring Scoundrel × Memory Lapse",pair,0.0,1.0,244
+Celestial Colonnade × Mystic Confluence,pair,0.0,1.0,249
+Hullbreacher × Subtlety,pair,0.0,1.0,251
+Hullbreacher × Stock Up,pair,0.0,1.0,252
+Hullbreacher × Spell Pierce,pair,0.0,1.0,265
+Hullbreacher × Quantum Riddler,pair,0.0,1.0,229
+Hullbreacher × Psychic Frog,pair,0.0,1.0,248
+Hullbreacher × Preordain,pair,0.0,1.0,246
+Chromatic Star × Mishra's Bauble,pair,0.0,1.0,219
+Inspiring Vantage × Voice of Victory,pair,0.0,1.0,234
+Echo of Eons × Spell Pierce,pair,0.0,1.0,224
+Kappa Cannoneer × The Mightstone and Weakstone,pair,0.0,1.0,249
+Echo of Eons × Mystic Confluence,pair,0.0,1.0,241
+No More Lies × Spell Pierce,pair,0.0,1.0,221
+"Comet, Stellar Pup × Swords to Plowshares",pair,0.0,1.0,217
+Consult the Star Charts × Force of Will,pair,0.0,1.0,248
+Consult the Star Charts × Mana Leak,pair,0.0,1.0,233
+Inquisition of Kozilek × Snuff Out,pair,0.0,1.0,249
+"Otawara, Soaring City × Timetwister",pair,0.0,1.0,223
+"Otawara, Soaring City × Remand",pair,0.0,1.0,254
+Ocelot Pride × Sacred Foundry,pair,0.0,1.0,230
+"Jace, Vryn's Prodigy × Remand",pair,0.0,1.0,233
+"Talisman of Progress × Urza, Lord High Artificer",pair,0.0,1.0,247
+Ancestral Recall × Force of Negation,pair,0.0,1.0,221
+"Tamiyo, Inquisitive Student × Teferi, Hero of Dominaria",pair,0.0,1.0,235
+Third Path Iconoclast × Wheel of Fortune,pair,0.0,1.0,244
+Force of Will × Timetwister,pair,0.0,1.0,249
+Force of Negation × Time Walk,pair,0.0,1.0,225
+Force of Negation × Timetwister,pair,0.0,1.0,262
+Force of Will × Remand,pair,0.0,1.0,327
+"Ajani, Nacatl Pariah × Glimmer Lens",pair,0.0,1.0,274
+Third Path Iconoclast × Urza's Bauble,pair,0.0,1.0,219
+Tinker × Urza's Saga,pair,0.0,1.0,217
+"Memory Lapse × Narset, Parter of Veils",pair,0.0,1.0,258
+Mana Drain × Time Walk,pair,0.0,1.0,213
+"Mana Drain × Teferi, Hero of Dominaria",pair,0.0,1.0,215
+"Daze × Tamiyo, Inquisitive Student",pair,0.0,1.0,247
+Mana Drain × Spell Pierce,pair,0.0,1.0,244
+Daze × Remand,pair,0.0,1.0,261
+Psychic Frog × Undercity Sewers,pair,0.0,1.0,280
+Psychic Frog × Toxic Deluge,pair,0.0,1.0,255
+Fatal Push × Reanimate,pair,0.0,1.0,230
 Psychic Frog × Snuff Out,pair,0.0,1.0,303
-"Saheeli, Sublime Artificer × Tolarian Academy",pair,0.0,1.0,314
+Preordain × Spell Pierce,pair,0.0,1.0,229
+Hallowed Fountain × Memory Lapse,pair,0.0,1.0,214
+Fiery Confluence × Flame Slash,pair,0.0,1.0,212
+"Breeding Pool × Oko, Thief of Crowns",pair,0.0,1.0,248
+Faerie Mastermind × Memory Lapse,pair,0.0,1.0,227
+Fallen Shinobi × Psychic Frog,pair,0.0,1.0,265
+Celestial Colonnade × Tundra,pair,0.0,1.0,244
+"Celestial Colonnade × Teferi, Time Raveler",pair,0.0,1.0,373
+Chain Lightning × Fable of the Mirror-Breaker,pair,0.0,1.0,214
+Brainstorm × Timetwister,pair,0.0,1.0,224
+Celestial Colonnade × Fractured Identity,pair,0.0,1.0,311
+Brain Freeze × Wheel of Fortune,pair,0.0,1.0,322
+Broadside Bombardiers × Fury,pair,0.0,1.0,223
+Hallowed Fountain × Reprieve,pair,0.0,1.0,214
+"Malcolm, Alluring Scoundrel × Remand",pair,0.0,1.0,237
+Echo of Eons × Ponder,pair,0.0,1.0,235
+Mystical Tutor × Timetwister,pair,0.0,1.0,310
+Quantum Riddler × Spell Pierce,pair,0.0,1.0,223
+Brain Freeze × Echo of Eons,pair,0.0,1.0,316
+Creeping Tar Pit × Remand,pair,0.0,1.0,245
+Pyrogoyf × Pyrokinesis,pair,0.0,1.0,225
+Memory Lapse × Preordain,pair,0.0,1.0,254
+"Mystic Confluence × Narset, Parter of Veils",pair,0.0,1.0,264
+Duress × Fatal Push,pair,0.0,1.0,239
 Remand × Time Walk,pair,0.0,1.0,302
-"Adeline, Resplendent Cathar × Parallax Wave",pair,0.0,1.0,297
-"Adeline, Resplendent Cathar × Mother of Runes",pair,0.0,1.0,300
+Death-Greeter's Champion × Sunbillow Verge,pair,0.0,1.0,245
+"Remand × Teferi, Hero of Dominaria",pair,0.0,1.0,252
+"Guide of Souls × Gut, True Soul Zealot",pair,0.0,1.0,232
+Remand × Spell Pierce,pair,0.0,1.0,301
+Flooded Strand × Mystic Confluence,pair,0.0,1.0,212
+Retrofitter Foundry × Soul-Guide Lantern,pair,0.0,1.0,214
+Blazemire Verge × Fire Covenant,pair,0.0,1.0,253
+Blackcleave Cliffs × Fire Covenant,pair,0.0,1.0,215
+Gloomlake Verge × Psychic Frog,pair,0.0,1.0,280
+Fiery Islet × Third Path Iconoclast,pair,0.0,1.0,223
+Reprieve × Swords to Plowshares,pair,0.0,1.0,261
+Counterspell × Quantum Riddler,pair,0.0,1.0,218
+Counterspell × Remand,pair,0.0,1.0,313
+Baleful Strix × Deep-Cavern Bat,pair,0.0,1.0,212
+"Balance × Urza, Lord High Artificer",pair,0.0,1.0,219
+Fire Covenant × Kolaghan's Command,pair,0.0,1.0,244
+Sacred Foundry × Sunbillow Verge,pair,0.0,1.0,230
+Sage of the Skies × Showdown of the Skalds,pair,0.0,1.0,231
+Brain Freeze × Time Spiral,pair,0.0,1.0,247
+Booster Tutor × Gloomlake Verge,pair,0.0,1.0,220
+Brain Freeze × Brainstorm,pair,0.0,1.0,225
+Mystic Confluence × Stock Up,pair,0.0,1.0,271
+"Mystic Confluence × Tamiyo, Inquisitive Student",pair,0.0,1.0,331
+Mystic Confluence × Timetwister,pair,0.0,1.0,236
+Mystic Confluence × Time Walk,pair,0.0,1.0,254
+Mystical Tutor × Time Walk,pair,0.0,1.0,379
+Mystic Confluence × Preordain,pair,0.0,1.0,221
+Mystic Confluence × Remand,pair,0.0,1.0,303
+Memory Lapse × Snapcaster Mage,pair,0.0,1.0,235
+Floodfarm Verge × Seachrome Coast,pair,0.0,1.0,215
+Floodfarm Verge × No More Lies,pair,0.0,1.0,355
+"Flooded Strand × Teferi, Hero of Dominaria",pair,0.0,1.0,234
+Flooded Strand × Spell Pierce,pair,0.0,1.0,227
+Glimmer Lens × Luminarch Aspirant,pair,0.0,1.0,274
+Glimmer Lens × Inspiring Vantage,pair,0.0,1.0,250
+Giver of Runes × Sunbillow Verge,pair,0.0,1.0,234
+"Seachrome Coast × Teferi, Time Raveler",pair,0.0,1.0,286
+Balance × Oust,pair,0.0,1.0,222
+Balance × Hallowed Fountain,pair,0.0,1.0,297
+Sanguine Evangelist × Showdown of the Skalds,pair,0.0,1.0,254
+Luminarch Aspirant × Showdown of the Skalds,pair,0.0,1.0,216
+Showdown of the Skalds × Sunbaked Canyon,pair,0.0,1.0,257
+Luminarch Aspirant × Skyclave Apparition,pair,0.0,1.0,216
+Death-Greeter's Champion × Inspiring Vantage,pair,0.0,1.0,250
+Shelldock Isle × Timetwister,pair,0.0,1.0,248
+Cryptic Command × Miscalculation,pair,0.0,1.0,212
+Mother of Runes × Sunbillow Verge,pair,0.0,1.0,255
+Mother of Runes × Sanguine Evangelist,pair,0.0,1.0,322
+"Makdee and Itla, Skysnarers × Ocelot Pride",pair,0.0,1.0,213
+Death-Greeter's Champion × Lightning Bolt,pair,0.0,1.0,230
+Skyclave Apparition × Voice of Victory,pair,0.0,1.0,213
+Arena of Glory × Broadside Bombardiers,pair,0.0,1.0,212
+Skyclave Apparition × Staff of the Storyteller,pair,0.0,1.0,214
+Frantic Search × Time Spiral,pair,0.0,1.0,229
+Gitaxian Probe × Hullbreacher,pair,0.0,1.0,243
+"Atraxa, Grand Unifier × Flash",pair,0.0,1.0,267
+Giver of Runes × Ocelot Pride,pair,0.0,1.0,282
+Snuff Out × Toxic Deluge,pair,0.0,1.0,224
+Sink into Stupor × Subtlety,pair,0.0,1.0,220
+Skyclave Apparition × Solitude,pair,0.0,1.0,254
+Luminarch Aspirant × Sanguine Evangelist,pair,0.0,1.0,297
+Spell Pierce × Time Spiral,pair,0.0,1.0,214
+Spell Pierce × Subtlety,pair,0.0,1.0,272
+Solitude × Thraben Inspector,pair,0.0,1.0,234
+Stock Up × Time Walk,pair,0.0,1.0,248
+Force of Will × Ponder,pair,0.0,1.0,273
+Fractured Identity × Meticulous Archive,pair,0.0,1.0,283
+"Force of Will × Malcolm, Alluring Scoundrel",pair,0.0,1.0,265
+Spell Pierce × Time Walk,pair,0.0,1.0,244
+Force of Will × Mystic Confluence,pair,0.0,1.0,259
+"Tamiyo, Inquisitive Student × Time Walk",pair,0.0,1.0,226
+"Tamiyo, Inquisitive Student × Timetwister",pair,0.0,1.0,250
+"Tamiyo, Inquisitive Student × Urza, Lord High Artificer",pair,0.0,1.0,215
+"Tezzeret, Cruel Captain × Tinker",pair,0.0,1.0,234
+"Mishra's Bauble × Urza, Lord High Artificer",pair,0.0,1.0,236
+"Misty Rainforest × Oko, Thief of Crowns",pair,0.0,1.0,238
+Force of Will × Memory Lapse,pair,0.0,1.0,288
+"Misty Rainforest × Tamiyo, Inquisitive Student",pair,0.0,1.0,219
+Currency Converter × Tolarian Academy,pair,0.0,1.0,236
+Dack Fayden × Expressive Iteration,pair,0.0,1.0,280
+Cut Down × Snuff Out,pair,0.0,1.0,216
+Dack Fayden × Fiery Islet,pair,0.0,1.0,228
+Fractured Identity × Oust,pair,0.0,1.0,227
+"Upheaval × Urza, Lord High Artificer",pair,0.0,1.0,276
+Mana Leak × Polluted Delta,pair,0.0,1.0,238
+Mana Leak × Snapcaster Mage,pair,0.0,1.0,285
+Mana Leak × Spell Pierce,pair,0.0,1.0,275
+"Mana Leak × Tamiyo, Inquisitive Student",pair,0.0,1.0,270
+"Mana Leak × Teferi, Hero of Dominaria",pair,0.0,1.0,217
+"Mana Leak × Teferi, Time Raveler",pair,0.0,1.0,237
+Mana Leak × Time Walk,pair,0.0,1.0,215
+Mana Leak × Timetwister,pair,0.0,1.0,262
+"Adeline, Resplendent Cathar × Inspiring Vantage",pair,0.0,1.0,224

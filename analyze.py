@@ -41,12 +41,12 @@ def save_results(results_df, prefix, output_dir):
     cards.to_csv(path, index=False)
     print(f"  Saved {len(cards)} card rankings to {path}")
 
-    # Squared terms
-    squared = results_df[results_df["type"] == "squared"].sort_values("abs_coef", ascending=False)
-    squared = squared.drop(columns=["abs_coef"])
-    path = os.path.join(output_dir, f"{prefix}_squared_terms.csv")
-    squared.to_csv(path, index=False)
-    print(f"  Saved {len(squared)} squared terms to {path}")
+    # Repeat terms
+    repeat = results_df[results_df["type"] == "repeat"].sort_values("abs_coef", ascending=False)
+    repeat = repeat.drop(columns=["abs_coef"])
+    path = os.path.join(output_dir, f"{prefix}_repeat_terms.csv")
+    repeat.to_csv(path, index=False)
+    print(f"  Saved {len(repeat)} repeat terms to {path}")
 
     # Pair synergies
     pairs = results_df[results_df["type"] == "pair"].sort_values("abs_coef", ascending=False)

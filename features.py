@@ -23,13 +23,17 @@ def filter_cards_by_frequency(X, card_names, min_freq=0.01):
     return X_filtered, kept_names
 
 
-def build_features(X, card_names, min_card_freq=0.01, min_pair_freq=0.005):
-    """Build full feature matrix: card counts + squared terms + filtered pair interactions.
+def build_features(X, card_names, min_card_freq=0.01, min_pair_freq=0.005, min_repeat_freq=0.005):
+    """Build full feature matrix: card counts + repeat terms + filtered pair interactions.
     
+    Args:
+        min_repeat_freq: minimum fraction of games where a card appears 2+ times
+                         for its repeat term to be included.
     Returns:
         X_final: sparse CSR matrix of all features
         feature_names: list of feature name strings
-        feature_types: list of feature type strings ('card', 'squared', 'pair')
+        feature_types: list of feature type strings ('card', 'repeat', 'pair')
+        feature_counts: array of nonzero counts per feature
     """
     n_games = X.shape[0]
 
@@ -45,7 +49,16 @@ def build_features(X, card_names, min_card_freq=0.01, min_pair_freq=0.005):
 
     # Step 2: Repeated-card interaction terms: x_i * (x_i - 1)
     # This is 0 for 0-1 copies, and captures self-synergy for 2+ copies
-    X_sq = X_filt.multiply(X_filt) - X_filt  # x_i^2 - x_i = x_i*(x_i-1), stays sparse
+    X_sq_all = X_filt.multiply(X_filt) - X_filt  # x_i^2 - x_i = x_i*(x_i-1), stays sparse
+
+    # Filter repeat terms: keep only cards with 2+ copies in enough games
+    min_repeat_count = int(min_repeat_freq * n_games)
+    repeat_presence = np.asarray((X_sq_all != 0).sum(axis=0)).flatten()
+    repeat_mask = repeat_presence >= min_repeat_count
+    X_sq = X_sq_all[:, repeat_mask]
+    repeat_names = [filt_names[i] for i in range(n_cards) if repeat_mask[i]]
+    n_repeats = len(repeat_names)
+    print(f"  Repeat terms kept: {n_repeats} / {n_cards} (min_repeat_freq={min_repeat_freq})")
 
     # Step 3: Pairwise interactions with frequency filtering
     min_pair_count = int(min_pair_freq * n_games)
@@ -84,22 +97,22 @@ def build_features(X, card_names, min_card_freq=0.01, min_pair_freq=0.005):
     # Build feature name and type lists
     feature_names = (
         filt_names
-        + [f"{name} (repeat)" for name in filt_names]
+        + [f"{name} (repeat)" for name in repeat_names]
         + pair_names
     )
     feature_types = (
         ["card"] * n_cards
-        + ["squared"] * n_cards
+        + ["repeat"] * n_repeats
         + ["pair"] * len(pair_indices)
     )
 
     print(f"  Final feature matrix: {X_final.shape[0]} games × {X_final.shape[1]} features")
-    print(f"    Cards: {n_cards}, Squared: {n_cards}, Pairs: {len(pair_indices)}")
+    print(f"    Cards: {n_cards}, Repeat: {n_repeats}, Pairs: {len(pair_indices)}")
 
     # Compute feature frequency counts (number of games where feature is nonzero)
     card_counts = np.asarray((X_filt != 0).sum(axis=0)).flatten()
-    repeat_counts = np.asarray((X_sq != 0).sum(axis=0)).flatten()
+    repeat_counts_filtered = np.asarray((X_sq != 0).sum(axis=0)).flatten()
     pair_counts = np.asarray((X_pairs != 0).sum(axis=0)).flatten() if pair_indices else np.array([])
-    feature_counts = np.concatenate([card_counts, repeat_counts, pair_counts]).astype(int)
+    feature_counts = np.concatenate([card_counts, repeat_counts_filtered, pair_counts]).astype(int)
 
     return X_final, feature_names, feature_types, feature_counts
