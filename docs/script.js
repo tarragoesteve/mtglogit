@@ -81,6 +81,21 @@ function initGraph(nodes, links) {
     )
     .attr("stroke-linecap", "round");
 
+  // 🔥 LINK LABELS (weight)
+  const linkLabels = container.append("g")
+    .selectAll("text")
+    .data(links)
+    .join("text")
+    .text(d => d.weight.toFixed(2))
+    .attr("fill", "#fff")
+    .attr("font-size", d => 10 + d.weight_norm * 18)
+    .attr("stroke", "#000")
+    .attr("stroke-width", 3)
+    .attr("paint-order", "stroke")
+    .attr("text-anchor", "middle")
+    .style("pointer-events", "none")
+    .style("opacity", 0);
+
   // -----------------------------
   // NODES
   // -----------------------------
@@ -160,35 +175,61 @@ function initGraph(nodes, links) {
       link
         .attr("stroke-opacity", l =>
           l.source.id === d.id || l.target.id === d.id ? 1 : 0.05
-        )
-        .attr("stroke-width", l =>
-          l.source.id === d.id || l.target.id === d.id
-            ? 3 + l.weight_norm * 8
-            : 0.8 + Math.pow(l.weight_norm, 2.0) * 9
+        );
+
+      // 🔥 SHOW LINK LABELS
+      linkLabels
+        .style("opacity", l =>
+          l.source.id === d.id || l.target.id === d.id ? 1 : 0
         );
 
       node.style("opacity", n =>
         n.id === d.id || connected.has(n.id) ? 1 : 0.3
       );
 
+      // 🔥 TOOLTIP CONTENT
       d3.select("#tooltip")
         .style("display", "block")
-        .html(`<img src="${d.card_image}" />`);
+        .html(`
+          <img src="${d.card_image}" />
+          <div style="color:white; margin-top:6px; font-size:12px;">
+            <b>${d.id}</b><br/>
+            Odds win if draw: ${d.prob.toFixed(3)}<br/>
+            Odds of self draw: ${d.self_prob ? d.self_prob.toFixed(3) : "N/A"}
+          </div>
+        `);
     })
 
     .on("mousemove", (event) => {
-      d3.select("#tooltip")
-        .style("left", (event.pageX + 15) + "px")
-        .style("top", (event.pageY + 15) + "px");
+
+      const tooltip = d3.select("#tooltip");
+
+      const tooltipNode = tooltip.node();
+      const w = tooltipNode.offsetWidth;
+      const h = tooltipNode.offsetHeight;
+
+      let x = event.pageX + 15;
+      let y = event.pageY + 15;
+
+      // 🔥 KEEP INSIDE SCREEN
+      if (x + w > window.innerWidth) {
+        x = event.pageX - w - 15;
+      }
+
+      if (y + h > window.innerHeight) {
+        y = event.pageY - h - 15;
+      }
+
+      tooltip
+        .style("left", x + "px")
+        .style("top", y + "px");
     })
 
     .on("mouseout", () => {
 
-      link
-        .attr("stroke-opacity", d => 1)
-        .attr("stroke-width", d =>
-          0.8 + Math.pow(d.weight_norm, 2.0) * 9
-        );
+      link.attr("stroke-opacity", 1);
+
+      linkLabels.style("opacity", 0);
 
       node.style("opacity", 1);
 
@@ -205,6 +246,11 @@ function initGraph(nodes, links) {
       .attr("y1", d => d.source.y)
       .attr("x2", d => d.target.x)
       .attr("y2", d => d.target.y);
+
+    // 🔥 POSITION LABELS
+    linkLabels
+      .attr("x", d => (d.source.x + d.target.x) / 2)
+      .attr("y", d => (d.source.y + d.target.y) / 2);
 
     node.attr("transform", d => `translate(${d.x}, ${d.y})`);
   });
