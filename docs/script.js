@@ -3,6 +3,7 @@ const CONFIG = {
   // THRESHOLDS
   // -----------------------------
   LINK_VISIBLE_THRESHOLD: 1.1,
+  LINK_HOVER_THRESHOLD: 1.02,
 
   // -----------------------------
   // NODE SIZE
@@ -135,7 +136,7 @@ function initGraph(nodes, links) {
         : CONFIG.LINK_WIDTH_BASE + Math.pow(d.weight_norm, 2.0) * CONFIG.LINK_WIDTH_SCALE
     )
     .attr("stroke-opacity", d =>
-      d.weight < CONFIG.LINK_VISIBLE_THRESHOLD ? 0 : 1
+      d.weight >= CONFIG.LINK_VISIBLE_THRESHOLD ? 1 : 0
     )
     .attr("stroke-linecap", "round");
 
@@ -145,7 +146,7 @@ function initGraph(nodes, links) {
     .data(links)
     .join("text")
     .text(d =>
-      d.weight >= CONFIG.LINK_VISIBLE_THRESHOLD ? d.weight.toFixed(2) : ""
+      d.weight >= CONFIG.LINK_HOVER_THRESHOLD ? d.weight.toFixed(2) : ""
     )
     .attr("fill", "#fff")
     .attr("font-size", d =>
@@ -239,16 +240,20 @@ function initGraph(nodes, links) {
           const isConnected =
             l.source.id === d.id || l.target.id === d.id;
 
-          if (l.weight < CONFIG.LINK_VISIBLE_THRESHOLD) return 0;
+          if (isConnected && l.weight >= CONFIG.LINK_HOVER_THRESHOLD) return 1;
           if (!isConnected) return 0.05;
 
-          return 1;
+          return 0;
         })
         .attr("stroke-width", l => {
-          if (l.weight < CONFIG.LINK_VISIBLE_THRESHOLD) return 0;
-
           const isConnected =
             l.source.id === d.id || l.target.id === d.id;
+
+          if (isConnected && l.weight >= CONFIG.LINK_HOVER_THRESHOLD) {
+            return CONFIG.LINK_WIDTH_HOVER_BASE + l.weight_norm * CONFIG.LINK_WIDTH_HOVER_SCALE;
+          }
+
+          if (l.weight < CONFIG.LINK_VISIBLE_THRESHOLD) return 0;
 
           return isConnected
             ? CONFIG.LINK_WIDTH_HOVER_BASE + l.weight_norm * CONFIG.LINK_WIDTH_HOVER_SCALE
@@ -261,7 +266,7 @@ function initGraph(nodes, links) {
           const isConnected =
             l.source.id === d.id || l.target.id === d.id;
 
-          return (isConnected && l.weight >= CONFIG.LINK_VISIBLE_THRESHOLD) ? 1 : 0;
+          return (isConnected && l.weight >= CONFIG.LINK_HOVER_THRESHOLD) ? 1 : 0;
         });
 
       node.style("opacity", n =>
@@ -309,7 +314,7 @@ function initGraph(nodes, links) {
 
       link
         .attr("stroke-opacity", d =>
-          d.weight < CONFIG.LINK_VISIBLE_THRESHOLD ? 0 : 1
+          d.weight >= CONFIG.LINK_VISIBLE_THRESHOLD ? 1 : 0
         )
         .attr("stroke-width", d =>
           d.weight < CONFIG.LINK_VISIBLE_THRESHOLD
