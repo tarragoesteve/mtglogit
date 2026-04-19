@@ -1,0 +1,192 @@
+feature,type,coefficient,odds_multiplier,count
+Scarblade Scout (repeat),repeat,-0.059764298681128904,0.9419865348888529,1905
+Flamekin Gildweaver (repeat),repeat,-0.056009692810729345,0.9455299710029317,2028
+Dawnhand Eulogist (repeat),repeat,-0.049045269198163766,0.9521380261978946,2333
+Merrow Skyswimmer (repeat),repeat,-0.045702032607944636,0.9553265759541967,2632
+Assert Perfection (repeat),repeat,-0.0419547190641898,0.9589132000764995,2389
+Tweeze (repeat),repeat,-0.02261550176137286,0.9776383117249269,1927
+Kulrath Zealot (repeat),repeat,-0.021447115328195845,0.9787812386250224,2275
+Blossombind (repeat),repeat,-0.015689806736332166,0.9844326370717505,1981
+Cinder Strike (repeat),repeat,-0.015241886616495672,0.9848736830258229,2756
+Lys Alana Informant (repeat),repeat,0.0,1.0,1945
+Mistmeadow Council (repeat),repeat,0.0,1.0,2308
+Morcant's Eyes (repeat),repeat,0.0,1.0,0
+Thoughtweft Charge (repeat),repeat,0.0,1.0,0
+Formidable Speaker (repeat),repeat,0.0,1.0,0
+Chitinous Graspling (repeat),repeat,0.0,1.0,0
+"Sygg, Wanderwine Wisdom (repeat)",repeat,0.0,1.0,0
+Gravelgill Scoundrel (repeat),repeat,0.0,1.0,0
+Wary Farmer (repeat),repeat,0.0,1.0,0
+Lys Alana Dignitary (repeat),repeat,0.0,1.0,0
+Barbed Bloodletter (repeat),repeat,0.0,1.0,0
+Dream Seizer (repeat),repeat,0.0,1.0,0
+Blossoming Defense (repeat),repeat,0.0,1.0,0
+Warren Torchmaster (repeat),repeat,0.0,1.0,0
+"Tam, Mindful First-Year (repeat)",repeat,0.0,1.0,0
+Chaos Spewer (repeat),repeat,0.0,1.0,0
+Meanders Guide (repeat),repeat,0.0,1.0,0
+Thoughtweft Imbuer (repeat),repeat,0.0,1.0,0
+Eclipsed Kithkin (repeat),repeat,0.0,1.0,0
+Dawn's Light Archer (repeat),repeat,0.0,1.0,0
+Boulder Dash (repeat),repeat,0.0,1.0,0
+Sun-Dappled Celebrant (repeat),repeat,0.0,1.0,0
+Thirst for Identity (repeat),repeat,0.0,1.0,0
+Eclipsed Elf (repeat),repeat,0.0,1.0,0
+Bile-Vial Boggart (repeat),repeat,0.0,1.0,0
+Taster of Wares (repeat),repeat,0.0,1.0,0
+Deepchannel Duelist (repeat),repeat,0.0,1.0,0
+"Abigale, Eloquent First-Year (repeat)",repeat,0.0,1.0,0
+Disruptor of Currents (repeat),repeat,0.0,1.0,0
+Luminollusk (repeat),repeat,0.0,1.0,0
+Glister Bairn (repeat),repeat,0.0,1.0,0
+Burdened Stoneback (repeat),repeat,0.0,1.0,0
+Flame-Chain Mauler (repeat),repeat,0.0,1.0,0
+Wanderwine Distracter (repeat),repeat,0.0,1.0,0
+Pestered Wellguard (repeat),repeat,0.0,1.0,0
+Flitterwing Nuisance (repeat),repeat,0.0,1.0,0
+Gnarlbark Elm (repeat),repeat,0.0,1.0,0
+Nameless Inversion (repeat),repeat,0.0,1.0,0
+Virulent Emissary (repeat),repeat,0.0,1.0,0
+Temporal Cleansing (repeat),repeat,0.0,1.0,0
+Unwelcome Sprite (repeat),repeat,0.0,1.0,0
+Kinbinding (repeat),repeat,0.0,1.0,0
+Safewright Cavalry (repeat),repeat,0.0,1.0,0
+Shimmerwilds Growth (repeat),repeat,0.0,1.0,0
+End-Blaze Epiphany (repeat),repeat,0.0,1.0,0
+Gloom Ripper (repeat),repeat,0.0,1.0,0
+Blight Rot (repeat),repeat,0.0,1.0,0
+Flamebraider (repeat),repeat,0.0,1.0,0
+Gristle Glutton (repeat),repeat,0.0,1.0,0
+Dundoolin Weaver (repeat),repeat,0.0,1.0,0
+Slumbering Walker (repeat),repeat,0.0,1.0,0
+Personify (repeat),repeat,0.0,1.0,0
+Graveshifter (repeat),repeat,0.0,1.0,0
+"Sanar, Innovative First-Year (repeat)",repeat,0.0,1.0,0
+"Trystan, Callous Cultivator (repeat)",repeat,0.0,1.0,0
+Tributary Vaulter (repeat),repeat,0.0,1.0,0
+Timid Shieldbearer (repeat),repeat,0.0,1.0,0
+"Brigid, Clachan's Heart (repeat)",repeat,0.0,1.0,0
+Crossroads Watcher (repeat),repeat,0.0,1.0,0
+Silvergill Mentor (repeat),repeat,0.0,1.0,0
+Mischievous Sneakling (repeat),repeat,0.0,1.0,0
+Gutsplitter Gang (repeat),repeat,0.0,1.0,0
+Keep Out (repeat),repeat,0.0,1.0,0
+Sting-Slinger (repeat),repeat,0.0,1.0,0
+Requiting Hex (repeat),repeat,0.0,1.0,0
+Wildvine Pummeler (repeat),repeat,0.0,1.0,0
+Moonglove Extractor (repeat),repeat,0.0,1.0,0
+Gallant Fowlknight (repeat),repeat,0.0,1.0,0
+Flock Impostor (repeat),repeat,0.0,1.0,0
+Sear (repeat),repeat,0.0,1.0,0
+Swat Away (repeat),repeat,0.0,1.0,0
+Pitiless Fists (repeat),repeat,0.0,1.0,0
+High Perfect Morcant (repeat),repeat,0.0,1.0,0
+Glamer Gifter (repeat),repeat,0.0,1.0,0
+Silvergill Peddler (repeat),repeat,0.0,1.0,0
+"Maralen, Fae Ascendant (repeat)",repeat,0.0,1.0,0
+Explosive Prodigy (repeat),repeat,0.0,1.0,0
+Changeling Wayfinder (repeat),repeat,0.0,1.0,0
+Blighted Blackthorn (repeat),repeat,0.0,1.0,0
+Giantfall (repeat),repeat,0.0,1.0,0
+Twinflame Travelers (repeat),repeat,0.0,1.0,0
+Prideful Feastling (repeat),repeat,0.0,1.0,0
+Omni-Changeling (repeat),repeat,0.0,1.0,0
+Moonlit Lamenter (repeat),repeat,0.0,1.0,0
+Prismabasher (repeat),repeat,0.0,1.0,0
+Ashling's Command (repeat),repeat,0.0,1.0,0
+Encumbered Reejerey (repeat),repeat,0.0,1.0,0
+Sourbread Auntie (repeat),repeat,0.0,1.0,0
+Riverguard's Reflexes (repeat),repeat,0.0,1.0,0
+Bristlebane Outrider (repeat),repeat,0.0,1.0,0
+Kithkeeper (repeat),repeat,0.0,1.0,0
+Wanderbrine Preacher (repeat),repeat,0.0,1.0,0
+Goliath Daydreamer (repeat),repeat,0.0,1.0,0
+Brambleback Brute (repeat),repeat,0.0,1.0,0
+Tanufel Rimespeaker (repeat),repeat,0.0,1.0,0
+Rimekin Recluse (repeat),repeat,0.0,1.0,0
+Shore Lurker (repeat),repeat,0.0,1.0,0
+Boggart Mischief (repeat),repeat,0.0,1.0,0
+Wild Unraveling (repeat),repeat,0.0,1.0,0
+Figure of Fable (repeat),repeat,0.0,1.0,0
+Protective Response (repeat),repeat,0.0,1.0,0
+Liminal Hold (repeat),repeat,0.0,1.0,0
+Shimmercreep (repeat),repeat,0.0,1.0,0
+Elder Auntie (repeat),repeat,0.0,1.0,0
+Chomping Changeling (repeat),repeat,0.0,1.0,0
+Midnight Tilling (repeat),repeat,0.0,1.0,0
+Enraged Flamecaster (repeat),repeat,0.0,1.0,0
+Burning Curiosity (repeat),repeat,0.0,1.0,0
+Dawnhand Dissident (repeat),repeat,0.0,1.0,0
+Kinsbaile Aspirant (repeat),repeat,0.0,1.0,0
+Boggart Prankster (repeat),repeat,0.0,1.0,0
+Adept Watershaper (repeat),repeat,0.0,1.0,0
+Squawkroaster (repeat),repeat,0.0,1.0,0
+Creakwood Safewright (repeat),repeat,0.0,1.0,0
+Wanderbrine Trapper (repeat),repeat,0.0,1.0,0
+Tend the Sprigs (repeat),repeat,0.0,1.0,0
+Noggle the Mind (repeat),repeat,0.0,1.0,0
+Surly Farrier (repeat),repeat,0.0,1.0,0
+Stalactite Dagger (repeat),repeat,0.0,1.0,0
+Firdoch Core (repeat),repeat,0.0,1.0,0
+Retched Wretch (repeat),repeat,0.0,1.0,0
+Unforgiving Aim (repeat),repeat,0.0,1.0,0
+"Ashling, Rekindled (repeat)",repeat,0.0,1.0,0
+Heirloom Auntie (repeat),repeat,0.0,1.0,0
+Iron-Shield Elf (repeat),repeat,0.0,1.0,0
+Mudbutton Cursetosser (repeat),repeat,0.0,1.0,0
+Gangly Stompling (repeat),repeat,0.0,1.0,0
+Boneclub Berserker (repeat),repeat,0.0,1.0,0
+Wanderwine Farewell (repeat),repeat,0.0,1.0,0
+Thoughtweft Lieutenant (repeat),repeat,0.0,1.0,0
+Foraging Wickermaw (repeat),repeat,0.0,1.0,0
+Noggle Robber (repeat),repeat,0.0,1.0,0
+Rime Chill (repeat),repeat,0.0,1.0,0
+Reaping Willow (repeat),repeat,0.0,1.0,0
+Boggart Cursecrafter (repeat),repeat,0.0,1.0,0
+Feed the Flames (repeat),repeat,0.0,1.0,0
+Eclipsed Merrow (repeat),repeat,0.0,1.0,0
+Morcant's Loyalist (repeat),repeat,0.0,1.0,0
+"Lluwen, Imperfect Naturalist (repeat)",repeat,0.0,1.0,0
+Shinestriker (repeat),repeat,0.0,1.0,0
+Aquitect's Defenses (repeat),repeat,0.0,1.0,0
+Champions of the Shoal (repeat),repeat,0.0,1.0,0
+Gilt-Leaf's Embrace (repeat),repeat,0.0,1.0,0
+Gathering Stone (repeat),repeat,0.0,1.0,0
+Sunderflock (repeat),repeat,0.0,1.0,0
+Lofty Dreams (repeat),repeat,0.0,1.0,0
+Great Forest Druid (repeat),repeat,0.0,1.0,0
+Eclipsed Boggart (repeat),repeat,0.0,1.0,0
+Selfless Safewright (repeat),repeat,0.0,1.0,0
+Champions of the Perfect (repeat),repeat,0.0,1.0,0
+Vinebred Brawler (repeat),repeat,0.0,1.0,0
+Clachan Festival (repeat),repeat,0.0,1.0,0
+Run Away Together (repeat),repeat,0.0,1.0,0
+Auntie's Sentence (repeat),repeat,0.0,1.0,0
+Glen Elendra Guardian (repeat),repeat,0.0,1.0,0
+Feisty Spikeling (repeat),repeat,0.0,1.0,0
+Reluctant Dounguard (repeat),repeat,0.0,1.0,0
+Evolving Wilds (repeat),repeat,0.0,1.0,0
+Hovel Hurler (repeat),repeat,0.0,1.0,0
+Eclipsed Flamekin (repeat),repeat,0.0,1.0,0
+Spiral into Solitude (repeat),repeat,0.0,1.0,0
+Stoic Grove-Guide (repeat),repeat,0.0,1.0,0
+Sizzling Changeling (repeat),repeat,0.0,1.0,0
+Trystan's Command (repeat),repeat,0.0,1.0,0
+Moon-Vigil Adherents (repeat),repeat,0.0,1.0,0
+Glamermite (repeat),repeat,0.0,1.0,0
+Soulbright Seeker (repeat),repeat,0.0,1.0,0
+Stratosoarer (repeat),repeat,0.0,1.0,0
+Scarblade's Malice (repeat),repeat,0.0,1.0,0
+Rooftop Percher (repeat),repeat,0.0,1.0,0
+Unbury (repeat),repeat,0.0,1.0,0
+Unexpected Assistance (repeat),repeat,0.0,1.0,0
+Pyrrhic Strike (repeat),repeat,0.0,1.0,0
+Flaring Cinder (repeat),repeat,0.0,1.0,0
+Dawn-Blessed Pennant (repeat),repeat,0.0,1.0,0
+Kulrath Mystic (repeat),repeat,0.0,1.0,0
+Summit Sentinel (repeat),repeat,0.0,1.0,0
+Goldmeadow Nomad (repeat),repeat,0.0,1.0,0
+Pummeler for Hire (repeat),repeat,0.0,1.0,0
+Bristlebane Battler (repeat),repeat,0.0,1.0,0
+Eclipsed Realms (repeat),repeat,0.0,1.0,0
+Bogslither's Embrace (repeat),repeat,0.0,1.0,0

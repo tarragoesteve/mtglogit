@@ -1,0 +1,2 @@
+model,train_log_loss,train_auc,train_accuracy,test_log_loss,test_auc,test_accuracy
+drawn_without_basics,0.6649384997055403,0.6218771137875163,0.5920936083682297,0.6809546706587174,0.5810348171885376,0.5675310531177192
