@@ -4,6 +4,27 @@ import requests
 import time
 
 # -----------------------------
+# CONFIG
+# -----------------------------
+CONFIG = {
+    # -------------------------
+    # FILTERS
+    # -------------------------
+    "MIN_LINK_WEIGHT": 1.02,
+
+    # -------------------------
+    # BATCH API
+    # -------------------------
+    "SCRYFALL_BATCH_SIZE": 20,
+    "SCRYFALL_SLEEP": 0.1,
+
+    # -------------------------
+    # CLEANING
+    # -------------------------
+    "SELF_TAG": " (repeat)",
+}
+
+# -----------------------------
 # LOAD CSV FILES
 # -----------------------------
 df_cards = pd.read_csv("../results/drawn_without_basics_card_rankings.csv")
@@ -19,7 +40,7 @@ df_nodes.columns = ["id", "prob"]
 # -----------------------------
 # SELF SCORE CLEANING
 # -----------------------------
-df_self["id"] = df_self["feature"].str.replace(" (repeat)", "", regex=False)
+df_self["id"] = df_self["feature"].str.replace(CONFIG["SELF_TAG"], "", regex=False)
 df_self = df_self[["id", "odds_multiplier"]].copy()
 df_self.columns = ["id", "self_prob"]
 
@@ -28,14 +49,12 @@ df_nodes = df_nodes.merge(df_self, on="id", how="left")
 # -----------------------------
 # SCRYFALL IMAGES
 # -----------------------------
-MAX_BATCH = 20
 card_names = df_nodes["id"].dropna().unique().tolist()
-
 lookup = {}
 
-for i in range(0, len(card_names), MAX_BATCH):
+for i in range(0, len(card_names), CONFIG["SCRYFALL_BATCH_SIZE"]):
 
-    batch = card_names[i:i + MAX_BATCH]
+    batch = card_names[i:i + CONFIG["SCRYFALL_BATCH_SIZE"]]
     query = " OR ".join([f'"{name}"' for name in batch])
 
     url = (
@@ -63,7 +82,7 @@ for i in range(0, len(card_names), MAX_BATCH):
             "image": image_uris.get("normal")
         }
 
-    time.sleep(0.1)
+    time.sleep(CONFIG["SCRYFALL_SLEEP"])
 
 # -----------------------------
 # APPLY IMAGES
@@ -103,7 +122,6 @@ df_links = pd.DataFrame(links)
 # -----------------------------
 # REMOVE DUPLICATES (A-B == B-A)
 # -----------------------------
-
 df_links["pair"] = df_links.apply(
     lambda x: tuple(sorted([x["source"], x["target"]])),
     axis=1
@@ -114,18 +132,28 @@ df_links = df_links.drop_duplicates("pair")
 # -----------------------------
 # FILTER WEAK LINKS
 # -----------------------------
-df_links = df_links[df_links["weight"] >= 1.08]
+df_links = df_links[
+    df_links["weight"] >= CONFIG["MIN_LINK_WEIGHT"]
+]
 
 # -----------------------------
 # NORMALIZATION (FINAL BALANCED VERSION)
 # -----------------------------
 
 # 📏 NODE SIZE
-df_nodes["prob_norm"] = (df_nodes["prob"] - df_nodes["prob"].min()) / (df_nodes["prob"].max()- df_nodes["prob"].min())
+df_nodes["prob_norm"] = (
+    (df_nodes["prob"] - df_nodes["prob"].min()) /
+    (df_nodes["prob"].max() - df_nodes["prob"].min())
+)
+
 # ✨ SELF PROB
 df_nodes["self_prob_norm"] = df_nodes["self_prob"]
+
 # 🔗 LINKS
-df_links["weight_norm"] = (df_links["weight"] - df_links["weight"].min()) / (df_links["weight"].max() - df_links["weight"].min())
+df_links["weight_norm"] = (
+    (df_links["weight"] - df_links["weight"].min()) /
+    (df_links["weight"].max() - df_links["weight"].min())
+)
 
 # -----------------------------
 # EXPORT
