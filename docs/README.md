@@ -102,6 +102,23 @@ Use the gear icon ⚙️ in the top-right corner to adjust:
 
 Press **Apply** to reload with new parameters.
 
+### Card filters (graph and table)
+
+In Settings, select any number of **Card types** and **Rarities**. Changes apply
+immediately and remain selected across view, tab, and dataset changes. No
+selections in a group means all values; selections within a group are ORed, while
+type and rarity groups are ANDed. **Clear card filters** restores all cards.
+
+Types are major types, not subtypes (for example Creature, not Elf). Multi-type
+and double-faced cards match any of their major types. Both cards must match for
+a graph link or Pairs row to appear. Graph link limits apply after filtering;
+table sorting and minimum-games filtering continue to work on matching rows.
+
+Rarity comes from the representative printing in the Scryfall Oracle archive,
+not necessarily the selected draft set. **Unknown** includes cards whose metadata
+could not be resolved. Older datasets without metadata remain usable with filters
+cleared; regenerate them with `python wrinfo.py` to enable accurate filtering.
+
 ### Table view
 
 The **Alone**, **Self**, and **Pairs** tabs show card names, weights, and game

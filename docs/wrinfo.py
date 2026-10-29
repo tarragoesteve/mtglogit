@@ -4,6 +4,7 @@ import requests
 import time
 import gzip
 import io
+import re
 import unicodedata
 from pathlib import Path
 import sys
@@ -38,6 +39,35 @@ SCRYFALL_HEADERS = {
     "User-Agent": "mtglogit/1.0",
     "Accept": "application/json",
 }
+CARD_TYPES = (
+    "Creature", "Instant", "Sorcery", "Artifact", "Enchantment",
+    "Land", "Planeswalker", "Battle", "Kindred",
+)
+
+
+def card_metadata(card):
+    """Include major types from either face, but not creature subtypes."""
+    type_lines = [card.get("type_line", "")]
+    type_lines.extend(face.get("type_line", "") for face in card.get("card_faces", []))
+    words = set()
+    for line in type_lines:
+        for face_line in line.split("//"):
+            words.update(re.split(r"\s+", face_line.split("—", 1)[0].strip()))
+    return {
+        "types": [name for name in CARD_TYPES if name in words],
+        "rarity": card.get("rarity"),
+    }
+
+
+def find_card_metadata(name, lookup):
+    data = lookup.get(name)
+    if data is None:
+        normalized = normalize_name(name)
+        data = next(
+            (value for key, value in lookup.items() if normalize_name(key) == normalized),
+            {},
+        )
+    return {"types": data.get("types", []), "rarity": data.get("rarity")}
 
 
 def read_bulk_cards(stream):
@@ -124,6 +154,8 @@ def fetch_scryfall_bulk_data():
         # Build lookup by card name, prioritizing versions with images
         lookup = {}
         for card in load_bulk_cards():
+            if card.get("layout") == "art_series":
+                continue
             name = card.get("name")
             printed_name = card.get("printed_name")
             image_uris = {}
@@ -141,6 +173,7 @@ def fetch_scryfall_bulk_data():
             highres = card.get("highres_image", False)
             
             card_data = {
+                **card_metadata(card),
                 "art": image_uris.get("art_crop"),
                 "image": image_url,
                 "image_status": image_status,
@@ -165,6 +198,9 @@ def fetch_scryfall_bulk_data():
             
             if should_update:
                 lookup[name] = card_data
+            else:
+                # A face alias may precede the actual card in the archive.
+                lookup[name].update(card_metadata(card))
             
             # Also store by printed_name if it's different
             if printed_name and printed_name != name:
@@ -185,6 +221,7 @@ def fetch_scryfall_bulk_data():
             for face in card.get("card_faces", []):
                 face_image_uris = face.get("image_uris", {})
                 face_data = {
+                    **card_metadata(card),
                     "art": face_image_uris.get("art_crop"),
                     "image": face_image_uris.get("normal"),
                     "image_status": image_status,
@@ -228,6 +265,7 @@ def fetch_card_individually(card_name, lookup):
             image_uris = card.get("image_uris", {})
         
         card_data = {
+            **card_metadata(card),
             "art": image_uris.get("art_crop"),
             "image": image_uris.get("normal"),
             "image_status": card.get("image_status"),
@@ -338,6 +376,10 @@ def process_results_folder(results_folder_path):
             else:
                 print(f"   ✗ Not found: {card_name}")
             time.sleep(CONFIG["SCRYFALL_SLEEP"])
+
+    metadata = [find_card_metadata(name, lookup) for name in df_nodes["id"]]
+    df_nodes["types"] = [card["types"] for card in metadata]
+    df_nodes["rarity"] = [card["rarity"] for card in metadata]
     
     # -------- APPLY CARD IMAGES WITH NAME FALLBACK --------
     def get_card_image(card_name):

@@ -13,6 +13,8 @@ import requests
 from wrinfo import (
     SCRYFALL_HEADERS,
     build_table_data,
+    card_metadata,
+    find_card_metadata,
     fetch_card_individually,
     fetch_scryfall_bulk_data,
     process_results_folder,
@@ -33,6 +35,7 @@ class BulkDataTests(unittest.TestCase):
         self.addCleanup(cache_patch.stop)
         self.card = {
             "object": "card", "name": "Time Walk",
+            "type_line": "Sorcery", "rarity": "mythic",
             "image_uris": {"normal": "card.jpg", "art_crop": "art.jpg"},
         }
 
@@ -45,6 +48,8 @@ class BulkDataTests(unittest.TestCase):
             with contextlib.chdir(self.directory):
                 lookup = fetch_scryfall_bulk_data()
             self.assertEqual(lookup["Time Walk"]["image"], "card.jpg")
+            self.assertEqual(lookup["Time Walk"]["types"], ["Sorcery"])
+            self.assertEqual(lookup["Time Walk"]["rarity"], "mythic")
             self.assertNotIn("Old Card", lookup)
             self.assertIs(fetch_scryfall_bulk_data(), lookup)
             get.assert_not_called()
@@ -99,9 +104,12 @@ class BulkDataTests(unittest.TestCase):
     def test_face_names_resolve_without_individual_requests(self):
         card = {
             "name": "Front // Back",
+            "rarity": "rare",
             "card_faces": [
-                {"name": "Front", "image_uris": {"normal": "front.jpg"}},
+                {"name": "Front", "type_line": "Artifact Creature — Elf",
+                 "image_uris": {"normal": "front.jpg"}},
                 {"name": "Back", "printed_name": "Translated Back",
+                 "type_line": "Land",
                  "image_uris": {"normal": "back.jpg"}},
             ],
         }
@@ -112,8 +120,38 @@ class BulkDataTests(unittest.TestCase):
             self.assertEqual(lookup["Front"]["image"], "front.jpg")
             self.assertEqual(lookup["Back"]["image"], "back.jpg")
             self.assertEqual(lookup["Translated Back"]["image"], "back.jpg")
+            self.assertEqual(lookup["Front"]["types"], ["Creature", "Artifact", "Land"])
+            self.assertEqual(lookup["Back"]["rarity"], "rare")
             get.assert_not_called()
 
+    def test_metadata_ignores_subtypes_and_handles_missing_cards(self):
+        self.assertEqual(
+            card_metadata({"type_line": "Kindred Enchantment — Creature", "rarity": "uncommon"}),
+            {"types": ["Enchantment", "Kindred"], "rarity": "uncommon"},
+        )
+        self.assertEqual(
+            card_metadata({"type_line": "Creature — Elf // Land", "rarity": "rare"}),
+            {"types": ["Creature", "Land"], "rarity": "rare"},
+        )
+        self.assertEqual(find_card_metadata("Missing", {}), {"types": [], "rarity": None})
+        self.assertEqual(
+            find_card_metadata("Name", {"Náme": {"types": ["Sorcery"], "rarity": "common"}}),
+            {"types": ["Sorcery"], "rarity": "common"},
+        )
+
+    def test_art_series_cannot_override_playable_card_metadata(self):
+        art = {
+            "name": "Time Walk // Time Walk", "layout": "art_series",
+            "type_line": "Card // Card", "rarity": "common",
+            "highres_image": True,
+            "card_faces": [{"name": "Time Walk", "image_uris": {"normal": "art.jpg"}}],
+        }
+        with gzip.open(self.directory / "oracle-cards-20261029.jsonl.gz", "wt") as stream:
+            for card in [art, self.card, art]:
+                stream.write(json.dumps(card) + "\n")
+        lookup = fetch_scryfall_bulk_data()
+        self.assertEqual(lookup["Time Walk"]["types"], ["Sorcery"])
+        self.assertEqual(lookup["Time Walk"]["rarity"], "mythic")
 
 class TableDataTests(unittest.TestCase):
     def test_weights_and_feature_specific_counts_are_preserved(self):
@@ -170,7 +208,7 @@ class TableDataTests(unittest.TestCase):
             {"feature": "Card B × Card C", "odds_multiplier": 1.5, "count": 20},
         ])
         images = {
-            name: {"image": "card.jpg", "art": "art.jpg"}
+            name: {"image": "card.jpg", "art": "art.jpg", "types": ["Creature"], "rarity": "rare"}
             for name in cards["feature"]
         }
         with tempfile.TemporaryDirectory() as directory:
@@ -189,6 +227,8 @@ class TableDataTests(unittest.TestCase):
             data = json.loads((root / "data/example/data.json").read_text())
 
         self.assertEqual(len(data["nodes"]), 3)
+        self.assertTrue(all(node["types"] == ["Creature"] for node in data["nodes"]))
+        self.assertTrue(all(node["rarity"] == "rare" for node in data["nodes"]))
         self.assertEqual([link["weight"] for link in data["links"]], [1.2, 1.5])
         self.assertEqual(data["tables"], build_table_data(cards, repeats, pairs))
 

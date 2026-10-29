@@ -72,6 +72,7 @@ let currentView = "graph";
 let graphNeedsUpdate = true;
 let loadRequest = 0;
 let activeTab = "alone";
+const cardFilters = { types: new Set(), rarities: new Set() };
 const tableState = Object.fromEntries(
   ["alone", "self", "pairs"].map(tab => [
     tab, { sortKey: "weight", direction: "descending", minimumGames: 0 }
@@ -166,6 +167,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     setView(event.target.checked ? "table" : "graph");
   });
   setupTableControls();
+  setupCardFilters();
 
   // Initialize slider values from CONFIG (single source of truth)
   thresholdSlider.value = CONFIG.LINK_VISIBLE_THRESHOLD;
@@ -344,14 +346,17 @@ function setView(view) {
   document.getElementById("tableView").hidden = !showTable;
   document.getElementById("graphSettings").hidden = showTable;
   document.getElementById("tooltip").style.display = "none";
+  updateFilterStatus();
   if (showTable) {
     currentGraph?.stop();
     renderTable();
   } else if (datasetData) {
     if (graphNeedsUpdate) {
       // D3 mutates nodes and link endpoints; keep the loaded dataset untouched.
-      const nodes = datasetData.nodes.map(node => ({ ...node }));
+      const nodes = datasetData.nodes.filter(cardMatchesFilters).map(node => ({ ...node }));
+      const nodeIds = new Set(nodes.map(node => node.id));
       const links = datasetData.links
+        .filter(link => nodeIds.has(link.source) && nodeIds.has(link.target))
         .map(link => ({ ...link }))
         .sort((a, b) => b.weight - a.weight)
         .slice(0, CONFIG.MAX_LINKS);
@@ -361,6 +366,63 @@ function setView(view) {
       currentGraph?.restart();
     }
   }
+}
+
+function cardMatchesFilters(card) {
+  const types = card?.types?.length ? card.types : ["Unknown"];
+  const rarity = card?.rarity || "unknown";
+  return (!cardFilters.types.size || types.some(type => cardFilters.types.has(type)))
+    && (!cardFilters.rarities.size || cardFilters.rarities.has(rarity));
+}
+
+function updateFilterStatus() {
+  const status = document.getElementById("filterStatus");
+  const messages = [];
+  if (datasetData) {
+    const unknown = datasetData.nodes.filter(card => !card.types?.length || !card.rarity).length;
+    if (unknown) messages.push(`${unknown} cards have unknown type or rarity.`);
+    if (currentView === "graph" && !datasetData.nodes.some(cardMatchesFilters)) {
+      messages.push("No cards match the card filters.");
+    }
+  }
+  status.textContent = messages.join(" ");
+  status.hidden = !messages.length;
+}
+
+function setupCardFilters() {
+  const groups = [
+    ["typeFilters", "types", [
+      "Creature", "Instant", "Sorcery", "Artifact", "Enchantment",
+      "Land", "Planeswalker", "Battle", "Kindred", "Unknown"
+    ]],
+    ["rarityFilters", "rarities", ["common", "uncommon", "rare", "mythic", "special", "bonus", "unknown"]]
+  ];
+  function applyFilters() {
+    graphNeedsUpdate = true;
+    setView(currentView);
+  }
+  for (const [id, key, values] of groups) {
+    const fieldset = document.getElementById(id);
+    for (const value of values) {
+      const label = document.createElement("label");
+      const input = document.createElement("input");
+      input.type = "checkbox";
+      input.value = value;
+      input.addEventListener("change", () => {
+        if (input.checked) cardFilters[key].add(value);
+        else cardFilters[key].delete(value);
+        applyFilters();
+      });
+      label.append(input, value[0].toUpperCase() + value.slice(1));
+      fieldset.appendChild(label);
+    }
+  }
+  document.getElementById("clearCardFilters").addEventListener("click", () => {
+    cardFilters.types.clear();
+    cardFilters.rarities.clear();
+    document.querySelectorAll(".card-filter input").forEach(input => { input.checked = false; });
+    applyFilters();
+  });
 }
 
 function setupTableControls() {
@@ -501,7 +563,11 @@ function renderTable() {
   tableError.textContent = tableError.hidden
     ? "" : "Table data is missing. Regenerate this dataset with wrinfo.py.";
   const allRows = hasTableData ? datasetData.tables[activeTab] : [];
-  const rows = allRows.filter(row => row.games >= state.minimumGames);
+  const cardsByName = new Map((datasetData?.nodes || []).map(card => [card.id, card]));
+  const rows = allRows.filter(row => row.games >= state.minimumGames
+    && (activeTab === "pairs"
+      ? cardMatchesFilters(cardsByName.get(row.source)) && cardMatchesFilters(cardsByName.get(row.target))
+      : cardMatchesFilters(cardsByName.get(row.card))));
   const multiplier = state.direction === "ascending" ? 1 : -1;
   rows.sort((a, b) => {
     const left = a[state.sortKey];
@@ -536,7 +602,7 @@ function renderTable() {
   if (hasTableData && rows.length === 0) {
     const cell = document.createElement("td");
     cell.colSpan = columns.length;
-    cell.textContent = "No rows match the minimum-games filter.";
+    cell.textContent = "No rows match the current filters.";
     const tr = document.createElement("tr");
     tr.appendChild(cell);
     body.appendChild(tr);

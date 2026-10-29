@@ -46,6 +46,32 @@
       text-underline-offset: 3px;
     }
 
+    .card-filter {
+      border: 1px solid #444;
+      border-radius: 6px;
+      color: #ccc;
+      margin: 0 0 12px;
+      padding: 10px;
+    }
+
+    .config-section .card-filter label {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      margin: 4px 10px 4px 0;
+      font-weight: normal;
+    }
+
+    #filterStatus {
+      position: fixed;
+      bottom: 40px;
+      left: 24px;
+      max-width: calc(100vw - 48px);
+      background: #111;
+      color: #eee;
+      font: 14px sans-serif;
+    }
+
     /* CONFIG BUTTON */
     .config-btn {
       position: fixed;
@@ -346,6 +372,7 @@
 <svg></svg>
 <div id="tooltip"></div>
 <p id="dataStatus" role="status" hidden></p>
+<p id="filterStatus" role="status" hidden></p>
 
 <main id="tableView" hidden>
   <h1>Card weights</h1>
@@ -393,6 +420,18 @@
       <label for="datasetSelect">Dataset:</label>
       <select id="datasetSelect">
       </select>
+    </div>
+
+    <div class="config-section">
+      <fieldset id="typeFilters" class="card-filter">
+        <legend>Card types</legend>
+      </fieldset>
+      <fieldset id="rarityFilters" class="card-filter">
+        <legend>Rarity</legend>
+      </fieldset>
+      <div class="threshold-info">No selections = all. Types OR, rarities OR; both filters must match.
+        Pairs require both cards. Rarity uses the representative Scryfall printing.</div>
+      <button id="clearCardFilters" type="button" class="apply-btn">Clear card filters</button>
     </div>
 
     <div id="graphSettings">

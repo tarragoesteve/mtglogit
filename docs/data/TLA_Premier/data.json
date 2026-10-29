@@ -4,8 +4,12 @@
       "id": "Aang, Swift Savior",
       "prob": 1.6936108071936844,
       "self_prob": 1.0,
-      "card_image": "https://cards.scryfall.io/normal/front/b/4/b4f15002-8857-48d0-b485-88c2907f14d5.jpg?1783905066",
-      "image": "https://cards.scryfall.io/art_crop/front/b/4/b4f15002-8857-48d0-b485-88c2907f14d5.jpg?1783905066",
+      "types": [
+        "Creature"
+      ],
+      "rarity": "rare",
+      "card_image": "https://cards.scryfall.io/normal/front/8/2/82866a0e-485a-4f7e-8c49-f7d9ff3f4ad4.jpg?1783904937",
+      "image": "https://cards.scryfall.io/art_crop/front/8/2/82866a0e-485a-4f7e-8c49-f7d9ff3f4ad4.jpg?1783904937",
       "prob_norm": 1.0,
       "self_prob_norm": 1.0
     },
@@ -13,6 +17,10 @@
       "id": "Wan Shi Tong, Librarian",
       "prob": 1.684971186851558,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "mythic",
       "card_image": "https://cards.scryfall.io/normal/front/e/2/e20da6b5-1057-4a28-9e85-07de714e262f.jpg?1783904979",
       "image": "https://cards.scryfall.io/art_crop/front/e/2/e20da6b5-1057-4a28-9e85-07de714e262f.jpg?1783904979",
       "prob_norm": 0.9913905199223636,
@@ -22,8 +30,12 @@
       "id": "The Earth King",
       "prob": 1.6373836864070197,
       "self_prob": 1.0,
-      "card_image": "https://cards.scryfall.io/normal/front/a/2/a2ccf27e-536c-4266-b115-5ef54455eceb.jpg?1783905072",
-      "image": "https://cards.scryfall.io/art_crop/front/a/2/a2ccf27e-536c-4266-b115-5ef54455eceb.jpg?1783905072",
+      "types": [
+        "Creature"
+      ],
+      "rarity": "rare",
+      "card_image": "https://cards.scryfall.io/normal/front/a/8/a8d5dca6-381a-4361-b265-27de8d04335c.jpg?1783904945",
+      "image": "https://cards.scryfall.io/art_crop/front/a/8/a8d5dca6-381a-4361-b265-27de8d04335c.jpg?1783904945",
       "prob_norm": 0.9439690336998647,
       "self_prob_norm": 1.0
     },
@@ -31,6 +43,10 @@
       "id": "Invasion Submersible",
       "prob": 1.6246323216529042,
       "self_prob": 1.0,
+      "types": [
+        "Artifact"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/a/f/af5299f5-1633-4c07-ade5-fd47e29ea4aa.jpg?1783904986",
       "image": "https://cards.scryfall.io/art_crop/front/a/f/af5299f5-1633-4c07-ade5-fd47e29ea4aa.jpg?1783904986",
       "prob_norm": 0.9312621534822308,
@@ -40,6 +56,10 @@
       "id": "The Fire Nation Drill",
       "prob": 1.56274712931503,
       "self_prob": 1.0,
+      "types": [
+        "Artifact"
+      ],
+      "rarity": "rare",
       "card_image": "https://cards.scryfall.io/normal/front/5/4/54d762f6-e131-480f-b294-10f5a63d9c98.jpg?1783904973",
       "image": "https://cards.scryfall.io/art_crop/front/5/4/54d762f6-e131-480f-b294-10f5a63d9c98.jpg?1783904973",
       "prob_norm": 0.8695928544349425,
@@ -49,6 +69,11 @@
       "id": "The Legend of Kuruk",
       "prob": 1.5527549541155514,
       "self_prob": 1.0,
+      "types": [
+        "Creature",
+        "Enchantment"
+      ],
+      "rarity": "mythic",
       "card_image": "https://cards.scryfall.io/normal/front/5/e/5e9a53d3-7f2f-4a9c-9516-0713da740478.jpg?1783904990",
       "image": "https://cards.scryfall.io/art_crop/front/5/e/5e9a53d3-7f2f-4a9c-9516-0713da740478.jpg?1783904990",
       "prob_norm": 0.8596355380361308,
@@ -58,6 +83,10 @@
       "id": "Katara, Water Tribe's Hope",
       "prob": 1.5323159450331354,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "rare",
       "card_image": "https://cards.scryfall.io/normal/front/9/e/9ec03308-59a2-417a-938f-bdda75080e43.jpg?1783904925",
       "image": "https://cards.scryfall.io/art_crop/front/9/e/9ec03308-59a2-417a-938f-bdda75080e43.jpg?1783904925",
       "prob_norm": 0.8392678326818025,
@@ -67,6 +96,10 @@
       "id": "Aang, the Last Airbender",
       "prob": 1.4742338674845457,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/2/4/245e008c-e073-443f-9592-6f628c0026ec.jpg?1783905008",
       "image": "https://cards.scryfall.io/art_crop/front/2/4/245e008c-e073-443f-9592-6f628c0026ec.jpg?1783905008",
       "prob_norm": 0.7813883808401441,
@@ -76,6 +109,10 @@
       "id": "Earth Kingdom Jailer",
       "prob": 1.4652743994374051,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/9/2/9207362c-3605-4794-803f-ad1d0175fcca.jpg?1783905001",
       "image": "https://cards.scryfall.io/art_crop/front/9/2/9207362c-3605-4794-803f-ad1d0175fcca.jpg?1783905001",
       "prob_norm": 0.7724601688813426,
@@ -85,6 +122,10 @@
       "id": "Cycle of Renewal",
       "prob": 0.690109984354423,
       "self_prob": 1.0,
+      "types": [
+        "Instant"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/2/3/233f4a05-057b-48f4-8f56-8d4a060a40e4.jpg?1783904947",
       "image": "https://cards.scryfall.io/art_crop/front/2/3/233f4a05-057b-48f4-8f56-8d4a060a40e4.jpg?1783904947",
       "prob_norm": 0.0,
@@ -94,6 +135,10 @@
       "id": "Raven Eagle",
       "prob": 1.422730429194047,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "rare",
       "card_image": "https://cards.scryfall.io/normal/front/2/2/2262f24b-db6b-4f86-96d0-47a20fc015ab.jpg?1783904964",
       "image": "https://cards.scryfall.io/art_crop/front/2/2/2262f24b-db6b-4f86-96d0-47a20fc015ab.jpg?1783904964",
       "prob_norm": 0.7300646179509647,
@@ -103,8 +148,12 @@
       "id": "Aang, at the Crossroads",
       "prob": 1.4098512078977117,
       "self_prob": 1.0,
-      "card_image": "https://cards.scryfall.io/normal/front/1/c/1c50b2fd-468a-40ae-9272-884b3865d393.jpg?1783905052",
-      "image": "https://cards.scryfall.io/art_crop/front/1/c/1c50b2fd-468a-40ae-9272-884b3865d393.jpg?1783905052",
+      "types": [
+        "Creature"
+      ],
+      "rarity": "rare",
+      "card_image": "https://cards.scryfall.io/normal/front/f/e/fea89ca0-8070-4f28-9851-994314f9d248.jpg?1783904940",
+      "image": "https://cards.scryfall.io/art_crop/front/f/e/fea89ca0-8070-4f28-9851-994314f9d248.jpg?1783904940",
       "prob_norm": 0.7172303272327015,
       "self_prob_norm": 1.0
     },
@@ -112,6 +161,10 @@
       "id": "Azula, Cunning Usurper",
       "prob": 1.3788060153402149,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "rare",
       "card_image": "https://cards.scryfall.io/normal/front/d/a/daf30e1c-436d-4f23-b1d2-570619a4b7f5.jpg?1783904932",
       "image": "https://cards.scryfall.io/art_crop/front/d/a/daf30e1c-436d-4f23-b1d2-570619a4b7f5.jpg?1783904932",
       "prob_norm": 0.6862934392392678,
@@ -121,6 +174,10 @@
       "id": "Suki, Courageous Rescuer",
       "prob": 1.3779555639576933,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "rare",
       "card_image": "https://cards.scryfall.io/normal/front/3/3/33b97433-e16c-422e-a0ca-f6b1e98d8681.jpg?1783904995",
       "image": "https://cards.scryfall.io/art_crop/front/3/3/33b97433-e16c-422e-a0ca-f6b1e98d8681.jpg?1783904995",
       "prob_norm": 0.6854459547498029,
@@ -130,6 +187,10 @@
       "id": "Allies at Last",
       "prob": 1.3758654404469506,
       "self_prob": 1.0,
+      "types": [
+        "Instant"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/1/1/11a77897-2aba-4a9b-bbe6-1768ca9f12cb.jpg?1783904948",
       "image": "https://cards.scryfall.io/art_crop/front/1/1/11a77897-2aba-4a9b-bbe6-1768ca9f12cb.jpg?1783904948",
       "prob_norm": 0.6833631228644946,
@@ -139,6 +200,10 @@
       "id": "Waterbending Scroll",
       "prob": 0.7305079268466625,
       "self_prob": 1.0,
+      "types": [
+        "Artifact"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/5/0/50d0be73-a2c8-44a0-9178-9949f342f6f9.jpg?1783904978",
       "image": "https://cards.scryfall.io/art_crop/front/5/0/50d0be73-a2c8-44a0-9178-9949f342f6f9.jpg?1783904978",
       "prob_norm": 0.04025700983277664,
@@ -148,6 +213,10 @@
       "id": "Iroh's Demonstration",
       "prob": 1.3450725289060357,
       "self_prob": 1.0,
+      "types": [
+        "Sorcery"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/1/8/18d15fed-1f8f-4407-a221-a47ce75001a8.jpg?1783904956",
       "image": "https://cards.scryfall.io/art_crop/front/1/8/18d15fed-1f8f-4407-a221-a47ce75001a8.jpg?1783904956",
       "prob_norm": 0.6526776357776073,
@@ -157,6 +226,10 @@
       "id": "Ty Lee, Chi Blocker",
       "prob": 1.31370307947806,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "rare",
       "card_image": "https://cards.scryfall.io/normal/front/3/0/308cc687-9cb2-4e3a-98db-c5ba2a7da115.jpg?1783904981",
       "image": "https://cards.scryfall.io/art_crop/front/3/0/308cc687-9cb2-4e3a-98db-c5ba2a7da115.jpg?1783904981",
       "prob_norm": 0.6214176221194019,
@@ -166,6 +239,10 @@
       "id": "Firebending Lesson",
       "prob": 1.297373358662564,
       "self_prob": 0.9637240925512957,
+      "types": [
+        "Instant"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/f/a/fa940e68-010e-4b68-be8a-555d7068f7b4.jpg?1783904958",
       "image": "https://cards.scryfall.io/art_crop/front/f/a/fa940e68-010e-4b68-be8a-555d7068f7b4.jpg?1783904958",
       "prob_norm": 0.6051448693285338,
@@ -175,6 +252,10 @@
       "id": "Abandoned Air Temple",
       "prob": 1.2962057231815778,
       "self_prob": 1.0,
+      "types": [
+        "Land"
+      ],
+      "rarity": "rare",
       "card_image": "https://cards.scryfall.io/normal/front/9/c/9c0433f9-8f1e-4a19-a83f-a41925f1b1a9.jpg?1783904914",
       "image": "https://cards.scryfall.io/art_crop/front/9/c/9c0433f9-8f1e-4a19-a83f-a41925f1b1a9.jpg?1783904914",
       "prob_norm": 0.6039813072721695,
@@ -184,6 +265,10 @@
       "id": "The Unagi of Kyoshi Island",
       "prob": 1.288661365514126,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "rare",
       "card_image": "https://cards.scryfall.io/normal/front/0/e/0ecd8b38-9ee5-41a5-9b93-21c33fc1a6ff.jpg?1783904980",
       "image": "https://cards.scryfall.io/art_crop/front/0/e/0ecd8b38-9ee5-41a5-9b93-21c33fc1a6ff.jpg?1783904980",
       "prob_norm": 0.5964632689250695,
@@ -193,6 +278,10 @@
       "id": "Day of Black Sun",
       "prob": 1.278179158119693,
       "self_prob": 1.0,
+      "types": [
+        "Sorcery"
+      ],
+      "rarity": "rare",
       "card_image": "https://cards.scryfall.io/normal/front/d/0/d0e24797-3e45-4c2b-b4b0-1ef44d42eaee.jpg?1783904975",
       "image": "https://cards.scryfall.io/art_crop/front/d/0/d0e24797-3e45-4c2b-b4b0-1ef44d42eaee.jpg?1783904975",
       "prob_norm": 0.5860176298624379,
@@ -202,6 +291,10 @@
       "id": "Waterbending Lesson",
       "prob": 0.7849115197951791,
       "self_prob": 1.0,
+      "types": [
+        "Sorcery"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/4/f/4f81e3b5-a0a9-4764-8c2d-b499ce1740b4.jpg?1783904978",
       "image": "https://cards.scryfall.io/art_crop/front/4/f/4f81e3b5-a0a9-4764-8c2d-b499ce1740b4.jpg?1783904978",
       "prob_norm": 0.09447080987191309,
@@ -211,6 +304,10 @@
       "id": "Great Divide Guide",
       "prob": 1.2703721749051973,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "rare",
       "card_image": "https://cards.scryfall.io/normal/front/c/c/cc3063ec-5ea6-46c1-8331-c740cbaf6c76.jpg?1783904942",
       "image": "https://cards.scryfall.io/art_crop/front/c/c/cc3063ec-5ea6-46c1-8331-c740cbaf6c76.jpg?1783904942",
       "prob_norm": 0.5782378821663602,
@@ -220,6 +317,10 @@
       "id": "Pirate Peddlers",
       "prob": 0.7877188124218253,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/5/c/5c998994-6c3b-4f34-9b31-babba2b17266.jpg?1783904967",
       "image": "https://cards.scryfall.io/art_crop/front/5/c/5c998994-6c3b-4f34-9b31-babba2b17266.jpg?1783904967",
       "prob_norm": 0.09726830894989422,
@@ -229,6 +330,10 @@
       "id": "Misty Palms Oasis",
       "prob": 0.7954000381089931,
       "self_prob": 1.0,
+      "types": [
+        "Land"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/7/c/7cc29ddb-8f44-4493-985d-2fac35f9f34d.jpg?1783904909",
       "image": "https://cards.scryfall.io/art_crop/front/7/c/7cc29ddb-8f44-4493-985d-2fac35f9f34d.jpg?1783904909",
       "prob_norm": 0.10492273783759044,
@@ -238,6 +343,10 @@
       "id": "Master Pakku",
       "prob": 0.7962124782992307,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/9/1/91e30df5-63f7-4281-8d64-8d522d663652.jpg?1783904984",
       "image": "https://cards.scryfall.io/art_crop/front/9/1/91e30df5-63f7-4281-8d64-8d522d663652.jpg?1783904984",
       "prob_norm": 0.10573234374099065,
@@ -247,6 +356,10 @@
       "id": "Epic Downfall",
       "prob": 1.2557537919026476,
       "self_prob": 1.0,
+      "types": [
+        "Sorcery"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/3/b/3b4a6804-04f5-4467-bb1c-9466a47bc55f.jpg?1783904973",
       "image": "https://cards.scryfall.io/art_crop/front/3/b/3b4a6804-04f5-4467-bb1c-9466a47bc55f.jpg?1783904973",
       "prob_norm": 0.5636704969985143,
@@ -256,6 +369,10 @@
       "id": "Heartless Act",
       "prob": 1.2517470229853953,
       "self_prob": 1.0,
+      "types": [
+        "Instant"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/b/5/b57c57a8-d72b-4c6c-a2db-a7ef61190f42.jpg?1783904970",
       "image": "https://cards.scryfall.io/art_crop/front/b/5/b57c57a8-d72b-4c6c-a2db-a7ef61190f42.jpg?1783904970",
       "prob_norm": 0.5596777061347105,
@@ -265,6 +382,10 @@
       "id": "Meditation Pools",
       "prob": 0.8060355473400131,
       "self_prob": 1.0,
+      "types": [
+        "Land"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/c/c/cc078fc6-4470-473f-9e24-d2c470e09141.jpg?1783904909",
       "image": "https://cards.scryfall.io/art_crop/front/c/c/cc078fc6-4470-473f-9e24-d2c470e09141.jpg?1783904909",
       "prob_norm": 0.11552114392651465,
@@ -274,8 +395,12 @@
       "id": "Lightning Strike",
       "prob": 1.2332875017539466,
       "self_prob": 0.955334203307952,
-      "card_image": "https://cards.scryfall.io/normal/front/6/d/6d777ca2-5d7e-46ca-890f-1ecd67cdd10b.jpg?1783903368",
-      "image": "https://cards.scryfall.io/art_crop/front/6/d/6d777ca2-5d7e-46ca-890f-1ecd67cdd10b.jpg?1783903368",
+      "types": [
+        "Instant"
+      ],
+      "rarity": "common",
+      "card_image": "https://cards.scryfall.io/normal/front/8/8/88b13bc0-da54-4c3b-917c-7c8345a329f5.jpg?1783902927",
+      "image": "https://cards.scryfall.io/art_crop/front/8/8/88b13bc0-da54-4c3b-917c-7c8345a329f5.jpg?1783902927",
       "prob_norm": 0.5412825829705659,
       "self_prob_norm": 0.955334203307952
     },
@@ -283,6 +408,10 @@
       "id": "Invasion Reinforcements",
       "prob": 1.2331539564218064,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/b/8/b8845bba-d116-43cd-8ae0-e553f3324d66.jpg?1783904999",
       "image": "https://cards.scryfall.io/art_crop/front/b/8/b8845bba-d116-43cd-8ae0-e553f3324d66.jpg?1783904999",
       "prob_norm": 0.5411495035259847,
@@ -292,6 +421,10 @@
       "id": "Twin Blades",
       "prob": 1.2212325979074417,
       "self_prob": 1.0,
+      "types": [
+        "Artifact"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/d/c/dc399ae0-36b5-4c92-9fe2-138caf8d7a86.jpg?1783904950",
       "image": "https://cards.scryfall.io/art_crop/front/d/c/dc399ae0-36b5-4c92-9fe2-138caf8d7a86.jpg?1783904950",
       "prob_norm": 0.5292697339801711,
@@ -301,6 +434,10 @@
       "id": "White Lotus Reinforcements",
       "prob": 1.219875392119177,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/4/c/4c7e3e2f-d7ac-4d40-ab84-cb7efe06a316.jpg?1783904916",
       "image": "https://cards.scryfall.io/art_crop/front/4/c/4c7e3e2f-d7ac-4d40-ab84-cb7efe06a316.jpg?1783904916",
       "prob_norm": 0.5279172629533665,
@@ -310,6 +447,10 @@
       "id": "Geyser Leaper",
       "prob": 0.820734352921679,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/4/d/4d25428d-e5a5-43c4-8544-43120ed1c4d5.jpg?1783904989",
       "image": "https://cards.scryfall.io/art_crop/front/4/d/4d25428d-e5a5-43c4-8544-43120ed1c4d5.jpg?1783904989",
       "prob_norm": 0.13016867111047614,
@@ -319,6 +460,10 @@
       "id": "Combustion Technique",
       "prob": 1.2182207428289886,
       "self_prob": 1.0,
+      "types": [
+        "Instant"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/f/d/fdcca576-2ef2-44cc-9944-a92bd146444a.jpg?1783904962",
       "image": "https://cards.scryfall.io/art_crop/front/f/d/fdcca576-2ef2-44cc-9944-a92bd146444a.jpg?1783904962",
       "prob_norm": 0.5262683860889642,
@@ -328,8 +473,12 @@
       "id": "Otter-Penguin",
       "prob": 0.8227693574746807,
       "self_prob": 1.051537124546306,
-      "card_image": "https://cards.scryfall.io/normal/front/7/9/7994f9ae-5911-41f4-ac2c-56590e881319.jpg?1783905077",
-      "image": "https://cards.scryfall.io/art_crop/front/7/9/7994f9ae-5911-41f4-ac2c-56590e881319.jpg?1783905077",
+      "types": [
+        "Creature"
+      ],
+      "rarity": "common",
+      "card_image": "https://cards.scryfall.io/normal/front/4/8/480b6279-bb34-4b3f-a639-868b52af92b9.jpg?1783904983",
+      "image": "https://cards.scryfall.io/art_crop/front/4/8/480b6279-bb34-4b3f-a639-868b52af92b9.jpg?1783904983",
       "prob_norm": 0.1321965763265815,
       "self_prob_norm": 1.051537124546306
     },
@@ -337,6 +486,10 @@
       "id": "Hama, the Bloodbender",
       "prob": 0.828047021045046,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/6/f/6fa1197d-7b19-4d86-81e2-5c87de87757b.jpg?1783904926",
       "image": "https://cards.scryfall.io/art_crop/front/6/f/6fa1197d-7b19-4d86-81e2-5c87de87757b.jpg?1783904926",
       "prob_norm": 0.13745582818791321,
@@ -346,6 +499,10 @@
       "id": "Kyoshi Village",
       "prob": 0.8280683064550965,
       "self_prob": 1.0,
+      "types": [
+        "Land"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/8/d/8d5f3008-2af8-4e81-8847-1c91f524e747.jpg?1783904910",
       "image": "https://cards.scryfall.io/art_crop/front/8/d/8d5f3008-2af8-4e81-8847-1c91f524e747.jpg?1783904910",
       "prob_norm": 0.13747703934147293,
@@ -355,6 +512,10 @@
       "id": "White Lotus Hideout",
       "prob": 0.828550991356798,
       "self_prob": 1.0,
+      "types": [
+        "Land"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/2/4/24d1e22c-0d99-4ed5-94f0-fd055fd8e2be.jpg?1783904909",
       "image": "https://cards.scryfall.io/art_crop/front/2/4/24d1e22c-0d99-4ed5-94f0-fd055fd8e2be.jpg?1783904909",
       "prob_norm": 0.13795804034387946,
@@ -364,6 +525,10 @@
       "id": "Giant Koi",
       "prob": 0.8312882912936284,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/3/9/3938ec1f-979c-48e5-bb13-bebace006a8f.jpg?1783904988",
       "image": "https://cards.scryfall.io/art_crop/front/3/9/3938ec1f-979c-48e5-bb13-bebace006a8f.jpg?1783904988",
       "prob_norm": 0.1406857909092308,
@@ -373,6 +538,10 @@
       "id": "Beetle-Headed Merchants",
       "prob": 0.8350918408696147,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/c/2/c2eed79f-38c1-4aac-9525-d54cb114f17f.jpg?1783904976",
       "image": "https://cards.scryfall.io/art_crop/front/c/2/c2eed79f-38c1-4aac-9525-d54cb114f17f.jpg?1783904976",
       "prob_norm": 0.14447607138476126,
@@ -382,6 +551,10 @@
       "id": "Ba Sing Se",
       "prob": 1.196340849486201,
       "self_prob": 1.0,
+      "types": [
+        "Land"
+      ],
+      "rarity": "rare",
       "card_image": "https://cards.scryfall.io/normal/front/b/d/bdf3b2be-d0cd-4a3c-a10e-82d32c12d3bd.jpg?1783904912",
       "image": "https://cards.scryfall.io/art_crop/front/b/d/bdf3b2be-d0cd-4a3c-a10e-82d32c12d3bd.jpg?1783904912",
       "prob_norm": 0.504464823157265,
@@ -391,6 +564,10 @@
       "id": "Zuko's Exile",
       "prob": 0.8379959557176914,
       "self_prob": 1.0,
+      "types": [
+        "Instant"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/9/0/9090b055-3406-4fed-a8c6-3f6353a9600e.jpg?1783905007",
       "image": "https://cards.scryfall.io/art_crop/front/9/0/9090b055-3406-4fed-a8c6-3f6353a9600e.jpg?1783905007",
       "prob_norm": 0.147370054909219,
@@ -400,6 +577,10 @@
       "id": "Toph, the Blind Bandit",
       "prob": 1.1930239208490767,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/f/f/ff68fa7b-8065-407b-a8b4-bfbb14f1c99c.jpg?1783904936",
       "image": "https://cards.scryfall.io/art_crop/front/f/f/ff68fa7b-8065-407b-a8b4-bfbb14f1c99c.jpg?1783904936",
       "prob_norm": 0.5011594659900039,
@@ -409,6 +590,10 @@
       "id": "Sun-Blessed Peak",
       "prob": 0.8385055044431153,
       "self_prob": 1.0,
+      "types": [
+        "Land"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/a/e/ae04c862-095f-41d2-8aef-21036d5a0cdc.jpg?1783904908",
       "image": "https://cards.scryfall.io/art_crop/front/a/e/ae04c862-095f-41d2-8aef-21036d5a0cdc.jpg?1783904908",
       "prob_norm": 0.14787782601794844,
@@ -418,8 +603,12 @@
       "id": "Aang's Iceberg",
       "prob": 1.1888217066340687,
       "self_prob": 1.0,
-      "card_image": "https://cards.scryfall.io/normal/front/0/9/0989b6e4-3daf-4ad6-bcc9-b529438bba3f.jpg?1783905079",
-      "image": "https://cards.scryfall.io/art_crop/front/0/9/0989b6e4-3daf-4ad6-bcc9-b529438bba3f.jpg?1783905079",
+      "types": [
+        "Enchantment"
+      ],
+      "rarity": "rare",
+      "card_image": "https://cards.scryfall.io/normal/front/7/2/720fbd87-b1c1-4b3b-97a1-46b943b115e3.jpg?1783905007",
+      "image": "https://cards.scryfall.io/art_crop/front/7/2/720fbd87-b1c1-4b3b-97a1-46b943b115e3.jpg?1783905007",
       "prob_norm": 0.4969719116608321,
       "self_prob_norm": 1.0
     },
@@ -427,6 +616,10 @@
       "id": "Jet, Freedom Fighter",
       "prob": 1.1881785356559789,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/9/2/9202c044-15e4-4218-a94d-16287ba19d69.jpg?1783904926",
       "image": "https://cards.scryfall.io/art_crop/front/9/2/9202c044-15e4-4218-a94d-16287ba19d69.jpg?1783904926",
       "prob_norm": 0.4963309844553415,
@@ -436,6 +629,10 @@
       "id": "Boiling Rock Prison",
       "prob": 0.8417430597855369,
       "self_prob": 1.0,
+      "types": [
+        "Land"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/1/c/1c2e2220-54d1-4180-93a0-964e3b0ba8b8.jpg?1783904912",
       "image": "https://cards.scryfall.io/art_crop/front/1/c/1c2e2220-54d1-4180-93a0-964e3b0ba8b8.jpg?1783904912",
       "prob_norm": 0.1511040867929634,
@@ -445,6 +642,10 @@
       "id": "Beifong's Bounty Hunters",
       "prob": 1.1855412657396918,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "rare",
       "card_image": "https://cards.scryfall.io/normal/front/4/f/4f88ec3a-44a7-4ae5-a68c-24294dabaeed.jpg?1783904932",
       "image": "https://cards.scryfall.io/art_crop/front/4/f/4f88ec3a-44a7-4ae5-a68c-24294dabaeed.jpg?1783904932",
       "prob_norm": 0.49370291494482005,
@@ -454,6 +655,10 @@
       "id": "Boomerang Basics",
       "prob": 1.183504728017693,
       "self_prob": 1.0,
+      "types": [
+        "Sorcery"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/1/7/17ab958a-abc6-472e-ad6a-97c731d89c74.jpg?1783904990",
       "image": "https://cards.scryfall.io/art_crop/front/1/7/17ab958a-abc6-472e-ad6a-97c731d89c74.jpg?1783904990",
       "prob_norm": 0.49167348190834603,
@@ -463,6 +668,11 @@
       "id": "Sparring Dummy",
       "prob": 0.8459538834235792,
       "self_prob": 1.0,
+      "types": [
+        "Creature",
+        "Artifact"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/5/2/520f5a03-ff5a-43ed-8f15-cf24596d60cd.jpg?1783904936",
       "image": "https://cards.scryfall.io/art_crop/front/5/2/520f5a03-ff5a-43ed-8f15-cf24596d60cd.jpg?1783904936",
       "prob_norm": 0.15530022051025166,
@@ -472,6 +682,10 @@
       "id": "Boar-q-pine",
       "prob": 0.8467476808414874,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/0/8/087a445c-5f63-45d6-83e8-20d22650db20.jpg?1783904963",
       "image": "https://cards.scryfall.io/art_crop/front/0/8/087a445c-5f63-45d6-83e8-20d22650db20.jpg?1783904963",
       "prob_norm": 0.15609124867868132,
@@ -481,6 +695,10 @@
       "id": "Wartime Protestors",
       "prob": 1.1806774079209712,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "rare",
       "card_image": "https://cards.scryfall.io/normal/front/b/a/bac81940-d717-49ff-83b2-16a22bb2c988.jpg?1783904950",
       "image": "https://cards.scryfall.io/art_crop/front/b/a/bac81940-d717-49ff-83b2-16a22bb2c988.jpg?1783904950",
       "prob_norm": 0.4888560252283184,
@@ -490,6 +708,10 @@
       "id": "Path to Redemption",
       "prob": 1.179109341833962,
       "self_prob": 0.9857918302427988,
+      "types": [
+        "Enchantment"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/f/9/f936d64a-0db4-49c1-8a57-6d99e012a555.jpg?1783904996",
       "image": "https://cards.scryfall.io/art_crop/front/f/9/f936d64a-0db4-49c1-8a57-6d99e012a555.jpg?1783904996",
       "prob_norm": 0.4872934295120811,
@@ -499,6 +721,10 @@
       "id": "Dai Li Indoctrination",
       "prob": 0.8481000326501009,
       "self_prob": 1.0,
+      "types": [
+        "Sorcery"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/e/c/eca652b8-44f1-4bd9-b4bf-036eeead13aa.jpg?1783904975",
       "image": "https://cards.scryfall.io/art_crop/front/e/c/eca652b8-44f1-4bd9-b4bf-036eeead13aa.jpg?1783904975",
       "prob_norm": 0.1574388826594759,
@@ -508,6 +734,10 @@
       "id": "Airship Engine Room",
       "prob": 0.8488955921207408,
       "self_prob": 1.0,
+      "types": [
+        "Land"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/0/b/0b98ba34-f251-4bd0-9d75-1d4445be5cfd.jpg?1783904913",
       "image": "https://cards.scryfall.io/art_crop/front/0/b/0b98ba34-f251-4bd0-9d75-1d4445be5cfd.jpg?1783904913",
       "prob_norm": 0.15823166673352276,
@@ -517,6 +747,10 @@
       "id": "Glider Staff",
       "prob": 1.1755093521508078,
       "self_prob": 1.0,
+      "types": [
+        "Artifact"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/7/5/7517f2eb-a24d-49f6-82bf-08de55d3789a.jpg?1783905000",
       "image": "https://cards.scryfall.io/art_crop/front/7/5/7517f2eb-a24d-49f6-82bf-08de55d3789a.jpg?1783905000",
       "prob_norm": 0.4837059987883388,
@@ -526,6 +760,10 @@
       "id": "Professor Zei, Anthropologist",
       "prob": 0.8507188562138683,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/2/7/27baccc0-7e25-4f39-be0d-31cd98ca0dc5.jpg?1783904921",
       "image": "https://cards.scryfall.io/art_crop/front/2/7/27baccc0-7e25-4f39-be0d-31cd98ca0dc5.jpg?1783904921",
       "prob_norm": 0.1600485701696045,
@@ -535,6 +773,10 @@
       "id": "Zuko's Conviction",
       "prob": 0.8516088249301924,
       "self_prob": 1.0,
+      "types": [
+        "Instant"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/a/d/ad8933d6-cdc7-4d60-a78e-b43ffecfb136.jpg?1783904964",
       "image": "https://cards.scryfall.io/art_crop/front/a/d/ad8933d6-cdc7-4d60-a78e-b43ffecfb136.jpg?1783904964",
       "prob_norm": 0.1609354341323126,
@@ -544,6 +786,10 @@
       "id": "Gather the White Lotus",
       "prob": 1.1730521706498314,
       "self_prob": 1.0,
+      "types": [
+        "Sorcery"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/9/6/96e2b3d0-f060-4f3c-9d12-a0444b202008.jpg?1783905000",
       "image": "https://cards.scryfall.io/art_crop/front/9/6/96e2b3d0-f060-4f3c-9d12-a0444b202008.jpg?1783905000",
       "prob_norm": 0.4812573894349113,
@@ -553,6 +799,10 @@
       "id": "Badgermole",
       "prob": 1.1729029919348355,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/a/a/aabbd420-b7fc-496f-9168-bad823d51d9e.jpg?1783904948",
       "image": "https://cards.scryfall.io/art_crop/front/a/a/aabbd420-b7fc-496f-9168-bad823d51d9e.jpg?1783904948",
       "prob_norm": 0.4811087311462477,
@@ -562,6 +812,10 @@
       "id": "Shared Roots",
       "prob": 0.8530857012971754,
       "self_prob": 1.0,
+      "types": [
+        "Sorcery"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/e/7/e7847ba5-e85e-417f-96c0-aef2e6f83994.jpg?1789543862",
       "image": "https://cards.scryfall.io/art_crop/front/e/7/e7847ba5-e85e-417f-96c0-aef2e6f83994.jpg?1789543862",
       "prob_norm": 0.16240715825387775,
@@ -571,6 +825,10 @@
       "id": "Air Nomad Legacy",
       "prob": 0.8530991688805158,
       "self_prob": 1.0,
+      "types": [
+        "Enchantment"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/1/0/10874416-fa4c-4aa3-b885-4351d011d208.jpg?1783904932",
       "image": "https://cards.scryfall.io/art_crop/front/1/0/10874416-fa4c-4aa3-b885-4351d011d208.jpg?1783904932",
       "prob_norm": 0.1624205788540745,
@@ -580,6 +838,10 @@
       "id": "Bumi, King of Three Trials",
       "prob": 0.8540581495468392,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/a/2/a268697b-22b0-4e1b-a5b6-d9be95025e57.jpg?1783904948",
       "image": "https://cards.scryfall.io/art_crop/front/a/2/a268697b-22b0-4e1b-a5b6-d9be95025e57.jpg?1783904948",
       "prob_norm": 0.16337621401101446,
@@ -589,6 +851,10 @@
       "id": "Long Feng, Grand Secretariat",
       "prob": 0.85486194318961,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/a/3/a3eb92fe-bc59-4472-9028-f368bd015609.jpg?1783904924",
       "image": "https://cards.scryfall.io/art_crop/front/a/3/a3eb92fe-bc59-4472-9028-f368bd015609.jpg?1783904924",
       "prob_norm": 0.16417720353137827,
@@ -598,6 +864,10 @@
       "id": "Rabaroo Troop",
       "prob": 0.8556812613025142,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/6/2/62a983b4-ac73-4949-9317-05a75a8ce164.jpg?1783904995",
       "image": "https://cards.scryfall.io/art_crop/front/6/2/62a983b4-ac73-4949-9317-05a75a8ce164.jpg?1783904995",
       "prob_norm": 0.16499366336305646,
@@ -607,6 +877,10 @@
       "id": "Rocky Rebuke",
       "prob": 1.1680245303489167,
       "self_prob": 1.0,
+      "types": [
+        "Instant"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/5/2/52fd910f-6d42-41f5-a4be-f375aa254ea2.jpg?1783904937",
       "image": "https://cards.scryfall.io/art_crop/front/5/2/52fd910f-6d42-41f5-a4be-f375aa254ea2.jpg?1783904937",
       "prob_norm": 0.4762472886093937,
@@ -616,6 +890,10 @@
       "id": "Merchant of Many Hats",
       "prob": 0.8573345042685382,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/7/5/752ffa24-93b6-4b33-bf10-7222357ac472.jpg?1783904968",
       "image": "https://cards.scryfall.io/art_crop/front/7/5/752ffa24-93b6-4b33-bf10-7222357ac472.jpg?1783904968",
       "prob_norm": 0.16664113880941073,
@@ -625,8 +903,12 @@
       "id": "Pillar Launch",
       "prob": 1.165976226696223,
       "self_prob": 1.0,
-      "card_image": "https://cards.scryfall.io/normal/front/8/e/8e3fdbe1-cfa6-45de-8b97-52cbb197aef8.jpg?1783905072",
-      "image": "https://cards.scryfall.io/art_crop/front/8/e/8e3fdbe1-cfa6-45de-8b97-52cbb197aef8.jpg?1783905072",
+      "types": [
+        "Instant"
+      ],
+      "rarity": "common",
+      "card_image": "https://cards.scryfall.io/normal/front/f/1/f177e9cc-0c41-417d-9215-5ff23a1a0657.jpg?1783904939",
+      "image": "https://cards.scryfall.io/art_crop/front/f/1/f177e9cc-0c41-417d-9215-5ff23a1a0657.jpg?1783904939",
       "prob_norm": 0.47420613068896633,
       "self_prob_norm": 1.0
     },
@@ -634,6 +916,10 @@
       "id": "Secret Tunnel",
       "prob": 1.165952499478755,
       "self_prob": 1.0,
+      "types": [
+        "Land"
+      ],
+      "rarity": "rare",
       "card_image": "https://cards.scryfall.io/normal/front/2/d/2d39a0e1-6484-409c-ab05-5b276925a949.jpg?1783904909",
       "image": "https://cards.scryfall.io/art_crop/front/2/d/2d39a0e1-6484-409c-ab05-5b276925a949.jpg?1783904909",
       "prob_norm": 0.47418248624650244,
@@ -643,6 +929,10 @@
       "id": "Uncle Iroh",
       "prob": 0.857957290178989,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/5/c/5c88672c-0eba-4e93-a0ec-30bbb1bb7661.jpg?1783904919",
       "image": "https://cards.scryfall.io/art_crop/front/5/c/5c88672c-0eba-4e93-a0ec-30bbb1bb7661.jpg?1783904919",
       "prob_norm": 0.16726175206280972,
@@ -652,6 +942,10 @@
       "id": "Water Tribe Rallier",
       "prob": 1.1652581496747505,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/4/e/4e744b6c-1c2f-451a-818a-5ee7785b5213.jpg?1783904991",
       "image": "https://cards.scryfall.io/art_crop/front/4/e/4e744b6c-1c2f-451a-818a-5ee7785b5213.jpg?1783904991",
       "prob_norm": 0.4734905587580527,
@@ -661,6 +955,10 @@
       "id": "Jeong Jeong, the Deserter",
       "prob": 0.8588813780377302,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/a/9/a9f63d3b-bee5-48bc-8b04-d8b24b0bda6e.jpg?1783904955",
       "image": "https://cards.scryfall.io/art_crop/front/a/9/a9f63d3b-bee5-48bc-8b04-d8b24b0bda6e.jpg?1783904955",
       "prob_norm": 0.16818261613955918,
@@ -670,6 +968,10 @@
       "id": "Bender's Waterskin",
       "prob": 0.8599251491299462,
       "self_prob": 1.0,
+      "types": [
+        "Artifact"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/6/d/6d4a1712-d19e-4475-9614-a0b1af4da610.jpg?1783904915",
       "image": "https://cards.scryfall.io/art_crop/front/6/d/6d4a1712-d19e-4475-9614-a0b1af4da610.jpg?1783904915",
       "prob_norm": 0.16922274592167813,
@@ -679,6 +981,10 @@
       "id": "Rowdy Snowballers",
       "prob": 0.8607540837559925,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/1/7/17d71522-b133-4003-b787-0c742a2fd70e.jpg?1783904983",
       "image": "https://cards.scryfall.io/art_crop/front/1/7/17d71522-b133-4003-b787-0c742a2fd70e.jpg?1783904983",
       "prob_norm": 0.170048788718236,
@@ -688,6 +994,10 @@
       "id": "Teo, Spirited Glider",
       "prob": 0.8645847530354519,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/6/6/66906ed4-baac-4be0-9359-34f453d1a04a.jpg?1783904980",
       "image": "https://cards.scryfall.io/art_crop/front/6/6/66906ed4-baac-4be0-9359-34f453d1a04a.jpg?1783904980",
       "prob_norm": 0.17386609428717523,
@@ -697,6 +1007,10 @@
       "id": "Saber-Tooth Moose-Lion",
       "prob": 0.8658860940261054,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/b/1/b15f302d-c451-4e79-a5af-75ee3ba4cadf.jpg?1783904937",
       "image": "https://cards.scryfall.io/art_crop/front/b/1/b15f302d-c451-4e79-a5af-75ee3ba4cadf.jpg?1783904937",
       "prob_norm": 0.17516289540685098,
@@ -706,6 +1020,10 @@
       "id": "Serpent of the Pass",
       "prob": 0.866451750688243,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/8/7/87595843-15bc-48bb-8a81-3e6ad924ed44.jpg?1783904982",
       "image": "https://cards.scryfall.io/art_crop/front/8/7/87595843-15bc-48bb-8a81-3e6ad924ed44.jpg?1783904982",
       "prob_norm": 0.1757265787135942,
@@ -715,8 +1033,12 @@
       "id": "Mai, Jaded Edge",
       "prob": 0.866707061166637,
       "self_prob": 1.0,
-      "card_image": "https://cards.scryfall.io/normal/front/9/3/931bd301-20e9-46be-ad21-064c6b0a0243.jpg?1783905076",
-      "image": "https://cards.scryfall.io/art_crop/front/9/3/931bd301-20e9-46be-ad21-064c6b0a0243.jpg?1783905076",
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
+      "card_image": "https://cards.scryfall.io/normal/front/7/3/732e6bc9-0798-4c00-aea0-5ef4298b45f5.jpg?1783904954",
+      "image": "https://cards.scryfall.io/art_crop/front/7/3/732e6bc9-0798-4c00-aea0-5ef4298b45f5.jpg?1783904954",
       "prob_norm": 0.17598099851334248,
       "self_prob_norm": 1.0
     },
@@ -724,6 +1046,10 @@
       "id": "Airbending Lesson",
       "prob": 1.1531099062413972,
       "self_prob": 0.9751350789486444,
+      "types": [
+        "Instant"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/e/2/e2bcd0a6-e94d-4a21-a334-a57459c1b8cc.jpg?1783905007",
       "image": "https://cards.scryfall.io/art_crop/front/e/2/e2bcd0a6-e94d-4a21-a334-a57459c1b8cc.jpg?1783905007",
       "prob_norm": 0.46138469580621017,
@@ -733,6 +1059,10 @@
       "id": "Bumi Bash",
       "prob": 0.8674995420480069,
       "self_prob": 1.0,
+      "types": [
+        "Sorcery"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/e/8/e8895479-26cb-4ee8-98ca-6d46c43f0dbd.jpg?1783904963",
       "image": "https://cards.scryfall.io/art_crop/front/e/8/e8895479-26cb-4ee8-98ca-6d46c43f0dbd.jpg?1783904963",
       "prob_norm": 0.17677071473811623,
@@ -742,6 +1072,10 @@
       "id": "Haru, Hidden Talent",
       "prob": 0.867689366592176,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/9/6/9657a0c0-2c26-4331-8e62-f032265a01af.jpg?1783904942",
       "image": "https://cards.scryfall.io/art_crop/front/9/6/9657a0c0-2c26-4331-8e62-f032265a01af.jpg?1783904942",
       "prob_norm": 0.1769598770585137,
@@ -751,6 +1085,10 @@
       "id": "Cat-Owl",
       "prob": 0.8692973195317697,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/d/7/d7df3391-dbe5-4eb4-85c1-037c5f3ea971.jpg?1783904931",
       "image": "https://cards.scryfall.io/art_crop/front/d/7/d7df3391-dbe5-4eb4-85c1-037c5f3ea971.jpg?1783904931",
       "prob_norm": 0.1785622204776693,
@@ -760,6 +1098,10 @@
       "id": "Yip Yip!",
       "prob": 1.149952850283351,
       "self_prob": 1.0,
+      "types": [
+        "Instant"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/4/3/43f4b10e-165b-4100-82f3-728e1b0c78ed.jpg?1783904992",
       "image": "https://cards.scryfall.io/art_crop/front/4/3/43f4b10e-165b-4100-82f3-728e1b0c78ed.jpg?1783904992",
       "prob_norm": 0.4582386535846265,
@@ -769,6 +1111,10 @@
       "id": "Earthbender Ascension",
       "prob": 1.148622132038782,
       "self_prob": 1.0,
+      "types": [
+        "Enchantment"
+      ],
+      "rarity": "rare",
       "card_image": "https://cards.scryfall.io/normal/front/5/9/590a58ab-5e98-4031-8aa6-ce396dc1429f.jpg?1783904943",
       "image": "https://cards.scryfall.io/art_crop/front/5/9/590a58ab-5e98-4031-8aa6-ce396dc1429f.jpg?1783904943",
       "prob_norm": 0.45691257769681215,
@@ -778,6 +1124,10 @@
       "id": "North Pole Gates",
       "prob": 0.8716105933988613,
       "self_prob": 1.0,
+      "types": [
+        "Land"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/b/c/bcf7b9da-d35d-4338-b4d9-83e47dc058ee.jpg?1783904910",
       "image": "https://cards.scryfall.io/art_crop/front/b/c/bcf7b9da-d35d-4338-b4d9-83e47dc058ee.jpg?1783904910",
       "prob_norm": 0.18086742423479873,
@@ -787,8 +1137,12 @@
       "id": "Turtle-Duck",
       "prob": 0.8718739258830355,
       "self_prob": 1.0,
-      "card_image": "https://cards.scryfall.io/normal/front/2/a/2a2f369e-ee47-4e22-ac80-02084f586b9c.jpg?1783905067",
-      "image": "https://cards.scryfall.io/art_crop/front/2/a/2a2f369e-ee47-4e22-ac80-02084f586b9c.jpg?1783905067",
+      "types": [
+        "Creature"
+      ],
+      "rarity": "common",
+      "card_image": "https://cards.scryfall.io/normal/front/a/e/aefcd734-3916-4c77-9d98-3ea2c2795658.jpg?1783904935",
+      "image": "https://cards.scryfall.io/art_crop/front/a/e/aefcd734-3916-4c77-9d98-3ea2c2795658.jpg?1783904935",
       "prob_norm": 0.18112983805467897,
       "self_prob_norm": 1.0
     },
@@ -796,6 +1150,10 @@
       "id": "Omashu City",
       "prob": 0.8721373056664601,
       "self_prob": 1.0,
+      "types": [
+        "Land"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/c/2/c21e413b-96ed-4ded-b567-f1647074ce5f.jpg?1783904909",
       "image": "https://cards.scryfall.io/art_crop/front/c/2/c21e413b-96ed-4ded-b567-f1647074ce5f.jpg?1783904909",
       "prob_norm": 0.181392299008801,
@@ -805,6 +1163,10 @@
       "id": "Katara, Bending Prodigy",
       "prob": 0.872191996668096,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/e/8/e8372167-383f-4302-a8ea-b6bf495c870c.jpg?1783904986",
       "image": "https://cards.scryfall.io/art_crop/front/e/8/e8372167-383f-4302-a8ea-b6bf495c870c.jpg?1783904986",
       "prob_norm": 0.18144679921487075,
@@ -814,6 +1176,10 @@
       "id": "The Cave of Two Lovers",
       "prob": 1.1446834419060163,
       "self_prob": 1.0,
+      "types": [
+        "Enchantment"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/5/0/50bf5c8b-f218-46b7-843c-8d8083f02fd2.jpg?1783904961",
       "image": "https://cards.scryfall.io/art_crop/front/5/0/50bf5c8b-f218-46b7-843c-8d8083f02fd2.jpg?1783904961",
       "prob_norm": 0.4529876281171779,
@@ -823,6 +1189,10 @@
       "id": "Yuyan Archers",
       "prob": 1.1362160733010809,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/9/9/99244462-a996-4a5b-91fb-947045647d6d.jpg?1783904949",
       "image": "https://cards.scryfall.io/art_crop/front/9/9/99244462-a996-4a5b-91fb-947045647d6d.jpg?1783904949",
       "prob_norm": 0.4445497988576281,
@@ -832,6 +1202,10 @@
       "id": "Kyoshi Warriors",
       "prob": 1.1322503844910603,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/2/1/211045e1-85c7-4088-b830-a2afa0fe520b.jpg?1783904997",
       "image": "https://cards.scryfall.io/art_crop/front/2/1/211045e1-85c7-4088-b830-a2afa0fe520b.jpg?1783904997",
       "prob_norm": 0.4405979447885898,
@@ -841,6 +1215,10 @@
       "id": "Gran-Gran",
       "prob": 0.8905977810053939,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/f/a/fa434b41-e5f7-4989-865a-95db67b05cb1.jpg?1786399175",
       "image": "https://cards.scryfall.io/art_crop/front/f/a/fa434b41-e5f7-4989-865a-95db67b05cb1.jpg?1786399175",
       "prob_norm": 0.19978837295192198,
@@ -850,6 +1228,10 @@
       "id": "Hakoda, Selfless Commander",
       "prob": 1.1221922887498803,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "rare",
       "card_image": "https://cards.scryfall.io/normal/front/9/a/9aef3ddb-9bb7-42c8-975b-b1917955a416.jpg?1783905000",
       "image": "https://cards.scryfall.io/art_crop/front/9/a/9aef3ddb-9bb7-42c8-975b-b1917955a416.jpg?1783905000",
       "prob_norm": 0.4305749378191266,
@@ -859,6 +1241,10 @@
       "id": "Earth Village Ruffians",
       "prob": 0.891367943697706,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/5/6/56d4e0b7-232f-4953-84a3-e6f17781aa45.jpg?1783904929",
       "image": "https://cards.scryfall.io/art_crop/front/5/6/56d4e0b7-232f-4953-84a3-e6f17781aa45.jpg?1783904929",
       "prob_norm": 0.20055584884709168,
@@ -868,6 +1254,10 @@
       "id": "Razor Rings",
       "prob": 1.1207386164515,
       "self_prob": 1.0,
+      "types": [
+        "Instant"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/b/0/b05cfee5-ee59-4df6-a5f6-d9ef0fa7f98a.jpg?1783904995",
       "image": "https://cards.scryfall.io/art_crop/front/b/0/b05cfee5-ee59-4df6-a5f6-d9ef0fa7f98a.jpg?1783904995",
       "prob_norm": 0.4291263368162223,
@@ -877,6 +1267,10 @@
       "id": "Origin of Metalbending",
       "prob": 1.1194923678775883,
       "self_prob": 1.0,
+      "types": [
+        "Instant"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/2/5/25749f9a-260d-4bdc-bd28-429c12faa4a5.jpg?1783904940",
       "image": "https://cards.scryfall.io/art_crop/front/2/5/25749f9a-260d-4bdc-bd28-429c12faa4a5.jpg?1783904940",
       "prob_norm": 0.42788443591734143,
@@ -886,6 +1280,10 @@
       "id": "Callous Inspector",
       "prob": 0.8978548531631079,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/f/2/f22610e9-6b14-4914-bb67-bd6723bec9aa.jpg?1783904975",
       "image": "https://cards.scryfall.io/art_crop/front/f/2/f22610e9-6b14-4914-bb67-bd6723bec9aa.jpg?1783904975",
       "prob_norm": 0.20702012801633848,
@@ -895,6 +1293,10 @@
       "id": "Serpent's Pass",
       "prob": 0.8980383908740167,
       "self_prob": 1.0,
+      "types": [
+        "Land"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/a/d/ad87bff5-9b8c-44e4-a6d3-8cc71be9640a.jpg?1783904909",
       "image": "https://cards.scryfall.io/art_crop/front/a/d/ad87bff5-9b8c-44e4-a6d3-8cc71be9640a.jpg?1783904909",
       "prob_norm": 0.20720302543578412,
@@ -904,6 +1306,10 @@
       "id": "Joo Dee, One of Many",
       "prob": 0.899230707243928,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/7/a/7ae1439f-a0c4-42c2-a4f3-8851defa981e.jpg?1783904970",
       "image": "https://cards.scryfall.io/art_crop/front/7/a/7ae1439f-a0c4-42c2-a4f3-8851defa981e.jpg?1783904970",
       "prob_norm": 0.2083911822790817,
@@ -913,6 +1319,10 @@
       "id": "Aang's Journey",
       "prob": 0.8996415848871893,
       "self_prob": 1.0,
+      "types": [
+        "Sorcery"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/5/e/5e51f727-5a9b-4bc7-83a9-dbcf1c933e15.jpg?1783905008",
       "image": "https://cards.scryfall.io/art_crop/front/5/e/5e51f727-5a9b-4bc7-83a9-dbcf1c933e15.jpg?1783905008",
       "prob_norm": 0.20880062653055603,
@@ -922,6 +1332,10 @@
       "id": "Tolls of War",
       "prob": 0.9000302511342073,
       "self_prob": 1.0,
+      "types": [
+        "Enchantment"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/d/8/d822b9ad-a787-4355-88c2-07ae2bd3a78e.jpg?1783904920",
       "image": "https://cards.scryfall.io/art_crop/front/d/8/d822b9ad-a787-4355-88c2-07ae2bd3a78e.jpg?1783904920",
       "prob_norm": 0.2091879368726825,
@@ -931,6 +1345,10 @@
       "id": "Watery Grasp",
       "prob": 1.111010082226816,
       "self_prob": 0.9643638733688596,
+      "types": [
+        "Enchantment"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/2/6/26bcff57-428e-4f30-a153-a778fbfc437d.jpg?1783904978",
       "image": "https://cards.scryfall.io/art_crop/front/2/6/26bcff57-428e-4f30-a153-a778fbfc437d.jpg?1783904978",
       "prob_norm": 0.4194317416517076,
@@ -940,6 +1358,10 @@
       "id": "Hermitic Herbalist",
       "prob": 0.9005441376034731,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/5/d/5d0ee441-a057-41b5-abb8-dc86864ac248.jpg?1783904925",
       "image": "https://cards.scryfall.io/art_crop/front/5/d/5d0ee441-a057-41b5-abb8-dc86864ac248.jpg?1783904925",
       "prob_norm": 0.20970003059255787,
@@ -949,6 +1371,10 @@
       "id": "Foggy Bottom Swamp",
       "prob": 0.9009082492694024,
       "self_prob": 1.0,
+      "types": [
+        "Land"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/2/2/226af626-873d-4bd2-b889-000f8316786f.jpg?1783904911",
       "image": "https://cards.scryfall.io/art_crop/front/2/2/226af626-873d-4bd2-b889-000f8316786f.jpg?1783904911",
       "prob_norm": 0.21006287201494864,
@@ -958,6 +1384,10 @@
       "id": "Deadly Precision",
       "prob": 1.108760974878536,
       "self_prob": 0.9557611381349296,
+      "types": [
+        "Sorcery"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/4/6/4661daf6-d960-4278-8946-70948efaf99d.jpg?1783904974",
       "image": "https://cards.scryfall.io/art_crop/front/4/6/4661daf6-d960-4278-8946-70948efaf99d.jpg?1783904974",
       "prob_norm": 0.4171904805614412,
@@ -967,6 +1397,10 @@
       "id": "Toph, Hardheaded Teacher",
       "prob": 1.1072982594146965,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "rare",
       "card_image": "https://cards.scryfall.io/normal/front/e/3/e3ba3395-39db-4330-9801-53def924f253.jpg?1783904919",
       "image": "https://cards.scryfall.io/art_crop/front/e/3/e3ba3395-39db-4330-9801-53def924f253.jpg?1783904919",
       "prob_norm": 0.4157328679411535,
@@ -976,6 +1410,10 @@
       "id": "Benevolent River Spirit",
       "prob": 1.102732760018825,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/7/f/7ffb79cd-d170-4047-89c8-6e85188f30da.jpg?1783904991",
       "image": "https://cards.scryfall.io/art_crop/front/7/f/7ffb79cd-d170-4047-89c8-6e85188f30da.jpg?1783904991",
       "prob_norm": 0.41118329579137286,
@@ -985,6 +1423,10 @@
       "id": "Treetop Freedom Fighters",
       "prob": 1.1013273016550793,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/a/9/a9394200-7ffc-440f-8b5f-c08b7930133c.jpg?1783904951",
       "image": "https://cards.scryfall.io/art_crop/front/a/9/a9394200-7ffc-440f-8b5f-c08b7930133c.jpg?1783904951",
       "prob_norm": 0.40978274052349656,
@@ -994,6 +1436,10 @@
       "id": "North Pole Patrol",
       "prob": 0.9084122206475448,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/c/2/c2c0c138-5b61-4949-8431-4a6d458ead6a.jpg?1783904984",
       "image": "https://cards.scryfall.io/art_crop/front/c/2/c2c0c138-5b61-4949-8431-4a6d458ead6a.jpg?1783904984",
       "prob_norm": 0.21754066496474514,
@@ -1003,6 +1449,10 @@
       "id": "Corrupt Court Official",
       "prob": 0.9095060399591958,
       "self_prob": 1.0115715333795716,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/4/6/4692610e-d64c-438e-b5ad-0cf67fd57f1f.jpg?1783904975",
       "image": "https://cards.scryfall.io/art_crop/front/4/6/4692610e-d64c-438e-b5ad-0cf67fd57f1f.jpg?1783904975",
       "prob_norm": 0.21863066836758857,
@@ -1012,8 +1462,12 @@
       "id": "Unlucky Cabbage Merchant",
       "prob": 0.910061610668923,
       "self_prob": 1.0,
-      "card_image": "https://cards.scryfall.io/normal/front/d/7/d704e5ac-f943-4324-9ccc-c9f4ef6c2c66.jpg?1783905067",
-      "image": "https://cards.scryfall.io/art_crop/front/d/7/d704e5ac-f943-4324-9ccc-c9f4ef6c2c66.jpg?1783905067",
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
+      "card_image": "https://cards.scryfall.io/normal/front/0/a/0a838009-b115-4497-b35d-682e41ead7db.jpg?1783904934",
+      "image": "https://cards.scryfall.io/art_crop/front/0/a/0a838009-b115-4497-b35d-682e41ead7db.jpg?1783904934",
       "prob_norm": 0.21918430090787422,
       "self_prob_norm": 1.0
     },
@@ -1021,6 +1475,10 @@
       "id": "Azula, On the Hunt",
       "prob": 0.9104523284535332,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/1/3/1335a145-248a-4f1e-8760-9a5d531e14e3.jpg?1783904977",
       "image": "https://cards.scryfall.io/art_crop/front/1/3/1335a145-248a-4f1e-8760-9a5d531e14e3.jpg?1783904977",
       "prob_norm": 0.2195736556305786,
@@ -1030,6 +1488,10 @@
       "id": "Platypus-Bear",
       "prob": 0.9115012949994942,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/7/e/7ebf742a-3995-4b22-9dc7-b05f57889683.jpg?1783904922",
       "image": "https://cards.scryfall.io/art_crop/front/7/e/7ebf742a-3995-4b22-9dc7-b05f57889683.jpg?1783904922",
       "prob_norm": 0.2206189627415315,
@@ -1039,6 +1501,10 @@
       "id": "Iguana Parrot",
       "prob": 0.9152282391305298,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/7/f/7faa3e3d-c08a-4908-85ef-1370d3f90815.jpg?1783904987",
       "image": "https://cards.scryfall.io/art_crop/front/7/f/7faa3e3d-c08a-4908-85ef-1370d3f90815.jpg?1783904987",
       "prob_norm": 0.22433290501861974,
@@ -1048,6 +1514,10 @@
       "id": "Lost Days",
       "prob": 1.0887472002762268,
       "self_prob": 0.9605432293902936,
+      "types": [
+        "Instant"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/d/b/db8e88e3-0931-403f-90e7-3c22c0b61dac.jpg?1783904984",
       "image": "https://cards.scryfall.io/art_crop/front/d/b/db8e88e3-0931-403f-90e7-3c22c0b61dac.jpg?1783904984",
       "prob_norm": 0.39724652621003054,
@@ -1057,6 +1527,10 @@
       "id": "Combustion Man",
       "prob": 1.0880207623747735,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/8/6/86f7399d-6876-4e85-ba34-ff1f97dc144a.jpg?1783904961",
       "image": "https://cards.scryfall.io/art_crop/front/8/6/86f7399d-6876-4e85-ba34-ff1f97dc144a.jpg?1783904961",
       "prob_norm": 0.39652262256698423,
@@ -1066,6 +1540,10 @@
       "id": "Cunning Maneuver",
       "prob": 1.0866687719064354,
       "self_prob": 1.0,
+      "types": [
+        "Instant"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/0/f/0ff7c993-ba29-43b0-9639-7c4bc0292fa2.jpg?1783904960",
       "image": "https://cards.scryfall.io/art_crop/front/0/f/0ff7c993-ba29-43b0-9639-7c4bc0292fa2.jpg?1783904960",
       "prob_norm": 0.3951753486658898,
@@ -1075,6 +1553,10 @@
       "id": "Dai Li Agents",
       "prob": 1.0851336528362123,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/9/d/9ddb8715-341b-400a-b6eb-f3f90518157c.jpg?1783904931",
       "image": "https://cards.scryfall.io/art_crop/front/9/d/9ddb8715-341b-400a-b6eb-f3f90518157c.jpg?1783904931",
       "prob_norm": 0.3936455850271519,
@@ -1084,6 +1566,10 @@
       "id": "Airbender's Reversal",
       "prob": 0.9220053674187728,
       "self_prob": 1.0,
+      "types": [
+        "Instant"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/6/b/6b7078e4-2892-4b5f-83ab-90369e0d6dba.jpg?1783905006",
       "image": "https://cards.scryfall.io/art_crop/front/6/b/6b7078e4-2892-4b5f-83ab-90369e0d6dba.jpg?1783905006",
       "prob_norm": 0.23108639055046828,
@@ -1093,6 +1579,10 @@
       "id": "Barrels of Blasting Jelly",
       "prob": 0.9239537759378336,
       "self_prob": 1.0,
+      "types": [
+        "Artifact"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/4/f/4fd83083-3779-41f0-90a0-a00e3270e4e6.jpg?1783904915",
       "image": "https://cards.scryfall.io/art_crop/front/4/f/4fd83083-3779-41f0-90a0-a00e3270e4e6.jpg?1783904915",
       "prob_norm": 0.23302800183240827,
@@ -1102,6 +1592,10 @@
       "id": "Accumulate Wisdom",
       "prob": 0.924018706047621,
       "self_prob": 1.0,
+      "types": [
+        "Instant"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/a/6/a6335319-6c92-40d4-ab2d-c06c79049c30.jpg?1783904991",
       "image": "https://cards.scryfall.io/art_crop/front/a/6/a6335319-6c92-40d4-ab2d-c06c79049c30.jpg?1783904991",
       "prob_norm": 0.2330927054263762,
@@ -1111,6 +1605,10 @@
       "id": "Swampsnare Trap",
       "prob": 0.924543130445774,
       "self_prob": 1.0,
+      "types": [
+        "Enchantment"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/6/3/6348b6bf-08a7-45f0-8b2d-2827ab89f21c.jpg?1783904964",
       "image": "https://cards.scryfall.io/art_crop/front/6/3/6348b6bf-08a7-45f0-8b2d-2827ab89f21c.jpg?1783904964",
       "prob_norm": 0.2336153003124164,
@@ -1120,6 +1618,10 @@
       "id": "Fire Nation Attacks",
       "prob": 1.0811512202498108,
       "self_prob": 1.0,
+      "types": [
+        "Instant"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/9/c/9cc10845-8989-46ca-a57a-fd728fca0729.jpg?1783904959",
       "image": "https://cards.scryfall.io/art_crop/front/9/c/9cc10845-8989-46ca-a57a-fd728fca0729.jpg?1783904959",
       "prob_norm": 0.38967704559423566,
@@ -1129,6 +1631,10 @@
       "id": "Foggy Swamp Vinebender",
       "prob": 0.9257159965728672,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/7/8/78a75317-94f7-47a4-b4da-5a027fa73248.jpg?1783904943",
       "image": "https://cards.scryfall.io/art_crop/front/7/8/78a75317-94f7-47a4-b4da-5a027fa73248.jpg?1783904943",
       "prob_norm": 0.23478407476720434,
@@ -1138,6 +1644,10 @@
       "id": "Kyoshi Battle Fan",
       "prob": 0.928593633142151,
       "self_prob": 1.0,
+      "types": [
+        "Artifact"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/2/5/257e6862-96fe-4312-aff2-509d0696843a.jpg?1783904915",
       "image": "https://cards.scryfall.io/art_crop/front/2/5/257e6862-96fe-4312-aff2-509d0696843a.jpg?1783904915",
       "prob_norm": 0.23765167238525312,
@@ -1147,6 +1657,10 @@
       "id": "Jeong Jeong's Deserters",
       "prob": 1.0752682510801173,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/0/6/060966f9-5e56-4512-9ef3-2b216daf093c.jpg?1783904998",
       "image": "https://cards.scryfall.io/art_crop/front/0/6/060966f9-5e56-4512-9ef3-2b216daf093c.jpg?1783904998",
       "prob_norm": 0.38381459980864224,
@@ -1156,8 +1670,12 @@
       "id": "Momo, Playful Pet",
       "prob": 1.0746722679606724,
       "self_prob": 1.0,
-      "card_image": "https://cards.scryfall.io/normal/front/b/3/b333c1ae-66db-4464-bb9b-8dadf87cf71f.jpg?1783905077",
-      "image": "https://cards.scryfall.io/art_crop/front/b/3/b333c1ae-66db-4464-bb9b-8dadf87cf71f.jpg?1783905077",
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
+      "card_image": "https://cards.scryfall.io/normal/front/9/3/9350bf4a-fa12-4867-b31f-1f1394d99571.jpg?1783904996",
+      "image": "https://cards.scryfall.io/art_crop/front/9/3/9350bf4a-fa12-4867-b31f-1f1394d99571.jpg?1783904996",
       "prob_norm": 0.38322069584176893,
       "self_prob_norm": 1.0
     },
@@ -1165,6 +1683,10 @@
       "id": "Earthbending Lesson",
       "prob": 0.9315232095890428,
       "self_prob": 1.0,
+      "types": [
+        "Sorcery"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/e/c/eccd63b3-3a3a-4661-9d6e-fb8152429bdb.jpg?1783904944",
       "image": "https://cards.scryfall.io/art_crop/front/e/c/eccd63b3-3a3a-4661-9d6e-fb8152429bdb.jpg?1783904944",
       "prob_norm": 0.24057102868294197,
@@ -1174,6 +1696,10 @@
       "id": "Earth Kingdom Soldier",
       "prob": 1.0733630745495912,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/2/d/2d543d35-945a-4ffa-beb7-7c5d4f894f79.jpg?1783904929",
       "image": "https://cards.scryfall.io/art_crop/front/2/d/2d543d35-945a-4ffa-beb7-7c5d4f894f79.jpg?1783904929",
       "prob_norm": 0.38191606969569664,
@@ -1183,6 +1709,10 @@
       "id": "Glider Kids",
       "prob": 1.0727918162260872,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/0/6/0613afb5-4cee-4132-8adf-404767ed8d07.jpg?1783905000",
       "image": "https://cards.scryfall.io/art_crop/front/0/6/0613afb5-4cee-4132-8adf-404767ed8d07.jpg?1783905000",
       "prob_norm": 0.3813468042695979,
@@ -1192,6 +1722,10 @@
       "id": "Sold Out",
       "prob": 1.072000483740727,
       "self_prob": 0.9635681455528802,
+      "types": [
+        "Instant"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/1/a/1affba6d-2cca-4cdf-8690-1e23ffbe8462.jpg?1783904965",
       "image": "https://cards.scryfall.io/art_crop/front/1/a/1affba6d-2cca-4cdf-8690-1e23ffbe8462.jpg?1783904965",
       "prob_norm": 0.3805582324345284,
@@ -1201,6 +1735,10 @@
       "id": "Obsessive Pursuit",
       "prob": 0.9342467469477947,
       "self_prob": 1.0,
+      "types": [
+        "Enchantment"
+      ],
+      "rarity": "rare",
       "card_image": "https://cards.scryfall.io/normal/front/e/8/e837e29c-d241-43c8-8f45-05056e082b60.jpg?1783904967",
       "image": "https://cards.scryfall.io/art_crop/front/e/8/e837e29c-d241-43c8-8f45-05056e082b60.jpg?1783904967",
       "prob_norm": 0.24328506468248018,
@@ -1210,6 +1748,10 @@
       "id": "Deserter's Disciple",
       "prob": 0.9363088727027854,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/1/4/14f2ed5a-042b-4cce-82ad-cfb4bd511d98.jpg?1783904960",
       "image": "https://cards.scryfall.io/art_crop/front/1/4/14f2ed5a-042b-4cce-82ad-cfb4bd511d98.jpg?1783904960",
       "prob_norm": 0.24533999648528246,
@@ -1219,6 +1761,10 @@
       "id": "Earth Kingdom General",
       "prob": 1.0671566085521087,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/8/6/8688fce5-74b1-41e1-a59a-05a3878a75cb.jpg?1783904944",
       "image": "https://cards.scryfall.io/art_crop/front/8/6/8688fce5-74b1-41e1-a59a-05a3878a75cb.jpg?1783904944",
       "prob_norm": 0.375731255636529,
@@ -1228,6 +1774,10 @@
       "id": "Fire Nation Cadets",
       "prob": 1.0667844748132234,
       "self_prob": 1.006490546321925,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/1/a/1a3a862c-9c9a-41cd-94d1-2d0cff22a6cd.jpg?1783904959",
       "image": "https://cards.scryfall.io/art_crop/front/1/a/1a3a862c-9c9a-41cd-94d1-2d0cff22a6cd.jpg?1783904959",
       "prob_norm": 0.37536042012706483,
@@ -1237,6 +1787,10 @@
       "id": "Ostrich-Horse",
       "prob": 1.066781843771564,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/5/c/5ca3fd45-9301-44ef-afc0-4d7999d66d36.jpg?1783904938",
       "image": "https://cards.scryfall.io/art_crop/front/5/c/5ca3fd45-9301-44ef-afc0-4d7999d66d36.jpg?1783904938",
       "prob_norm": 0.37535779826408316,
@@ -1246,6 +1800,10 @@
       "id": "Canyon Crawler",
       "prob": 0.9379243493174192,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/3/0/30a30bfb-f0f3-425b-b37d-20079ee27046.jpg?1783904975",
       "image": "https://cards.scryfall.io/art_crop/front/3/0/30a30bfb-f0f3-425b-b37d-20079ee27046.jpg?1783904975",
       "prob_norm": 0.24694983733231138,
@@ -1255,6 +1813,10 @@
       "id": "Hei Bai, Spirit of Balance",
       "prob": 0.9389689852156154,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/0/6/060d24e0-1567-41f1-ae8c-2d3b1834df3c.jpg?1783904926",
       "image": "https://cards.scryfall.io/art_crop/front/0/6/060d24e0-1567-41f1-ae8c-2d3b1834df3c.jpg?1783904926",
       "prob_norm": 0.24799082890343996,
@@ -1264,6 +1826,10 @@
       "id": "Boiling Rock Rioter",
       "prob": 1.0645003168803222,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "rare",
       "card_image": "https://cards.scryfall.io/normal/front/7/3/739653cc-35c8-4a66-95d8-3e80fa6114f0.jpg?1783904976",
       "image": "https://cards.scryfall.io/art_crop/front/7/3/739653cc-35c8-4a66-95d8-3e80fa6114f0.jpg?1783904976",
       "prob_norm": 0.3730842307299914,
@@ -1273,6 +1839,10 @@
       "id": "Spirit Water Revival",
       "prob": 0.9396886707205724,
       "self_prob": 1.0,
+      "types": [
+        "Sorcery"
+      ],
+      "rarity": "rare",
       "card_image": "https://cards.scryfall.io/normal/front/0/c/0c019e76-c88e-4d1b-a546-0f4e462ef44a.jpg?1783904980",
       "image": "https://cards.scryfall.io/art_crop/front/0/c/0c019e76-c88e-4d1b-a546-0f4e462ef44a.jpg?1783904980",
       "prob_norm": 0.24870800370646673,
@@ -1282,6 +1852,10 @@
       "id": "Wolfbat",
       "prob": 0.9398513043222232,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/2/a/2ae83b4e-e5a4-4c98-8d16-eef3c71b8ff2.jpg?1783904963",
       "image": "https://cards.scryfall.io/art_crop/front/2/a/2ae83b4e-e5a4-4c98-8d16-eef3c71b8ff2.jpg?1783904963",
       "prob_norm": 0.24887006994293542,
@@ -1291,6 +1865,10 @@
       "id": "Forecasting Fortune Teller",
       "prob": 1.0631972236811622,
       "self_prob": 0.9751017816528376,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/0/2/023e7ad4-6af0-4f29-a716-27a313974227.jpg?1783904989",
       "image": "https://cards.scryfall.io/art_crop/front/0/2/023e7ad4-6af0-4f29-a716-27a313974227.jpg?1783904989",
       "prob_norm": 0.37178568351458097,
@@ -1300,6 +1878,10 @@
       "id": "Enter the Avatar State",
       "prob": 1.0622997532223646,
       "self_prob": 1.0,
+      "types": [
+        "Instant"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/a/8/a8f3d2cb-d073-4df8-8769-49612628a377.jpg?1783905001",
       "image": "https://cards.scryfall.io/art_crop/front/a/8/a8f3d2cb-d073-4df8-8769-49612628a377.jpg?1783905001",
       "prob_norm": 0.3708913439800519,
@@ -1309,8 +1891,12 @@
       "id": "The Boulder, Ready to Rumble",
       "prob": 1.0607109286244445,
       "self_prob": 1.0,
-      "card_image": "https://cards.scryfall.io/normal/front/a/7/a7968699-4ac1-412b-b0fa-c23100fb91ac.jpg?1783905072",
-      "image": "https://cards.scryfall.io/art_crop/front/a/7/a7968699-4ac1-412b-b0fa-c23100fb91ac.jpg?1783905072",
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
+      "card_image": "https://cards.scryfall.io/normal/front/e/c/ec27a466-5457-44c6-a842-1de7d3788d66.jpg?1783904947",
+      "image": "https://cards.scryfall.io/art_crop/front/e/c/ec27a466-5457-44c6-a842-1de7d3788d66.jpg?1783904947",
       "prob_norm": 0.36930806217124906,
       "self_prob_norm": 1.0
     },
@@ -1318,6 +1904,10 @@
       "id": "True Ancestry",
       "prob": 0.9427720407945958,
       "self_prob": 1.0,
+      "types": [
+        "Sorcery"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/8/c/8c55b333-dc8b-4332-895b-eec5eb45543f.jpg?1783904936",
       "image": "https://cards.scryfall.io/art_crop/front/8/c/8c55b333-dc8b-4332-895b-eec5eb45543f.jpg?1783904936",
       "prob_norm": 0.2517806171053271,
@@ -1327,6 +1917,10 @@
       "id": "Avatar Enthusiasts",
       "prob": 0.9445412517763568,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/7/2/7292e5f2-d5a1-4e39-8f75-eba471819f04.jpg?1783905003",
       "image": "https://cards.scryfall.io/art_crop/front/7/2/7292e5f2-d5a1-4e39-8f75-eba471819f04.jpg?1783905003",
       "prob_norm": 0.25354365600025836,
@@ -1336,6 +1930,10 @@
       "id": "Walltop Sentries",
       "prob": 1.0511203295503833,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/e/5/e55f1c63-58f6-4e2b-aaeb-f2d5faca47a2.jpg?1783904934",
       "image": "https://cards.scryfall.io/art_crop/front/e/5/e55f1c63-58f6-4e2b-aaeb-f2d5faca47a2.jpg?1783904934",
       "prob_norm": 0.3597509209554342,
@@ -1345,6 +1943,10 @@
       "id": "Rebellious Captives",
       "prob": 0.9526811949631566,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/e/6/e64a4a8b-323c-4c8b-92af-1a3295799e65.jpg?1783904937",
       "image": "https://cards.scryfall.io/art_crop/front/e/6/e64a4a8b-323c-4c8b-92af-1a3295799e65.jpg?1783904937",
       "prob_norm": 0.2616552021012062,
@@ -1354,6 +1956,10 @@
       "id": "Foggy Swamp Spirit Keeper",
       "prob": 0.95321907163188,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/c/d/cd624be9-e960-4485-a8a9-2d5f2dd51777.jpg?1783904927",
       "image": "https://cards.scryfall.io/art_crop/front/c/d/cd624be9-e960-4485-a8a9-2d5f2dd51777.jpg?1783904927",
       "prob_norm": 0.26219120232809345,
@@ -1363,6 +1969,10 @@
       "id": "Realm of Koh",
       "prob": 1.0489862450696965,
       "self_prob": 1.0,
+      "types": [
+        "Land"
+      ],
+      "rarity": "rare",
       "card_image": "https://cards.scryfall.io/normal/front/0/6/061ac694-610c-479f-b038-a4ef5270d5d7.jpg?1783904907",
       "image": "https://cards.scryfall.io/art_crop/front/0/6/061ac694-610c-479f-b038-a4ef5270d5d7.jpg?1783904907",
       "prob_norm": 0.35762428146285397,
@@ -1372,6 +1982,10 @@
       "id": "Earth Kingdom Protectors",
       "prob": 1.0467688872651335,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/d/2/d263472e-1d75-4cb9-8f7b-986fa22bc841.jpg?1783905001",
       "image": "https://cards.scryfall.io/art_crop/front/d/2/d263472e-1d75-4cb9-8f7b-986fa22bc841.jpg?1783905001",
       "prob_norm": 0.355414659154534,
@@ -1381,8 +1995,12 @@
       "id": "Ran and Shaw",
       "prob": 1.045950200557886,
       "self_prob": 1.0,
-      "card_image": "https://cards.scryfall.io/normal/front/a/4/a4bb6d44-f32a-4dfb-9221-82f38d63a159.jpg?1783905056",
-      "image": "https://cards.scryfall.io/art_crop/front/a/4/a4bb6d44-f32a-4dfb-9221-82f38d63a159.jpg?1783905056",
+      "types": [
+        "Creature"
+      ],
+      "rarity": "rare",
+      "card_image": "https://cards.scryfall.io/normal/front/6/4/6436e2d0-989f-47e3-90bc-9cde82a2ddb4.jpg?1783904952",
+      "image": "https://cards.scryfall.io/art_crop/front/6/4/6436e2d0-989f-47e3-90bc-9cde82a2ddb4.jpg?1783904952",
       "prob_norm": 0.35459882852578467,
       "self_prob_norm": 1.0
     },
@@ -1390,6 +2008,10 @@
       "id": "Water Tribe Captain",
       "prob": 1.0451854839957524,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/0/a/0a0cdf97-1927-47c6-8ef1-29969e3567ee.jpg?1783904993",
       "image": "https://cards.scryfall.io/art_crop/front/0/a/0a0cdf97-1927-47c6-8ef1-29969e3567ee.jpg?1783904993",
       "prob_norm": 0.3538367797613701,
@@ -1399,6 +2021,10 @@
       "id": "Raucous Audience",
       "prob": 0.9573800277154338,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/c/c/ccd03ec3-0fae-48b2-9f04-9c57d2f94267.jpg?1783904938",
       "image": "https://cards.scryfall.io/art_crop/front/c/c/ccd03ec3-0fae-48b2-9f04-9c57d2f94267.jpg?1783904938",
       "prob_norm": 0.2663376424593342,
@@ -1408,6 +2034,10 @@
       "id": "June, Bounty Hunter",
       "prob": 0.9591139359215932,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/1/4/148bbaab-bc7b-46ab-8e18-ade69d71d847.jpg?1783904969",
       "image": "https://cards.scryfall.io/art_crop/front/1/4/148bbaab-bc7b-46ab-8e18-ade69d71d847.jpg?1783904969",
       "prob_norm": 0.26806550173627386,
@@ -1417,6 +2047,10 @@
       "id": "Octopus Form",
       "prob": 1.041086648545747,
       "self_prob": 1.0,
+      "types": [
+        "Instant"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/c/e/ce96a826-53a0-4029-bf34-46779d133b13.jpg?1783904984",
       "image": "https://cards.scryfall.io/art_crop/front/c/e/ce96a826-53a0-4029-bf34-46779d133b13.jpg?1783904984",
       "prob_norm": 0.34975224354902473,
@@ -1426,6 +2060,11 @@
       "id": "Fire Navy Trebuchet",
       "prob": 1.0374159661812847,
       "self_prob": 1.0,
+      "types": [
+        "Creature",
+        "Artifact"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/e/5/e58372cc-9a89-47a4-a0db-df5435e26cd3.jpg?1783904972",
       "image": "https://cards.scryfall.io/art_crop/front/e/5/e58372cc-9a89-47a4-a0db-df5435e26cd3.jpg?1783904972",
       "prob_norm": 0.3460943667631576,
@@ -1435,6 +2074,10 @@
       "id": "Fire Nation Engineer",
       "prob": 1.037291221312747,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/5/d/5daba108-277d-46c8-ac35-7610f4786813.jpg?1783904973",
       "image": "https://cards.scryfall.io/art_crop/front/5/d/5daba108-277d-46c8-ac35-7610f4786813.jpg?1783904973",
       "prob_norm": 0.345970057080795,
@@ -1444,6 +2087,10 @@
       "id": "Sokka, Lateral Strategist",
       "prob": 0.965084051117846,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/1/3/1326c5db-4615-495f-8e30-376243d91352.jpg?1783904920",
       "image": "https://cards.scryfall.io/art_crop/front/1/3/1326c5db-4615-495f-8e30-376243d91352.jpg?1783904920",
       "prob_norm": 0.27401478952994124,
@@ -1453,6 +2100,10 @@
       "id": "South Pole Voyager",
       "prob": 1.0349984271274502,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "rare",
       "card_image": "https://cards.scryfall.io/normal/front/4/b/4b5ad895-be8d-476b-91ca-22fad7a3cc58.jpg?1783904994",
       "image": "https://cards.scryfall.io/art_crop/front/4/b/4b5ad895-be8d-476b-91ca-22fad7a3cc58.jpg?1783904994",
       "prob_norm": 0.34368526155984097,
@@ -1462,6 +2113,10 @@
       "id": "It'll Quench Ya!",
       "prob": 1.033192230844296,
       "self_prob": 0.9375685596301224,
+      "types": [
+        "Instant"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/4/7/47c25e41-f43c-4447-81b5-b9631448bd29.jpg?1783904986",
       "image": "https://cards.scryfall.io/art_crop/front/4/7/47c25e41-f43c-4447-81b5-b9631448bd29.jpg?1783904986",
       "prob_norm": 0.34188536639080286,
@@ -1471,6 +2126,10 @@
       "id": "Zuko, Exiled Prince",
       "prob": 0.9682612458430304,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/6/a/6a73b372-9c0e-4a85-89d2-440163330687.jpg?1783904949",
       "image": "https://cards.scryfall.io/art_crop/front/6/a/6a73b372-9c0e-4a85-89d2-440163330687.jpg?1783904949",
       "prob_norm": 0.2771809002623619,
@@ -1480,6 +2139,10 @@
       "id": "Mongoose Lizard",
       "prob": 0.9685442518603364,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/7/d/7d40b9cb-82ef-44c5-8d3c-c8bb4ce9891c.jpg?1783904954",
       "image": "https://cards.scryfall.io/art_crop/front/7/d/7d40b9cb-82ef-44c5-8d3c-c8bb4ce9891c.jpg?1783904954",
       "prob_norm": 0.27746291898209285,
@@ -1489,6 +2152,10 @@
       "id": "Suki, Kyoshi Warrior",
       "prob": 1.0323286290056275,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/3/e/3e311480-04f8-4b8f-938e-1cc6d06b9902.jpg?1783904920",
       "image": "https://cards.scryfall.io/art_crop/front/3/e/3e311480-04f8-4b8f-938e-1cc6d06b9902.jpg?1783904920",
       "prob_norm": 0.34102477732200165,
@@ -1498,6 +2165,10 @@
       "id": "First-Time Flyer",
       "prob": 0.9687508555436736,
       "self_prob": 0.982821699938964,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/e/a/ea22d29d-3a62-4ae2-91d5-21a678be9b48.jpg?1783904989",
       "image": "https://cards.scryfall.io/art_crop/front/e/a/ea22d29d-3a62-4ae2-91d5-21a678be9b48.jpg?1783904989",
       "prob_norm": 0.27766880190578846,
@@ -1507,6 +2178,10 @@
       "id": "Earth Rumble",
       "prob": 1.031587877540558,
       "self_prob": 1.0,
+      "types": [
+        "Sorcery"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/a/5/a584b8b2-ee2c-44eb-94de-b8dc44c59a30.jpg?1789963004",
       "image": "https://cards.scryfall.io/art_crop/front/a/5/a584b8b2-ee2c-44eb-94de-b8dc44c59a30.jpg?1789963004",
       "prob_norm": 0.34028661004977795,
@@ -1516,6 +2191,10 @@
       "id": "Wandering Musicians",
       "prob": 1.0309894397685684,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/3/d/3da81dbd-dc80-47ff-a33b-270d23a24e0a.jpg?1783904918",
       "image": "https://cards.scryfall.io/art_crop/front/3/d/3da81dbd-dc80-47ff-a33b-270d23a24e0a.jpg?1783904918",
       "prob_norm": 0.3396902599936849,
@@ -1525,6 +2204,10 @@
       "id": "Team Avatar",
       "prob": 0.9720644413791536,
       "self_prob": 1.0,
+      "types": [
+        "Enchantment"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/a/9/a9a5f6f7-f04d-477f-b67f-fd01a5dcc0f5.jpg?1783904994",
       "image": "https://cards.scryfall.io/art_crop/front/a/9/a9a5f6f7-f04d-477f-b67f-fd01a5dcc0f5.jpg?1783904994",
       "prob_norm": 0.28097082793313616,
@@ -1534,6 +2217,10 @@
       "id": "Ty Lee, Artful Acrobat",
       "prob": 0.972687416879158,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/d/c/dcd9df24-272b-4aa1-b05f-6ee6b3d3dfe7.jpg?1783904950",
       "image": "https://cards.scryfall.io/art_crop/front/d/c/dcd9df24-272b-4aa1-b05f-6ee6b3d3dfe7.jpg?1783904950",
       "prob_norm": 0.28159163011468474,
@@ -1543,6 +2230,10 @@
       "id": "The Mechanist, Aerial Artisan",
       "prob": 1.0264959431856673,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "rare",
       "card_image": "https://cards.scryfall.io/normal/front/b/9/b910851e-9332-4c83-a790-d379667cabfc.jpg?1783904984",
       "image": "https://cards.scryfall.io/art_crop/front/b/9/b910851e-9332-4c83-a790-d379667cabfc.jpg?1783904984",
       "prob_norm": 0.3352124394671532,
@@ -1552,6 +2243,10 @@
       "id": "Rumble Arena",
       "prob": 1.0240457520303237,
       "self_prob": 1.0,
+      "types": [
+        "Land"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/3/f/3f5d2c38-663c-4f64-8cfc-c102462e82ef.jpg?1783904908",
       "image": "https://cards.scryfall.io/art_crop/front/3/f/3f5d2c38-663c-4f64-8cfc-c102462e82ef.jpg?1783904908",
       "prob_norm": 0.33277079607276994,
@@ -1561,6 +2256,10 @@
       "id": "Appa, Loyal Sky Bison",
       "prob": 0.9766856851717958,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/a/9/a9b2a843-c6fe-4d19-801e-1538e4381ab0.jpg?1783905006",
       "image": "https://cards.scryfall.io/art_crop/front/a/9/a9b2a843-c6fe-4d19-801e-1538e4381ab0.jpg?1783905006",
       "prob_norm": 0.2855759500092367,
@@ -1570,6 +2269,10 @@
       "id": "Knowledge Seeker",
       "prob": 1.0228273602936029,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/8/5/8554e862-f78a-42f5-b876-076aac6c9504.jpg?1783904986",
       "image": "https://cards.scryfall.io/art_crop/front/8/5/8554e862-f78a-42f5-b876-076aac6c9504.jpg?1783904986",
       "prob_norm": 0.3315566548294439,
@@ -1579,6 +2282,10 @@
       "id": "Master Piandao",
       "prob": 1.0216236817486208,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/3/e/3e4a042c-f2a6-45e7-9444-acd1ca838b87.jpg?1783904997",
       "image": "https://cards.scryfall.io/art_crop/front/3/e/3e4a042c-f2a6-45e7-9444-acd1ca838b87.jpg?1783904997",
       "prob_norm": 0.3303571754492712,
@@ -1588,6 +2295,10 @@
       "id": "Fire Nation Warship",
       "prob": 1.0214389672071502,
       "self_prob": 1.0,
+      "types": [
+        "Artifact"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/4/1/41ecc1de-353e-4131-b735-d2ce18c9c2d5.jpg?1783904915",
       "image": "https://cards.scryfall.io/art_crop/front/4/1/41ecc1de-353e-4131-b735-d2ce18c9c2d5.jpg?1783904915",
       "prob_norm": 0.33017310530476646,
@@ -1597,6 +2308,10 @@
       "id": "Agna Qel'a",
       "prob": 1.018987043122263,
       "self_prob": 1.0,
+      "types": [
+        "Land"
+      ],
+      "rarity": "rare",
       "card_image": "https://cards.scryfall.io/normal/front/6/b/6b885829-a323-4f7d-87c9-aa4615dcbe5c.jpg?1783904914",
       "image": "https://cards.scryfall.io/art_crop/front/6/b/6b885829-a323-4f7d-87c9-aa4615dcbe5c.jpg?1783904914",
       "prob_norm": 0.32772973502635466,
@@ -1606,6 +2321,10 @@
       "id": "Sokka's Haiku",
       "prob": 0.9820274760959036,
       "self_prob": 1.0,
+      "types": [
+        "Instant"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/0/0/004be4bc-ac3c-4026-8d36-f4687ab18c70.jpg?1783904981",
       "image": "https://cards.scryfall.io/art_crop/front/0/0/004be4bc-ac3c-4026-8d36-f4687ab18c70.jpg?1783904981",
       "prob_norm": 0.290899105508994,
@@ -1615,6 +2334,10 @@
       "id": "Flopsie, Bumi's Buddy",
       "prob": 1.0179103766351434,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/0/8/082f4abc-c09f-42cf-977f-060875dfd411.jpg?1783904943",
       "image": "https://cards.scryfall.io/art_crop/front/0/8/082f4abc-c09f-42cf-977f-060875dfd411.jpg?1783904943",
       "prob_norm": 0.3266568246085303,
@@ -1624,6 +2347,10 @@
       "id": "Fancy Footwork",
       "prob": 0.9826070039361636,
       "self_prob": 1.0,
+      "types": [
+        "Instant"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/9/c/9c59f8c5-4063-4e5a-b684-fde175c4a981.jpg?1783905000",
       "image": "https://cards.scryfall.io/art_crop/front/9/c/9c59f8c5-4063-4e5a-b684-fde175c4a981.jpg?1783905000",
       "prob_norm": 0.2914766116027313,
@@ -1633,6 +2360,10 @@
       "id": "Fire Sages",
       "prob": 1.0168230859444725,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/7/1/71a9fa44-306f-417a-a9d9-991aff95025c.jpg?1783904958",
       "image": "https://cards.scryfall.io/art_crop/front/7/1/71a9fa44-306f-417a-a9d9-991aff95025c.jpg?1783904958",
       "prob_norm": 0.32557332705085557,
@@ -1642,8 +2373,12 @@
       "id": "Iroh, Grand Lotus",
       "prob": 0.9835368664578472,
       "self_prob": 1.0,
-      "card_image": "https://cards.scryfall.io/normal/front/7/c/7cc290d1-fce7-4c1b-90fd-3b2916df6197.jpg?1783905048",
-      "image": "https://cards.scryfall.io/art_crop/front/7/c/7cc290d1-fce7-4c1b-90fd-3b2916df6197.jpg?1783905048",
+      "types": [
+        "Creature"
+      ],
+      "rarity": "rare",
+      "card_image": "https://cards.scryfall.io/normal/front/8/7/879b73d3-4552-4fdc-baee-c4d097ae9a4f.jpg?1783904926",
+      "image": "https://cards.scryfall.io/art_crop/front/8/7/879b73d3-4552-4fdc-baee-c4d097ae9a4f.jpg?1783904926",
       "prob_norm": 0.2924032301968772,
       "self_prob_norm": 1.0
     },
@@ -1651,6 +2386,10 @@
       "id": "Dragonfly Swarm",
       "prob": 0.9835676103748576,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/1/6/16be5cc4-b15a-4c5e-8a6e-05c87b519127.jpg?1783904930",
       "image": "https://cards.scryfall.io/art_crop/front/1/6/16be5cc4-b15a-4c5e-8a6e-05c87b519127.jpg?1783904930",
       "prob_norm": 0.2924338668603564,
@@ -1660,6 +2399,10 @@
       "id": "Sun Warriors",
       "prob": 0.9854210786118076,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/e/4/e477d750-42d2-48c8-bc1f-8148d15d5f53.jpg?1783904920",
       "image": "https://cards.scryfall.io/art_crop/front/e/4/e477d750-42d2-48c8-bc1f-8148d15d5f53.jpg?1783904920",
       "prob_norm": 0.29428086906978745,
@@ -1669,6 +2412,10 @@
       "id": "Guru Pathik",
       "prob": 0.9873863226300348,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/2/2/224a2241-0dce-4008-8d9c-86db40ec5f8b.jpg?1783904925",
       "image": "https://cards.scryfall.io/art_crop/front/2/2/224a2241-0dce-4008-8d9c-86db40ec5f8b.jpg?1783904925",
       "prob_norm": 0.2962392571184059,
@@ -1678,6 +2425,10 @@
       "id": "Ozai's Cruelty",
       "prob": 0.9879447214185668,
       "self_prob": 1.0,
+      "types": [
+        "Sorcery"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/2/2/22cad680-d46a-4589-a633-b6ee9a78d61e.jpg?1783904967",
       "image": "https://cards.scryfall.io/art_crop/front/2/2/22cad680-d46a-4589-a633-b6ee9a78d61e.jpg?1783904967",
       "prob_norm": 0.2967957078714328,
@@ -1687,6 +2438,10 @@
       "id": "Compassionate Healer",
       "prob": 1.0105728886636478,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/8/8/88d5f8fd-d4de-4e64-9b74-e53719ffbcdc.jpg?1783905001",
       "image": "https://cards.scryfall.io/art_crop/front/8/8/88d5f8fd-d4de-4e64-9b74-e53719ffbcdc.jpg?1783905001",
       "prob_norm": 0.31934493426973093,
@@ -1696,6 +2451,10 @@
       "id": "Vindictive Warden",
       "prob": 1.0064036376584744,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/0/f/0f34de05-39a9-425f-a3b4-3a9d46c917ac.jpg?1783904918",
       "image": "https://cards.scryfall.io/art_crop/front/0/f/0f34de05-39a9-425f-a3b4-3a9d46c917ac.jpg?1783904918",
       "prob_norm": 0.3151902281546157,
@@ -1705,6 +2464,10 @@
       "id": "Messenger Hawk",
       "prob": 0.9961163910675112,
       "self_prob": 1.0201873083966753,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/6/a/6a2946c0-0a40-4cdb-92c8-af2bafecca09.jpg?1783904923",
       "image": "https://cards.scryfall.io/art_crop/front/6/a/6a2946c0-0a40-4cdb-92c8-af2bafecca09.jpg?1783904923",
       "prob_norm": 0.3049388697532774,
@@ -1714,6 +2477,10 @@
       "id": "Abandon Attachments",
       "prob": 1.003725175516123,
       "self_prob": 1.0,
+      "types": [
+        "Instant"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/7/4/74ca45a4-97ab-4255-9129-884e8b42b984.jpg?1783904933",
       "image": "https://cards.scryfall.io/art_crop/front/7/4/74ca45a4-97ab-4255-9129-884e8b42b984.jpg?1783904933",
       "prob_norm": 0.31252111012163486,
@@ -1723,6 +2490,10 @@
       "id": "Sandbenders' Storm",
       "prob": 1.0021092462367305,
       "self_prob": 1.0,
+      "types": [
+        "Instant"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/b/3/b3bf4a25-4329-4318-870a-2b06aa620dc4.jpg?1783904995",
       "image": "https://cards.scryfall.io/art_crop/front/b/3/b3bf4a25-4329-4318-870a-2b06aa620dc4.jpg?1783904995",
       "prob_norm": 0.31091081818901795,
@@ -1732,6 +2503,10 @@
       "id": "War Balloon",
       "prob": 1.0019635959831124,
       "self_prob": 1.0,
+      "types": [
+        "Artifact"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/6/8/6829b20d-c2fa-41a6-89ca-f21c522d8866.jpg?1783904949",
       "image": "https://cards.scryfall.io/art_crop/front/6/8/6829b20d-c2fa-41a6-89ca-f21c522d8866.jpg?1783904949",
       "prob_norm": 0.310765676052307,
@@ -1741,6 +2516,10 @@
       "id": "How to Start a Riot",
       "prob": 1.0005094044763656,
       "self_prob": 1.0,
+      "types": [
+        "Instant"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/2/3/23b3bf1e-ea85-47f5-8473-4d16615f68d7.jpg?1783904957",
       "image": "https://cards.scryfall.io/art_crop/front/2/3/23b3bf1e-ea85-47f5-8473-4d16615f68d7.jpg?1783904957",
       "prob_norm": 0.30931655765235155,
@@ -1750,6 +2529,10 @@
       "id": "Pretending Poxbearers",
       "prob": 1.000254121623385,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/d/1/d1af91a5-8681-4a05-910d-96f7a819bfaa.jpg?1783904922",
       "image": "https://cards.scryfall.io/art_crop/front/d/1/d1af91a5-8681-4a05-910d-96f7a819bfaa.jpg?1783904922",
       "prob_norm": 0.3090621653816423,
@@ -1759,6 +2542,10 @@
       "id": "Cat-Gator",
       "prob": 1.0,
       "self_prob": 1.0,
+      "types": [
+        "Creature"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/e/c/ec83a825-79e6-42a4-919c-3bc498ff4433.jpg?1783904975",
       "image": "https://cards.scryfall.io/art_crop/front/e/c/ec83a825-79e6-42a4-919c-3bc498ff4433.jpg?1783904975",
       "prob_norm": 0.30880893028945183,
@@ -1768,6 +2555,10 @@
       "id": "Azula Always Lies",
       "prob": 1.0,
       "self_prob": 1.0,
+      "types": [
+        "Instant"
+      ],
+      "rarity": "common",
       "card_image": "https://cards.scryfall.io/normal/front/4/1/416b9207-a2af-44d1-9b87-4943f6e46d42.jpg?1783904978",
       "image": "https://cards.scryfall.io/art_crop/front/4/1/416b9207-a2af-44d1-9b87-4943f6e46d42.jpg?1783904978",
       "prob_norm": 0.30880893028945183,
@@ -1777,6 +2568,10 @@
       "id": "Seismic Sense",
       "prob": 1.0,
       "self_prob": 1.0,
+      "types": [
+        "Sorcery"
+      ],
+      "rarity": "uncommon",
       "card_image": "https://cards.scryfall.io/normal/front/a/7/a7b93c2a-c478-4734-8aca-03f3e9c11b20.jpg?1783904937",
       "image": "https://cards.scryfall.io/art_crop/front/a/7/a7b93c2a-c478-4734-8aca-03f3e9c11b20.jpg?1783904937",
       "prob_norm": 0.30880893028945183,
