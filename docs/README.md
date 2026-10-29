@@ -94,12 +94,45 @@ http://localhost:8000/?dataset=data/set2/data.json
 
 Use the gear icon ⚙️ in the top-right corner to adjust:
 
+- **Table view**: Switch immediately between the graph (default) and the weights table
 - **Dataset**: Switch which data is visualized
 - **Link Visible Threshold** (1.0 - 2.0): Link visibility sensitivity
 - **SELF_PROB High** (1.0 - 1.5): Threshold for green glow
 - **SELF_PROB Low** (0.5 - 1.0): Threshold for red glow
 
 Press **Apply** to reload with new parameters.
+
+### Table view
+
+The **Alone**, **Self**, and **Pairs** tabs show card names, weights, and game
+counts. Pairs show both card names and include all modeled pairs, including
+negative effects; graph link limits and thresholds do not restrict the tables.
+
+- **Weight** is the model's odds multiplier, not its raw coefficient; 1 is neutral.
+- **Games** counts games where the card is present (Alone), 2+ copies are present
+  (Self), or both cards are present (Pairs), using the modeled game data.
+- Click a column header to sort in either direction. Each tab starts with highest
+  weight first.
+- Hover over a card name (either name in Pairs) to preview its card image.
+  Keyboard focus also shows the preview; Escape dismisses it. Missing images
+  display an explicit unavailable message.
+- **Minimum games** includes rows with at least that many games; 0 includes all
+  rows, including zero-count features. Filters and sorting are retained per tab
+  while switching views or datasets.
+- Changing the view is immediate. Dataset changes still use **Apply**. Graph-only
+  controls are hidden in table view, and the graph simulation pauses while hidden.
+
+The generated `data.json` includes a `tables` object alongside the existing graph
+nodes and links. Regenerate datasets with `python wrinfo.py` after updating the
+exporter so the table weights and counts are available.
+Older graph-only datasets still work in graph view; table view displays a
+regeneration message until table data is available.
+
+To run the exporter tests from this directory:
+
+```bash
+python -m unittest test_wrinfo
+```
 
 ---
 
@@ -179,6 +212,15 @@ pip install -r requirements.txt
 
 ### Images not loading
 
+- The importer first reads the newest `oracle-cards-*.jsonl.gz` archive in the
+  repository-root `data/` folder, independently of the current working directory.
+  Put a downloaded [Oracle Cards bulk archive](https://scryfall.com/docs/api/bulk-data)
+  there to avoid downloading it again. Remove or replace it when you want fresh data.
+- Without a local archive, it downloads Oracle Cards using Scryfall's current
+  metadata endpoint. Both gzipped JSON Lines and legacy JSON arrays are supported.
+- Bulk loading errors stop processing rather than triggering individual requests
+  for every card. Individual lookup is only used for cards missing from a
+  successfully loaded archive.
 - Scryfall API might be slow or unreachable
 - Unknown cards simply won't have images
 - Ensure server has internet connection

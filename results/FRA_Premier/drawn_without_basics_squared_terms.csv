@@ -1,0 +1,196 @@
+feature,type,coefficient,odds_multiplier,count
+Memory Trap (repeat),repeat,-0.08467966995705534,0.9188065586108837,2050
+Unsummon (repeat),repeat,-0.06679770504707518,0.9353844057429095,2296
+Protege's Awakening (repeat),repeat,-0.058183917811965975,0.9434764093620648,2422
+Hexhaven Battalion (repeat),repeat,-0.052357079862015245,0.9489899411374836,2590
+Compel Brutality (repeat),repeat,-0.04877776002366746,0.9523927659263774,1631
+Fatehold Chronologist (repeat),repeat,-0.035816721379242744,0.9648171076282709,2286
+Last Gasp (repeat),repeat,-0.02843701232028826,0.9719635139445776,2330
+No Admittance (repeat),repeat,-0.026225130802733972,0.9741157614575816,2163
+Mindseeker Oculus (repeat),repeat,-0.024041518654541107,0.9762451765302408,5392
+"Fblthp, Impossibly Lost (repeat)",repeat,0.021798706492725098,1.0220380341425694,3390
+Rank Rat (repeat),repeat,0.0202242044107411,1.0204300993104958,1611
+Icy Reception (repeat),repeat,-0.019834749070989994,0.9803606654324396,2509
+Apex Witchstalker (repeat),repeat,-0.01913326279585827,0.9810486162497368,1843
+Bestial Incursion (repeat),repeat,0.015384964868633146,1.0155039227117773,1595
+Surgical Precision (repeat),repeat,-0.014953176095152253,0.985158067470722,1848
+Wrath of the Bloodmane (repeat),repeat,-0.011651711296289382,0.9884159070139645,1926
+Campus Crier (repeat),repeat,0.009374140072335857,1.00941821493705,1572
+Twinned Vision (repeat),repeat,-0.008494680850865811,0.9915412970049712,2218
+Undulating Witness (repeat),repeat,-0.006941523913174675,0.9930825128146129,1922
+Surveillance Phantasm (repeat),repeat,-0.004807221231459601,0.9952043149634411,3933
+Extended Absence (repeat),repeat,-0.004754341562471941,0.9952569424296407,3265
+Infinite Coursework (repeat),repeat,-0.0015221124602767912,0.9984790453653726,2410
+Arcane Amphisbaena (repeat),repeat,0.0,1.0,2112
+Awaken the Inferno (repeat),repeat,0.0,1.0,1511
+Heartstring Puller (repeat),repeat,0.0,1.0,0
+Tenured Tethermage (repeat),repeat,0.0,1.0,0
+Blossom-Blessed Angel (repeat),repeat,0.0,1.0,0
+Primal Witchstalker (repeat),repeat,0.0,1.0,0
+Screeching Soulbreaker (repeat),repeat,0.0,1.0,0
+Blessed Ghoul (repeat),repeat,0.0,1.0,0
+"Gallia, Tragic Host (repeat)",repeat,0.0,1.0,0
+Geist of Saint Thalia (repeat),repeat,0.0,1.0,0
+"Tetsuko Umezawa, Pursuer (repeat)",repeat,0.0,1.0,0
+"Lyra, Archangel of Dawn (repeat)",repeat,0.0,1.0,0
+Gideon the Oathless (repeat),repeat,0.0,1.0,0
+Fatehold Charm (repeat),repeat,0.0,1.0,0
+Vinelasher Adept (repeat),repeat,0.0,1.0,0
+"Jiang Yanggu, Alone (repeat)",repeat,0.0,1.0,0
+Solve for Disappointment (repeat),repeat,0.0,1.0,0
+Command the Stage (repeat),repeat,0.0,1.0,0
+Your Fate Ends Here (repeat),repeat,0.0,1.0,0
+Way of the Cryomancer (repeat),repeat,0.0,1.0,0
+Kiora of Salt and Sand (repeat),repeat,0.0,1.0,0
+Clash of Elements (repeat),repeat,0.0,1.0,0
+Theorist's Sanctum (repeat),repeat,0.0,1.0,0
+Greenhouse Propagator (repeat),repeat,0.0,1.0,0
+Theorist's Proxy (repeat),repeat,0.0,1.0,0
+Void Extrapolator (repeat),repeat,0.0,1.0,0
+Dedicated Commons (repeat),repeat,0.0,1.0,0
+Way of the Deathbringer (repeat),repeat,0.0,1.0,0
+Liliana the Repentant (repeat),repeat,0.0,1.0,0
+Dark Matter Manipulator (repeat),repeat,0.0,1.0,0
+Multiply by Zero (repeat),repeat,0.0,1.0,0
+Semester Foreseer (repeat),repeat,0.0,1.0,0
+Vigorbloom Vanguard (repeat),repeat,0.0,1.0,0
+Simulacrum Shaper (repeat),repeat,0.0,1.0,0
+"Jace, Reality Sculptor (repeat)",repeat,0.0,1.0,0
+Something Worth Saving (repeat),repeat,0.0,1.0,0
+"Tomik, Orzhov Lawmage (repeat)",repeat,0.0,1.0,0
+Medic's Kitesail (repeat),repeat,0.0,1.0,0
+"Arni, Humble Scribe (repeat)",repeat,0.0,1.0,0
+Variable Chaser (repeat),repeat,0.0,1.0,0
+Inspired Tethermage (repeat),repeat,0.0,1.0,0
+Way of the Warlord (repeat),repeat,0.0,1.0,0
+Way of the Paradox (repeat),repeat,0.0,1.0,0
+Vraska's Final Mercy (repeat),repeat,0.0,1.0,0
+Carnivorous Cultivator (repeat),repeat,0.0,1.0,0
+Divining Duelist (repeat),repeat,0.0,1.0,0
+"Yoshimaru, Scrappy Stray (repeat)",repeat,0.0,1.0,0
+Ghalta the Unstoppable (repeat),repeat,0.0,1.0,0
+Ferocity of the Hunt (repeat),repeat,0.0,1.0,0
+Cast Away Doubt (repeat),repeat,0.0,1.0,0
+"Yuriko, Blade of the Mighty (repeat)",repeat,0.0,1.0,0
+"Lyra, Tolarian Archangel (repeat)",repeat,0.0,1.0,0
+Way of the Healer (repeat),repeat,0.0,1.0,0
+Unflinching Hortimancer (repeat),repeat,0.0,1.0,0
+"Winter, Tormented Loner (repeat)",repeat,0.0,1.0,0
+"Titanbones, Towering Heart (repeat)",repeat,0.0,1.0,0
+"Saheeli, Jewel of Avishkar (repeat)",repeat,0.0,1.0,0
+Theorix Annex (repeat),repeat,0.0,1.0,0
+Innovative Commons (repeat),repeat,0.0,1.0,0
+"Yoshimaru, Beloved Companion (repeat)",repeat,0.0,1.0,0
+"Jiang Yanggu, Never Alone (repeat)",repeat,0.0,1.0,0
+"Massacre Girl, Most Wanted (repeat)",repeat,0.0,1.0,0
+"Tetsuko Umezawa, Fugitive (repeat)",repeat,0.0,1.0,0
+Konstrari Annex (repeat),repeat,0.0,1.0,0
+"Marwyn, the Clearcutter (repeat)",repeat,0.0,1.0,0
+Plan for All Outcomes (repeat),repeat,0.0,1.0,0
+"Teyo, Diamondblade Mage (repeat)",repeat,0.0,1.0,0
+Predictive Preparations (repeat),repeat,0.0,1.0,0
+Shipwreck Marsh (repeat),repeat,0.0,1.0,0
+Craftwork Crusher (repeat),repeat,0.0,1.0,0
+Afterthought Sentry (repeat),repeat,0.0,1.0,0
+Transformative Commons (repeat),repeat,0.0,1.0,0
+Silence the Echo (repeat),repeat,0.0,1.0,0
+"Mabel, Valley Hero (repeat)",repeat,0.0,1.0,0
+Restore with Empathy (repeat),repeat,0.0,1.0,0
+Break Under Pressure (repeat),repeat,0.0,1.0,0
+Stingerquill Charm (repeat),repeat,0.0,1.0,0
+Way of the Wildspeaker (repeat),repeat,0.0,1.0,0
+Fateshaper Aspirant (repeat),repeat,0.0,1.0,0
+Graft Surgeon (repeat),repeat,0.0,1.0,0
+Shatterwing Pegasus (repeat),repeat,0.0,1.0,0
+"Saheeli, Consul of Oversight (repeat)",repeat,0.0,1.0,0
+Wrecking Gecko (repeat),repeat,0.0,1.0,0
+Fulminous Forte (repeat),repeat,0.0,1.0,0
+"Thalia, the Survivor (repeat)",repeat,0.0,1.0,0
+Murmuring Volume (repeat),repeat,0.0,1.0,0
+Fatehold Annex (repeat),repeat,0.0,1.0,0
+Grim Repriser (repeat),repeat,0.0,1.0,0
+Keeper of the Quiet Hour (repeat),repeat,0.0,1.0,0
+"Teyo, Lightshield Expert (repeat)",repeat,0.0,1.0,0
+Recursive Recruitment (repeat),repeat,0.0,1.0,0
+Way of the Mentor (repeat),repeat,0.0,1.0,0
+"Proft, Consulting Detective (repeat)",repeat,0.0,1.0,0
+Rise of the Deathbringer (repeat),repeat,0.0,1.0,0
+Woodwork Prodigy (repeat),repeat,0.0,1.0,0
+Vigorbloom Charm (repeat),repeat,0.0,1.0,0
+Sphinx of False Conclusions (repeat),repeat,0.0,1.0,0
+Mind Meanderer (repeat),repeat,0.0,1.0,0
+"Fblthp, Knows the Way (repeat)",repeat,0.0,1.0,0
+Bloombrute (repeat),repeat,0.0,1.0,0
+Rewrite Regrets (repeat),repeat,0.0,1.0,0
+"Vraska, the Cutting Glare (repeat)",repeat,0.0,1.0,0
+Way of the Pyromancer (repeat),repeat,0.0,1.0,0
+Null Summoner (repeat),repeat,0.0,1.0,0
+Sureshot Sower (repeat),repeat,0.0,1.0,0
+Stingerquill Voxmancer (repeat),repeat,0.0,1.0,0
+"Tomik, Izzet Sparkmage (repeat)",repeat,0.0,1.0,0
+"Hapatra, the Desert Fang (repeat)",repeat,0.0,1.0,0
+Stingerquill Annex (repeat),repeat,0.0,1.0,0
+"Traxos, Scourge Eternal (repeat)",repeat,0.0,1.0,0
+Archive Arbiter (repeat),repeat,0.0,1.0,0
+Jace's Machinations (repeat),repeat,0.0,1.0,0
+Kiora of Fire and Ashes (repeat),repeat,0.0,1.0,0
+"Gallia, the Merrymaker (repeat)",repeat,0.0,1.0,0
+Koth of the Homestead (repeat),repeat,0.0,1.0,0
+Cryotheory Adept (repeat),repeat,0.0,1.0,0
+Skilled Battlecarver (repeat),repeat,0.0,1.0,0
+Konstrari Improviser (repeat),repeat,0.0,1.0,0
+Draconic Visitor (repeat),repeat,0.0,1.0,0
+"Ruric Thar, Biomagus (repeat)",repeat,0.0,1.0,0
+Meticulous Commons (repeat),repeat,0.0,1.0,0
+Desperate Futurescribe (repeat),repeat,0.0,1.0,0
+Theorix Charm (repeat),repeat,0.0,1.0,0
+Lich's Relic (repeat),repeat,0.0,1.0,0
+Countersculpt (repeat),repeat,0.0,1.0,0
+Formidable Commons (repeat),repeat,0.0,1.0,0
+Generous Revival (repeat),repeat,0.0,1.0,0
+"Hapatra, the Desert Frost (repeat)",repeat,0.0,1.0,0
+"Yuriko, Hope from the Shadows (repeat)",repeat,0.0,1.0,0
+Emergency Phytomedic (repeat),repeat,0.0,1.0,0
+Theoretical Necromancer (repeat),repeat,0.0,1.0,0
+"Tinybones, Pocket Nuisance (repeat)",repeat,0.0,1.0,0
+Hungering Puppetbeast (repeat),repeat,0.0,1.0,0
+Budding Insurgent (repeat),repeat,0.0,1.0,0
+"Pia, Determined Rebuilder (repeat)",repeat,0.0,1.0,0
+"Rescue Girl, First Responder (repeat)",repeat,0.0,1.0,0
+Twisted Fates (repeat),repeat,0.0,1.0,0
+Guiding Hydra (repeat),repeat,0.0,1.0,0
+"Danitha, Spear of Agony (repeat)",repeat,0.0,1.0,0
+"Mabel, Bitter Recluse (repeat)",repeat,0.0,1.0,0
+"Traxos, Academy Guardian (repeat)",repeat,0.0,1.0,0
+"Marwyn, the Preserver (repeat)",repeat,0.0,1.0,0
+Theorix Metamage (repeat),repeat,0.0,1.0,0
+Prudent Fateseer (repeat),repeat,0.0,1.0,0
+Uldaros Theorix (repeat),repeat,0.0,1.0,0
+Proctor of Potential (repeat),repeat,0.0,1.0,0
+Whiplash Wordsmith (repeat),repeat,0.0,1.0,0
+Heartwood Crafter (repeat),repeat,0.0,1.0,0
+"Ruric Thar, Magecrusher (repeat)",repeat,0.0,1.0,0
+Ajani's Anguish (repeat),repeat,0.0,1.0,0
+Chandra's Emberling (repeat),repeat,0.0,1.0,0
+"Edgar, Moonlit Sovereign (repeat)",repeat,0.0,1.0,0
+Room of Refuge (repeat),repeat,0.0,1.0,0
+Diviner of Victory (repeat),repeat,0.0,1.0,0
+Tether Technician (repeat),repeat,0.0,1.0,0
+Warrior's Blades (repeat),repeat,0.0,1.0,0
+Hallway Heckler (repeat),repeat,0.0,1.0,0
+Paradox Shaper (repeat),repeat,0.0,1.0,0
+"Proft, Sinister Mastermind (repeat)",repeat,0.0,1.0,0
+Violent Echoes (repeat),repeat,0.0,1.0,0
+Vigorbloom Annex (repeat),repeat,0.0,1.0,0
+Kindred Judgment (repeat),repeat,0.0,1.0,0
+Verdant Kraken (repeat),repeat,0.0,1.0,0
+Way of the Mind Sculptor (repeat),repeat,0.0,1.0,0
+Prophesied End (repeat),repeat,0.0,1.0,0
+"Koth, the Geomancer (repeat)",repeat,0.0,1.0,0
+Curse-Marred Demon (repeat),repeat,0.0,1.0,0
+"Loot, the Nexus (repeat)",repeat,0.0,1.0,0
+Tam's Resistance (repeat),repeat,0.0,1.0,0
+Konstrari Charm (repeat),repeat,0.0,1.0,0
+Sphinx's Approach (repeat),repeat,0.0,1.0,0
+Sanctum Lurker (repeat),repeat,0.0,1.0,0
+Repurposed Enforcer (repeat),repeat,0.0,1.0,0

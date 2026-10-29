@@ -67,6 +67,16 @@ let currentDataset = `data/${DEFAULT_DATASET}/data.json`;
 let currentGraph = null;
 let width, height, svg, container;
 let availableDatasets = [];
+let datasetData = null;
+let currentView = "graph";
+let graphNeedsUpdate = true;
+let loadRequest = 0;
+let activeTab = "alone";
+const tableState = Object.fromEntries(
+  ["alone", "self", "pairs"].map(tab => [
+    tab, { sortKey: "weight", direction: "descending", minimumGames: 0 }
+  ])
+);
 
 // Get default dataset from URL parameter
 function getDefaultDataset() {
@@ -152,6 +162,10 @@ document.addEventListener("DOMContentLoaded", async () => {
   const maxLinksInput = document.getElementById("maxLinksInput");
   const maxLinksValue = document.getElementById("maxLinksValue");
   const datasetSelect = document.getElementById("datasetSelect");
+  document.getElementById("tableViewToggle").addEventListener("change", (event) => {
+    setView(event.target.checked ? "table" : "graph");
+  });
+  setupTableControls();
 
   // Initialize slider values from CONFIG (single source of truth)
   thresholdSlider.value = CONFIG.LINK_VISIBLE_THRESHOLD;
@@ -292,22 +306,254 @@ async function checkDatasetExists(path) {
 
 // Load and initialize graph with specified dataset
 async function loadAndInitGraph(datasetPath) {
+  const request = ++loadRequest;
+  const status = document.getElementById("dataStatus");
+  status.textContent = "Loading dataset...";
+  status.hidden = false;
+  currentGraph?.stop();
+  datasetData = null;
+  renderTable();
   try {
     const response = await fetch(datasetPath);
     if (!response.ok) {
       throw new Error(`Dataset not found: ${datasetPath}`);
     }
     const data = await response.json();
-    // Sort links by weight descending and keep only top N
-    const sortedLinks = data.links
-      .slice()
-      .sort((a, b) => b.weight - a.weight)
-      .slice(0, CONFIG.MAX_LINKS);
-    initGraph(data.nodes, sortedLinks);
+    if (request !== loadRequest) return;
+    datasetData = data;
+    graphNeedsUpdate = true;
+    status.hidden = true;
+    setView(currentView);
   } catch (error) {
+    if (request !== loadRequest) return;
     console.error("Error loading dataset:", error);
-    alert(`Error loading dataset: ${error.message}`);
+    currentGraph?.stop();
+    datasetData = null;
+    container.selectAll("*").remove();
+    svg.selectAll("defs").remove();
+    renderTable();
+    status.textContent = `Error loading dataset: ${error.message}`;
+    status.hidden = false;
   }
+}
+
+function setView(view) {
+  currentView = view;
+  const showTable = view === "table";
+  svg.attr("hidden", showTable ? "" : null);
+  document.getElementById("tableView").hidden = !showTable;
+  document.getElementById("graphSettings").hidden = showTable;
+  document.getElementById("tooltip").style.display = "none";
+  if (showTable) {
+    currentGraph?.stop();
+    renderTable();
+  } else if (datasetData) {
+    if (graphNeedsUpdate) {
+      // D3 mutates nodes and link endpoints; keep the loaded dataset untouched.
+      const nodes = datasetData.nodes.map(node => ({ ...node }));
+      const links = datasetData.links
+        .map(link => ({ ...link }))
+        .sort((a, b) => b.weight - a.weight)
+        .slice(0, CONFIG.MAX_LINKS);
+      initGraph(nodes, links);
+      graphNeedsUpdate = false;
+    } else {
+      currentGraph?.restart();
+    }
+  }
+}
+
+function setupTableControls() {
+  const body = document.querySelector("#weightsTable tbody");
+  function showPreview(event) {
+    const name = event.target.closest(".card-name");
+    if (!name) return;
+    const tooltip = document.getElementById("tooltip");
+    const caption = document.createElement("div");
+    caption.textContent = name.textContent;
+    const bounds = name.getBoundingClientRect();
+    const x = event.type === "focusin" ? bounds.left : event.clientX;
+    const y = event.type === "focusin" ? bounds.bottom : event.clientY;
+    tooltip.replaceChildren(caption);
+    if (name.dataset.cardImage) {
+      const image = document.createElement("img");
+      image.alt = name.textContent;
+      image.addEventListener("load", () => {
+        if (tooltip.contains(image)) positionTooltip(x, y);
+      });
+      image.addEventListener("error", () => {
+        if (!tooltip.contains(image)) return;
+        image.remove();
+        const message = document.createElement("div");
+        message.textContent = "Card image unavailable.";
+        tooltip.appendChild(message);
+        positionTooltip(x, y);
+      });
+      image.src = name.dataset.cardImage;
+      tooltip.prepend(image);
+    } else {
+      const message = document.createElement("div");
+      message.textContent = "Card image unavailable.";
+      tooltip.appendChild(message);
+    }
+    tooltip.style.display = "block";
+    positionTooltip(x, y);
+  }
+  body.addEventListener("mouseover", showPreview);
+  body.addEventListener("focusin", showPreview);
+  body.addEventListener("mousemove", (event) => {
+    if (event.target.closest(".card-name")) positionTooltip(event.clientX, event.clientY);
+  });
+  const hidePreview = () => {
+    document.getElementById("tooltip").style.display = "none";
+  };
+  body.addEventListener("mouseout", hidePreview);
+  body.addEventListener("focusout", hidePreview);
+  document.getElementById("weightsPanel").addEventListener("scroll", hidePreview);
+  body.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") hidePreview();
+  });
+  const tabs = Array.from(document.querySelectorAll("[data-tab]"));
+  function selectTab(tab) {
+    activeTab = tab.dataset.tab;
+    for (const button of tabs) {
+      const selected = button === tab;
+      button.setAttribute("aria-selected", String(selected));
+      button.tabIndex = selected ? 0 : -1;
+    }
+    document.getElementById("weightsPanel").setAttribute("aria-labelledby", tab.id);
+    const input = document.getElementById("minimumGames");
+    input.value = tableState[activeTab].minimumGames;
+    input.removeAttribute("aria-invalid");
+    document.getElementById("gamesError").textContent = "";
+    renderTable();
+  }
+  tabs.forEach((tab, index) => {
+    tab.addEventListener("click", () => selectTab(tab));
+    tab.addEventListener("keydown", (event) => {
+      let next;
+      if (event.key === "ArrowRight") next = (index + 1) % tabs.length;
+      if (event.key === "ArrowLeft") next = (index + tabs.length - 1) % tabs.length;
+      if (event.key === "Home") next = 0;
+      if (event.key === "End") next = tabs.length - 1;
+      if (next === undefined) return;
+      event.preventDefault();
+      tabs[next].focus();
+      selectTab(tabs[next]);
+    });
+  });
+  document.getElementById("minimumGames").addEventListener("input", (event) => {
+    const input = event.target;
+    const valid = input.checkValidity() && Number.isSafeInteger(input.valueAsNumber);
+    input.setAttribute("aria-invalid", String(!valid));
+    document.getElementById("gamesError").textContent = valid
+      ? "" : "Enter a whole number of games, zero or greater.";
+    if (!valid) return;
+    tableState[activeTab].minimumGames = input.valueAsNumber;
+    renderTable();
+  });
+}
+
+function renderTable() {
+  document.getElementById("tooltip").style.display = "none";
+  const state = tableState[activeTab];
+  const columns = activeTab === "pairs"
+    ? [["source", "Card 1"], ["target", "Card 2"], ["weight", "Weight"], ["games", "Games"]]
+    : [["card", "Card"], ["weight", "Weight"], ["games", "Games"]];
+  const descriptions = {
+    alone: "Games: card present in the modeled game data.",
+    self: "Games: repeated card (2+ copies) present in the modeled game data.",
+    pairs: "Games: both cards present in the modeled game data. Includes all modeled pairs."
+  };
+  document.getElementById("tableDescription").textContent =
+    `${descriptions[activeTab]} Weight is an odds multiplier: 1 is neutral.`;
+
+  const head = document.querySelector("#weightsTable thead");
+  const focusedKey = head.contains(document.activeElement)
+    ? document.activeElement.dataset.sortKey : null;
+  const header = document.createElement("tr");
+  for (const [key, label] of columns) {
+    const cell = document.createElement("th");
+    cell.scope = "col";
+    cell.setAttribute("aria-sort", state.sortKey === key ? state.direction : "none");
+    if (key === "weight" || key === "games") cell.className = "numeric";
+    const button = document.createElement("button");
+    button.type = "button";
+    button.dataset.sortKey = key;
+    const indicator = state.direction === "ascending" ? " ↑" : " ↓";
+    button.textContent = label + (state.sortKey === key ? indicator : "");
+    button.addEventListener("click", () => {
+      state.direction = state.sortKey === key && state.direction === "descending"
+        ? "ascending" : "descending";
+      state.sortKey = key;
+      renderTable();
+    });
+    cell.appendChild(button);
+    header.appendChild(cell);
+  }
+  head.replaceChildren(header);
+  if (focusedKey) head.querySelector(`[data-sort-key="${focusedKey}"]`).focus();
+
+  const hasTableData = datasetData && datasetData.tables
+    && ["alone", "self", "pairs"].every(tab => Array.isArray(datasetData.tables[tab]));
+  const tableError = document.getElementById("tableError");
+  tableError.hidden = !datasetData || Boolean(hasTableData);
+  tableError.textContent = tableError.hidden
+    ? "" : "Table data is missing. Regenerate this dataset with wrinfo.py.";
+  const allRows = hasTableData ? datasetData.tables[activeTab] : [];
+  const rows = allRows.filter(row => row.games >= state.minimumGames);
+  const multiplier = state.direction === "ascending" ? 1 : -1;
+  rows.sort((a, b) => {
+    const left = a[state.sortKey];
+    const right = b[state.sortKey];
+    const comparison = typeof left === "number"
+      ? left - right : left.localeCompare(right);
+    return comparison * multiplier
+      || (a.card || a.source).localeCompare(b.card || b.source)
+      || (a.target || "").localeCompare(b.target || "");
+  });
+  const body = document.createDocumentFragment();
+  const cardImages = new Map((datasetData?.nodes || []).map(node => [node.id, node.card_image]));
+  for (const row of rows) {
+    const tr = document.createElement("tr");
+    for (const [key] of columns) {
+      const cell = document.createElement("td");
+      if (key === "weight" || key === "games") cell.className = "numeric";
+      if (key === "weight" || key === "games") {
+        cell.textContent = key === "weight" ? row[key].toFixed(3) : String(row[key]);
+      } else {
+        const name = document.createElement("span");
+        name.className = "card-name";
+        name.tabIndex = 0;
+        name.textContent = row[key];
+        name.dataset.cardImage = cardImages.get(row[key]) || "";
+        cell.appendChild(name);
+      }
+      tr.appendChild(cell);
+    }
+    body.appendChild(tr);
+  }
+  if (hasTableData && rows.length === 0) {
+    const cell = document.createElement("td");
+    cell.colSpan = columns.length;
+    cell.textContent = "No rows match the minimum-games filter.";
+    const tr = document.createElement("tr");
+    tr.appendChild(cell);
+    body.appendChild(tr);
+  }
+  document.querySelector("#weightsTable tbody").replaceChildren(body);
+  document.getElementById("rowCount").textContent = hasTableData
+    ? `${rows.length.toLocaleString()} of ${allRows.length.toLocaleString()} rows`
+    : datasetData ? "Table data unavailable." : "No dataset loaded.";
+}
+
+function positionTooltip(x, y) {
+  const tooltip = document.getElementById("tooltip");
+  const { width, height } = tooltip.getBoundingClientRect();
+  const left = x + width + 15 > window.innerWidth ? x - width - 15 : x + 15;
+  const top = y + height + 15 > window.innerHeight ? y - height - 15 : y + 15;
+  tooltip.style.left = `${Math.max(8, Math.min(left, window.innerWidth - width - 8))}px`;
+  tooltip.style.top = `${Math.max(8, Math.min(top, window.innerHeight - height - 8))}px`;
 }
 
 // -----------------------------
@@ -316,7 +562,9 @@ async function loadAndInitGraph(datasetPath) {
 function initGraph(nodes, links) {
 
   // Clear previous graph
+  currentGraph?.stop();
   container.selectAll("*").remove();
+  svg.selectAll("defs").remove();
 
   const simulation = d3.forceSimulation(nodes)
 
@@ -358,6 +606,8 @@ function initGraph(nodes, links) {
       )
       .strength(0.7)
     );
+
+  currentGraph = simulation;
 
   // -----------------------------
   // LINKS
@@ -527,27 +777,7 @@ function initGraph(nodes, links) {
     })
 
     .on("mousemove", (event) => {
-
-      const tooltip = d3.select("#tooltip");
-
-      const tooltipNode = tooltip.node();
-      const w = tooltipNode.offsetWidth;
-      const h = tooltipNode.offsetHeight;
-
-      let x = event.pageX + 15;
-      let y = event.pageY + 15;
-
-      if (x + w > window.innerWidth) {
-        x = event.pageX - w - 15;
-      }
-
-      if (y + h > window.innerHeight) {
-        y = event.pageY - h - 15;
-      }
-
-      tooltip
-        .style("left", x + "px")
-        .style("top", y + "px");
+      positionTooltip(event.clientX, event.clientY);
     })
 
     .on("mouseout", () => {

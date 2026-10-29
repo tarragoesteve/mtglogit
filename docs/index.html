@@ -17,7 +17,7 @@
     }
 
     #tooltip {
-      position: absolute;
+      position: fixed;
       display: none;
       pointer-events: none;
       z-index: 9999;
@@ -25,12 +25,25 @@
       padding: 8px;
       border-radius: 8px;
       border: 1px solid #333;
+      max-width: calc(100vw - 32px);
+      box-sizing: border-box;
+      color: #eee;
+      font: 14px sans-serif;
     }
 
     #tooltip img {
       width: 240px;
       height: auto;
       border-radius: 6px;
+      max-width: 100%;
+      max-height: calc(100vh - 80px);
+      object-fit: contain;
+    }
+
+    .card-name {
+      cursor: help;
+      text-decoration: underline dotted;
+      text-underline-offset: 3px;
     }
 
     /* CONFIG BUTTON */
@@ -223,6 +236,108 @@
     .apply-btn:active {
       transform: scale(0.98);
     }
+
+    [hidden] {
+      display: none !important;
+    }
+
+    .config-panel {
+      max-height: calc(100vh - 100px);
+      overflow-y: auto;
+    }
+
+    #tableView {
+      box-sizing: border-box;
+      height: 100vh;
+      padding: 24px;
+      color: #eee;
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    #tableView h1 {
+      margin: 0 70px 0 0;
+      font-size: 24px;
+    }
+
+    .table-controls {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 16px;
+    }
+
+    #tableView button, #minimumGames {
+      background: #222;
+      color: #eee;
+      border: 1px solid #555;
+      border-radius: 4px;
+      padding: 8px 12px;
+    }
+
+    #tableView button {
+      cursor: pointer;
+    }
+
+    #tableView [aria-selected="true"] {
+      border-color: #F200FF;
+      background: #401044;
+    }
+
+    #minimumGames {
+      width: 100px;
+    }
+
+    #gamesError, #dataStatus, #tableError {
+      color: #ffaaaa;
+    }
+
+    #dataStatus {
+      position: fixed;
+      bottom: 12px;
+      left: 24px;
+      z-index: 1;
+      background: #111;
+    }
+
+    #tableDescription, #rowCount {
+      margin: 0;
+      color: #bbb;
+      font-size: 14px;
+    }
+
+    .table-scroll {
+      overflow: auto;
+      min-height: 0;
+    }
+
+    #weightsTable {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    #weightsTable th {
+      position: sticky;
+      top: 0;
+      background: #1a1a1a;
+      text-align: left;
+    }
+
+    #weightsTable th, #weightsTable td {
+      padding: 10px;
+      border-bottom: 1px solid #333;
+    }
+
+    #weightsTable .numeric {
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+    }
+
+    #weightsTable tbody tr:hover {
+      background: #222;
+    }
   </style>
 </head>
 
@@ -230,6 +345,31 @@
 
 <svg></svg>
 <div id="tooltip"></div>
+<p id="dataStatus" role="status" hidden></p>
+
+<main id="tableView" hidden>
+  <h1>Card weights</h1>
+  <div class="table-controls">
+    <div role="tablist" aria-label="Weight type">
+      <button id="aloneTab" type="button" role="tab" aria-selected="true" aria-controls="weightsPanel" data-tab="alone">Alone</button>
+      <button id="selfTab" type="button" role="tab" aria-selected="false" aria-controls="weightsPanel" tabindex="-1" data-tab="self">Self</button>
+      <button id="pairsTab" type="button" role="tab" aria-selected="false" aria-controls="weightsPanel" tabindex="-1" data-tab="pairs">Pairs</button>
+    </div>
+    <label for="minimumGames">Minimum games
+      <input id="minimumGames" type="number" min="0" step="1" value="0" required aria-describedby="gamesError" />
+    </label>
+    <span id="gamesError" role="alert"></span>
+  </div>
+  <p id="tableDescription"></p>
+  <p id="tableError" role="alert" hidden></p>
+  <p id="rowCount" role="status"></p>
+  <div id="weightsPanel" class="table-scroll" role="tabpanel" aria-labelledby="aloneTab" tabindex="0">
+    <table id="weightsTable" aria-label="Card weights" aria-describedby="tableDescription">
+      <thead></thead>
+      <tbody></tbody>
+    </table>
+  </div>
+</main>
 
 <!-- GEAR ICON -->
 <button id="configBtn" class="config-btn" title="Settings">⚙️</button>
@@ -242,6 +382,12 @@
   </div>
 
   <div class="config-panel-body">
+    <div class="config-section">
+      <label for="tableViewToggle">
+        <input id="tableViewToggle" type="checkbox" role="switch" />
+        Table view (off: Graph / on: Table)
+      </label>
+    </div>
     <!-- DATASET SELECTOR -->
     <div class="config-section">
       <label for="datasetSelect">Dataset:</label>
@@ -249,6 +395,7 @@
       </select>
     </div>
 
+    <div id="graphSettings">
     <!-- LINK VISIBLE THRESHOLD -->
     <div class="config-section">
       <label for="thresholdSlider">
@@ -332,6 +479,8 @@
         class="threshold-slider"
       />
       <div class="threshold-info">Min: 50 | Max: 5000</div>
+    </div>
+
     </div>
 
     <!-- APPLY BUTTON -->

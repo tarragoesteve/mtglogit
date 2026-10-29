@@ -33,6 +33,57 @@ CSV_FILES = {
 
 # Global variable to cache bulk data across folders
 _SCRYFALL_CACHE = None
+SCRYFALL_DATA_DIR = Path(__file__).resolve().parent.parent / "data"
+SCRYFALL_HEADERS = {
+    "User-Agent": "mtglogit/1.0",
+    "Accept": "application/json",
+}
+
+
+def read_bulk_cards(stream):
+    """Read current JSON Lines exports and legacy JSON arrays."""
+    for line in stream:
+        if not line.strip():
+            continue
+        if line.lstrip().startswith("["):
+            yield from json.loads(line + stream.read())
+            return
+        yield json.loads(line)
+
+
+def load_bulk_cards():
+    archives = sorted(SCRYFALL_DATA_DIR.glob("oracle-cards-*.jsonl.gz"), reverse=True)
+    if archives:
+        archive = archives[0]
+        print(f"Loading local Scryfall bulk data: {archive}")
+        with gzip.open(archive, "rt", encoding="utf-8") as stream:
+            yield from read_bulk_cards(stream)
+        return
+
+    print("Fetching Scryfall Oracle Cards metadata...")
+    metadata = requests.get(
+        "https://api.scryfall.com/bulk-data/oracle-cards",
+        headers=SCRYFALL_HEADERS,
+        timeout=60,
+    )
+    metadata.raise_for_status()
+    bulk_data = metadata.json()
+    download_url = bulk_data.get("jsonl_download_uri") or bulk_data.get("download_uri")
+    if not download_url:
+        raise ValueError("Scryfall Oracle Cards metadata has no download URL")
+
+    print(f"Downloading Scryfall Oracle Cards: {download_url}")
+    with requests.get(
+        download_url, headers=SCRYFALL_HEADERS, timeout=120
+    ) as response:
+        response.raise_for_status()
+        content = response.content
+    if content.startswith(b"\x1f\x8b"):
+        with gzip.open(io.BytesIO(content), "rt", encoding="utf-8") as stream:
+            yield from read_bulk_cards(stream)
+    else:
+        with io.StringIO(content.decode("utf-8")) as stream:
+            yield from read_bulk_cards(stream)
 
 def normalize_name(name):
     """Remove diacritics and special characters for fuzzy matching"""
@@ -69,46 +120,10 @@ def fetch_scryfall_bulk_data():
     if _SCRYFALL_CACHE is not None:
         return _SCRYFALL_CACHE
     
-    print("🌐 Fetching Scryfall bulk data index...")
-    
     try:
-        # Get the list of bulk data files
-        bulk_list_url = "https://api.scryfall.com/bulk-data"
-        bulk_list = requests.get(bulk_list_url).json()
-        
-        # Find the oracle_cards file (one entry per card name)
-        bulk_data = None
-        for item in bulk_list.get("data", []):
-            if item.get("type") == "oracle_cards":
-                bulk_data = item
-                break
-        
-        if not bulk_data:
-            print("⚠️  Oracle cards bulk data not found")
-            return {}
-        
-        download_url = bulk_data.get("download_uri")
-        if not download_url:
-            print("⚠️  Download URL not found")
-            return {}
-        
-        print(f"📥 Downloading oracle cards (~{bulk_data.get('size', 0) // (1024*1024)} MB)...")
-        
-        # Download the file
-        response = requests.get(download_url, stream=True)
-        response.raise_for_status()
-        
-        # Try to decompress as gzip, if it fails, parse as JSON directly
-        try:
-            with gzip.GzipFile(fileobj=io.BytesIO(response.content)) as gz:
-                cards_data = json.load(gz)
-        except (OSError, gzip.BadGzipFile):
-            # File is already decompressed, parse directly
-            cards_data = json.loads(response.content.decode('utf-8'))
-        
         # Build lookup by card name, prioritizing versions with images
         lookup = {}
-        for card in cards_data:
+        for card in load_bulk_cards():
             name = card.get("name")
             printed_name = card.get("printed_name")
             image_uris = {}
@@ -166,36 +181,28 @@ def fetch_scryfall_bulk_data():
                 if should_update_printed:
                     lookup[printed_name] = card_data
             
-            # Also check card_faces for printed names (important for modal DFCs)
-            if "card_faces" in card:
-                for face in card["card_faces"]:
-                    face_printed_name = face.get("printed_name")
-                    face_image_uris = face.get("image_uris", {})
-                    
-                    if face_printed_name and face_image_uris.get("normal"):
-                        should_update_face = False
-                        if face_printed_name not in lookup:
-                            should_update_face = True
-                        elif not lookup[face_printed_name].get("image"):
-                            should_update_face = True
-                        elif face.get("image_uris", {}).get("normal") and not lookup[face_printed_name].get("image"):
-                            should_update_face = True
-                        
-                        if should_update_face:
-                            lookup[face_printed_name] = {
-                                "art": face_image_uris.get("art_crop"),
-                                "image": face_image_uris.get("normal"),
-                                "image_status": card.get("image_status"),
-                                "highres": card.get("highres_image", False)
-                            }
-        
+            # CSVs may use a face name rather than the combined Scryfall name.
+            for face in card.get("card_faces", []):
+                face_image_uris = face.get("image_uris", {})
+                face_data = {
+                    "art": face_image_uris.get("art_crop"),
+                    "image": face_image_uris.get("normal"),
+                    "image_status": image_status,
+                    "highres": highres,
+                } if face_image_uris.get("normal") else card_data
+                for alias in (face.get("name"), face.get("printed_name")):
+                    if alias and (alias not in lookup or not lookup[alias].get("image")):
+                        lookup[alias] = face_data
+
+        if not lookup:
+            raise ValueError("Scryfall bulk data contains no cards")
         _SCRYFALL_CACHE = lookup
         print(f"✅ Loaded {len(lookup)} cards from Scryfall")
         return lookup
         
-    except Exception as e:
+    except (requests.RequestException, OSError, ValueError, EOFError) as e:
         print(f"❌ Error fetching bulk data: {e}")
-        return {}
+        raise
 
 
 def fetch_card_individually(card_name, lookup):
@@ -205,9 +212,12 @@ def fetch_card_individually(card_name, lookup):
     """
     try:
         url = "https://api.scryfall.com/cards/named"
-        resp = requests.get(url, params={"fuzzy": card_name})
-        if resp.status_code != 200:
+        resp = requests.get(
+            url, params={"fuzzy": card_name}, headers=SCRYFALL_HEADERS, timeout=60
+        )
+        if resp.status_code == 404:
             return None
+        resp.raise_for_status()
         
         card = resp.json()
         image_uris = {}
@@ -227,9 +237,40 @@ def fetch_card_individually(card_name, lookup):
         lookup[card_name] = card_data
         return card_data
         
-    except Exception as e:
+    except (requests.RequestException, ValueError) as e:
         print(f"⚠️  Failed to fetch '{card_name}' individually: {e}")
         return None
+
+def build_table_data(df_cards, df_self, df_pairs):
+    """Keep all modeled weights and their feature-specific game counts."""
+    alone = df_cards[["feature", "odds_multiplier", "count"]].copy()
+    alone.columns = ["card", "weight", "games"]
+
+    repeats = df_self[["feature", "odds_multiplier", "count"]].copy()
+    repeats.columns = ["card", "weight", "games"]
+    repeats["card"] = repeats["card"].str.removesuffix(CONFIG["SELF_TAG"])
+
+    pairs = []
+    seen = set()
+    for row in df_pairs.itertuples(index=False):
+        source, target = [name.strip() for name in row.feature.split("×")]
+        key = tuple(sorted((source, target)))
+        if source == target or key in seen:
+            continue
+        seen.add(key)
+        pairs.append({
+            "source": source,
+            "target": target,
+            "weight": float(row.odds_multiplier),
+            "games": int(row.count),
+        })
+
+    return {
+        "alone": alone.to_dict(orient="records"),
+        "self": repeats.to_dict(orient="records"),
+        "pairs": pairs,
+    }
+
 
 def process_results_folder(results_folder_path):
     """
@@ -269,6 +310,8 @@ def process_results_folder(results_folder_path):
         print(f"❌ Error loading CSVs: {e}")
         return False
     
+    tables = build_table_data(df_cards, df_self, df_pairs)
+
     # -------- BUILD NODES --------
     df_nodes = df_cards[["feature", "odds_multiplier"]].copy()
     df_nodes.columns = ["id", "prob"]
@@ -472,7 +515,8 @@ def process_results_folder(results_folder_path):
     
     graph = {
         "nodes": df_nodes.to_dict(orient="records"),
-        "links": df_links.drop(columns="pair").to_dict(orient="records")
+        "links": df_links.drop(columns="pair").to_dict(orient="records"),
+        "tables": tables,
     }
     
     output_file = data_folder / "data.json"
